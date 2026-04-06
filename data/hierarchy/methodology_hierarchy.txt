@@ -1,0 +1,121 @@
+- Bias and fairness
+	- balancing strategies
+	- healthcare equity
+- Digital health
+	- Digital phenotyping
+	- Health IT implementation
+		- healthcare data quality
+		- information transparency with patients
+	- Health IT privacy
+	- Healthcare modeling
+	- Wearable sensors
+	- decentralized clinical trials
+	- persuasive health technology
+	- specific health guidance
+- Digital research methods
+	- Digital phenotyping
+- Mathematical methods
+	- Inverse problems
+	- Machine learning methods
+		- Deep learning architectures
+		- Explainable AI
+		- Generative AI
+			- Latent variable modeling
+		- Knowledge distillation
+		- Regularized regression
+		- Reinforcement learning
+			- offline policy evaluation
+	- Pulse waveform analysis
+	- Similarity measures
+	- Spatial data analysis
+	- Time-frequency analysis
+	- probabilistic analysis
+- Theoretical frameworks
+	- multi-criteria decision-making
+		- balancing strategies
+- cost-benefit analysis
+	- contingent valuation
+- good simulation practice
+	- Validation and benchmarking
+- healthcare education
+	- information transparency with patients
+	- specific health guidance
+- information and knowledge management
+	- academic dissemination
+	- challenges and limitations
+		- provider shortages
+	- information transparency with patients
+	- terminology change analysis
+- Adaptive Kalman Filtering
+- Alerting systems
+- Animal disease models
+- Assisted reproductive technologies
+- Attention mechanisms
+- Biosignal acquisition
+- Cardiac mapping
+- Case-based reasoning
+- Causal learning
+- Censored data
+- Class-incremental learning
+- Clinical trial methodology
+- Closed-loop control
+- Cloud computing
+- Cognitive behavioral therapy
+- Computer graphics
+- Continuum mechanics
+- Contrastive learning
+- Depth imaging modalities
+- Dimensionality reduction
+- Dominant learning theories
+- Drug design
+- Fuzzy logic methods
+- Gene editing
+- Graph neural networks
+- Healthcare surveys
+- Human–computer interaction
+- Hybrid modeling
+- Laboratory methods
+- Medical image analysis
+- Mixed methods
+- Multi-agent systems
+- Multilevel modeling
+- Natural language processing
+- Planned Behavior Theory
+- Post-transcriptional regulation
+- Post-translational modifications
+- Privacy in crowdsourcing
+- Process automation
+- Propensity score methods
+- Sequence alignment
+- Sleep staging
+- Weak supervision
+- Whole slide imaging
+- adoption decision process
+- advance directives
+- attribute-based access control policies
+- best basis selection
+- budget impact analysis
+- cancer risk perception
+- child counselling
+- community and stakeholder engagement
+- comparative national analysis
+- competency framework
+- cost effectiveness analysis
+- demand analysis
+- dynamic treatment strategies
+- economic regions
+- ergonomic risk evaluation
+- evidence-based framework
+- food knowledge base
+- healthcare delivery intervention development
+- informative path planning
+- marketing of health services
+- normalized discounted cumulative gain
+- nursing classifications
+- privacy-preserving clustering
+- real-world effectiveness
+- recommender algorithm
+- risk reducing mastectomy
+- surveillance metrics
+- systematic screening
+- vaccine prioritization

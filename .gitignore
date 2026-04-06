@@ -1,0 +1,36 @@
+# Large data files (not pushed to GitHub)
+data/keyword_embeddings.pkl
+data/mesh_embeddings.pkl
+data/mesh_tree_raw.bin
+data/pubmed_all_journals_2011_2025_w_keywords.csv
+
+# Intermediate progress files
+*.progress.json
+data/hierarchy/*_threshold_progress.json
+data/hierarchy/*_relation_progress.json
+data/hierarchy/*_edge_verification_round*
+
+# Logs
+*.log
+*.txt
+nohup.out
+!biomedical_informatics_journals.csv
+!data/hierarchy/*_hierarchy.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+*.key
+api_keys.txt
