@@ -26,19 +26,19 @@ A data-driven, AI-augmented pipeline for large-scale research trend analysis acr
 This project answers the following research questions about biomedical informatics research trends:
 
 **Original questions (from the paper):**
-- **RQ1:** How has overall publication volume changed over time?
-- **RQ2:** Which methodology and health topics are most popular, and how have their trends evolved?
-- **RQ3:** Which methodology topics co-occur with which health domains?
-- **RQ4:** How do top topics distribute across different time periods?
+- **Q1:** How has overall publication volume changed over time?
+- **Q2:** Which methodology and health topics are most popular, and how have their trends evolved?
+- **Q3:** Which methodology topics co-occur with which health domains?
+- **Q4:** How do top topics distribute across different time periods?
 
 **New multi-journal questions (added in this expansion):**
-- **N1:** How do the 29 journals compare in publication volume and growth?
-- **N2:** What topic specializations does each journal exhibit?
-- **N3:** Which topics are universal across journals vs. concentrated in a few?
-- **N4:** When did each topic first emerge in the literature?
-- **N5:** Which topics are rising fastest and which are declining (trend slopes)?
-- **N6:** Which journals have similar research profiles (similarity network)?
-- **N7:** How has the internal keyword composition within top topics shifted over time?
+- **Q1:** How do the 29 journals compare in publication volume and growth?
+- **Q2:** What topic specializations does each journal exhibit?
+- **Q3:** Which topics are universal across journals vs. concentrated in a few?
+- **Q4:** When did each topic first emerge in the literature?
+- **Q5:** Which topics are rising fastest and which are declining (trend slopes)?
+- **Q6:** Which journals have similar research profiles (similarity network)?
+- **Q7:** How has the internal keyword composition within top topics shifted over time?
 
 ---
 
@@ -487,7 +487,7 @@ The smaller number of final topics in the multi-journal version reflects the low
 
 Methodology based on:
 
-> Liang et al., *Generative AI–Driven Analysis of Research Trends in Biomedical Informatics* (single-journal JBI analysis).
+> Fang et al., *Generative AI–Driven Analysis of Research Trends in Biomedical Informatics* (single-journal JBI analysis).
 
 This project extends the original methodology to a 29-journal multi-journal corpus and adds 7 new analyses (N1–N7) specifically designed for cross-journal comparison.
 
@@ -495,4 +495,4 @@ This project extends the original methodology to a 29-journal multi-journal corp
 
 ## License
 
-Research use only. Please cite the original paper if using this methodology in your own work.
+Please cite the original paper if using this methodology in your own work.
