@@ -66,28 +66,47 @@ JOURNAL_ABBR = {
 # N4 FIX: Topic Emergence (defined as first year reaching threshold)
 # ---------------------------------------------------------------------------
 
-def plot_emergence_fixed(domain, threshold=50, top_n=30):
-    """Plot when each top topic became 'established' (>= threshold articles/year)."""
+def plot_emergence_fixed(domain, fraction=0.25, top_n=40):
+    """
+    Plot the 'takeoff year' for each topic — defined as the first year
+    the topic reached `fraction` of its eventual peak annual count.
+
+    This is a per-topic relative metric:
+      - Topics that exploded recently show takeoff in recent years
+      - Topics that have been stable show takeoff in 2011
+      - Topics that grew gradually show takeoff in middle years
+
+    Uses a lollipop chart (visible markers) instead of bars (invisible
+    when width = 0).
+    """
     csv_path = os.path.join(VIZ_DIR, f"{domain}_topic_year_counts.csv")
     df = pd.read_csv(csv_path)
 
-    # For each topic, find the first year it reached the threshold
     rows = []
     for _, row in df.iterrows():
         topic = row["topic"]
-        total = row["total"]
-        # Find first year >= threshold
-        emergence_year = None
-        for y in YEARS:
-            if row[str(y)] >= threshold:
-                emergence_year = y
-                break
-        if emergence_year is None:
+        total = int(row["total"])
+        yearly = [int(row[str(y)]) for y in YEARS]
+        peak = max(yearly)
+        if peak == 0:
             continue
+        threshold = peak * fraction
+
+        # Find first year >= threshold
+        takeoff_year = None
+        for y, c in zip(YEARS, yearly):
+            if c >= threshold:
+                takeoff_year = y
+                break
+
+        peak_year = YEARS[yearly.index(peak)]
+
         rows.append({
             "topic": topic,
             "total": total,
-            "emergence_year": emergence_year,
+            "peak": peak,
+            "peak_year": peak_year,
+            "takeoff_year": takeoff_year,
         })
 
     if not rows:
@@ -95,43 +114,92 @@ def plot_emergence_fixed(domain, threshold=50, top_n=30):
         return
 
     emerge_df = pd.DataFrame(rows)
-    # Take top N by total
     emerge_df = emerge_df.nlargest(top_n, "total")
-    # Sort by emergence year (newest first at top of plot)
-    emerge_df = emerge_df.sort_values("emergence_year", ascending=False)
+    # Sort by takeoff year then by total
+    emerge_df = emerge_df.sort_values(
+        ["takeoff_year", "total"], ascending=[False, True],
+    )
 
-    # Color by emergence year
-    norm = (emerge_df["emergence_year"] - YEARS[0]) / (YEARS[-1] - YEARS[0])
+    # Color by takeoff year
+    norm = (emerge_df["takeoff_year"] - YEARS[0]) / (YEARS[-1] - YEARS[0])
     colors = plt.cm.viridis(norm)
 
-    fig, ax = plt.subplots(figsize=(14, max(8, top_n * 0.35)))
-    ax.barh(
-        emerge_df["topic"],
-        emerge_df["emergence_year"] - YEARS[0],
-        left=YEARS[0],
-        color=colors,
-        edgecolor="white",
+    fig, ax = plt.subplots(figsize=(15, max(10, top_n * 0.35)))
+
+    y_pos = np.arange(len(emerge_df))
+
+    # Connecting line from 2011 to takeoff year (faint, just for visual reference)
+    ax.hlines(
+        y=y_pos,
+        xmin=YEARS[0],
+        xmax=emerge_df["takeoff_year"],
+        colors="#bdc3c7",
+        linewidth=1,
+        alpha=0.5,
     )
+    # Connecting line from takeoff year to peak year (bold, shows active growth period)
+    ax.hlines(
+        y=y_pos,
+        xmin=emerge_df["takeoff_year"],
+        xmax=emerge_df["peak_year"],
+        colors=colors,
+        linewidth=4,
+        alpha=0.7,
+    )
+    # Marker at takeoff year (start of growth)
+    sizes = (emerge_df["total"] / emerge_df["total"].max()) * 600 + 80
+    ax.scatter(
+        emerge_df["takeoff_year"],
+        y_pos,
+        s=sizes,
+        c=colors,
+        edgecolors="black",
+        linewidths=1.2,
+        zorder=3,
+    )
+    # Marker at peak year (small)
+    ax.scatter(
+        emerge_df["peak_year"],
+        y_pos,
+        s=40,
+        c="white",
+        edgecolors=colors,
+        linewidths=1.5,
+        marker="D",
+        zorder=3,
+    )
+
+    # Topic labels on y-axis
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(emerge_df["topic"], fontsize=9)
+
+    # Annotation: takeoff year + total articles
     for i, row in enumerate(emerge_df.itertuples()):
         ax.text(
-            row.emergence_year + 0.15,
+            YEARS[-1] + 0.5,
             i,
-            f"{row.emergence_year} ({int(row.total):,} articles total)",
+            f"{row.takeoff_year} -> {row.peak_year}  |  {row.total:,} articles",
             va="center",
-            fontsize=9,
+            fontsize=8,
+            color="#2c3e50",
         )
 
     ax.set_xlabel(
-        f"First Year Topic Reached >= {threshold} Articles/Year",
-        fontsize=13,
+        f"Year (circle = first year reaching >= {int(fraction*100)}% of peak; "
+        f"diamond = peak year)",
+        fontsize=12,
     )
     ax.set_title(
-        f"{domain.title()} Topic Establishment Timeline\n"
-        f"(when each topic became established at >= {threshold} articles/year)",
-        fontsize=15,
+        f"{domain.title()} Topic Takeoff Timeline (Top {top_n} Topics)\n"
+        f"Circle size proportional to total articles; "
+        f"line shows growth period from takeoff to peak year",
+        fontsize=14,
     )
-    ax.set_xlim(YEARS[0] - 0.5, YEARS[-1] + 3)
+    ax.set_xlim(YEARS[0] - 0.5, YEARS[-1] + 6)
+    ax.set_ylim(-0.5, len(emerge_df) - 0.5)
     ax.grid(True, alpha=0.3, axis="x")
+    ax.invert_yaxis()  # Newest takeoff at top
+
     plt.tight_layout()
 
     out_path = os.path.join(VIZ_DIR, f"n4_{domain}_topic_emergence.png")
@@ -270,9 +338,9 @@ def plot_similarity_network_fixed():
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    print("Fixing N4: Topic Emergence (using >= 50 articles/year threshold)...")
-    plot_emergence_fixed("methodology", threshold=50, top_n=30)
-    plot_emergence_fixed("health", threshold=50, top_n=30)
+    print("Fixing N4: Topic Takeoff Timeline (>= 25% of peak)...")
+    plot_emergence_fixed("methodology", fraction=0.25, top_n=40)
+    plot_emergence_fixed("health", fraction=0.25, top_n=40)
 
     print("\nFixing N6: Journal Similarity Network (clean abbreviations)...")
     plot_similarity_network_fixed()
