@@ -1,0 +1,117 @@
+topic,first_year,first_journal
+Alerting systems,2011,Journal of the American Medical Informatics Association (JAMIA)
+Animal disease models,2011,Journal of Medical Systems
+Assisted reproductive technologies,2011,International Journal of Medical Informatics (IJMI)
+Attention mechanisms,2011,Journal of Medical Systems
+Bias and fairness,2011,Journal of Medical Systems
+Biosignal acquisition,2011,Journal of Medical Systems
+Cardiac mapping,2011,Journal of Medical Systems
+Causal learning,2011,Computers in Biology and Medicine
+Clinical trial methodology,2011,Journal of Biomedical Informatics (JBI)
+Closed-loop control,2011,Journal of Biomedical Informatics (JBI)
+Cloud computing,2011,Journal of Medical Systems
+Cognitive behavioral therapy,2011,Journal of Medical Systems
+Computer graphics,2011,Journal of Medical Systems
+Continuum mechanics,2011,Database: The Journal of Biological Databases and Curation
+Contrastive learning,2011,Journal of Medical Internet Research (JMIR)
+Deep learning architectures,2011,Methods of Information in Medicine
+Depth imaging modalities,2011,Journal of Medical Systems
+Digital health,2011,Journal of Biomedical Informatics (JBI)
+Digital research methods,2011,Methods of Information in Medicine
+Dimensionality reduction,2011,Journal of Medical Systems
+Drug design,2011,Journal of Medical Systems
+Gene editing,2011,Journal of Biomedical Informatics (JBI)
+Graph neural networks,2011,Journal of Biomedical Informatics (JBI)
+Health IT implementation,2011,Journal of Biomedical Informatics (JBI)
+Health IT privacy,2011,Methods of Information in Medicine
+Healthcare modeling,2011,Journal of Biomedical Informatics (JBI)
+Healthcare surveys,2011,Journal of Medical Systems
+Human–computer interaction,2011,Journal of Biomedical Informatics (JBI)
+Hybrid modeling,2011,Methods of Information in Medicine
+Laboratory methods,2011,Briefings in Bioinformatics
+Machine learning methods,2011,Journal of Biomedical Informatics (JBI)
+Mathematical methods,2011,Briefings in Bioinformatics
+Medical image analysis,2011,Methods of Information in Medicine
+Mixed methods,2011,Methods of Information in Medicine
+Multi-agent systems,2011,Methods of Information in Medicine
+Natural language processing,2011,Journal of Biomedical Informatics (JBI)
+Planned Behavior Theory,2011,Journal of Medical Internet Research (JMIR)
+Post-transcriptional regulation,2011,Nature Medicine
+Post-translational modifications,2011,Nature Methods
+Process automation,2011,Methods of Information in Medicine
+Propensity score methods,2011,Methods of Information in Medicine
+Sequence alignment,2011,Journal of Biomedical Informatics (JBI)
+Similarity measures,2011,Artificial Intelligence in Medicine
+Spatial data analysis,2011,Methods of Information in Medicine
+Theoretical frameworks,2011,Methods of Information in Medicine
+Time-frequency analysis,2011,Journal of Medical Systems
+Validation and benchmarking,2011,Journal of Biomedical Informatics (JBI)
+Wearable sensors,2011,Journal of Medical Systems
+Whole slide imaging,2011,Nature Methods
+academic dissemination,2011,Journal of Medical Systems
+attribute-based access control policies,2011,Journal of Medical Systems
+budget impact analysis,2011,Journal of Medical Systems
+challenges and limitations,2011,Journal of Biomedical Informatics (JBI)
+community and stakeholder engagement,2011,BMC Medical Informatics and Decision Making
+cost effectiveness analysis,2011,Methods of Information in Medicine
+cost-benefit analysis,2011,Journal of Medical Systems
+evidence-based framework,2011,Methods of Information in Medicine
+good simulation practice,2011,Journal of Biomedical Informatics (JBI)
+healthcare data quality,2011,Journal of Biomedical Informatics (JBI)
+healthcare education,2011,Journal of Biomedical Informatics (JBI)
+information and knowledge management,2011,Methods of Information in Medicine
+marketing of health services,2011,Journal of Medical Internet Research (JMIR)
+multi-criteria decision-making,2011,Journal of Biomedical Informatics (JBI)
+persuasive health technology,2011,Journal of Medical Internet Research (JMIR)
+probabilistic analysis,2011,Journal of Biomedical Informatics (JBI)
+real-world effectiveness,2011,Methods of Information in Medicine
+recommender algorithm,2011,Briefings in Bioinformatics
+specific health guidance,2011,Applied Clinical Informatics
+surveillance metrics,2011,Journal of Biomedical Informatics (JBI)
+systematic screening,2011,Journal of Medical Systems
+Digital phenotyping,2012,Computers in Biology and Medicine
+Explainable AI,2012,Artificial Intelligence in Medicine
+Fuzzy logic methods,2012,Database: The Journal of Biological Databases and Curation
+Multilevel modeling,2012,Artificial Intelligence in Medicine
+Privacy in crowdsourcing,2012,Journal of the American Medical Informatics Association (JAMIA)
+adoption decision process,2012,Journal of Medical Systems
+privacy-preserving clustering,2012,Health Informatics Journal
+Adaptive Kalman Filtering,2013,Computers in Biology and Medicine
+Case-based reasoning,2013,Journal of Biomedical Informatics (JBI)
+Generative AI,2013,Journal of Biomedical Informatics (JBI)
+Inverse problems,2013,Computers in Biology and Medicine
+Latent variable modeling,2013,Briefings in Bioinformatics
+Pulse waveform analysis,2013,IEEE Journal of Biomedical and Health Informatics (J-BHI)
+Regularized regression,2013,Computers in Biology and Medicine
+Reinforcement learning,2013,Computers in Biology and Medicine
+Weak supervision,2013,Journal of the American Medical Informatics Association (JAMIA)
+best basis selection,2013,Journal of Biomedical Informatics (JBI)
+comparative national analysis,2013,Journal of the American Medical Informatics Association (JAMIA)
+demand analysis,2013,Journal of the American Medical Informatics Association (JAMIA)
+healthcare delivery intervention development,2013,Journal of the American Medical Informatics Association (JAMIA)
+nursing classifications,2013,International Journal of Medical Informatics (IJMI)
+Dominant learning theories,2014,Journal of the American Medical Informatics Association (JAMIA)
+Sleep staging,2014,IEEE Journal of Biomedical and Health Informatics (J-BHI)
+balancing strategies,2014,Methods of Information in Medicine
+ergonomic risk evaluation,2014,IEEE Journal of Biomedical and Health Informatics (J-BHI)
+provider shortages,2014,Journal of the American Medical Informatics Association (JAMIA)
+Knowledge distillation,2015,International Journal of Medical Informatics (IJMI)
+contingent valuation,2015,Journal of the American Medical Informatics Association (JAMIA)
+information transparency with patients,2015,International Journal of Medical Informatics (IJMI)
+Censored data,2016,Methods of Information in Medicine
+advance directives,2016,JMIR Medical Informatics (JMI)
+food knowledge base,2016,Journal of Medical Systems
+offline policy evaluation,2017,Journal of Medical Systems
+risk reducing mastectomy,2017,BMC Medical Informatics and Decision Making
+terminology change analysis,2017,Journal of Biomedical Informatics (JBI)
+competency framework,2018,Journal of Clinical and Translational Science
+decentralized clinical trials,2019,Digital Biomarkers
+healthcare equity,2020,Digital Biomarkers
+normalized discounted cumulative gain,2020,Health Informatics Journal
+dynamic treatment strategies,2022,BMC Medical Informatics and Decision Making
+Class-incremental learning,2023,IEEE Journal of Biomedical and Health Informatics (J-BHI)
+informative path planning,2023,Journal of Medical Systems
+vaccine prioritization,2023,International Journal of Medical Informatics (IJMI)
+cancer risk perception,2024,Journal of Medical Internet Research (JMIR)
+economic regions,2024,JMIR mHealth and uHealth
+child counselling,2025,Journal of Medical Systems

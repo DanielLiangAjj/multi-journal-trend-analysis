@@ -1,0 +1,61 @@
+domain,topic,change_point_year,max_growth,total
+methodology,Machine learning methods,2025,931.0,17706
+methodology,Digital research methods,2014,350.0,15022
+methodology,Digital health,2020,484.0,14215
+methodology,Human–computer interaction,2012,388.0,13064
+methodology,Deep learning architectures,2025,315.0,8913
+methodology,recommender algorithm,2024,240.0,8242
+methodology,Healthcare modeling,2025,301.0,7993
+methodology,Natural language processing,2024,214.0,6928
+methodology,Clinical trial methodology,2025,199.0,6620
+methodology,information and knowledge management,2019,103.0,5938
+methodology,Sequence alignment,2014,275.0,5804
+methodology,Health IT implementation,2020,121.0,4481
+methodology,Laboratory methods,2014,85.0,4402
+methodology,Mathematical methods,2025,182.0,4340
+methodology,probabilistic analysis,2025,129.0,4114
+methodology,evidence-based framework,2025,181.0,4011
+methodology,Graph neural networks,2025,216.0,2981
+methodology,systematic screening,2025,165.0,2561
+methodology,Medical image analysis,2012,95.0,2412
+methodology,Health IT privacy,2020,49.0,2203
+methodology,Healthcare surveys,2025,85.0,1994
+methodology,Time-frequency analysis,2025,96.0,1955
+methodology,real-world effectiveness,2025,74.0,1838
+methodology,specific health guidance,2020,47.0,1624
+methodology,attribute-based access control policies,2025,74.0,1607
+methodology,Depth imaging modalities,2025,104.0,1542
+methodology,Drug design,2021,102.0,1509
+methodology,Contrastive learning,2025,109.0,1500
+methodology,Gene editing,2025,116.0,1433
+methodology,Attention mechanisms,2025,75.0,1321
+health,Digital health,2025,1554.0,44501
+health,Computational biology,2024,361.0,14363
+health,Healthcare semantic interoperability,2025,183.0,8799
+health,Mental health,2025,429.0,8143
+health,Gene expression regulation,2014,235.0,8036
+health,Healthcare outcomes,2025,365.0,6179
+health,Primary care,2025,251.0,5781
+health,Clinical prognosis,2025,254.0,5421
+health,Privacy-preserving healthcare data,2020,458.0,5068
+health,Public health surveillance,2020,187.0,5045
+health,Neurological disorders,2025,336.0,4842
+health,Cancer type distribution,2025,250.0,4636
+health,Explainable medical AI,2025,178.0,4243
+health,Protein-ligand binding,2021,149.0,3563
+health,COVID-19 pandemic,2020,274.0,3535
+health,Obesity,2025,170.0,3462
+health,Medical diagnostics,2024,119.0,3160
+health,Prevention and rehabilitation,2025,129.0,3146
+health,Cancer population genetics,2014,110.0,2980
+health,Tumor immunology,2021,103.0,2857
+health,Implementation science,2025,128.0,2794
+health,Medical image segmentation,2024,63.0,2682
+health,Drug information,2025,74.0,2661
+health,Protein folding,2014,79.0,2236
+health,Hospital emergency care,2025,68.0,2196
+health,Nursing homes,2025,86.0,2084
+health,Circadian rhythms,2025,74.0,1996
+health,Liquid chromatography,2025,47.0,1826
+health,Spatio-temporal modeling,2021,54.0,1789
+health,Protein phosphorylation,2014,39.0,1674
