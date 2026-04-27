@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-04-16 20:06:00",
+  "args": {
+    "categorized": "data/keywords_categorized.csv",
+    "embedding_cache": "data/keyword_embeddings.pkl",
+    "output_dir": "data/clusters_k750",
+    "k": "750",
+    "k_methodology": "None",
+    "k_health": "None",
+    "scan_k": "False",
+    "scan_k_min": "50",
+    "scan_k_max": "1000",
+    "scan_k_step": "50",
+    "silhouette_sample": "5000"
+  },
+  "methodology": {
+    "k": 750,
+    "n_keywords": 44850,
+    "inertia": 690752.1875,
+    "n_non_empty_clusters": 750,
+    "cluster_size_min": 4,
+    "cluster_size_max": 202,
+    "cluster_size_mean": 59.8,
+    "cluster_size_median": 54.0
+  },
+  "health": {
+    "k": 750,
+    "n_keywords": 60533,
+    "inertia": 1031392.8125,
+    "n_non_empty_clusters": 750,
+    "cluster_size_min": 13,
+    "cluster_size_max": 372,
+    "cluster_size_mean": 80.7,
+    "cluster_size_median": 74.0
+  }
+}

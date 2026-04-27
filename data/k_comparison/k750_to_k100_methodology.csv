@@ -1,0 +1,336 @@
+k750_topic,k750_size,k100_topic,jaccard
+Knowledge distillation,23,Knowledge distillation,0.852
+Federated learning,5,Federated learning,0.625
+Assisted reproductive techniques,23,Assisted reproduction,0.323
+Computer security,74,Computer security,0.261
+Neuropsychological testing,60,Neuroscience and cognitive psychology,0.243
+Biomedical signal processing,1000,Biomedical signal processing,0.208
+differential privacy,154,Privacy and de-identification,0.203
+Participatory research,360,Qualitative research methods,0.203
+Medical informatics,3278,Clinical decision support,0.189
+Knowledge bases,189,Named Entity Recognition,0.159
+Computational biology,1509,Genomics and sequence bioinformatics,0.15
+NIH research programs,12,All of Us,0.15
+High-throughput screening,48,High-throughput screening,0.15
+Medical image registration,870,Medical image segmentation,0.148
+Case-based reasoning,44,Mixed reasoning and modeling methods,0.146
+Health research methods,100,Behavioral theories,0.144
+Computer vision,1513,Medical image segmentation,0.135
+Clinical research methods,335,Research ethics and patient involvement,0.134
+Clinical trials,412,Clinical study designs,0.13
+Sensors and wireless networks,532,Mobile health and social media,0.13
+Drug design,138,Biological modeling,0.129
+Qualitative research,147,Qualitative research methods,0.127
+Secure and embedded computation,247,Graph and network methods,0.127
+Flow cytometry panels,80,Immunological techniques,0.126
+Molecular docking methods,162,Biological modeling,0.122
+Personalized interventions,251,Ecological momentary assessment,0.121
+Graph representation learning,893,Knowledge graphs,0.114
+Attention models,164,Contrastive learning,0.112
+Sequencing and assembly,519,Genomics and sequence bioinformatics,0.108
+Mass spectrometry imaging,92,Mass spectrometry and ROC analysis,0.107
+QSAR modeling,65,Fractal dimension,0.106
+Neural networks,1417,Machine learning methods,0.105
+Computational Fluid Dynamics,39,Mixed engineering and imaging acronyms,0.102
+Cloud-based platforms,392,Big data infrastructure and interoperability,0.091
+Health measurement instruments,855,Drug discovery and evaluation,0.091
+Atlas-based segmentation,322,Medical image segmentation,0.088
+data representations,660,Data governance and standards,0.088
+Insertional mutagenesis,35,Microarray analysis,0.087
+Research reporting,58,Open access publishing,0.083
+Diverse methods,726,Biological modeling,0.077
+Adaptive training methods,30,Serious games,0.077
+Cost-benefit analysis,102,Drug discovery and evaluation,0.076
+Molecular dynamics,41,Biological modeling,0.076
+Penalized regression,241,Bayesian and statistical modeling,0.075
+Cognitive behavioral therapy,44,Ecological momentary assessment,0.074
+Optimization methods,1674,Machine learning methods,0.072
+Spatial analysis,132,Data visualization methods,0.072
+Network-based inference,146,Graph and network methods,0.071
+Digital phenotyping,139,eHealth and mobile applications,0.071
+Quantum methods,43,Generative AI and corpus methods,0.07
+Multilingual text and distributional semantics,148,Large language models,0.07
+Educational methodologies,351,Behavioral theories,0.07
+Isotopic labeling,74,Microarray analysis,0.068
+Membrane fabrication,3,Additive manufacturing optimization,0.067
+Medical education,142,Virtual medical simulation,0.065
+Sedentary behavior,40,Ecological momentary assessment,0.064
+Brain parcellation,189,Biomedical signal processing,0.063
+Social dynamics analysis,279,Agent-based Modeling,0.062
+Implementation science,336,Ecological momentary assessment,0.061
+Gamification,25,Serious games,0.059
+Data analysis methods,819,Statistical methods,0.058
+Fluorescence techniques,107,Cryo-electron microscopy,0.058
+Fractional calculus,21,Mixed mathematical and geometric methods,0.058
+Wavelet transforms,302,Biomedical signal processing,0.057
+surface plasmon resonance,22,Ultrasound and echocardiography,0.057
+Generative modeling,339,Large language models,0.056
+Modeling approaches,1188,Bayesian and statistical modeling,0.055
+Multimodal analytics,209,Mixed automation and optimization methods,0.054
+Data collection,1066,Clinical study designs,0.053
+Model visualization,279,Data visualization methods,0.053
+Integrative review,561,Drug discovery and evaluation,0.053
+Study design distribution,288,Clinical study designs,0.051
+imputation quality metric,16,Missing data imputation,0.051
+curriculum learning,16,Transfer learning variants,0.049
+t-invariants,13,Generative AI and corpus methods,0.049
+Working memory,40,Contrastive learning,0.047
+Wireless communications,32,Mixed engineering and imaging acronyms,0.047
+Protein structure determination,140,Biological modeling,0.047
+Information behavior,96,Behavioral theories,0.046
+Nonlinear dynamical systems,127,Diffusion generative models,0.046
+Preclinical research,36,High-throughput screening,0.044
+explaining classifier’s predictions,251,Mixed reasoning and modeling methods,0.044
+Bibliometric analysis,35,Open access publishing,0.044
+Systematic mapping,50,RNA-seq data analysis,0.043
+Porous media transport,131,Mixed automation and optimization methods,0.043
+Concept analysis,142,Clinical data standards,0.043
+Evaluation frameworks,454,Clinical study designs,0.042
+causal artificial intelligence (causal ai),211,Bayesian and statistical modeling,0.042
+Bayesian statistics,504,Statistical methods,0.042
+Dialogue systems,100,Clinical monitoring and surveillance,0.042
+Domain adaptation and transfer learning,150,Transfer learning variants,0.041
+Online learning,199,Information dissemination,0.041
+Steganography and cryptography,13,Additive manufacturing optimization,0.04
+e-cigarette regulation,25,Research ethics and patient involvement,0.04
+Mixed machine learning methods,457,Machine learning methods,0.039
+Transition path theory,31,Ultrasound and echocardiography,0.039
+Time series analysis,424,Biomedical signal processing,0.039
+X-ray diffraction,12,Cryo-electron microscopy,0.039
+Multitask learning,79,Multi-task and meta learning,0.039
+Open-source software,149,Genomics and sequence bioinformatics,0.038
+Postmortem tissue processing,14,Immunological techniques,0.038
+Elastography techniques,8,Ultrasound and echocardiography,0.038
+MIMIC-III NLP,81,Clinical study designs,0.037
+Bias in research,183,Bayesian and statistical modeling,0.037
+Acoustic signal processing,125,Contrastive learning,0.037
+Feature selection,216,RNA-seq data analysis,0.037
+CNN-based instance segmentation,117,Mixed engineering and imaging acronyms,0.037
+Audio and multi-agent systems,10,Assisted reproduction,0.037
+Vision-language and Q&A methods,120,Serious games,0.036
+Modular predictive framework,500,Bayesian and statistical modeling,0.036
+Biomedical imaging modalities,243,Medical image segmentation,0.036
+Feature extraction,576,Machine learning methods,0.036
+Copy-paste automation,6,Serious games,0.035
+Human-computer interaction,283,Software and usability research,0.035
+Emotional state detection,82,Contrastive learning,0.034
+Boundary conditions,109,Mixed mathematical and geometric methods,0.034
+Data annotation,193,Named Entity Recognition,0.034
+Endoscopic imaging,12,Assisted reproduction,0.034
+X-ray imaging,99,Mixed deep learning applications,0.034
+Gold standard,11,Pilot studies and synthetic data,0.034
+Open access policies,78,eHealth and mobile applications,0.034
+Team science,158,Clinical monitoring and surveillance,0.034
+microdosimetry,33,Immunological techniques,0.034
+Safety management,43,Drug discovery and evaluation,0.033
+Record linkage,24,eHealth and mobile applications,0.032
+Radiomic feature extraction,139,Medical image segmentation,0.032
+Vision-language models,29,Large language models,0.031
+Reverse vaccinology,30,Drug discovery and evaluation,0.031
+Coronary artery calcification,8,Ultrasound and echocardiography,0.031
+Technology adoption models,286,Behavioral theories,0.03
+Data validation,139,Mass spectrometry and ROC analysis,0.03
+Hardware accelerators (GPU/FPGA/ASIC),67,RNA-seq data analysis,0.029
+Virtual agents,158,Transformer models,0.029
+Ultrasound imaging,14,Ultrasound and echocardiography,0.029
+Module biomarkers,34,Immunological techniques,0.029
+Surgical navigation,54,Assisted reproduction,0.029
+Motif discovery,87,Genomics and sequence bioinformatics,0.029
+Ubiquitous computing,148,Mobile health and social media,0.029
+Clustering methods,141,Mixed engineering and imaging acronyms,0.028
+HL7 FHIR,8,Clinical data standards,0.028
+Query methods,172,Statistical methods,0.027
+Healthcare leadership,54,Clinical data standards,0.027
+Machine learning,322,Machine learning methods,0.027
+Predictive accuracy,31,Predictive and Markov modeling,0.026
+Funding for pilots,35,Drug discovery and evaluation,0.026
+Association rule mining,123,Data governance and standards,0.026
+Computational workflow management,249,Mixed automation and optimization methods,0.026
+Complex event processing,106,Clinical data standards,0.026
+Healthcare predictive modeling,286,Clinical decision support,0.026
+Statistical dependence measures,232,Statistical methods,0.026
+User testing and qualitative evaluation,99,Software and usability research,0.025
+Meta-learning,7,Multi-task and meta learning,0.025
+Requirements engineering,80,Clinical data standards,0.024
+Omics,122,RNA-seq data analysis,0.023
+Mixed CS and application keywords,39,Mixed clinical NLP applications,0.023
+Supervised contrastive learning,19,Contrastive learning,0.023
+Transfer learning,20,Transfer learning variants,0.022
+Tumor cell culture,13,High-throughput screening,0.022
+Illness severity index,104,Ecological momentary assessment,0.022
+Pharmacometrics methodology,153,Virtual medical simulation,0.022
+Infrared spectroscopy,46,Cryo-electron microscopy,0.022
+Time-domain spectroscopy,72,Mobile health and social media,0.021
+Signal and source separation,22,Knowledge distillation,0.021
+Metabolic flux analysis,44,Microarray analysis,0.021
+Group-based learning,51,Behavioral theories,0.02
+Ablation techniques,19,Drug discovery and evaluation,0.02
+rhetorical structure theory,29,Mixed reasoning and modeling methods,0.02
+SELEX aptamer selection,2,Gene editing,0.02
+Information theory,78,Mixed reasoning and modeling methods,0.02
+Data curation,36,Data governance and standards,0.02
+Imaging biomarkers,140,eHealth and mobile applications,0.019
+isothermal titration calorimetry,1,Microarray analysis,0.019
+Extreme value theory,5,Behavioral theories,0.019
+Translational medicine,25,Drug discovery and evaluation,0.019
+Attention and adversarial training methods,200,Clinical monitoring and surveillance,0.019
+Multiscale modeling,10,Cryo-electron microscopy,0.019
+Sentiment analysis,65,Missing data imputation,0.018
+Medical software devices,279,Clinical decision support,0.018
+DNA damage assay,6,Microarray analysis,0.018
+Nursing research,4,Neuroscience and cognitive psychology,0.017
+Multidisciplinary methods,65,Neuroscience and cognitive psychology,0.017
+Medical data methodology,123,Ecological momentary assessment,0.017
+Metric learning,127,Multi-task and meta learning,0.017
+Medical image classification,81,Mixed clinical NLP applications,0.017
+ROC AUC analysis,78,Mass spectrometry and ROC analysis,0.017
+Data-driven science,54,Data augmentation,0.016
+robust control,74,Transformer models,0.016
+Censored survival analysis,52,Bayesian and statistical modeling,0.016
+Electrochemical methods,30,Cryo-electron microscopy,0.016
+Data warehousing,25,Big data infrastructure and interoperability,0.016
+Raman spectroscopy,10,Microarray analysis,0.016
+Attention mechanisms,21,Contrastive learning,0.016
+Swin transformer with metaheuristic optimizers,30,Transformer models,0.015
+Dimensionality reduction,149,Mixed mathematical and geometric methods,0.015
+Microsimulation methods,24,Immunological techniques,0.015
+Optical coherence tomography,65,Medical image segmentation,0.015
+Prototype learning,77,Mobile health and social media,0.014
+Multiple instance learning,18,Contrastive learning,0.014
+Fuzzy-set QCA,124,Transformer models,0.014
+Ethics and culture,9,Privacy and de-identification,0.014
+Purification techniques,42,Immunological techniques,0.014
+Researcher profiling and data sharing,135,Information dissemination,0.014
+Feature disentanglement,46,Generative AI and corpus methods,0.014
+Electroanatomic mapping,38,Biomedical signal processing,0.013
+Kalman filtering,48,Mixed deep learning applications,0.013
+Telemonitoring focus,15,Data augmentation,0.013
+programmable second order reversible cellular automata (rca 2),1,Mixed engineering and imaging acronyms,0.013
+neuromuscular characterisation,40,Mixed psychological and measurement theories,0.013
+Chi-square test,44,Statistical methods,0.012
+Logic programming,64,Knowledge graphs,0.012
+Physical fitness,33,Drug discovery and evaluation,0.012
+Climate change,23,Data visualization methods,0.012
+left ventricle myocardial scar segmentation,59,Medical image segmentation,0.012
+Diverse supervised learning methods,96,Machine learning methods,0.012
+Software development lifecycle,5,High-throughput screening,0.012
+CTSA methodology,69,Statistical methods,0.011
+offline reinforcement learning,10,Mixed reasoning and modeling methods,0.011
+Blockchain secret sharing,11,Clinical data standards,0.011
+Drug delivery systems,48,Gene editing,0.011
+H&E staining,6,Immunological techniques,0.011
+Supervised learning,97,Serious games,0.011
+Digital identity technologies,21,Mixed automation and optimization methods,0.011
+Post-translational modifications,8,High-throughput screening,0.011
+Data preprocessing,76,Missing data imputation,0.011
+Risk stratification,53,Clinical decision support,0.01
+Systems integration,119,Serious games,0.01
+Bioheat modeling,6,Mixed clinical NLP applications,0.01
+Weight maintenance,5,Mixed clinical NLP applications,0.01
+dental techniques,9,Mixed clinical NLP applications,0.01
+REST API design,19,Clinical data standards,0.01
+Text analytics,105,Information dissemination,0.01
+Polarimetry methods,6,Cryo-electron microscopy,0.01
+Information-theoretic measures,25,Ecological momentary assessment,0.01
+Protein enrichment,17,Generative AI and corpus methods,0.009
+Disease subtyping,41,Drug discovery and evaluation,0.009
+Sleep study methodology,49,Ecological momentary assessment,0.009
+Interrater reliability,32,Drug discovery and evaluation,0.009
+Outlier removal,40,Mixed deep learning applications,0.009
+Gerontechnology methods,11,Neuroscience and cognitive psychology,0.008
+Journal metrics,11,eHealth and mobile applications,0.008
+Dilated convolutions,7,Mixed mathematical and geometric methods,0.008
+Technical replicates and QC,12,Missing data imputation,0.008
+Reuse in methodology,43,Mixed automation and optimization methods,0.008
+Research goals,23,Mixed clinical NLP applications,0.008
+Oculomotor testing,6,Neuroscience and cognitive psychology,0.008
+Solid-state NMR,9,Mixed mathematical and geometric methods,0.008
+Ontology quality assurance,32,Big data infrastructure and interoperability,0.008
+Medical faculty careers,15,Virtual medical simulation,0.008
+Mixed compute hardware and acquisition,64,Mixed deep learning applications,0.007
+Text summarization methods,9,Knowledge graphs,0.007
+disease outbreak detection,30,Clinical monitoring and surveillance,0.007
+Dynamic time warping,36,Mixed mathematical and geometric methods,0.007
+Secondary data analysis,65,Mixed deep learning applications,0.007
+Chromosome conformation capture,25,Data visualization methods,0.007
+mesh-free based radial basis function,21,Data visualization methods,0.007
+Web APIs and applications,26,Genomics and sequence bioinformatics,0.007
+clinical librarianship,7,Clinical monitoring and surveillance,0.007
+Herbal medicine,2,Data augmentation,0.007
+Additive manufacturing,60,Statistical methods,0.007
+contrast-enhanced liver magnetic resonance imaging,45,Biomedical signal processing,0.006
+Microstate analysis,2,Immunological techniques,0.006
+Head-mounted displays,11,Virtual medical simulation,0.006
+Drug discovery methods,20,Data augmentation,0.006
+Multiple testing corrections,31,Immunological techniques,0.005
+distributional semantics,1,Large language models,0.005
+Position-specific scoring matrices,18,Genomics and sequence bioinformatics,0.005
+Motor imagery,3,Contrastive learning,0.005
+pet/mr,3,Privacy and de-identification,0.005
+CNN architecture components,12,Mixed reasoning and modeling methods,0.005
+Clinical guidelines,20,Drug discovery and evaluation,0.005
+Gene library construction,14,Genomics and sequence bioinformatics,0.005
+mutational signature analysis,6,RNA-seq data analysis,0.004
+Species specificity,18,Genomics and sequence bioinformatics,0.004
+Digital twin,4,eHealth and mobile applications,0.004
+Spatial regularization,12,Medical image segmentation,0.004
+Scanning electron microscopy,15,Medical image segmentation,0.004
+Variant interpretation,28,RNA-seq data analysis,0.004
+boltzmann equation,1,Mixed mathematical and geometric methods,0.004
+Surgical phase recognition,21,Statistical methods,0.004
+USSD and ESMC,2,eHealth and mobile applications,0.004
+Hypergraph neural networks,22,Knowledge graphs,0.004
+microbiome profiling caveats,15,Genomics and sequence bioinformatics,0.003
+Reminder systems,16,Clinical decision support,0.003
+Force Myography,6,Drug discovery and evaluation,0.003
+Legal aspects,4,Drug discovery and evaluation,0.003
+Carbon nanotubes,4,Mobile health and social media,0.003
+Internet-based surveillance,17,Virtual medical simulation,0.003
+Mechanical ventilation,15,Ecological momentary assessment,0.003
+Glycated hemoglobin,2,Ecological momentary assessment,0.003
+Chinese clinical NER,7,Named Entity Recognition,0.003
+PPI extraction,9,Genomics and sequence bioinformatics,0.002
+Uroflowmetry techniques,4,Biomedical signal processing,0.002
+Empirical mode decomposition,14,Data visualization methods,0.002
+HIN and BoW,2,Knowledge graphs,0.002
+Intersection over Union,2,Graph and network methods,0.002
+Surface engineering,5,Mobile health and social media,0.002
+computer graphics,13,eHealth and mobile applications,0.002
+High-Resolution Manometry,4,Biomedical signal processing,0.002
+Post-transcriptional regulation,5,Genomics and sequence bioinformatics,0.002
+Pseudo-labeling methods,16,Mixed automation and optimization methods,0.002
+Competing risks models,3,Bayesian and statistical modeling,0.002
+Unclassified keyword cluster,6,Virtual medical simulation,0.002
+Key agreement,4,Mixed automation and optimization methods,0.002
+Microinterventions,7,Software and usability research,0.002
+MRI site distribution,13,Software and usability research,0.002
+cis-regulatory code,5,Genomics and sequence bioinformatics,0.002
+Deep feature fusion,9,Knowledge graphs,0.002
+Note quality,5,Software and usability research,0.002
+Transcranial magnetic stimulation,6,Ecological momentary assessment,0.002
+lofreq,1,RNA-seq data analysis,0.002
+Ransomware analysis,4,Big data infrastructure and interoperability,0.002
+Equally weighted methods,20,Machine learning methods,0.002
+Three-factor authentication,9,Software and usability research,0.002
+cryo-EM refinement,5,Biological modeling,0.002
+Mendelian randomization,2,Bayesian and statistical modeling,0.001
+Digital attacks,2,Mixed deep learning applications,0.001
+partial discrete logarithm,1,Bayesian and statistical modeling,0.001
+Thermography methods,8,Biomedical signal processing,0.001
+Signal processing,8,Machine learning methods,0.001
+batch mode active learning,1,Mixed deep learning applications,0.001
+variable life-adjusted display,1,Bayesian and statistical modeling,0.001
+Food system monitoring,6,Drug discovery and evaluation,0.001
+SHG microscopy,2,Medical image segmentation,0.001
+diabetic retinopathy grading,4,Medical image segmentation,0.001
+Controlled vocabulary,3,Mixed deep learning applications,0.001
+PHR system design,3,Mobile health and social media,0.001
+Microgravity methods,5,Medical image segmentation,0.001
+Imaging reporting systems,5,Information dissemination,0.001
+food expenditure,1,Biomedical signal processing,0.0
+sickle cell,1,Biomedical signal processing,0.0
+data marketplace,2,Clinical decision support,0.0
+wet bench analysis,2,Software and usability research,0.0
+label-free,1,Statistical methods,0.0
+autostereoscopic display,1,Medical image segmentation,0.0
+cervical range of motion (crom),1,Biomedical signal processing,0.0

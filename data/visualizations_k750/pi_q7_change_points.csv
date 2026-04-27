@@ -1,0 +1,61 @@
+domain,topic,change_point_year,max_growth,total
+methodology,Medical informatics,2020,523.0,14906
+methodology,Clinical trials,2012,364.0,12608
+methodology,Modeling approaches,2014,332.0,10539
+methodology,Mixed machine learning methods,2025,427.0,7897
+methodology,Sequencing and assembly,2014,282.0,5365
+methodology,Neural networks,2022,153.0,5052
+methodology,Machine learning,2021,198.0,4881
+methodology,Computational biology,2025,207.0,4481
+methodology,Data collection,2023,125.0,4157
+methodology,Human-computer interaction,2014,60.0,3861
+methodology,causal artificial intelligence (causal ai),2025,485.0,3401
+methodology,Integrative review,2025,136.0,3101
+methodology,Medical image registration,2012,106.0,3041
+methodology,Computer vision,2025,159.0,3033
+methodology,Biomedical signal processing,2025,128.0,2887
+methodology,Data analysis methods,2025,174.0,2844
+methodology,Optimization methods,2025,124.0,2723
+methodology,Text analytics,2019,77.0,2413
+methodology,Health measurement instruments,2025,103.0,2304
+methodology,Bayesian statistics,2014,60.0,2013
+methodology,Social dynamics analysis,2020,105.0,2000
+methodology,Study design distribution,2020,38.0,1942
+methodology,Graph representation learning,2022,82.0,1869
+methodology,data representations,2021,50.0,1840
+methodology,Association rule mining,2012,37.0,1771
+methodology,Implementation science,2019,51.0,1717
+methodology,Participatory research,2025,110.0,1710
+methodology,Diverse methods,2023,64.0,1693
+methodology,Feature extraction,2021,58.0,1684
+methodology,Cloud-based platforms,2025,27.0,1590
+health,Health informatics,2025,516.0,14275
+health,Human health,2012,369.0,11747
+health,Computational biology,2024,258.0,8810
+health,Genomics in health,2014,315.0,7803
+health,Health data analysis,2025,178.0,6969
+health,Digital health,2025,309.0,6961
+health,Mental health,2025,280.0,5658
+health,Medical technology,2025,320.0,5613
+health,Mobile health adoption,2020,238.0,5399
+health,Health AI models,2025,333.0,4666
+health,Healthcare facilities,2025,299.0,4556
+health,COVID-19 pandemic,2021,569.0,4085
+health,Health records,2025,106.0,3612
+health,Malignant diseases,2025,138.0,3115
+health,Cancer classification,2025,127.0,3042
+health,Medical image analysis,2025,89.0,2907
+health,Xenobiotic metabolism,2025,73.0,2885
+health,Protein engineering,2015,77.0,2751
+health,Health policy,2025,137.0,2728
+health,Maternal health,2012,122.0,2673
+health,Nucleic acid detection,2014,130.0,2482
+health,Neurological disorders,2025,179.0,2449
+health,Heart failure,2025,134.0,2410
+health,Health disparities,2025,94.0,2401
+health,Cancer outcomes,2025,114.0,2310
+health,Healthcare engagement,2025,132.0,2301
+health,Drug interactions,2021,122.0,2240
+health,Care delivery models,2020,65.0,2224
+health,Population genetics,2014,130.0,2219
+health,Health self-management,2020,109.0,2117

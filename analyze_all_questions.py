@@ -277,9 +277,25 @@ def q2_authorship_over_time(merged_df, years, output_dir):
     v["has_clinical"] = v["has_clinical"].fillna(0).astype(int)
     v["has_computational"] = v["has_computational"].fillna(0).astype(int)
 
+    # Exclude journals with <10% PubMed-affiliation coverage from affiliation-
+    # based analyses (e.g. IEEE J-BHI submits author lists without affiliations).
+    # Author counts remain valid; only clinical/computational classification is
+    # unreliable for these journals.
+    aff_coverage = v.groupby("journal")["n_unique_affiliations"].apply(
+        lambda x: (x > 0).mean() * 100
+    )
+    excluded = aff_coverage[aff_coverage < 10].index.tolist()
+    if excluded:
+        logger.warning(
+            f"  Excluding {len(excluded)} journals from Q2 affiliation composition "
+            f"(metadata gap): {excluded}"
+        )
+    v_aff = v[~v["journal"].isin(excluded)]
+
     stats = []
     for y in years:
         yd = v[v["year"] == y]
+        yd_aff = v_aff[v_aff["year"] == y]
         if len(yd) == 0:
             continue
         stats.append({
@@ -289,12 +305,12 @@ def q2_authorship_over_time(merged_df, years, output_dir):
             "p25_authors": yd["n_authors"].quantile(0.25),
             "p75_authors": yd["n_authors"].quantile(0.75),
             "max_authors": yd["n_authors"].max(),
-            "median_affs": yd["n_unique_affiliations"].median(),
-            "mean_affs": yd["n_unique_affiliations"].mean(),
-            "pct_clinical_only": ((yd["has_clinical"] == 1) & (yd["has_computational"] == 0)).mean() * 100,
-            "pct_computational_only": ((yd["has_clinical"] == 0) & (yd["has_computational"] == 1)).mean() * 100,
-            "pct_interdisciplinary": (yd["is_interdisciplinary"] == 1).mean() * 100,
-            "pct_neither": ((yd["has_clinical"] == 0) & (yd["has_computational"] == 0)).mean() * 100,
+            "median_affs": yd_aff["n_unique_affiliations"].median() if len(yd_aff) else np.nan,
+            "mean_affs": yd_aff["n_unique_affiliations"].mean() if len(yd_aff) else np.nan,
+            "pct_clinical_only": (((yd_aff["has_clinical"] == 1) & (yd_aff["has_computational"] == 0)).mean() * 100) if len(yd_aff) else np.nan,
+            "pct_computational_only": (((yd_aff["has_clinical"] == 0) & (yd_aff["has_computational"] == 1)).mean() * 100) if len(yd_aff) else np.nan,
+            "pct_interdisciplinary": ((yd_aff["is_interdisciplinary"] == 1).mean() * 100) if len(yd_aff) else np.nan,
+            "pct_neither": (((yd_aff["has_clinical"] == 0) & (yd_aff["has_computational"] == 0)).mean() * 100) if len(yd_aff) else np.nan,
         })
     sdf = pd.DataFrame(stats)
     sdf.to_csv(os.path.join(output_dir, "pi_q2_authorship_stats.csv"), index=False)
@@ -375,11 +391,28 @@ def q3_team_science_journals(merged_df, output_dir):
         median_auth=("n_authors", "median"),
         max_auth=("n_authors", "max"),
         mean_aff=("n_unique_affiliations", "mean"),
+        pct_aff_coverage=("n_unique_affiliations",
+                          lambda x: (x > 0).mean() * 100),
         pct_inter=("is_interdisciplinary", lambda x: x.mean() * 100),
     ).reset_index()
     js = js[js["n"] >= 100]
+    # Flag journals where PubMed lacks affiliation strings (e.g. IEEE J-BHI).
+    # Author counts are still meaningful; affiliation-derived metrics are not.
+    AFF_COVERAGE_THRESHOLD = 10.0
+    poor_aff = js["pct_aff_coverage"] < AFF_COVERAGE_THRESHOLD
+    if poor_aff.any():
+        flagged = js.loc[poor_aff, "journal"].tolist()
+        logger.warning(
+            f"  Flagging {len(flagged)} journals with <{AFF_COVERAGE_THRESHOLD}% "
+            f"affiliation coverage (metadata gap, not zero collaboration): "
+            f"{flagged}"
+        )
+        js.loc[poor_aff, "mean_aff"] = np.nan
+        js.loc[poor_aff, "pct_inter"] = np.nan
     js["abbr"] = js["journal"].map(abbr)
     js.to_csv(os.path.join(output_dir, "pi_q3_team_science.csv"), index=False)
+
+    flagged_abbrs = js.loc[poor_aff, "abbr"].tolist() if poor_aff.any() else []
 
     fig, axes = plt.subplots(1, 3, figsize=(20, 9))
     for ax, col, label, color in [
@@ -387,7 +420,7 @@ def q3_team_science_journals(merged_df, output_dir):
         (axes[1], "mean_aff", "Mean Distinct Affiliations/Article", "#16a085"),
         (axes[2], "pct_inter", "% Interdisciplinary Articles", "#9b59b6"),
     ]:
-        s = js.sort_values(col, ascending=True).tail(20)
+        s = js.dropna(subset=[col]).sort_values(col, ascending=True).tail(20)
         ax.barh(s["abbr"], s[col], color=color, edgecolor="white")
         for i, val in enumerate(s[col]):
             fmt = f"{val:.1f}%" if "pct" in col else f"{val:.1f}"
@@ -395,6 +428,17 @@ def q3_team_science_journals(merged_df, output_dir):
         ax.set_xlabel(label, fontsize=12)
         ax.set_title(label, fontsize=13)
         ax.grid(True, alpha=0.3, axis="x")
+        # Affiliation-derived panels (mean_aff, pct_inter) drop journals with
+        # <10% PubMed affiliation coverage — flag them so readers don't read
+        # absence as zero collaboration.
+        if col in ("mean_aff", "pct_inter") and flagged_abbrs:
+            ax.text(0.98, 0.02,
+                    "n/a (low PubMed affiliation coverage):\n"
+                    + ", ".join(flagged_abbrs),
+                    transform=ax.transAxes, ha="right", va="bottom",
+                    fontsize=9, style="italic", color="#7f8c8d",
+                    bbox=dict(facecolor="white", edgecolor="#bdc3c7",
+                              alpha=0.9, boxstyle="round,pad=0.3"))
 
     fig.suptitle("Q3: Team Science Indicators by Journal (≥100 articles)",
                  fontsize=15, y=1.02)
@@ -605,19 +649,19 @@ def q6_journal_guidance(records, topic_year, topic_journal, journal_total,
             for t in top_topics:
                 fit.loc[j_abbr, t] = tjc.get((t, j_full), 0) / max(jt, 1) * 100
 
-        # Wrap topic names
-        fit.columns = ["\n".join(textwrap.wrap(t, 18)) for t in fit.columns]
+        # Wrap topic names — narrower wrap fits within heatmap column width
+        fit.columns = ["\n".join(textwrap.wrap(t, 14)) for t in fit.columns]
 
-        fig, ax = plt.subplots(figsize=(22, 10))
+        fig, ax = plt.subplots(figsize=(26, 13))
         sns.heatmap(fit, annot=True, fmt=".1f", cmap="YlGnBu", ax=ax,
-                    linewidths=0.5, linecolor="white", annot_kws={"fontsize": 7})
+                    linewidths=0.5, linecolor="white", annot_kws={"fontsize": 8})
         ax.set_title(f"Q6: Journal-Topic Fit — {domain.title()}\n"
                      f"(% of each journal's articles in each topic — "
                      f"higher = better fit for your paper)", fontsize=14)
         ax.set_ylabel("Journal", fontsize=12)
         ax.set_xlabel(f"{domain.title()} Topic", fontsize=12)
-        plt.setp(ax.get_xticklabels(), rotation=45, ha="right", fontsize=9)
-        plt.setp(ax.get_yticklabels(), fontsize=10)
+        plt.setp(ax.get_xticklabels(), rotation=40, ha="right", fontsize=10)
+        plt.setp(ax.get_yticklabels(), fontsize=11)
         plt.tight_layout()
         plt.savefig(os.path.join(output_dir,
                     f"pi_q6_{domain}_journal_fit.png"),
@@ -797,16 +841,58 @@ def q7_historical_events(topic_year, year_total, years, output_dir):
         for (t, y), c in tyc.items():
             topic_totals[t] += c
 
+        # Match the plot's >=100 article filter so the CSV doesn't carry
+        # rows the figure already excludes. Also require pre-COVID avg >=3
+        # so 3->6 doesn't show as "100% growth" — same noise that produced
+        # the original 4900% / 34900% artifacts at lower thresholds.
+        from scipy import stats as sstats
+        MIN_TOTAL = 100
+        MIN_PRE = 3.0
         for t in topic_totals:
-            pre = np.mean([tyc.get((t, y), 0) for y in [2018, 2019]]) or 0.01
-            during = np.mean([tyc.get((t, y), 0) for y in [2020, 2021]])
-            post = np.mean([tyc.get((t, y), 0) for y in [2022, 2023, 2024, 2025]])
+            if topic_totals[t] < MIN_TOTAL:
+                continue
+            pre_yrs = [tyc.get((t, y), 0) for y in [2018, 2019]]
+            during_yrs = [tyc.get((t, y), 0) for y in [2020, 2021]]
+            post_yrs = [tyc.get((t, y), 0) for y in [2022, 2023, 2024, 2025]]
+            pre = np.mean(pre_yrs)
+            during = np.mean(during_yrs)
+            post = np.mean(post_yrs)
+            if pre < MIN_PRE:
+                pct_during = np.nan
+                pct_post = np.nan
+                p_during = np.nan
+                p_post = np.nan
+            else:
+                pct_during = (during - pre) / pre * 100
+                pct_post = (post - pre) / pre * 100
+                # Poisson rate test: H0 is "during/post yearly rate matches
+                # pre-COVID rate". Treat each year's count as a Poisson draw;
+                # chi-square goodness-of-fit on summed counts has much more
+                # power than Mann-Whitney with n=2 vs n=2 yearly observations.
+                pre_rate = sum(pre_yrs) / len(pre_yrs)
+                for label, group, p_var in (
+                    ("during", during_yrs, "p_during"),
+                    ("post", post_yrs, "p_post"),
+                ):
+                    obs = sum(group)
+                    exp = pre_rate * len(group)
+                    if exp <= 0:
+                        pval = np.nan
+                    else:
+                        chi2 = (obs - exp) ** 2 / exp
+                        pval = float(sstats.chi2.sf(chi2, df=1))
+                    if p_var == "p_during":
+                        p_during = pval
+                    else:
+                        p_post = pval
             covid_rows.append({
                 "domain": domain, "topic": t, "total": topic_totals[t],
                 "pre_covid_avg": pre, "during_covid_avg": during,
                 "post_covid_avg": post,
-                "pct_change_during": (during - pre) / max(pre, 0.01) * 100,
-                "pct_change_post": (post - pre) / max(pre, 0.01) * 100,
+                "pct_change_during": pct_during,
+                "pct_change_post": pct_post,
+                "p_value_during": p_during,
+                "p_value_post": p_post,
             })
 
     covid_df = pd.DataFrame(covid_rows)
@@ -814,7 +900,9 @@ def q7_historical_events(topic_year, year_total, years, output_dir):
 
     # COVID impact waterfall: top gainers and losers
     for domain in ["methodology", "health"]:
-        cd = covid_df[(covid_df["domain"] == domain) & (covid_df["total"] >= 100)]
+        cd = covid_df[(covid_df["domain"] == domain) &
+                      (covid_df["total"] >= 100) &
+                      covid_df["pct_change_during"].notna()]
         cd = cd.sort_values("pct_change_during")
 
         top_gain = cd.nlargest(10, "pct_change_during")

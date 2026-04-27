@@ -1,0 +1,414 @@
+k750_topic,k750_size,k100_topic,jaccard
+Minimally invasive surgery,414,Surgical procedures,0.41
+Medicinal chemistry,385,Natural products and traditional medicine,0.328
+Mental health,1352,Psychiatric disorders,0.293
+Health disparities,902,Countries and demographics,0.266
+Attention mechanisms,213,Neuroscience and cognition,0.244
+Diabetes treatment,250,Diabetes mellitus,0.223
+Pediatric heart disease,68,Aortic diseases,0.22
+Mediation analysis,32,Causal mediation analysis,0.212
+Neurological disorders,689,Neurodegenerative diseases,0.212
+Mass screening,83,Mass screening,0.209
+Pharmacovigilance,682,Drug safety surveillance,0.207
+Ocular diseases,324,Mixed medical imaging,0.185
+Cardiac arrest resuscitation,187,Cardiac arrhythmias,0.184
+Repetitive DNA elements,93,Repetitive DNA sequences,0.182
+Age distribution,104,Older people,0.176
+Heart failure,435,Cardiac arrhythmias,0.169
+Respiratory data analytics,154,Cardiorespiratory monitoring,0.167
+Population genetics,463,Genetic predisposition,0.166
+"traditional, complementary, and integrative medicine",192,Natural products and traditional medicine,0.164
+Cell signaling,563,Cell signaling and oncogenic pathways,0.164
+Pulmonary calcifications,26,Lung nodules,0.16
+Health informatics,3349,Digital health technologies,0.159
+Drug therapies,564,Drug discovery,0.152
+Genomics in health,950,Genomic variant analysis,0.149
+Acute respiratory failure,49,Upper airway disorders,0.145
+Periodontal diseases,31,"Eye, ENT, and oral diseases",0.141
+Implantable medical devices,563,Medical devices,0.141
+Blood vessels,600,Cardiovascular hemodynamics,0.137
+Computational biology,2185,Protein and gene networks,0.135
+Alzheimer's disease,145,Neurodegenerative diseases,0.133
+antiretroviral therapy guidelines,88,Clinical guidelines,0.13
+Clinical measurements,623,Perinatal outcomes,0.13
+Patient-clinician communication,533,Patient-provider communication,0.127
+Biomedical NLP,103,Health semantic similarity,0.126
+Protein engineering,284,Amino acid sequence,0.122
+Academic career development,82,Health workforce education,0.121
+Learning health systems,540,Health workforce education,0.119
+Maternal health,304,Perinatal outcomes,0.118
+aecopd -acute exacerbation of chronic obstructive pulmonary disease,48,Upper airway disorders,0.117
+Healthcare facilities,788,Primary care delivery,0.117
+Malignant diseases,585,Cancer types and screening,0.115
+COVID-19 pandemic,573,Infectious diseases,0.114
+User-centered design,213,User-centered design,0.114
+Digital health,1740,Digital health technologies,0.112
+Addiction treatment,297,Health behavior change,0.112
+Health consensus methods,68,User-centered design,0.112
+Patient-reported outcomes,116,Health and functional status assessment,0.112
+Drug interactions,926,Drug discovery,0.109
+Mixed physiology and interaction,199,Motor imagery,0.108
+Medical image analysis,1719,Mixed medical imaging,0.102
+Degenerative joint disease,331,Mixed clinical conditions and demographics,0.1
+Protein sequence features,176,Amino acid sequence,0.1
+Healthcare engagement,606,Patient-provider communication,0.098
+Care delivery models,470,Patient-provider communication,0.095
+Antibody CDRs,166,Epitope analysis,0.093
+Surgical process model,182,Surgical procedures,0.091
+Metabolic disorders,176,Metabolic networks,0.091
+Epitope mapping,145,Protein-peptide binding,0.09
+Medical students,87,Health workforce education,0.09
+Mixed immunology and therapeutics,332,Clinical guidelines,0.09
+Uterine fibroids,13,Maternal and reproductive health,0.089
+Multimodal data fusion,298,Bayesian health modeling,0.086
+Cancer biomarkers,136,Metabolic networks,0.085
+Cancer classification,278,Cancer types and screening,0.085
+Eating behavior,141,Health behavior change,0.084
+Radiation dose assessment,31,Cancer treatment modalities,0.083
+Microbiome profiling,282,Microbial and fungal genomics,0.081
+Transcription factors,345,Gene expression regulation,0.08
+EEG signals,87,Motor imagery,0.079
+Environmental health risks,405,Environmental health risks,0.074
+Iatrogenic disease,7,Rare diseases,0.073
+Inflammatory diseases,375,Signs and symptoms,0.072
+Post-translational modifications,49,Post-translational modifications,0.072
+Cancer outcomes,574,Tumor immunology and microenvironment,0.071
+Medical technology,1361,Medical devices,0.071
+Sleep-disordered breathing,66,Upper airway disorders,0.071
+Nucleic acid detection,322,Genomic variant analysis,0.07
+Movement behaviors,543,Physiological signals and AI methods,0.07
+Interventional cardiology,61,Aortic diseases,0.07
+ENT and upper airway diseases,42,Upper airway disorders,0.069
+Health policy,563,Health policy landscape,0.067
+Tumor microenvironment,40,Tumor immunology and microenvironment,0.067
+Health AI models,1742,Prognosis and risk prediction,0.067
+Radiation therapy,35,Cancer treatment modalities,0.066
+Dermoscopy,40,Signs and symptoms,0.065
+Bone lesions,19,Lung nodules,0.065
+Health self-management,396,Health behavior change,0.064
+Health data analysis,2275,Digital health technologies,0.064
+bio-specimens,123,Microbial and fungal genomics,0.064
+Arthropods and health,17,Environmental biota and species,0.063
+Diverse health topics,512,Health information seeking,0.063
+Healthcare workers,180,Health workforce education,0.062
+Breast cancer subtypes,135,Cancer treatment modalities,0.062
+Preventive Medicine,131,Mass screening,0.062
+DNA cytosine methylation,144,Gene expression regulation,0.061
+Clinical decision making,284,Decision support,0.061
+Cardiac echocardiography,44,Cardiac arrhythmias,0.06
+Ecology and wildlife,40,Environmental biota and species,0.059
+medical diagnosis,229,Mixed terminology and histopathology,0.058
+Ubiquitin ligases,12,Post-translational modifications,0.057
+Exergaming in health,123,Health behavior change,0.057
+Medical attention mechanisms,45,Neuroscience and cognition,0.057
+Sociology of health,237,Determinants of health,0.056
+Participant experiences,139,Caregivers and care quality,0.056
+Lung anatomy,75,Anatomical terminology,0.055
+Bacterial biofilms,188,Infectious diseases,0.055
+Protein families,43,Cell signaling and oncogenic pathways,0.055
+Caregivers,195,Health workforce education,0.054
+Public health system,478,Health policy landscape,0.054
+Therapeutic modalities,39,Myocardial infarction,0.054
+Small GTPases,12,Cell signaling and oncogenic pathways,0.053
+Proteomics of proteins,155,Protein-peptide binding,0.05
+Memory and learning,41,Neuroscience and cognition,0.05
+Vital signs and physiological signals,108,Cardiorespiratory monitoring,0.049
+Kidney stones,21,Endoscopic procedures,0.049
+Respiratory symptoms,20,Upper airway disorders,0.048
+Thyroid hormones,15,Maternal and reproductive health,0.048
+Disease burden,198,Perinatal outcomes,0.047
+Rehabilitation modalities,132,Health behavior change,0.047
+Clinical trial recruitment,83,Translational and clinical research,0.047
+Vital signs monitoring,227,Cardiorespiratory monitoring,0.047
+Medical terminology,335,Anatomical terminology,0.046
+Speech therapy,61,Neuroscience and cognition,0.045
+Human health,204,Health and functional status assessment,0.045
+Healthcare network performance,437,Caregivers and care quality,0.043
+Vaccine hesitancy,72,Mass screening,0.043
+Healthcare data privacy,362,Privacy-preserving cryptography,0.043
+Biomarker diversity,111,Gene expression regulation,0.043
+tumor clonal evolution,60,Tumor immunology and microenvironment,0.043
+Translational science,235,Infectious diseases,0.042
+Comorbidity overview,51,Health and functional status assessment,0.042
+Electromyography,180,Motor imagery,0.042
+Non-melanoma skin cancer,7,Skin disease classification,0.04
+Intensive care units,108,Emergency Department,0.04
+Oral medicine,84,Medical devices,0.04
+Heart sound analysis,76,Cardiac arrhythmias,0.04
+Occupational health,273,Mixed health informatics safety topics,0.04
+Audiometric testing,20,Sensory evoked potentials,0.038
+Biomedical workforce diversity,61,Health workforce education,0.038
+Host-pathogen interactions,86,Genetic predisposition,0.036
+Sleep disorders,80,Cardiac arrhythmias,0.036
+Mechanotransduction,185,Physiological signals and AI methods,0.036
+Bone fractures,107,Medical devices,0.036
+Reconstructive surgery,73,Surgical procedures,0.035
+Plant diseases,47,Natural products and traditional medicine,0.035
+Pain types,16,Endoscopic procedures,0.035
+Nutritional requirements,146,Health behavior change,0.034
+Computer-aided diagnostics,166,Prognosis and risk prediction,0.033
+Radiomics texture analysis,185,Unclassified keyword cluster,0.033
+Signal quality metrics,134,Bayesian health modeling,0.033
+Cellular neurophysiology,79,Neurodegenerative diseases,0.033
+Mobile health adoption,485,Digital health technologies,0.033
+Burnout in healthcare,208,Caregivers and care quality,0.032
+Sequencing quality control,127,Mixed terminology and histopathology,0.031
+Anesthesia and analgesia,107,Surgical procedures,0.031
+Voice production,57,"Eye, ENT, and oral diseases",0.031
+Pediatric asthma control,13,Upper airway disorders,0.031
+health information seeking,212,Health information seeking,0.031
+MicroRNA biology,72,Gene expression regulation,0.031
+Movement and motor control,98,Neurodegenerative diseases,0.031
+Protein-coding genes,227,Metabolic networks,0.03
+Young adults,20,Older people,0.029
+Diagnostic testing,202,Cancer types and screening,0.029
+Xenobiotic metabolism,216,Metabolic networks,0.028
+Animal disease models,43,Biomedical databases,0.028
+Disease associations,70,Gene expression regulation,0.027
+Angiotensin-converting enzymes,8,Metabolic networks,0.027
+Rare diseases,153,Rare diseases,0.027
+Antimicrobial peptides,31,Drug discovery,0.027
+Diagnosis and misdiagnosis,127,Cancer types and screening,0.027
+Airway management,55,Surgical procedures,0.027
+Medical diagnostics,79,Cancer types and screening,0.026
+Breast lesions,5,Lung nodules,0.026
+Clinical documentation,453,Patient-provider communication,0.026
+Renal replacement therapy,109,Surgical procedures,0.026
+Psychoeducation,82,Health behavior change,0.026
+Proton therapy,5,Cancer treatment modalities,0.026
+Graph representation learning,76,Protein and gene networks,0.026
+Double-stranded DNA,25,Amino acid sequence,0.024
+Hematologic diseases,157,Cancer types and screening,0.024
+Proteins and protein domains,77,Gene expression regulation,0.024
+Coagulation tests,42,Amino acid sequence,0.023
+Colposcopy prevalence,2,Endoscopic procedures,0.023
+Frailty and life-space indices,22,Health and functional status assessment,0.023
+Pulmonary function testing,14,Cardiorespiratory monitoring,0.022
+Bladder outlet obstruction,3,Endoscopic procedures,0.022
+Intestinal motility,44,Cardiovascular hemodynamics,0.022
+Fontan procedure,4,Aortic diseases,0.022
+Pattern recognition receptors,60,Amino acid sequence,0.022
+Sequence deletion,13,Repetitive DNA sequences,0.022
+Biomedical annotation,240,Mixed terminology and histopathology,0.022
+Dental caries,26,Unclassified keyword cluster,0.022
+Remote monitoring,401,Digital health technologies,0.021
+Endocrine tumors,12,Rare diseases,0.021
+Sexual dysfunction,11,Rare diseases,0.021
+carbohydrate conformation,23,Post-translational modifications,0.021
+Classification performance evaluation,37,Bayesian health modeling,0.021
+Hypertension risk factors,49,Cardiovascular diseases,0.021
+Urinary incontinence,23,Maternal and reproductive health,0.021
+Middle East region and language,18,Countries and demographics,0.02
+Epithelial barriers,32,Cardiovascular hemodynamics,0.02
+Functional near-infrared spectroscopy,2,Multimodal imaging,0.02
+Healthcare-associated infections,73,Emergency Department,0.02
+apples,1,Environmental biota and species,0.02
+Critical success factors,33,Caregivers and care quality,0.019
+Cohort discovery,67,Translational and clinical research,0.019
+Membrane transport,74,Gene expression regulation,0.019
+Gastrointestinal diseases,28,Mixed clinical conditions and demographics,0.019
+Disease progression,66,Primary care delivery,0.019
+Sexual behavior,58,Countries and demographics,0.018
+Yeast model organisms,48,Microbial and fungal genomics,0.018
+Drug targeting and transport,48,Epitope analysis,0.018
+Virology and development,82,Infectious diseases,0.018
+Cardiac autonomic dysfunction,29,Cardiorespiratory monitoring,0.018
+Liver diseases,107,Diabetes mellitus,0.018
+gastric histopathology,11,Lung nodules,0.017
+Skin tumors,6,Lung nodules,0.017
+Interprofessional education,41,Patient-provider communication,0.017
+penicillin-binding protein,19,Amino acid sequence,0.017
+Treatment strategies,52,Cancer treatment modalities,0.017
+Health phenotyping,25,Genetic predisposition,0.017
+Informed consent,51,Infectious diseases,0.016
+Cardiovascular studies,14,Aortic diseases,0.016
+Pelvic floor disorders,27,Rare diseases,0.016
+Scholarly communication,36,Health policy landscape,0.016
+electrooculography (eog) artifacts,7,Motor imagery,0.016
+Eukaryotic dominance,9,Microbial and fungal genomics,0.016
+Visual perception,43,Mixed medical imaging,0.016
+Diagnosis codes,106,Drug safety surveillance,0.016
+Head and neck anatomy,30,Upper airway disorders,0.016
+Pretrained language models,56,Protein and gene networks,0.016
+LVAD therapies,3,Aortic diseases,0.016
+Domestic violence,24,Psychiatric disorders,0.016
+Craniofacial malocclusion,33,Upper airway disorders,0.016
+Organizational innovation,23,Health workforce education,0.015
+Metric learning,20,Neuroscience and cognition,0.015
+Nursing education,14,Health workforce education,0.015
+Time factors,147,Mixed health informatics safety topics,0.014
+Low-resource settings,37,Translational and clinical research,0.014
+Flow cytometry,13,Tumor immunology and microenvironment,0.014
+Pneumonia diagnosis,53,Skin disease classification,0.014
+Hand hygiene and infection prevention,84,Infectious diseases,0.014
+Pulmonary hypertension,3,Upper airway disorders,0.014
+Medical misinformation,65,Cures Act,0.014
+Bayesian methods,52,Skin disease classification,0.014
+Cytokine-inducing peptides,3,Epitope analysis,0.014
+Physical therapy,24,Health behavior change,0.013
+Subcellular localization,39,Lung nodules,0.013
+Horizontal gene transfer,8,Biomedical databases,0.013
+Loss function,39,Bayesian health modeling,0.013
+Invertebrates and parasites,44,Infectious diseases,0.012
+Alcohol consumption,20,Mixed clinical conditions and demographics,0.012
+RNA-binding proteins,49,Gene expression regulation,0.012
+Tissue biophysics,54,Physiological signals and AI methods,0.012
+Mixed endocrine signals,42,"Eye, ENT, and oral diseases",0.012
+Cell death and stress,25,Metabolic networks,0.012
+Blockchain and finance,47,Infectious diseases,0.011
+Aerospace and transportation,15,Environmental health risks,0.011
+Non-coding DNA,8,Repetitive DNA sequences,0.011
+Late integration events,8,Repetitive DNA sequences,0.011
+Disentangled representation learning,3,Health semantic similarity,0.011
+Plant breeding,27,Unclassified keyword cluster,0.011
+mechanisms of action,22,Drug discovery,0.011
+Healthcare microservices,17,Maternal and reproductive health,0.011
+Multiphase healthcare optimization,22,Unclassified keyword cluster,0.011
+Population density,8,Population health surveillance,0.01
+Cellular biomaterials,28,Environmental health risks,0.01
+DNA endonucleases,45,Genomic variant analysis,0.01
+CBT for insomnia,52,Psychiatric disorders,0.01
+Practice variation,24,Mixed clinical conditions and demographics,0.009
+Tuberculous pleural effusion,4,Lung nodules,0.009
+Wall shear stress,18,Cardiorespiratory monitoring,0.009
+Polyp morphology,4,Lung nodules,0.009
+pulmonary sequestration,1,Lung nodules,0.009
+Neural interfaces,70,Mixed medical imaging,0.009
+Organ donation,14,Multimodal imaging,0.009
+renal tumors,4,Lung nodules,0.009
+Health state distribution,5,Microbial and fungal genomics,0.008
+Human-Robot Interaction,16,Motor imagery,0.008
+P300 speller,4,Neuroscience and cognition,0.008
+Variant calling,20,Genomic variant analysis,0.008
+Health entrepreneurship,29,Decision support,0.008
+Evidence-based medicine,120,Digital health technologies,0.008
+consumer health,37,Psychiatric disorders,0.008
+Medical museums,6,Motor imagery,0.008
+DNA replication,22,Metabolic networks,0.008
+Cardiac arrhythmia mechanisms,23,Anatomical terminology,0.008
+Influenza subtype distribution,21,Microbial and fungal genomics,0.008
+Pregnancy loss types,9,Perinatal outcomes,0.008
+Body Mass Index,3,Health and functional status assessment,0.007
+Cold exposure,23,Cardiorespiratory monitoring,0.007
+Xception neural network,29,Motor imagery,0.007
+Burn injuries,9,Signs and symptoms,0.007
+Abdominal pain,3,Signs and symptoms,0.007
+Body image,19,Signs and symptoms,0.007
+Lung cancer subtypes,11,Cancer types and screening,0.007
+PD-L1 expression,3,Tumor immunology and microenvironment,0.007
+Endodontic treatment,11,Medical devices,0.007
+Cell-penetrating peptides,8,Drug discovery,0.007
+lymphedema,3,Cardiovascular hemodynamics,0.006
+Anticancer peptides,6,Drug discovery,0.006
+Pulse wave,8,Cardiac arrhythmias,0.006
+Health records,64,Digital health technologies,0.006
+Physiological signal analysis,27,Physiological signals and AI methods,0.006
+electrohysterography,4,Cardiac arrhythmias,0.006
+RNA methylation,20,Gene expression regulation,0.006
+Awards and compensation,5,Health workforce education,0.006
+Vaccination reminders,17,Mixed clinical conditions and demographics,0.005
+Esophageal squamous carcinoma,4,Aortic diseases,0.005
+Muscle pain,2,Signs and symptoms,0.005
+Molecular biophysics,12,Computational cancer biology,0.005
+Cardiac MRI,9,Cancer treatment modalities,0.005
+Hyperthermia therapy,22,Cardiorespiratory monitoring,0.005
+Postoperative care,6,Surgical procedures,0.005
+adverse health effects,3,Upper airway disorders,0.005
+Urinary tract infections,6,Emergency Department,0.005
+Pressure injuries,2,Upper airway disorders,0.005
+Bacterial riboswitches,4,Protein-peptide binding,0.005
+Antiviral drugs,16,cancer immunotherapy,0.005
+Sub-Saharan Africa health,4,Countries and demographics,0.005
+Biofeedback,6,Health behavior change,0.004
+Medical Errors,20,Caregivers and care quality,0.004
+Pharmacy services,11,Caregivers and care quality,0.004
+Peptides in health,12,Drug discovery,0.004
+ATP-binding proteins,4,Amino acid sequence,0.004
+Unclassified keyword cluster,2,Natural products and traditional medicine,0.004
+Hereditary ovarian cancer,10,Cancer types and screening,0.004
+Social media health,42,Digital health technologies,0.004
+legal medicine,10,Mixed health informatics safety topics,0.004
+Sequence logos,13,Gene expression regulation,0.004
+DNA storage,16,Genomic variant analysis,0.004
+Mitosis,13,Computational cancer biology,0.004
+Nanostructured biomaterials,10,Bayesian health modeling,0.004
+effective reproduction number,5,Population health surveillance,0.003
+ACLS,2,Emergency Department,0.003
+Spatial transcriptomics,9,Gene expression regulation,0.003
+noncardiac chest pain,1,Cardiovascular diseases,0.003
+Blood transfusion,4,Myocardial infarction,0.003
+Occult blood,2,Perinatal outcomes,0.003
+Adaptive filtering,13,Computational cancer biology,0.003
+cancer occurrence rate,7,Prognosis and risk prediction,0.003
+Genomic TADs and multimodal fusion,19,Mixed medical imaging,0.003
+darbepoietin alfa,1,cancer immunotherapy,0.003
+cha2ds2-vasc,1,Myocardial infarction,0.003
+anastomosis leakage (al),1,Myocardial infarction,0.003
+16S rRNA,4,Genomic variant analysis,0.003
+Ablation therapy modalities,18,Myocardial infarction,0.003
+Epigenomics in health,7,Gene expression regulation,0.002
+Fractional calculus and tensor methods,26,Digital health technologies,0.002
+Illicit online pharmacies,4,Mixed clinical conditions and demographics,0.002
+HIV subtypes,4,Infectious diseases,0.002
+Chromosomal microarrays,8,Genomic variant analysis,0.002
+Gene fusion prevalence,8,Biomedical databases,0.002
+Bone age assessment,3,Health and functional status assessment,0.002
+architectural distortion (ad),1,Mixed terminology and histopathology,0.002
+generalized geometric mean,2,Bayesian health modeling,0.002
+Thinness ideals,3,Countries and demographics,0.002
+WeChat health apps,8,Translational and clinical research,0.002
+Symmetry and asymmetry methods,7,Bayesian health modeling,0.002
+psg recordings,1,Cardiorespiratory monitoring,0.002
+median count value,4,Prognosis and risk prediction,0.002
+Fine-grained annotation methods,5,Bayesian health modeling,0.002
+false discovery control,3,Prognosis and risk prediction,0.002
+CpG islands,5,Gene expression regulation,0.002
+Keyword noise,2,Signs and symptoms,0.002
+Smoking cessation apps,2,Mixed clinical conditions and demographics,0.002
+IC50 focus,3,Cardiorespiratory monitoring,0.002
+clear aligners,5,Computational cancer biology,0.002
+peath/g,1,Natural products and traditional medicine,0.002
+peristalsis,1,Signs and symptoms,0.002
+Veteran health,3,Countries and demographics,0.002
+chaperonins,1,Amino acid sequence,0.002
+jeevaneeya rasayana,1,Natural products and traditional medicine,0.002
+spectral unmixing,4,Mixed medical imaging,0.002
+muscle-invasive bladder cancer,1,Cancer types and screening,0.001
+Genetic ethics,2,Genetic predisposition,0.001
+Pharmacokinetic AUC,2,Cancer types and screening,0.001
+sflt-1/plgf ratio,1,Cancer types and screening,0.001
+transition probability,1,Prognosis and risk prediction,0.001
+serial interval,3,Emergency Department,0.001
+root surface area,1,Mixed clinical conditions and demographics,0.001
+basal-like,1,Cancer types and screening,0.001
+APOBEC mutagenesis,2,Gene expression regulation,0.001
+K-ras mutations,2,Cancer types and screening,0.001
+Phage cocktail design,2,Decision support,0.001
+Task-related component analysis,3,Neurodegenerative diseases,0.001
+astral,1,Genomic variant analysis,0.001
+ivermectin,1,Drug discovery,0.001
+electrodermal activity (eda),2,Physiological signals and AI methods,0.001
+Extracellular vesicles,3,Translational and clinical research,0.001
+Node2vec in health,3,Mixed medical imaging,0.001
+animal communication,1,Genomic variant analysis,0.001
+Electroglottography,2,Physiological signals and AI methods,0.001
+complement cascade,3,Infectious diseases,0.001
+unknown_topic_7-18,1,Translational and clinical research,0.001
+cancer education,1,Computational cancer biology,0.001
+plant hormones,1,Computational cancer biology,0.001
+tubular atrophy/interstitial fibrosis,1,Cancer types and screening,0.001
+Raspberry Pi hardware,6,Translational and clinical research,0.001
+ibm rxn retrosynthesis,1,Genetic predisposition,0.001
+E-cigarettes,3,Health policy landscape,0.001
+Mobile app types,11,Digital health technologies,0.001
+d3ai-cov,1,Infectious diseases,0.0
+gad-7,1,Infectious diseases,0.0
+academic integrity,11,Digital health technologies,0.0
+b-factor,1,Physiological signals and AI methods,0.0
+Cross-sector digitalization,2,Digital health technologies,0.0
+puskesmas,1,Infectious diseases,0.0
+Health news media,4,Digital health technologies,0.0
+Grouped CNNs,2,Digital health technologies,0.0
+minimum data set,1,Physiological signals and AI methods,0.0
+foreign body reaction,1,Infectious diseases,0.0
+center of mass,1,Physiological signals and AI methods,0.0

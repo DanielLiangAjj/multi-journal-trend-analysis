@@ -183,7 +183,8 @@ def plot_total_publication_volume(df, years, output_dir):
     ax.plot(year_counts.index, year_counts.values, "o-", color="#000080", linewidth=2)
     ax.set_xlabel("Year", fontsize=14)
     ax.set_ylabel("Number of Articles", fontsize=14)
-    ax.set_title("Total Publication Volume (All 30 Journals)", fontsize=16)
+    n_journals = df["journal"].nunique()
+    ax.set_title(f"Total Publication Volume (All {n_journals} Journals)", fontsize=16)
     ax.xaxis.set_major_locator(MaxNLocator(integer=True))
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
@@ -224,8 +225,7 @@ def plot_journal_volume_comparison(df, years, output_dir, top_n=15):
     for journal in top_journals:
         j_data = filtered[filtered["journal"] == journal]
         y_counts = j_data["year"].value_counts().sort_index()
-        short_name = journal.split("(")[0].strip()[:30]
-        ax.plot(y_counts.index, y_counts.values, "o-", label=short_name,
+        ax.plot(y_counts.index, y_counts.values, "o-", label=_abbr(journal),
                 linewidth=2, markersize=4)
     ax.set_xlabel("Year", fontsize=14)
     ax.set_ylabel("Articles", fontsize=14)
@@ -371,7 +371,7 @@ def plot_top_topics_by_period(topic_year_count, domain, years, output_dir,
 # RQ3: Methodology x Health Co-occurrence
 # ---------------------------------------------------------------------------
 
-def compute_cooccurrence(records, top_n_method=15, top_n_health=15):
+def compute_cooccurrence(records, top_n_method=30, top_n_health=30):
     """
     Compute co-occurrence matrix: methodology topic x health topic.
     Each cell = number of articles containing keywords from both topics.
@@ -401,17 +401,30 @@ def compute_cooccurrence(records, top_n_method=15, top_n_health=15):
 
 
 def plot_cooccurrence_heatmap(matrix, output_dir):
-    """Plot methodology x health co-occurrence heatmap."""
-    fig, ax = plt.subplots(figsize=(16, 12))
+    """Plot methodology x health co-occurrence heatmap.
+
+    Suppresses annotations for low-count cells (<5% of max) so dense regions
+    stay readable while genuine peaks remain labeled.
+    """
+    fig, ax = plt.subplots(figsize=(22, 15))
+    threshold = max(5, matrix.values.max() * 0.05)
+    annot_labels = matrix.applymap(
+        lambda v: str(int(v)) if v >= threshold else ""
+    )
     sns.heatmap(
-        matrix, annot=True, fmt="d", cmap="YlOrRd", ax=ax,
+        matrix, annot=annot_labels, fmt="", cmap="YlOrRd", ax=ax,
         linewidths=0.5, linecolor="white",
         annot_kws={"fontsize": 8},
     )
-    ax.set_title("Methodology × Health Domain Co-occurrence", fontsize=16)
+    ax.set_title(
+        f"Methodology × Health Domain Co-occurrence\n"
+        f"(values shown only when ≥{int(threshold)} co-occurring articles)",
+        fontsize=16,
+    )
     ax.set_xlabel("Health Topics", fontsize=14)
     ax.set_ylabel("Methodology Topics", fontsize=14)
-    plt.setp(ax.get_xticklabels(), rotation=45, ha="right", fontsize=10)
+    plt.setp(ax.get_xticklabels(), rotation=60, ha="right",
+             rotation_mode="anchor", fontsize=10)
     plt.setp(ax.get_yticklabels(), rotation=0, fontsize=10)
     plt.tight_layout()
     plt.savefig(
@@ -455,14 +468,7 @@ def plot_journal_topic_heatmap(records, domain_key, domain, output_dir,
             count = journal_topic.get((j, t), 0)
             matrix.loc[j, t] = (count / j_total * 100) if j_total > 0 else 0
 
-    # Shorten journal names for readability
-    short_names = []
-    for j in matrix.index:
-        short = j.split("(")[0].strip()
-        if len(short) > 40:
-            short = short[:37] + "..."
-        short_names.append(short)
-    matrix.index = short_names
+    matrix.index = [_abbr(j) for j in matrix.index]
 
     # Wrap topic names
     matrix.columns = ["\n".join(textwrap.wrap(t, 20)) for t in matrix.columns]
@@ -549,41 +555,63 @@ def plot_topic_sharing(records, domain_key, domain, output_dir, top_n=25):
 
 def plot_topic_emergence(topic_year_count, domain, years, output_dir, top_n=30):
     """
-    Show when each topic first appeared (first year with articles).
-    Reveals waves of topic emergence over time.
+    Show the year of steepest year-over-year growth for each top topic.
+    "First appearance" is not meaningful since most journals existed in 2011;
+    instead, highlight WHEN each topic's growth accelerated most.
     """
-    topic_first_year = {}
     topic_totals = Counter()
     for (topic, year), count in topic_year_count.items():
-        if topic not in topic_first_year or year < topic_first_year[topic]:
-            topic_first_year[topic] = year
         topic_totals[topic] += count
 
-    top_topics = [t for t, _ in topic_totals.most_common(top_n)]
-
-    data = []
-    for t in top_topics:
-        data.append({
-            "topic": t,
-            "first_year": topic_first_year[t],
-            "total": topic_totals[t],
+    rows = []
+    for topic, total in topic_totals.items():
+        if total < 20:
+            continue
+        yearly = [topic_year_count.get((topic, y), 0) for y in years]
+        growth = np.diff(yearly)
+        if len(growth) == 0:
+            continue
+        max_idx = int(np.argmax(growth))
+        rows.append({
+            "topic": topic,
+            "total": total,
+            "breakthrough_year": years[max_idx + 1],
+            "max_yoy_growth": int(growth[max_idx]),
         })
-    df_emerge = pd.DataFrame(data).sort_values("first_year")
 
-    fig, ax = plt.subplots(figsize=(14, max(8, top_n * 0.35)))
-    colors = plt.cm.viridis(
-        np.linspace(0, 1, len(df_emerge)),
+    if not rows:
+        logger.warning(f"  No topics with >=20 articles for n4_{domain}")
+        return
+    rdf = pd.DataFrame(rows).nlargest(top_n, "total")
+    rdf = rdf.sort_values(["breakthrough_year", "total"], ascending=[False, True])
+
+    fig, ax = plt.subplots(figsize=(15, max(10, top_n * 0.38)))
+    y_pos = np.arange(len(rdf))
+    norm = (rdf["breakthrough_year"].values - years[0]) / max(years[-1] - years[0], 1)
+    colors = plt.cm.viridis(norm)
+    sizes = (rdf["max_yoy_growth"] / max(rdf["max_yoy_growth"].max(), 1)) * 500 + 50
+
+    ax.scatter(rdf["breakthrough_year"], y_pos, s=sizes, c=colors,
+               edgecolors="black", linewidths=1, zorder=3, alpha=0.85)
+    ax.hlines(y_pos, years[0], rdf["breakthrough_year"],
+              colors="#bdc3c7", linewidth=0.8, alpha=0.4)
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(rdf["topic"], fontsize=9)
+
+    for i, row in enumerate(rdf.itertuples()):
+        ax.text(years[-1] + 0.5, i,
+                f"{row.breakthrough_year} (+{row.max_yoy_growth} YoY)",
+                va="center", fontsize=8, color="#2c3e50")
+
+    ax.set_xlabel("Year of Steepest Year-over-Year Growth", fontsize=12)
+    ax.set_title(
+        f"N4: {domain.title()} — Year of Maximum Growth Acceleration\n"
+        f"(dot size = magnitude of YoY increase; shows WHEN each topic grew fastest)",
+        fontsize=14,
     )
-    ax.barh(df_emerge["topic"], df_emerge["first_year"] - years[0],
-            left=years[0], color=colors, edgecolor="white")
-    for i, row in df_emerge.iterrows():
-        ax.text(row["first_year"] + 0.2, list(df_emerge["topic"]).index(row["topic"]),
-                f'{row["first_year"]} ({row["total"]} articles)',
-                va="center", fontsize=8)
-    ax.set_xlabel("Year of First Appearance", fontsize=14)
-    ax.set_title(f"{domain.title()} Topic Emergence Timeline", fontsize=16)
-    ax.set_xlim(years[0] - 0.5, years[-1] + 2)
+    ax.set_xlim(years[0] - 0.5, years[-1] + 4.5)
     ax.grid(True, alpha=0.3, axis="x")
+    ax.invert_yaxis()
     plt.tight_layout()
     plt.savefig(
         os.path.join(output_dir, f"n4_{domain}_topic_emergence.png"),
@@ -599,9 +627,13 @@ def plot_topic_emergence(topic_year_count, domain, years, output_dir, top_n=30):
 
 def compute_topic_trends(topic_year_count, years, min_articles=10):
     """
-    Compute linear trend slopes for each topic.
+    Compute linear trend slopes for each topic with significance tests.
     Positive slope = rising, negative = declining.
+    Uses scipy.stats.linregress for two-sided test that slope != 0;
+    also reports Holm-Bonferroni adjusted p-values across topics.
     """
+    from scipy import stats as sstats
+
     topic_totals = Counter()
     for (topic, year), count in topic_year_count.items():
         topic_totals[topic] += count
@@ -614,47 +646,108 @@ def compute_topic_trends(topic_year_count, years, min_articles=10):
             continue
         counts = np.array([topic_year_count.get((topic, y), 0) for y in years],
                           dtype=float)
-        # Linear regression
         if counts.sum() == 0:
             continue
-        slope, intercept = np.polyfit(year_arr, counts, 1)
-        # Relative slope (normalized by mean)
+        reg = sstats.linregress(year_arr, counts)
         mean_count = counts.mean()
-        rel_slope = slope / mean_count if mean_count > 0 else 0
+        rel_slope = reg.slope / mean_count if mean_count > 0 else 0
 
         trends.append({
             "topic": topic,
             "total": total,
-            "slope": slope,
+            "slope": reg.slope,
             "relative_slope": rel_slope,
             "mean_count": mean_count,
-            "recent_count": counts[-3:].mean(),  # last 3 years avg
-            "early_count": counts[:3].mean(),     # first 3 years avg
+            "recent_count": counts[-3:].mean(),
+            "early_count": counts[:3].mean(),
+            "r_squared": reg.rvalue ** 2,
+            "p_value": reg.pvalue,
         })
 
-    return pd.DataFrame(trends)
+    df = pd.DataFrame(trends)
+    if not df.empty:
+        # Holm-Bonferroni multiple-testing correction across topics in domain.
+        order = np.argsort(df["p_value"].values)
+        sorted_p = df["p_value"].values[order]
+        n = len(sorted_p)
+        adj_sorted = np.maximum.accumulate(
+            np.minimum((n - np.arange(n)) * sorted_p, 1.0)
+        )
+        adj = np.empty(n)
+        adj[order] = adj_sorted
+        df["p_value_holm"] = adj
+        df["significant_holm"] = df["p_value_holm"] < 0.05
+    return df
 
 
-def plot_rising_declining(trend_df, domain, output_dir, top_n=10):
-    """Plot the top rising and declining topics."""
-    if trend_df.empty:
+def plot_rising_declining(trend_df, domain, output_dir, top_n=10,
+                          topic_year_count=None, years=None):
+    """
+    Plot rising/declining topics by percentage-share slope.
+    Absolute slope is misleading because the field is growing overall; a topic
+    with a small positive absolute slope can still be losing market share.
+    Share slope (% of year's publications) captures true decline.
+    """
+    if trend_df.empty or topic_year_count is None or years is None:
         return
 
-    rising = trend_df.nlargest(top_n, "slope")
-    declining = trend_df.nsmallest(top_n, "slope")
+    total_per_year = {
+        y: sum(c for (_, yy), c in topic_year_count.items() if yy == y)
+        for y in years
+    }
+    year_arr = np.array(years, dtype=float)
+
+    rows = []
+    for _, row in trend_df.iterrows():
+        topic = row["topic"]
+        total = int(row["total"])
+        if total < 50:
+            continue
+        shares = [(topic_year_count.get((topic, y), 0) /
+                   max(total_per_year[y], 1)) * 100 for y in years]
+        share_slope = np.polyfit(year_arr, shares, 1)[0]
+        rows.append({"topic": topic, "total": total, "share_slope": share_slope})
+    rdf = pd.DataFrame(rows)
+    if rdf.empty:
+        return
+
+    rising = rdf.nlargest(top_n, "share_slope")
+    truly_declining = rdf[rdf["share_slope"] < 0].nsmallest(top_n, "share_slope")
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 8))
 
-    # Rising
-    ax1.barh(rising["topic"], rising["slope"], color="#2ecc71", edgecolor="white")
-    ax1.set_xlabel("Trend Slope (articles/year)", fontsize=12)
-    ax1.set_title(f"Top {top_n} Rising {domain.title()} Topics", fontsize=14)
+    ax1.barh(rising["topic"], rising["share_slope"],
+             color="#2ecc71", edgecolor="white")
+    for i, (_, r) in enumerate(rising.iterrows()):
+        ax1.text(r["share_slope"] + 0.005, i,
+                 f'+{r["share_slope"]:.3f}%/yr ({r["total"]:,} articles)',
+                 va="center", fontsize=9)
+    ax1.set_xlabel("Share Slope (%-points per year)", fontsize=12)
+    ax1.set_title(
+        f"Top {top_n} Rising {domain.title()} Topics\n"
+        f"(gaining share of total publications)", fontsize=13)
     ax1.grid(True, alpha=0.3, axis="x")
 
-    # Declining
-    ax2.barh(declining["topic"], declining["slope"], color="#e74c3c", edgecolor="white")
-    ax2.set_xlabel("Trend Slope (articles/year)", fontsize=12)
-    ax2.set_title(f"Top {top_n} Declining {domain.title()} Topics", fontsize=14)
+    if len(truly_declining) > 0:
+        ax2.barh(truly_declining["topic"], truly_declining["share_slope"],
+                 color="#e74c3c", edgecolor="white")
+        # Place labels on the right (positive) side of the y-axis so they
+        # never overlap the bars themselves.
+        max_abs = float(truly_declining["share_slope"].abs().max())
+        for i, (_, r) in enumerate(truly_declining.iterrows()):
+            ax2.text(max_abs * 0.05, i,
+                     f'{r["share_slope"]:.3f}%/yr ({r["total"]:,} articles)',
+                     va="center", fontsize=9, ha="left")
+        ax2.set_xlabel("Share Slope (%-points per year)", fontsize=12)
+        ax2.set_xlim(left=-max_abs * 1.1, right=max_abs * 0.85)
+        n_shown = len(truly_declining)
+        ax2.set_title(
+            f"Declining {domain.title()} Topics (n={n_shown})\n"
+            f"(losing share — ALL have negative share trend)", fontsize=13)
+    else:
+        ax2.text(0.5, 0.5, "No topics with negative\nshare slope found",
+                 ha="center", va="center", fontsize=14, transform=ax2.transAxes)
+        ax2.set_title(f"Declining {domain.title()} Topics", fontsize=13)
     ax2.grid(True, alpha=0.3, axis="x")
 
     plt.tight_layout()
@@ -670,78 +763,130 @@ def plot_rising_declining(trend_df, domain, output_dir, top_n=10):
 # N6: Journal Similarity Network
 # ---------------------------------------------------------------------------
 
-def plot_journal_similarity_network(records, domain_key, output_dir,
-                                    top_n_journals=20):
+JOURNAL_ABBR = {
+    "Journal of the American Medical Informatics Association (JAMIA)": "JAMIA",
+    "Journal of Medical Internet Research (JMIR)": "JMIR",
+    "IEEE Journal of Biomedical and Health Informatics (J-BHI)": "IEEE J-BHI",
+    "Journal of Biomedical Informatics (JBI)": "JBI",
+    "International Journal of Medical Informatics (IJMI)": "IJMI",
+    "JMIR Medical Informatics (JMI)": "JMIR Med Inform",
+    "npj Digital Medicine": "npj Digit Med",
+    "The Lancet Digital Health": "Lancet Digit Health",
+    "Briefings in Bioinformatics": "Brief Bioinform",
+    "Bioinformatics": "Bioinformatics",
+    "JAMIA Open": "JAMIA Open",
+    "BMC Medical Informatics and Decision Making": "BMC Med Inform",
+    "PLOS Digital Health": "PLOS Digit Health",
+    "Journal of Medical Systems": "J Med Syst",
+    "Methods of Information in Medicine": "Methods Inf Med",
+    "BMJ Health & Care Informatics": "BMJ Health Care",
+    "Health Informatics Journal": "Health Inform J",
+    "Applied Clinical Informatics": "Appl Clin Inform",
+    "JMIR mHealth and uHealth": "JMIR mHealth",
+    "Computers in Biology and Medicine": "Comput Biol Med",
+    "Artificial Intelligence in Medicine": "Artif Intell Med",
+    "Journal of Clinical and Translational Science": "J Clin Transl Sci",
+    "Database: The Journal of Biological Databases and Curation": "Database",
+    "Bioinformatics Advances": "Bioinform Adv",
+    "Journal of Innovation in Health Informatics": "J Innov Health Inform",
+    "Digital Biomarkers": "Digit Biomark",
+    "Frontiers in Digital Health": "Front Digit Health",
+    "Nature Medicine": "Nat Med",
+    "Nature Methods": "Nat Methods",
+}
+
+
+def _abbr(j):
+    return JOURNAL_ABBR.get(j, j[:25])
+
+
+def plot_journal_similarity_network(records, domain_key, output_dir):
     """
     Network graph showing journal similarity based on topic distributions.
-    Journals with similar topic profiles are connected.
+    Uses Kamada-Kawai layout, short journal abbreviations, and a size legend.
+    Edges are drawn above the 50th percentile of cosine similarity.
     """
     try:
         import networkx as nx
+        from sklearn.metrics.pairwise import cosine_similarity as cos_sim
+        from matplotlib.lines import Line2D
     except ImportError:
-        logger.warning("  networkx not installed, skipping journal similarity network")
+        logger.warning("  networkx/sklearn not installed, skipping N6")
         return
 
     journal_topic_vec = defaultdict(Counter)
-    for r in records:
-        for topic in r[domain_key]:
-            journal_topic_vec[r["journal"]][topic] += 1
-
-    # Get top journals by article count
     journal_totals = Counter()
     for r in records:
         journal_totals[r["journal"]] += 1
-    top_journals = [j for j, _ in journal_totals.most_common(top_n_journals)]
+        for topic in r[domain_key]:
+            journal_topic_vec[r["journal"]][topic] += 1
 
-    # Build topic vectors
-    all_topics = set()
-    for j in top_journals:
-        all_topics.update(journal_topic_vec[j].keys())
-    all_topics = sorted(all_topics)
+    journals = sorted(journal_topic_vec.keys())
+    all_topics = sorted({t for jc in journal_topic_vec.values() for t in jc})
 
-    vectors = {}
-    for j in top_journals:
-        total = sum(journal_topic_vec[j].values())
-        vec = np.array([journal_topic_vec[j].get(t, 0) / max(total, 1)
+    vectors = []
+    for j in journals:
+        total = journal_totals[j]
+        vectors.append([journal_topic_vec[j].get(t, 0) / max(total, 1)
                         for t in all_topics])
-        vectors[j] = vec
-
-    # Compute pairwise cosine similarity
-    from sklearn.metrics.pairwise import cosine_similarity as cos_sim
-    names = list(vectors.keys())
-    mat = np.array([vectors[n] for n in names])
+    mat = np.array(vectors)
     sim = cos_sim(mat)
 
-    # Build network with edges above threshold
     G = nx.Graph()
-    short_names = {}
-    for j in names:
-        short = j.split("(")[0].strip()
-        if len(short) > 25:
-            short = short[:22] + "..."
-        short_names[j] = short
-        G.add_node(short, size=journal_totals[j])
+    for j in journals:
+        G.add_node(_abbr(j), size=journal_totals[j])
 
-    threshold = np.percentile(sim[np.triu_indices_from(sim, k=1)], 70)
-    for i in range(len(names)):
-        for j in range(i + 1, len(names)):
+    upper = sim[np.triu_indices_from(sim, k=1)]
+    threshold = np.percentile(upper, 50)
+    for i in range(len(journals)):
+        for j in range(i + 1, len(journals)):
             if sim[i, j] > threshold:
-                G.add_edge(short_names[names[i]], short_names[names[j]],
+                G.add_edge(_abbr(journals[i]), _abbr(journals[j]),
                            weight=float(sim[i, j]))
 
-    fig, ax = plt.subplots(figsize=(14, 14))
-    pos = nx.spring_layout(G, seed=42, k=2)
-    sizes = [G.nodes[n].get("size", 100) / 5 for n in G.nodes]
-    weights = [G[u][v]["weight"] * 3 for u, v in G.edges]
+    isolates = list(nx.isolates(G))
+    G.remove_nodes_from(isolates)
 
-    nx.draw_networkx_nodes(G, pos, node_color="#85c1e9", node_size=sizes,
-                           edgecolors="#5dade2", linewidths=1.5, ax=ax)
-    nx.draw_networkx_edges(G, pos, width=weights, alpha=0.5,
-                           edge_color="grey", ax=ax)
-    nx.draw_networkx_labels(G, pos, font_size=8, font_weight="bold", ax=ax)
-    ax.set_title("Journal Similarity Network (based on topic distributions)",
-                 fontsize=16)
+    pos = nx.kamada_kawai_layout(G)
+    fig, ax = plt.subplots(figsize=(20, 16))
+
+    sizes = np.array([G.nodes[n].get("size", 100) for n in G.nodes])
+    node_sizes = (sizes / sizes.max()) * 2000 + 100
+    weights = [G[u][v]["weight"] * 5 for u, v in G.edges]
+
+    nx.draw_networkx_edges(G, pos, width=weights, alpha=0.35,
+                           edge_color="#7f8c8d", ax=ax)
+    nx.draw_networkx_nodes(G, pos, node_color="#5dade2", node_size=node_sizes,
+                           edgecolors="#1f618d", linewidths=2, alpha=0.85, ax=ax)
+    for node, (x, y) in pos.items():
+        ax.text(x, y + 0.04, node, ha="center", va="center",
+                fontsize=11, fontweight="bold",
+                bbox=dict(boxstyle="round,pad=0.4", facecolor="white",
+                          edgecolor="#1f618d", alpha=0.92))
+
+    legend_sizes = [500, 3000, 8000]
+    legend_handles = []
+    for s in legend_sizes:
+        scaled = (s / sizes.max()) * 2000 + 100
+        legend_handles.append(
+            Line2D([0], [0], marker="o", color="w",
+                   markerfacecolor="#5dade2", markeredgecolor="#1f618d",
+                   markersize=np.sqrt(scaled) / 3,
+                   label=f"{s:,} articles"))
+    ax.legend(handles=legend_handles, loc="lower right", fontsize=11,
+              title="Journal Size (articles)", title_fontsize=12,
+              framealpha=0.95)
+
+    if isolates:
+        ax.text(0.01, 0.01,
+                f"Not shown (too dissimilar): {', '.join(isolates)}",
+                transform=ax.transAxes, fontsize=9, alpha=0.6)
+
+    ax.set_title("Journal Similarity Network\n"
+                 "(edges = above-median cosine similarity of topic distributions; "
+                 "node size = total articles)", fontsize=16)
     ax.axis("off")
+    ax.margins(0.12)
     plt.tight_layout()
     plt.savefig(
         os.path.join(output_dir, "n6_journal_similarity_network.png"),
@@ -790,7 +935,7 @@ def plot_keyword_composition(df, kw_to_topics, domain, years, output_dir,
 
     num_cols = 3
     num_rows = (len(top_topics) + num_cols - 1) // num_cols
-    fig, axes = plt.subplots(num_rows, num_cols, figsize=(24, 6 * num_rows))
+    fig, axes = plt.subplots(num_rows, num_cols, figsize=(28, 6 * num_rows))
     axes = axes.flatten() if num_rows > 1 else [axes] if num_rows == 1 and num_cols == 1 else axes.flatten()
 
     for idx, topic in enumerate(top_topics):
@@ -837,11 +982,12 @@ def plot_keyword_composition(df, kw_to_topics, domain, years, output_dir,
         ax.set_ylim(0, 1)
         ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 
-        # Legend
+        # Legend — wrap long keywords across lines instead of truncating
         handles, labels = ax.get_legend_handles_labels()
-        short_labels = [l[:25] + "..." if len(l) > 25 else l for l in labels]
-        ax.legend(handles, short_labels, fontsize=7, loc="upper left",
-                  bbox_to_anchor=(1.01, 1))
+        wrapped_labels = ["\n".join(textwrap.wrap(l, 28)) for l in labels]
+        ax.legend(handles, wrapped_labels, fontsize=8, loc="upper left",
+                  bbox_to_anchor=(1.02, 1), borderaxespad=0,
+                  handlelength=1.5)
 
     for idx in range(len(top_topics), len(axes)):
         axes[idx].set_visible(False)
@@ -851,6 +997,7 @@ def plot_keyword_composition(df, kw_to_topics, domain, years, output_dir,
         fontsize=18, y=1.01,
     )
     plt.tight_layout()
+    plt.subplots_adjust(wspace=0.55)
     plt.savefig(
         os.path.join(output_dir, f"n7_{domain}_keyword_composition.png"),
         dpi=300, bbox_inches="tight",
@@ -890,10 +1037,13 @@ def save_cooccurrence_csv(matrix, output_dir):
 
 
 def save_trend_csv(trend_df, domain, output_dir):
-    """Save trend analysis results."""
+    """Save trend analysis results.
+    Topics with fewer than compute_topic_trends.min_articles (default 10)
+    are excluded here — row count may be less than the total topic count.
+    """
     csv_path = os.path.join(output_dir, f"{domain}_trend_analysis.csv")
     trend_df.sort_values("slope", ascending=False).to_csv(csv_path, index=False)
-    logger.info(f"  Saved {csv_path}")
+    logger.info(f"  Saved {csv_path} ({len(trend_df)} topics with >=10 articles)")
 
 
 # ---------------------------------------------------------------------------
@@ -986,7 +1136,8 @@ def main():
     for domain, tyc in [("methodology", method_year_count),
                         ("health", health_year_count)]:
         trend_df = compute_topic_trends(tyc, years)
-        plot_rising_declining(trend_df, domain, args.output_dir)
+        plot_rising_declining(trend_df, domain, args.output_dir,
+                              topic_year_count=tyc, years=years)
         save_trend_csv(trend_df, domain, args.output_dir)
 
     # ---- N6: Journal similarity network ----

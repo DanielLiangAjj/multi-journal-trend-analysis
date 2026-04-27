@@ -1,0 +1,363 @@
+{
+  "methodology": {
+    "k100": {
+      "rising": [
+        {
+          "topic": "Machine learning methods",
+          "slope": 304.64285714285717,
+          "p_value_holm": 1.0856840406904575e-05
+        },
+        {
+          "topic": "Clinical decision support",
+          "slope": 106.27142857142856,
+          "p_value_holm": 4.783514305090488e-05
+        },
+        {
+          "topic": "Software and usability research",
+          "slope": 79.25714285714285,
+          "p_value_holm": 5.2521665243782896e-06
+        },
+        {
+          "topic": "Statistical methods",
+          "slope": 67.49999999999999,
+          "p_value_holm": 1.309871832904693e-05
+        },
+        {
+          "topic": "Mobile health and social media",
+          "slope": 67.11785714285713,
+          "p_value_holm": 1.1609049602614344e-05
+        },
+        {
+          "topic": "Genomics and sequence bioinformatics",
+          "slope": 65.27857142857142,
+          "p_value_holm": 1.5164500785471595e-06
+        },
+        {
+          "topic": "Medical image segmentation",
+          "slope": 63.86428571428573,
+          "p_value_holm": 4.003313437847301e-05
+        },
+        {
+          "topic": "Biomedical signal processing",
+          "slope": 43.34642857142857,
+          "p_value_holm": 5.715185711844571e-05
+        },
+        {
+          "topic": "Mixed deep learning applications",
+          "slope": 42.21071428571428,
+          "p_value_holm": 0.0001712074721346
+        },
+        {
+          "topic": "Virtual medical simulation",
+          "slope": 40.775,
+          "p_value_holm": 4.003313437847301e-05
+        }
+      ],
+      "declining": [
+        {
+          "topic": "Microarray analysis",
+          "slope": -1.2642857142857142,
+          "p_value_holm": 0.110197425389612
+        },
+        {
+          "topic": "Pilot studies and synthetic data",
+          "slope": -1.225,
+          "p_value_holm": 0.1895160207202667
+        },
+        {
+          "topic": "Computer security",
+          "slope": -1.1357142857142857,
+          "p_value_holm": 0.8783861138524656
+        },
+        {
+          "topic": "Mixed reasoning and modeling methods",
+          "slope": -1.075,
+          "p_value_holm": 0.9449498659240728
+        }
+      ],
+      "n_significant_holm": 56,
+      "n_total": 70
+    },
+    "k750": {
+      "rising": [
+        {
+          "topic": "Medical informatics",
+          "slope": 102.74285714285712,
+          "p_value_holm": 2.6985484377622013e-05
+        },
+        {
+          "topic": "Mixed machine learning methods",
+          "slope": 101.25357142857142,
+          "p_value_holm": 1.9579799884285266e-05
+        },
+        {
+          "topic": "Machine learning",
+          "slope": 76.23571428571428,
+          "p_value_holm": 9.434314810039682e-05
+        },
+        {
+          "topic": "Neural networks",
+          "slope": 62.825,
+          "p_value_holm": 0.0001333188064416
+        },
+        {
+          "topic": "Modeling approaches",
+          "slope": 56.88571428571428,
+          "p_value_holm": 0.0021586262352618
+        },
+        {
+          "topic": "causal artificial intelligence (causal ai)",
+          "slope": 51.528571428571425,
+          "p_value_holm": 0.0934287791496056
+        },
+        {
+          "topic": "Computational biology",
+          "slope": 36.57142857142857,
+          "p_value_holm": 0.0011390555785214
+        },
+        {
+          "topic": "Computer vision",
+          "slope": 34.58571428571428,
+          "p_value_holm": 6.835005553605752e-05
+        },
+        {
+          "topic": "Integrative review",
+          "slope": 31.63214285714285,
+          "p_value_holm": 0.0004937459502152
+        },
+        {
+          "topic": "Data collection",
+          "slope": 28.932142857142853,
+          "p_value_holm": 2.668568044890622e-05
+        }
+      ],
+      "declining": [
+        {
+          "topic": "Computer security",
+          "slope": -2.0321428571428566,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "computer graphics",
+          "slope": -1.5821428571428569,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Researcher profiling and data sharing",
+          "slope": -1.025,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Reminder systems",
+          "slope": -0.9464285714285716,
+          "p_value_holm": 0.298901531758107
+        },
+        {
+          "topic": "Logic programming",
+          "slope": -0.8,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "ROC AUC analysis",
+          "slope": -0.7250000000000001,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Fuzzy-set QCA",
+          "slope": -0.6571428571428573,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Human-computer interaction",
+          "slope": -0.4035714285714285,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Clinical trials",
+          "slope": -0.175,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Medical faculty careers",
+          "slope": -0.1714285714285714,
+          "p_value_holm": 1.0
+        }
+      ],
+      "n_significant_holm": 149,
+      "n_total": 280
+    }
+  },
+  "health": {
+    "k100": {
+      "rising": [
+        {
+          "topic": "Digital health technologies",
+          "slope": 253.46785714285716,
+          "p_value_holm": 5.034470244824964e-06
+        },
+        {
+          "topic": "Computational cancer biology",
+          "slope": 74.51071428571427,
+          "p_value_holm": 2.8924014715886993e-05
+        },
+        {
+          "topic": "Infectious diseases",
+          "slope": 72.58928571428571,
+          "p_value_holm": 0.0082755414228018
+        },
+        {
+          "topic": "Psychiatric disorders",
+          "slope": 52.50714285714286,
+          "p_value_holm": 1.979705711989207e-06
+        },
+        {
+          "topic": "Cancer types and screening",
+          "slope": 52.385714285714286,
+          "p_value_holm": 9.639371519580496e-05
+        },
+        {
+          "topic": "Genomic variant analysis",
+          "slope": 49.52499999999999,
+          "p_value_holm": 0.0001517809728968
+        },
+        {
+          "topic": "Physiological signals and AI methods",
+          "slope": 47.86428571428572,
+          "p_value_holm": 0.0002240322253925
+        },
+        {
+          "topic": "Gene expression regulation",
+          "slope": 47.86071428571428,
+          "p_value_holm": 1.7962837548473125e-06
+        },
+        {
+          "topic": "Translational and clinical research",
+          "slope": 47.00714285714285,
+          "p_value_holm": 3.6467003461314245e-05
+        },
+        {
+          "topic": "Protein and gene networks",
+          "slope": 44.70357142857144,
+          "p_value_holm": 2.7120711472999736e-07
+        }
+      ],
+      "declining": [
+        {
+          "topic": "Mixed medical imaging",
+          "slope": -2.692857142857141,
+          "p_value_holm": 1.0
+        }
+      ],
+      "n_significant_holm": 72,
+      "n_total": 86
+    },
+    "k750": {
+      "rising": [
+        {
+          "topic": "Health informatics",
+          "slope": 96.5535714285714,
+          "p_value_holm": 0.0001042424253437
+        },
+        {
+          "topic": "Health AI models",
+          "slope": 59.96785714285714,
+          "p_value_holm": 0.0004745998401339
+        },
+        {
+          "topic": "Medical technology",
+          "slope": 59.503571428571426,
+          "p_value_holm": 0.000305194363475
+        },
+        {
+          "topic": "Digital health",
+          "slope": 59.16785714285714,
+          "p_value_holm": 8.072948418543485e-06
+        },
+        {
+          "topic": "Mental health",
+          "slope": 54.05,
+          "p_value_holm": 7.564260603845501e-06
+        },
+        {
+          "topic": "Computational biology",
+          "slope": 54.01428571428571,
+          "p_value_holm": 0.0006583339228606
+        },
+        {
+          "topic": "Health data analysis",
+          "slope": 52.775000000000006,
+          "p_value_holm": 0.0002665568046354
+        },
+        {
+          "topic": "COVID-19 pandemic",
+          "slope": 49.23214285714286,
+          "p_value_holm": 0.6997734219735771
+        },
+        {
+          "topic": "Mobile health adoption",
+          "slope": 39.42142857142857,
+          "p_value_holm": 0.0211140912652001
+        },
+        {
+          "topic": "Genomics in health",
+          "slope": 38.13928571428571,
+          "p_value_holm": 0.004123555611481
+        }
+      ],
+      "declining": [
+        {
+          "topic": "Human health",
+          "slope": -9.485714285714288,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Sexual behavior",
+          "slope": -9.074999999999998,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Maternal health",
+          "slope": -2.4535714285714274,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Young adults",
+          "slope": -1.9249999999999996,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Health entrepreneurship",
+          "slope": -0.6892857142857144,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "consumer health",
+          "slope": -0.3142857142857141,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Animal disease models",
+          "slope": -0.3071428571428571,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Influenza subtype distribution",
+          "slope": -0.2749999999999999,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Medical Errors",
+          "slope": -0.2107142857142856,
+          "p_value_holm": 1.0
+        },
+        {
+          "topic": "Horizontal gene transfer",
+          "slope": -0.1714285714285714,
+          "p_value_holm": 1.0
+        }
+      ],
+      "n_significant_holm": 153,
+      "n_total": 326
+    }
+  }
+}

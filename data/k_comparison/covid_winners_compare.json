@@ -1,0 +1,254 @@
+{
+  "k100": {
+    "top_gainers": [
+      {
+        "topic": "Sequence and structure prediction",
+        "domain": "health",
+        "pct_change_during": 244.44444444444449,
+        "p_value_during": 2.244976254271097e-13
+      },
+      {
+        "topic": "Data augmentation",
+        "domain": "methodology",
+        "pct_change_during": 229.41176470588235,
+        "p_value_during": 3.1123123995282473e-21
+      },
+      {
+        "topic": "Generative AI and corpus methods",
+        "domain": "methodology",
+        "pct_change_during": 211.11111111111111,
+        "p_value_during": 2.399204523116399e-10
+      },
+      {
+        "topic": "Clinical monitoring and surveillance",
+        "domain": "methodology",
+        "pct_change_during": 210.5691056910569,
+        "p_value_during": 1.2774511182563342e-120
+      },
+      {
+        "topic": "Population health surveillance",
+        "domain": "health",
+        "pct_change_during": 158.46774193548387,
+        "p_value_during": 1.859967348047323e-137
+      },
+      {
+        "topic": "Mass screening",
+        "domain": "health",
+        "pct_change_during": 148.27586206896552,
+        "p_value_during": 1.4063678950771474e-15
+      },
+      {
+        "topic": "Infectious diseases",
+        "domain": "health",
+        "pct_change_during": 143.49859681945745,
+        "p_value_during": 0.0
+      },
+      {
+        "topic": "Causal mediation analysis",
+        "domain": "health",
+        "pct_change_during": 138.88888888888889,
+        "p_value_during": 3.802659887259387e-09
+      },
+      {
+        "topic": "Aortic diseases",
+        "domain": "health",
+        "pct_change_during": 123.8095238095238,
+        "p_value_during": 1.3977422371435173e-08
+      },
+      {
+        "topic": "Mixed health informatics safety topics",
+        "domain": "health",
+        "pct_change_during": 121.91780821917808,
+        "p_value_during": 2.0812983959912397e-25
+      }
+    ],
+    "top_losers": [
+      {
+        "topic": "Microarray analysis",
+        "domain": "methodology",
+        "pct_change_during": -41.66666666666667,
+        "p_value_during": 0.0412268333371637
+      },
+      {
+        "topic": "Biomedical databases",
+        "domain": "health",
+        "pct_change_during": -36.17021276595745,
+        "p_value_during": 1.9641504583268615e-16
+      },
+      {
+        "topic": "Gene editing",
+        "domain": "methodology",
+        "pct_change_during": -35.13513513513514,
+        "p_value_during": 0.0325827983856127
+      },
+      {
+        "topic": "Repetitive DNA sequences",
+        "domain": "health",
+        "pct_change_during": -22.22222222222222,
+        "p_value_during": 0.1024704348597499
+      },
+      {
+        "topic": "Medical specialties",
+        "domain": "health",
+        "pct_change_during": -21.649484536082475,
+        "p_value_during": 0.0329881942429562
+      },
+      {
+        "topic": "Cell signaling and oncogenic pathways",
+        "domain": "health",
+        "pct_change_during": -20.0,
+        "p_value_during": 0.2367235706378539
+      },
+      {
+        "topic": "High-throughput screening",
+        "domain": "methodology",
+        "pct_change_during": -17.142857142857142,
+        "p_value_during": 0.310494434317232
+      },
+      {
+        "topic": "Protein-peptide binding",
+        "domain": "health",
+        "pct_change_during": -15.032679738562091,
+        "p_value_during": 0.062964825941383
+      },
+      {
+        "topic": "Computer security",
+        "domain": "methodology",
+        "pct_change_during": -13.20754716981132,
+        "p_value_during": 0.3362887904028663
+      },
+      {
+        "topic": "Endoscopic procedures",
+        "domain": "health",
+        "pct_change_during": -12.5,
+        "p_value_during": 0.6170750774519739
+      }
+    ]
+  },
+  "k750": {
+    "top_gainers": [
+      {
+        "topic": "COVID-19 pandemic",
+        "domain": "health",
+        "pct_change_during": 1175.78125,
+        "p_value_during": 0.0
+      },
+      {
+        "topic": "Medical misinformation",
+        "domain": "health",
+        "pct_change_during": 409.09090909090907,
+        "p_value_during": 6.198162772133018e-42
+      },
+      {
+        "topic": "Vaccine hesitancy",
+        "domain": "health",
+        "pct_change_during": 400.0,
+        "p_value_during": 1.1224297172982905e-29
+      },
+      {
+        "topic": "causal artificial intelligence (causal ai)",
+        "domain": "methodology",
+        "pct_change_during": 369.0,
+        "p_value_during": 4.621048962281443e-298
+      },
+      {
+        "topic": "Attention models",
+        "domain": "methodology",
+        "pct_change_during": 338.46153846153845,
+        "p_value_during": 2.9809518884667895e-34
+      },
+      {
+        "topic": "Molecular docking methods",
+        "domain": "methodology",
+        "pct_change_during": 334.7826086956522,
+        "p_value_during": 5.222305975881577e-58
+      },
+      {
+        "topic": "Speech therapy",
+        "domain": "health",
+        "pct_change_during": 287.5,
+        "p_value_during": 4.2321366174257363e-16
+      },
+      {
+        "topic": "Health research methods",
+        "domain": "methodology",
+        "pct_change_during": 272.7272727272727,
+        "p_value_during": 1.4919966396986925e-19
+      },
+      {
+        "topic": "Cancer biomarkers",
+        "domain": "health",
+        "pct_change_during": 257.14285714285717,
+        "p_value_during": 6.493819935376025e-22
+      },
+      {
+        "topic": "Epitope mapping",
+        "domain": "health",
+        "pct_change_during": 250.0,
+        "p_value_during": 4.707140590140388e-18
+      }
+    ],
+    "top_losers": [
+      {
+        "topic": "computer graphics",
+        "domain": "methodology",
+        "pct_change_during": -60.86956521739131,
+        "p_value_during": 0.003509289704745
+      },
+      {
+        "topic": "Drug targeting and transport",
+        "domain": "health",
+        "pct_change_during": -60.0,
+        "p_value_during": 0.0026997960632601
+      },
+      {
+        "topic": "Preclinical research",
+        "domain": "methodology",
+        "pct_change_during": -51.61290322580645,
+        "p_value_during": 0.0040571360323712
+      },
+      {
+        "topic": "Computer security",
+        "domain": "methodology",
+        "pct_change_during": -47.82608695652174,
+        "p_value_during": 0.0011797840378799
+      },
+      {
+        "topic": "Metabolic disorders",
+        "domain": "health",
+        "pct_change_during": -47.368421052631575,
+        "p_value_during": 3.8950999830375666e-06
+      },
+      {
+        "topic": "Species specificity",
+        "domain": "methodology",
+        "pct_change_during": -41.66666666666667,
+        "p_value_during": 0.0412268333371637
+      },
+      {
+        "topic": "Proteomics of proteins",
+        "domain": "health",
+        "pct_change_during": -40.42553191489361,
+        "p_value_during": 2.9755432552208005e-08
+      },
+      {
+        "topic": "Data curation",
+        "domain": "methodology",
+        "pct_change_during": -38.961038961038966,
+        "p_value_during": 0.0006289394206546
+      },
+      {
+        "topic": "RNA-binding proteins",
+        "domain": "health",
+        "pct_change_during": -38.46153846153847,
+        "p_value_during": 0.0163091718777549
+      },
+      {
+        "topic": "Systematic mapping",
+        "domain": "methodology",
+        "pct_change_during": -32.35294117647059,
+        "p_value_during": 0.0592297037272796
+      }
+    ]
+  }
+}

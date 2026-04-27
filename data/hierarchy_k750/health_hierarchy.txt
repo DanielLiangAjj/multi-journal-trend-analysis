@@ -1,0 +1,2022 @@
+- Caregivers
+	- Healthcare workers
+		- Burnout in healthcare
+- Clinical decision making
+	- Cardiac arrest resuscitation
+	- Evidence-based medicine
+		- Diagnostic testing
+			- Coagulation tests
+			- Colposcopy prevalence
+			- Computer-aided diagnostics
+			- EEG signals
+			- Electromyography
+			- Flow cytometry
+			- Heart sound analysis
+			- Nucleic acid detection
+				- 16S rRNA
+			- Occult blood
+			- Parasite detection
+			- Pneumonia diagnosis
+			- Pulmonary function testing
+			- electrohysterography
+			- gastric histopathology
+		- Drug therapies
+			- Anesthesia and analgesia
+			- Anticancer peptides
+			- Antimicrobial peptides
+			- Drug interactions
+	- Informed consent
+	- Medical diagnostics
+		- Audiometric testing
+		- Electroglottography
+		- Mass screening
+		- Medical image analysis
+			- Cancer classification
+				- Endocrine tumors
+				- Lung cancer subtypes
+				- muscle-invasive bladder cancer
+				- renal tumors
+			- Parasite detection
+			- Polyp morphology
+			- Radiomics texture analysis
+			- Target identification
+		- Physiological signal analysis
+			- Biofeedback
+				- Electromyography
+				- electrodermal activity (eda)
+			- Task-related component analysis
+			- Vital signs monitoring
+				- Respiratory data analytics
+					- Pneumonia diagnosis
+			- electrohysterography
+		- medical diagnosis
+			- Acute respiratory failure
+			- Cardiac echocardiography
+			- Diagnostic testing
+				- Coagulation tests
+				- Colposcopy prevalence
+				- Computer-aided diagnostics
+				- EEG signals
+				- Electromyography
+				- Flow cytometry
+				- Heart sound analysis
+				- Nucleic acid detection
+					- 16S rRNA
+				- Occult blood
+				- Parasite detection
+				- Pneumonia diagnosis
+				- Pulmonary function testing
+				- electrohysterography
+				- gastric histopathology
+			- Mental health
+				- Psychoeducation
+				- Sleep disorders
+					- CBT for insomnia
+					- Sleep-disordered breathing
+				- Therapeutic modalities
+					- Addiction treatment
+						- Drug therapies
+							- Anesthesia and analgesia
+							- Anticancer peptides
+							- Antimicrobial peptides
+							- Drug interactions
+						- Smoking cessation apps
+					- Exergaming in health
+					- Reconstructive surgery
+					- antiretroviral therapy guidelines
+					- darbepoietin alfa
+					- multisensory stimulation
+			- Sexual dysfunction
+			- Urinary incontinence
+- Digitalization Across Sectors
+	- Digital health
+		- Health informatics
+			- Biomedical data science
+				- Biomarker diversity
+					- Breast cancer subtypes
+				- Biomedical NLP
+					- Biomedical annotation
+						- Health phenotyping
+							- Diagnostic testing
+								- Coagulation tests
+								- Colposcopy prevalence
+								- Computer-aided diagnostics
+								- EEG signals
+								- Electromyography
+								- Flow cytometry
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Parasite detection
+								- Pneumonia diagnosis
+								- Pulmonary function testing
+								- electrohysterography
+								- gastric histopathology
+							- Microbiome profiling
+							- Node2vec in health
+							- Nonverbal health cues
+							- Patient-reported outcomes
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+						- Protein sequence features
+					- Clinical documentation
+						- Clinical measurements
+							- Bone age assessment
+							- Coagulation tests
+							- EEG signals
+							- Electroglottography
+							- Electromyography
+							- Heart sound analysis
+							- Nucleic acid detection
+								- 16S rRNA
+							- Occult blood
+							- Pain catastrophizing
+							- Pharmacokinetic AUC
+							- Pulmonary function testing
+							- Vital signs monitoring
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- electrodermal activity (eda)
+							- electrohysterography
+							- root surface area
+							- sflt-1/plgf ratio
+						- Comorbidity overview
+						- Diagnosis codes
+							- Healthcare-associated infections
+						- Informed consent
+						- Nonverbal health cues
+						- Patient-reported outcomes
+						- medical diagnosis
+							- Acute respiratory failure
+							- Cardiac echocardiography
+							- Diagnostic testing
+								- Coagulation tests
+								- Colposcopy prevalence
+								- Computer-aided diagnostics
+								- EEG signals
+								- Electromyography
+								- Flow cytometry
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Parasite detection
+								- Pneumonia diagnosis
+								- Pulmonary function testing
+								- electrohysterography
+								- gastric histopathology
+							- Mental health
+								- Psychoeducation
+								- Sleep disorders
+									- CBT for insomnia
+									- Sleep-disordered breathing
+								- Therapeutic modalities
+									- Addiction treatment
+										- Drug therapies
+											- Anesthesia and analgesia
+											- Anticancer peptides
+											- Antimicrobial peptides
+											- Drug interactions
+										- Smoking cessation apps
+									- Exergaming in health
+									- Reconstructive surgery
+									- antiretroviral therapy guidelines
+									- darbepoietin alfa
+									- multisensory stimulation
+							- Sexual dysfunction
+							- Urinary incontinence
+				- Biosignal channels
+				- Cohort discovery
+				- Computational biology
+				- Disease associations
+					- Comorbidity overview
+				- Fine-grained health data
+					- Epigenomics in health
+					- Influenza subtype distribution
+					- Microbiome profiling
+					- Pneumonia diagnosis
+					- Respiratory symptoms
+					- Spatial transcriptomics
+					- Thyroid hormones
+					- electrodermal activity (eda)
+					- gad-7
+					- minimum data set
+				- Genomics in health
+					- Epigenomics in health
+					- Gene fusion prevalence
+					- Microbiome profiling
+					- Protein-coding genes
+					- Spatial transcriptomics
+				- Health AI models
+					- Node2vec in health
+					- Physiological signal analysis
+						- Biofeedback
+							- Electromyography
+							- electrodermal activity (eda)
+						- Task-related component analysis
+						- Vital signs monitoring
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+						- electrohysterography
+					- Transformers in health
+				- Health records
+					- Clinical documentation
+						- Clinical measurements
+							- Bone age assessment
+							- Coagulation tests
+							- EEG signals
+							- Electroglottography
+							- Electromyography
+							- Heart sound analysis
+							- Nucleic acid detection
+								- 16S rRNA
+							- Occult blood
+							- Pain catastrophizing
+							- Pharmacokinetic AUC
+							- Pulmonary function testing
+							- Vital signs monitoring
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- electrodermal activity (eda)
+							- electrohysterography
+							- root surface area
+							- sflt-1/plgf ratio
+						- Comorbidity overview
+						- Diagnosis codes
+							- Healthcare-associated infections
+						- Informed consent
+						- Nonverbal health cues
+						- Patient-reported outcomes
+						- medical diagnosis
+							- Acute respiratory failure
+							- Cardiac echocardiography
+							- Diagnostic testing
+								- Coagulation tests
+								- Colposcopy prevalence
+								- Computer-aided diagnostics
+								- EEG signals
+								- Electromyography
+								- Flow cytometry
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Parasite detection
+								- Pneumonia diagnosis
+								- Pulmonary function testing
+								- electrohysterography
+								- gastric histopathology
+							- Mental health
+								- Psychoeducation
+								- Sleep disorders
+									- CBT for insomnia
+									- Sleep-disordered breathing
+								- Therapeutic modalities
+									- Addiction treatment
+										- Drug therapies
+											- Anesthesia and analgesia
+											- Anticancer peptides
+											- Antimicrobial peptides
+											- Drug interactions
+										- Smoking cessation apps
+									- Exergaming in health
+									- Reconstructive surgery
+									- antiretroviral therapy guidelines
+									- darbepoietin alfa
+									- multisensory stimulation
+							- Sexual dysfunction
+							- Urinary incontinence
+					- LVAD therapies
+					- Pregnancy loss types
+					- Radiation dose assessment
+					- gad-7
+					- minimum data set
+					- psg recordings
+				- Healthcare data privacy
+				- Medical diagnostics
+					- Audiometric testing
+					- Electroglottography
+					- Mass screening
+					- Medical image analysis
+						- Cancer classification
+							- Endocrine tumors
+							- Lung cancer subtypes
+							- muscle-invasive bladder cancer
+							- renal tumors
+						- Parasite detection
+						- Polyp morphology
+						- Radiomics texture analysis
+						- Target identification
+					- Physiological signal analysis
+						- Biofeedback
+							- Electromyography
+							- electrodermal activity (eda)
+						- Task-related component analysis
+						- Vital signs monitoring
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+						- electrohysterography
+					- medical diagnosis
+						- Acute respiratory failure
+						- Cardiac echocardiography
+						- Diagnostic testing
+							- Coagulation tests
+							- Colposcopy prevalence
+							- Computer-aided diagnostics
+							- EEG signals
+							- Electromyography
+							- Flow cytometry
+							- Heart sound analysis
+							- Nucleic acid detection
+								- 16S rRNA
+							- Occult blood
+							- Parasite detection
+							- Pneumonia diagnosis
+							- Pulmonary function testing
+							- electrohysterography
+							- gastric histopathology
+						- Mental health
+							- Psychoeducation
+							- Sleep disorders
+								- CBT for insomnia
+								- Sleep-disordered breathing
+							- Therapeutic modalities
+								- Addiction treatment
+									- Drug therapies
+										- Anesthesia and analgesia
+										- Anticancer peptides
+										- Antimicrobial peptides
+										- Drug interactions
+									- Smoking cessation apps
+								- Exergaming in health
+								- Reconstructive surgery
+								- antiretroviral therapy guidelines
+								- darbepoietin alfa
+								- multisensory stimulation
+						- Sexual dysfunction
+						- Urinary incontinence
+				- Proteomics of proteins
+					- RNA-binding proteins
+					- Transcription factors
+				- Sequencing quality control
+			- Health archetypes
+			- Health data analysis
+				- Cancer outcomes
+					- Disease progression
+				- Clinical measurements
+					- Bone age assessment
+					- Coagulation tests
+					- EEG signals
+					- Electroglottography
+					- Electromyography
+					- Heart sound analysis
+					- Nucleic acid detection
+						- 16S rRNA
+					- Occult blood
+					- Pain catastrophizing
+					- Pharmacokinetic AUC
+					- Pulmonary function testing
+					- Vital signs monitoring
+						- Respiratory data analytics
+							- Pneumonia diagnosis
+					- electrodermal activity (eda)
+					- electrohysterography
+					- root surface area
+					- sflt-1/plgf ratio
+				- Comorbidity overview
+				- Diagnosis codes
+					- Healthcare-associated infections
+				- Genomics in health
+					- Epigenomics in health
+					- Gene fusion prevalence
+					- Microbiome profiling
+					- Protein-coding genes
+					- Spatial transcriptomics
+				- Health AI models
+					- Node2vec in health
+					- Physiological signal analysis
+						- Biofeedback
+							- Electromyography
+							- electrodermal activity (eda)
+						- Task-related component analysis
+						- Vital signs monitoring
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+						- electrohysterography
+					- Transformers in health
+				- Health phenotyping
+					- Diagnostic testing
+						- Coagulation tests
+						- Colposcopy prevalence
+						- Computer-aided diagnostics
+						- EEG signals
+						- Electromyography
+						- Flow cytometry
+						- Heart sound analysis
+						- Nucleic acid detection
+							- 16S rRNA
+						- Occult blood
+						- Parasite detection
+						- Pneumonia diagnosis
+						- Pulmonary function testing
+						- electrohysterography
+						- gastric histopathology
+					- Microbiome profiling
+					- Node2vec in health
+					- Nonverbal health cues
+					- Patient-reported outcomes
+					- Respiratory data analytics
+						- Pneumonia diagnosis
+			- Healthcare network performance
+			- Medical terminology
+				- Craniofacial malocclusion
+				- Tuberculous pleural effusion
+				- aecopd -acute exacerbation of chronic obstructive pulmonary disease
+				- anastomosis leakage (al)
+				- basal-like
+				- ivermectin
+				- lymphedema
+				- panoptosis
+				- peristalsis
+				- tubular atrophy/interstitial fibrosis
+			- Pharmacovigilance
+				- Drug interactions
+			- Remote monitoring
+				- Vital signs monitoring
+					- Respiratory data analytics
+						- Pneumonia diagnosis
+			- Surgical process model
+				- Postoperative care
+			- Vaccination reminders
+			- consumer health
+				- Alcohol consumption
+				- Health self-management
+					- Biofeedback
+						- Electromyography
+						- electrodermal activity (eda)
+					- Mental health
+						- Psychoeducation
+						- Sleep disorders
+							- CBT for insomnia
+							- Sleep-disordered breathing
+						- Therapeutic modalities
+							- Addiction treatment
+								- Drug therapies
+									- Anesthesia and analgesia
+									- Anticancer peptides
+									- Antimicrobial peptides
+									- Drug interactions
+								- Smoking cessation apps
+							- Exergaming in health
+							- Reconstructive surgery
+							- antiretroviral therapy guidelines
+							- darbepoietin alfa
+							- multisensory stimulation
+					- Mobile health adoption
+						- WeChat health apps
+					- health information seeking
+				- Healthcare engagement
+					- Clinical trial recruitment
+					- Informed consent
+					- Mobile health adoption
+						- WeChat health apps
+					- health information seeking
+				- Pharmacy services
+				- ivermectin
+				- lymphedema
+				- traditional, complementary, and integrative medicine
+		- Healthcare microservices
+		- Illicit online pharmacies
+		- Maternal health
+			- Pelvic floor disorders
+			- Pregnancy loss types
+			- Urinary incontinence
+			- Vital signs monitoring
+				- Respiratory data analytics
+					- Pneumonia diagnosis
+		- P300 speller
+		- Raspberry Pi health
+		- Social media health
+			- WeChat health apps
+		- d3ai-cov
+	- Scholarly communication
+	- Smart contracts
+- Diverse health topics
+	- Domestic violence
+	- E-cigarettes
+	- Eating behavior
+	- Echinodermata health
+	- Endodontic treatment
+	- Environmental health risks
+		- Arthropods and health
+		- Cold exposure
+	- Epithelial barriers
+	- Epitope mapping
+	- Esophageal squamous carcinoma
+	- Fontan procedure
+	- Functional near-infrared spectroscopy
+	- Genetic ethics
+	- Growth hormone
+	- HIV subtypes
+	- Health policy
+		- Healthcare data privacy
+		- Informed consent
+		- Veteran health
+			- Urinary incontinence
+	- Healthcare facilities
+	- Hematologic diseases
+	- Hereditary ovarian cancer
+	- IC50 focus
+	- Infusion pump focus
+	- Intrinsically disordered proteins
+	- Lung anatomy
+	- Mediation analysis
+	- Medical attention mechanisms
+		- Cardiac arrest resuscitation
+		- Informed consent
+		- Pharmacy services
+		- Remote monitoring
+			- Vital signs monitoring
+				- Respiratory data analytics
+					- Pneumonia diagnosis
+		- Surgical process model
+			- Postoperative care
+		- Treatment strategies
+			- Diabetes treatment
+			- LVAD therapies
+			- Radiation therapy
+			- Rehabilitation modalities
+				- Speech therapy
+			- Renal replacement therapy
+			- Therapeutic modalities
+				- Addiction treatment
+					- Drug therapies
+						- Anesthesia and analgesia
+						- Anticancer peptides
+						- Antimicrobial peptides
+						- Drug interactions
+					- Smoking cessation apps
+				- Exergaming in health
+				- Reconstructive surgery
+				- antiretroviral therapy guidelines
+				- darbepoietin alfa
+				- multisensory stimulation
+			- Thyroid hormones
+			- traditional, complementary, and integrative medicine
+		- medical diagnosis
+			- Acute respiratory failure
+			- Cardiac echocardiography
+			- Diagnostic testing
+				- Coagulation tests
+				- Colposcopy prevalence
+				- Computer-aided diagnostics
+				- EEG signals
+				- Electromyography
+				- Flow cytometry
+				- Heart sound analysis
+				- Nucleic acid detection
+					- 16S rRNA
+				- Occult blood
+				- Parasite detection
+				- Pneumonia diagnosis
+				- Pulmonary function testing
+				- electrohysterography
+				- gastric histopathology
+			- Mental health
+				- Psychoeducation
+				- Sleep disorders
+					- CBT for insomnia
+					- Sleep-disordered breathing
+				- Therapeutic modalities
+					- Addiction treatment
+						- Drug therapies
+							- Anesthesia and analgesia
+							- Anticancer peptides
+							- Antimicrobial peptides
+							- Drug interactions
+						- Smoking cessation apps
+					- Exergaming in health
+					- Reconstructive surgery
+					- antiretroviral therapy guidelines
+					- darbepoietin alfa
+					- multisensory stimulation
+			- Sexual dysfunction
+			- Urinary incontinence
+	- Medical museums
+	- Medical technology
+		- Digital health
+			- Health informatics
+				- Biomedical data science
+					- Biomarker diversity
+						- Breast cancer subtypes
+					- Biomedical NLP
+						- Biomedical annotation
+							- Health phenotyping
+								- Diagnostic testing
+									- Coagulation tests
+									- Colposcopy prevalence
+									- Computer-aided diagnostics
+									- EEG signals
+									- Electromyography
+									- Flow cytometry
+									- Heart sound analysis
+									- Nucleic acid detection
+										- 16S rRNA
+									- Occult blood
+									- Parasite detection
+									- Pneumonia diagnosis
+									- Pulmonary function testing
+									- electrohysterography
+									- gastric histopathology
+								- Microbiome profiling
+								- Node2vec in health
+								- Nonverbal health cues
+								- Patient-reported outcomes
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- Protein sequence features
+						- Clinical documentation
+							- Clinical measurements
+								- Bone age assessment
+								- Coagulation tests
+								- EEG signals
+								- Electroglottography
+								- Electromyography
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Pain catastrophizing
+								- Pharmacokinetic AUC
+								- Pulmonary function testing
+								- Vital signs monitoring
+									- Respiratory data analytics
+										- Pneumonia diagnosis
+								- electrodermal activity (eda)
+								- electrohysterography
+								- root surface area
+								- sflt-1/plgf ratio
+							- Comorbidity overview
+							- Diagnosis codes
+								- Healthcare-associated infections
+							- Informed consent
+							- Nonverbal health cues
+							- Patient-reported outcomes
+							- medical diagnosis
+								- Acute respiratory failure
+								- Cardiac echocardiography
+								- Diagnostic testing
+									- Coagulation tests
+									- Colposcopy prevalence
+									- Computer-aided diagnostics
+									- EEG signals
+									- Electromyography
+									- Flow cytometry
+									- Heart sound analysis
+									- Nucleic acid detection
+										- 16S rRNA
+									- Occult blood
+									- Parasite detection
+									- Pneumonia diagnosis
+									- Pulmonary function testing
+									- electrohysterography
+									- gastric histopathology
+								- Mental health
+									- Psychoeducation
+									- Sleep disorders
+										- CBT for insomnia
+										- Sleep-disordered breathing
+									- Therapeutic modalities
+										- Addiction treatment
+											- Drug therapies
+												- Anesthesia and analgesia
+												- Anticancer peptides
+												- Antimicrobial peptides
+												- Drug interactions
+											- Smoking cessation apps
+										- Exergaming in health
+										- Reconstructive surgery
+										- antiretroviral therapy guidelines
+										- darbepoietin alfa
+										- multisensory stimulation
+								- Sexual dysfunction
+								- Urinary incontinence
+					- Biosignal channels
+					- Cohort discovery
+					- Computational biology
+					- Disease associations
+						- Comorbidity overview
+					- Fine-grained health data
+						- Epigenomics in health
+						- Influenza subtype distribution
+						- Microbiome profiling
+						- Pneumonia diagnosis
+						- Respiratory symptoms
+						- Spatial transcriptomics
+						- Thyroid hormones
+						- electrodermal activity (eda)
+						- gad-7
+						- minimum data set
+					- Genomics in health
+						- Epigenomics in health
+						- Gene fusion prevalence
+						- Microbiome profiling
+						- Protein-coding genes
+						- Spatial transcriptomics
+					- Health AI models
+						- Node2vec in health
+						- Physiological signal analysis
+							- Biofeedback
+								- Electromyography
+								- electrodermal activity (eda)
+							- Task-related component analysis
+							- Vital signs monitoring
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- electrohysterography
+						- Transformers in health
+					- Health records
+						- Clinical documentation
+							- Clinical measurements
+								- Bone age assessment
+								- Coagulation tests
+								- EEG signals
+								- Electroglottography
+								- Electromyography
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Pain catastrophizing
+								- Pharmacokinetic AUC
+								- Pulmonary function testing
+								- Vital signs monitoring
+									- Respiratory data analytics
+										- Pneumonia diagnosis
+								- electrodermal activity (eda)
+								- electrohysterography
+								- root surface area
+								- sflt-1/plgf ratio
+							- Comorbidity overview
+							- Diagnosis codes
+								- Healthcare-associated infections
+							- Informed consent
+							- Nonverbal health cues
+							- Patient-reported outcomes
+							- medical diagnosis
+								- Acute respiratory failure
+								- Cardiac echocardiography
+								- Diagnostic testing
+									- Coagulation tests
+									- Colposcopy prevalence
+									- Computer-aided diagnostics
+									- EEG signals
+									- Electromyography
+									- Flow cytometry
+									- Heart sound analysis
+									- Nucleic acid detection
+										- 16S rRNA
+									- Occult blood
+									- Parasite detection
+									- Pneumonia diagnosis
+									- Pulmonary function testing
+									- electrohysterography
+									- gastric histopathology
+								- Mental health
+									- Psychoeducation
+									- Sleep disorders
+										- CBT for insomnia
+										- Sleep-disordered breathing
+									- Therapeutic modalities
+										- Addiction treatment
+											- Drug therapies
+												- Anesthesia and analgesia
+												- Anticancer peptides
+												- Antimicrobial peptides
+												- Drug interactions
+											- Smoking cessation apps
+										- Exergaming in health
+										- Reconstructive surgery
+										- antiretroviral therapy guidelines
+										- darbepoietin alfa
+										- multisensory stimulation
+								- Sexual dysfunction
+								- Urinary incontinence
+						- LVAD therapies
+						- Pregnancy loss types
+						- Radiation dose assessment
+						- gad-7
+						- minimum data set
+						- psg recordings
+					- Healthcare data privacy
+					- Medical diagnostics
+						- Audiometric testing
+						- Electroglottography
+						- Mass screening
+						- Medical image analysis
+							- Cancer classification
+								- Endocrine tumors
+								- Lung cancer subtypes
+								- muscle-invasive bladder cancer
+								- renal tumors
+							- Parasite detection
+							- Polyp morphology
+							- Radiomics texture analysis
+							- Target identification
+						- Physiological signal analysis
+							- Biofeedback
+								- Electromyography
+								- electrodermal activity (eda)
+							- Task-related component analysis
+							- Vital signs monitoring
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- electrohysterography
+						- medical diagnosis
+							- Acute respiratory failure
+							- Cardiac echocardiography
+							- Diagnostic testing
+								- Coagulation tests
+								- Colposcopy prevalence
+								- Computer-aided diagnostics
+								- EEG signals
+								- Electromyography
+								- Flow cytometry
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Parasite detection
+								- Pneumonia diagnosis
+								- Pulmonary function testing
+								- electrohysterography
+								- gastric histopathology
+							- Mental health
+								- Psychoeducation
+								- Sleep disorders
+									- CBT for insomnia
+									- Sleep-disordered breathing
+								- Therapeutic modalities
+									- Addiction treatment
+										- Drug therapies
+											- Anesthesia and analgesia
+											- Anticancer peptides
+											- Antimicrobial peptides
+											- Drug interactions
+										- Smoking cessation apps
+									- Exergaming in health
+									- Reconstructive surgery
+									- antiretroviral therapy guidelines
+									- darbepoietin alfa
+									- multisensory stimulation
+							- Sexual dysfunction
+							- Urinary incontinence
+					- Proteomics of proteins
+						- RNA-binding proteins
+						- Transcription factors
+					- Sequencing quality control
+				- Health archetypes
+				- Health data analysis
+					- Cancer outcomes
+						- Disease progression
+					- Clinical measurements
+						- Bone age assessment
+						- Coagulation tests
+						- EEG signals
+						- Electroglottography
+						- Electromyography
+						- Heart sound analysis
+						- Nucleic acid detection
+							- 16S rRNA
+						- Occult blood
+						- Pain catastrophizing
+						- Pharmacokinetic AUC
+						- Pulmonary function testing
+						- Vital signs monitoring
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+						- electrodermal activity (eda)
+						- electrohysterography
+						- root surface area
+						- sflt-1/plgf ratio
+					- Comorbidity overview
+					- Diagnosis codes
+						- Healthcare-associated infections
+					- Genomics in health
+						- Epigenomics in health
+						- Gene fusion prevalence
+						- Microbiome profiling
+						- Protein-coding genes
+						- Spatial transcriptomics
+					- Health AI models
+						- Node2vec in health
+						- Physiological signal analysis
+							- Biofeedback
+								- Electromyography
+								- electrodermal activity (eda)
+							- Task-related component analysis
+							- Vital signs monitoring
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- electrohysterography
+						- Transformers in health
+					- Health phenotyping
+						- Diagnostic testing
+							- Coagulation tests
+							- Colposcopy prevalence
+							- Computer-aided diagnostics
+							- EEG signals
+							- Electromyography
+							- Flow cytometry
+							- Heart sound analysis
+							- Nucleic acid detection
+								- 16S rRNA
+							- Occult blood
+							- Parasite detection
+							- Pneumonia diagnosis
+							- Pulmonary function testing
+							- electrohysterography
+							- gastric histopathology
+						- Microbiome profiling
+						- Node2vec in health
+						- Nonverbal health cues
+						- Patient-reported outcomes
+						- Respiratory data analytics
+							- Pneumonia diagnosis
+				- Healthcare network performance
+				- Medical terminology
+					- Craniofacial malocclusion
+					- Tuberculous pleural effusion
+					- aecopd -acute exacerbation of chronic obstructive pulmonary disease
+					- anastomosis leakage (al)
+					- basal-like
+					- ivermectin
+					- lymphedema
+					- panoptosis
+					- peristalsis
+					- tubular atrophy/interstitial fibrosis
+				- Pharmacovigilance
+					- Drug interactions
+				- Remote monitoring
+					- Vital signs monitoring
+						- Respiratory data analytics
+							- Pneumonia diagnosis
+				- Surgical process model
+					- Postoperative care
+				- Vaccination reminders
+				- consumer health
+					- Alcohol consumption
+					- Health self-management
+						- Biofeedback
+							- Electromyography
+							- electrodermal activity (eda)
+						- Mental health
+							- Psychoeducation
+							- Sleep disorders
+								- CBT for insomnia
+								- Sleep-disordered breathing
+							- Therapeutic modalities
+								- Addiction treatment
+									- Drug therapies
+										- Anesthesia and analgesia
+										- Anticancer peptides
+										- Antimicrobial peptides
+										- Drug interactions
+									- Smoking cessation apps
+								- Exergaming in health
+								- Reconstructive surgery
+								- antiretroviral therapy guidelines
+								- darbepoietin alfa
+								- multisensory stimulation
+						- Mobile health adoption
+							- WeChat health apps
+						- health information seeking
+					- Healthcare engagement
+						- Clinical trial recruitment
+						- Informed consent
+						- Mobile health adoption
+							- WeChat health apps
+						- health information seeking
+					- Pharmacy services
+					- ivermectin
+					- lymphedema
+					- traditional, complementary, and integrative medicine
+			- Healthcare microservices
+			- Illicit online pharmacies
+			- Maternal health
+				- Pelvic floor disorders
+				- Pregnancy loss types
+				- Urinary incontinence
+				- Vital signs monitoring
+					- Respiratory data analytics
+						- Pneumonia diagnosis
+			- P300 speller
+			- Raspberry Pi health
+			- Social media health
+				- WeChat health apps
+			- d3ai-cov
+		- Minimally invasive surgery
+		- Proton therapy
+		- Radiation therapy
+	- Membrane transport
+		- Cell-penetrating peptides
+	- Movement behaviors
+	- Muscle pain
+	- Myelinated nerve fibers
+	- N-of-1 trials
+	- Nanostructured biomaterials
+	- Nursing education
+	- One Health
+		- Human health
+			- Cardiovascular studies
+				- Blood vessels
+				- Cardiac arrest resuscitation
+				- Cardiac echocardiography
+				- Heart failure
+				- Heart sound analysis
+				- Hypertension risk factors
+				- Interventional cardiology
+				- LVAD therapies
+				- Pediatric heart disease
+				- Pulmonary hypertension
+			- Digital health
+				- Health informatics
+					- Biomedical data science
+						- Biomarker diversity
+							- Breast cancer subtypes
+						- Biomedical NLP
+							- Biomedical annotation
+								- Health phenotyping
+									- Diagnostic testing
+										- Coagulation tests
+										- Colposcopy prevalence
+										- Computer-aided diagnostics
+										- EEG signals
+										- Electromyography
+										- Flow cytometry
+										- Heart sound analysis
+										- Nucleic acid detection
+											- 16S rRNA
+										- Occult blood
+										- Parasite detection
+										- Pneumonia diagnosis
+										- Pulmonary function testing
+										- electrohysterography
+										- gastric histopathology
+									- Microbiome profiling
+									- Node2vec in health
+									- Nonverbal health cues
+									- Patient-reported outcomes
+									- Respiratory data analytics
+										- Pneumonia diagnosis
+								- Protein sequence features
+							- Clinical documentation
+								- Clinical measurements
+									- Bone age assessment
+									- Coagulation tests
+									- EEG signals
+									- Electroglottography
+									- Electromyography
+									- Heart sound analysis
+									- Nucleic acid detection
+										- 16S rRNA
+									- Occult blood
+									- Pain catastrophizing
+									- Pharmacokinetic AUC
+									- Pulmonary function testing
+									- Vital signs monitoring
+										- Respiratory data analytics
+											- Pneumonia diagnosis
+									- electrodermal activity (eda)
+									- electrohysterography
+									- root surface area
+									- sflt-1/plgf ratio
+								- Comorbidity overview
+								- Diagnosis codes
+									- Healthcare-associated infections
+								- Informed consent
+								- Nonverbal health cues
+								- Patient-reported outcomes
+								- medical diagnosis
+									- Acute respiratory failure
+									- Cardiac echocardiography
+									- Diagnostic testing
+										- Coagulation tests
+										- Colposcopy prevalence
+										- Computer-aided diagnostics
+										- EEG signals
+										- Electromyography
+										- Flow cytometry
+										- Heart sound analysis
+										- Nucleic acid detection
+											- 16S rRNA
+										- Occult blood
+										- Parasite detection
+										- Pneumonia diagnosis
+										- Pulmonary function testing
+										- electrohysterography
+										- gastric histopathology
+									- Mental health
+										- Psychoeducation
+										- Sleep disorders
+											- CBT for insomnia
+											- Sleep-disordered breathing
+										- Therapeutic modalities
+											- Addiction treatment
+												- Drug therapies
+													- Anesthesia and analgesia
+													- Anticancer peptides
+													- Antimicrobial peptides
+													- Drug interactions
+												- Smoking cessation apps
+											- Exergaming in health
+											- Reconstructive surgery
+											- antiretroviral therapy guidelines
+											- darbepoietin alfa
+											- multisensory stimulation
+									- Sexual dysfunction
+									- Urinary incontinence
+						- Biosignal channels
+						- Cohort discovery
+						- Computational biology
+						- Disease associations
+							- Comorbidity overview
+						- Fine-grained health data
+							- Epigenomics in health
+							- Influenza subtype distribution
+							- Microbiome profiling
+							- Pneumonia diagnosis
+							- Respiratory symptoms
+							- Spatial transcriptomics
+							- Thyroid hormones
+							- electrodermal activity (eda)
+							- gad-7
+							- minimum data set
+						- Genomics in health
+							- Epigenomics in health
+							- Gene fusion prevalence
+							- Microbiome profiling
+							- Protein-coding genes
+							- Spatial transcriptomics
+						- Health AI models
+							- Node2vec in health
+							- Physiological signal analysis
+								- Biofeedback
+									- Electromyography
+									- electrodermal activity (eda)
+								- Task-related component analysis
+								- Vital signs monitoring
+									- Respiratory data analytics
+										- Pneumonia diagnosis
+								- electrohysterography
+							- Transformers in health
+						- Health records
+							- Clinical documentation
+								- Clinical measurements
+									- Bone age assessment
+									- Coagulation tests
+									- EEG signals
+									- Electroglottography
+									- Electromyography
+									- Heart sound analysis
+									- Nucleic acid detection
+										- 16S rRNA
+									- Occult blood
+									- Pain catastrophizing
+									- Pharmacokinetic AUC
+									- Pulmonary function testing
+									- Vital signs monitoring
+										- Respiratory data analytics
+											- Pneumonia diagnosis
+									- electrodermal activity (eda)
+									- electrohysterography
+									- root surface area
+									- sflt-1/plgf ratio
+								- Comorbidity overview
+								- Diagnosis codes
+									- Healthcare-associated infections
+								- Informed consent
+								- Nonverbal health cues
+								- Patient-reported outcomes
+								- medical diagnosis
+									- Acute respiratory failure
+									- Cardiac echocardiography
+									- Diagnostic testing
+										- Coagulation tests
+										- Colposcopy prevalence
+										- Computer-aided diagnostics
+										- EEG signals
+										- Electromyography
+										- Flow cytometry
+										- Heart sound analysis
+										- Nucleic acid detection
+											- 16S rRNA
+										- Occult blood
+										- Parasite detection
+										- Pneumonia diagnosis
+										- Pulmonary function testing
+										- electrohysterography
+										- gastric histopathology
+									- Mental health
+										- Psychoeducation
+										- Sleep disorders
+											- CBT for insomnia
+											- Sleep-disordered breathing
+										- Therapeutic modalities
+											- Addiction treatment
+												- Drug therapies
+													- Anesthesia and analgesia
+													- Anticancer peptides
+													- Antimicrobial peptides
+													- Drug interactions
+												- Smoking cessation apps
+											- Exergaming in health
+											- Reconstructive surgery
+											- antiretroviral therapy guidelines
+											- darbepoietin alfa
+											- multisensory stimulation
+									- Sexual dysfunction
+									- Urinary incontinence
+							- LVAD therapies
+							- Pregnancy loss types
+							- Radiation dose assessment
+							- gad-7
+							- minimum data set
+							- psg recordings
+						- Healthcare data privacy
+						- Medical diagnostics
+							- Audiometric testing
+							- Electroglottography
+							- Mass screening
+							- Medical image analysis
+								- Cancer classification
+									- Endocrine tumors
+									- Lung cancer subtypes
+									- muscle-invasive bladder cancer
+									- renal tumors
+								- Parasite detection
+								- Polyp morphology
+								- Radiomics texture analysis
+								- Target identification
+							- Physiological signal analysis
+								- Biofeedback
+									- Electromyography
+									- electrodermal activity (eda)
+								- Task-related component analysis
+								- Vital signs monitoring
+									- Respiratory data analytics
+										- Pneumonia diagnosis
+								- electrohysterography
+							- medical diagnosis
+								- Acute respiratory failure
+								- Cardiac echocardiography
+								- Diagnostic testing
+									- Coagulation tests
+									- Colposcopy prevalence
+									- Computer-aided diagnostics
+									- EEG signals
+									- Electromyography
+									- Flow cytometry
+									- Heart sound analysis
+									- Nucleic acid detection
+										- 16S rRNA
+									- Occult blood
+									- Parasite detection
+									- Pneumonia diagnosis
+									- Pulmonary function testing
+									- electrohysterography
+									- gastric histopathology
+								- Mental health
+									- Psychoeducation
+									- Sleep disorders
+										- CBT for insomnia
+										- Sleep-disordered breathing
+									- Therapeutic modalities
+										- Addiction treatment
+											- Drug therapies
+												- Anesthesia and analgesia
+												- Anticancer peptides
+												- Antimicrobial peptides
+												- Drug interactions
+											- Smoking cessation apps
+										- Exergaming in health
+										- Reconstructive surgery
+										- antiretroviral therapy guidelines
+										- darbepoietin alfa
+										- multisensory stimulation
+								- Sexual dysfunction
+								- Urinary incontinence
+						- Proteomics of proteins
+							- RNA-binding proteins
+							- Transcription factors
+						- Sequencing quality control
+					- Health archetypes
+					- Health data analysis
+						- Cancer outcomes
+							- Disease progression
+						- Clinical measurements
+							- Bone age assessment
+							- Coagulation tests
+							- EEG signals
+							- Electroglottography
+							- Electromyography
+							- Heart sound analysis
+							- Nucleic acid detection
+								- 16S rRNA
+							- Occult blood
+							- Pain catastrophizing
+							- Pharmacokinetic AUC
+							- Pulmonary function testing
+							- Vital signs monitoring
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- electrodermal activity (eda)
+							- electrohysterography
+							- root surface area
+							- sflt-1/plgf ratio
+						- Comorbidity overview
+						- Diagnosis codes
+							- Healthcare-associated infections
+						- Genomics in health
+							- Epigenomics in health
+							- Gene fusion prevalence
+							- Microbiome profiling
+							- Protein-coding genes
+							- Spatial transcriptomics
+						- Health AI models
+							- Node2vec in health
+							- Physiological signal analysis
+								- Biofeedback
+									- Electromyography
+									- electrodermal activity (eda)
+								- Task-related component analysis
+								- Vital signs monitoring
+									- Respiratory data analytics
+										- Pneumonia diagnosis
+								- electrohysterography
+							- Transformers in health
+						- Health phenotyping
+							- Diagnostic testing
+								- Coagulation tests
+								- Colposcopy prevalence
+								- Computer-aided diagnostics
+								- EEG signals
+								- Electromyography
+								- Flow cytometry
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Parasite detection
+								- Pneumonia diagnosis
+								- Pulmonary function testing
+								- electrohysterography
+								- gastric histopathology
+							- Microbiome profiling
+							- Node2vec in health
+							- Nonverbal health cues
+							- Patient-reported outcomes
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+					- Healthcare network performance
+					- Medical terminology
+						- Craniofacial malocclusion
+						- Tuberculous pleural effusion
+						- aecopd -acute exacerbation of chronic obstructive pulmonary disease
+						- anastomosis leakage (al)
+						- basal-like
+						- ivermectin
+						- lymphedema
+						- panoptosis
+						- peristalsis
+						- tubular atrophy/interstitial fibrosis
+					- Pharmacovigilance
+						- Drug interactions
+					- Remote monitoring
+						- Vital signs monitoring
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+					- Surgical process model
+						- Postoperative care
+					- Vaccination reminders
+					- consumer health
+						- Alcohol consumption
+						- Health self-management
+							- Biofeedback
+								- Electromyography
+								- electrodermal activity (eda)
+							- Mental health
+								- Psychoeducation
+								- Sleep disorders
+									- CBT for insomnia
+									- Sleep-disordered breathing
+								- Therapeutic modalities
+									- Addiction treatment
+										- Drug therapies
+											- Anesthesia and analgesia
+											- Anticancer peptides
+											- Antimicrobial peptides
+											- Drug interactions
+										- Smoking cessation apps
+									- Exergaming in health
+									- Reconstructive surgery
+									- antiretroviral therapy guidelines
+									- darbepoietin alfa
+									- multisensory stimulation
+							- Mobile health adoption
+								- WeChat health apps
+							- health information seeking
+						- Healthcare engagement
+							- Clinical trial recruitment
+							- Informed consent
+							- Mobile health adoption
+								- WeChat health apps
+							- health information seeking
+						- Pharmacy services
+						- ivermectin
+						- lymphedema
+						- traditional, complementary, and integrative medicine
+				- Healthcare microservices
+				- Illicit online pharmacies
+				- Maternal health
+					- Pelvic floor disorders
+					- Pregnancy loss types
+					- Urinary incontinence
+					- Vital signs monitoring
+						- Respiratory data analytics
+							- Pneumonia diagnosis
+				- P300 speller
+				- Raspberry Pi health
+				- Social media health
+					- WeChat health apps
+				- d3ai-cov
+			- Disease burden
+				- Comorbidity overview
+				- Mental health
+					- Psychoeducation
+					- Sleep disorders
+						- CBT for insomnia
+						- Sleep-disordered breathing
+					- Therapeutic modalities
+						- Addiction treatment
+							- Drug therapies
+								- Anesthesia and analgesia
+								- Anticancer peptides
+								- Antimicrobial peptides
+								- Drug interactions
+							- Smoking cessation apps
+						- Exergaming in health
+						- Reconstructive surgery
+						- antiretroviral therapy guidelines
+						- darbepoietin alfa
+						- multisensory stimulation
+			- Evidence-based medicine
+				- Diagnostic testing
+					- Coagulation tests
+					- Colposcopy prevalence
+					- Computer-aided diagnostics
+					- EEG signals
+					- Electromyography
+					- Flow cytometry
+					- Heart sound analysis
+					- Nucleic acid detection
+						- 16S rRNA
+					- Occult blood
+					- Parasite detection
+					- Pneumonia diagnosis
+					- Pulmonary function testing
+					- electrohysterography
+					- gastric histopathology
+				- Drug therapies
+					- Anesthesia and analgesia
+					- Anticancer peptides
+					- Antimicrobial peptides
+					- Drug interactions
+			- Health entrepreneurship
+			- Health state distribution
+				- cancer occurrence rate
+			- Hyperthermia therapy
+			- Iatrogenic disease
+				- Healthcare-associated infections
+			- Implantable medical devices
+			- Intensive care units
+			- Intestinal motility
+			- Kidney stones
+			- Learning health systems
+				- Health records
+					- Clinical documentation
+						- Clinical measurements
+							- Bone age assessment
+							- Coagulation tests
+							- EEG signals
+							- Electroglottography
+							- Electromyography
+							- Heart sound analysis
+							- Nucleic acid detection
+								- 16S rRNA
+							- Occult blood
+							- Pain catastrophizing
+							- Pharmacokinetic AUC
+							- Pulmonary function testing
+							- Vital signs monitoring
+								- Respiratory data analytics
+									- Pneumonia diagnosis
+							- electrodermal activity (eda)
+							- electrohysterography
+							- root surface area
+							- sflt-1/plgf ratio
+						- Comorbidity overview
+						- Diagnosis codes
+							- Healthcare-associated infections
+						- Informed consent
+						- Nonverbal health cues
+						- Patient-reported outcomes
+						- medical diagnosis
+							- Acute respiratory failure
+							- Cardiac echocardiography
+							- Diagnostic testing
+								- Coagulation tests
+								- Colposcopy prevalence
+								- Computer-aided diagnostics
+								- EEG signals
+								- Electromyography
+								- Flow cytometry
+								- Heart sound analysis
+								- Nucleic acid detection
+									- 16S rRNA
+								- Occult blood
+								- Parasite detection
+								- Pneumonia diagnosis
+								- Pulmonary function testing
+								- electrohysterography
+								- gastric histopathology
+							- Mental health
+								- Psychoeducation
+								- Sleep disorders
+									- CBT for insomnia
+									- Sleep-disordered breathing
+								- Therapeutic modalities
+									- Addiction treatment
+										- Drug therapies
+											- Anesthesia and analgesia
+											- Anticancer peptides
+											- Antimicrobial peptides
+											- Drug interactions
+										- Smoking cessation apps
+									- Exergaming in health
+									- Reconstructive surgery
+									- antiretroviral therapy guidelines
+									- darbepoietin alfa
+									- multisensory stimulation
+							- Sexual dysfunction
+							- Urinary incontinence
+					- LVAD therapies
+					- Pregnancy loss types
+					- Radiation dose assessment
+					- gad-7
+					- minimum data set
+					- psg recordings
+				- Medical Errors
+				- Medical diagnostics
+					- Audiometric testing
+					- Electroglottography
+					- Mass screening
+					- Medical image analysis
+						- Cancer classification
+							- Endocrine tumors
+							- Lung cancer subtypes
+							- muscle-invasive bladder cancer
+							- renal tumors
+						- Parasite detection
+						- Polyp morphology
+						- Radiomics texture analysis
+						- Target identification
+					- Physiological signal analysis
+						- Biofeedback
+							- Electromyography
+							- electrodermal activity (eda)
+						- Task-related component analysis
+						- Vital signs monitoring
+							- Respiratory data analytics
+								- Pneumonia diagnosis
+						- electrohysterography
+					- medical diagnosis
+						- Acute respiratory failure
+						- Cardiac echocardiography
+						- Diagnostic testing
+							- Coagulation tests
+							- Colposcopy prevalence
+							- Computer-aided diagnostics
+							- EEG signals
+							- Electromyography
+							- Flow cytometry
+							- Heart sound analysis
+							- Nucleic acid detection
+								- 16S rRNA
+							- Occult blood
+							- Parasite detection
+							- Pneumonia diagnosis
+							- Pulmonary function testing
+							- electrohysterography
+							- gastric histopathology
+						- Mental health
+							- Psychoeducation
+							- Sleep disorders
+								- CBT for insomnia
+								- Sleep-disordered breathing
+							- Therapeutic modalities
+								- Addiction treatment
+									- Drug therapies
+										- Anesthesia and analgesia
+										- Anticancer peptides
+										- Antimicrobial peptides
+										- Drug interactions
+									- Smoking cessation apps
+								- Exergaming in health
+								- Reconstructive surgery
+								- antiretroviral therapy guidelines
+								- darbepoietin alfa
+								- multisensory stimulation
+						- Sexual dysfunction
+						- Urinary incontinence
+				- Multiphase healthcare optimization
+					- Postoperative care
+				- Participant experiences
+					- Patient-reported outcomes
+			- Liver diseases
+			- Malignant diseases
+				- Cancer classification
+					- Endocrine tumors
+					- Lung cancer subtypes
+					- muscle-invasive bladder cancer
+					- renal tumors
+			- Medical misinformation
+			- Memory and learning
+				- Attention mechanisms
+			- Metabolic disorders
+				- Diabetes treatment
+			- Middle East health
+			- Neoantigen vaccines
+			- Neural interfaces
+			- Neurological disorders
+			- Nutritional requirements
+			- Ocular diseases
+			- Oral medicine
+			- Organ donation
+			- Pediatric asthma control
+			- Periodontal diseases
+			- Phage cocktail design
+			- Physical therapy
+				- Biofeedback
+					- Electromyography
+					- electrodermal activity (eda)
+				- Therapeutic modalities
+					- Addiction treatment
+						- Drug therapies
+							- Anesthesia and analgesia
+							- Anticancer peptides
+							- Antimicrobial peptides
+							- Drug interactions
+						- Smoking cessation apps
+					- Exergaming in health
+					- Reconstructive surgery
+					- antiretroviral therapy guidelines
+					- darbepoietin alfa
+					- multisensory stimulation
+			- Preventive Medicine
+				- Alcohol consumption
+				- COVID-19 pandemic
+				- Healthcare-associated infections
+				- Hypertension risk factors
+				- Occupational health
+					- Burnout in healthcare
+					- Radiation dose assessment
+			- Proton therapy
+			- Pulse wave
+			- Rare diseases
+			- Sexual behavior
+			- Skin tumors
+				- Non-melanoma skin cancer
+			- Sociology of health
+				- Alcohol consumption
+				- Burnout in healthcare
+				- COVID-19 pandemic
+				- Health disparities
+				- Healthcare engagement
+					- Clinical trial recruitment
+					- Informed consent
+					- Mobile health adoption
+						- WeChat health apps
+					- health information seeking
+				- Maternal health
+					- Pelvic floor disorders
+					- Pregnancy loss types
+					- Urinary incontinence
+					- Vital signs monitoring
+						- Respiratory data analytics
+							- Pneumonia diagnosis
+				- Patient-clinician communication
+					- Nonverbal health cues
+				- Social media health
+					- WeChat health apps
+			- Space medicine
+			- Sub-Saharan Africa health
+			- Swallowing health
+			- Symmetry in health
+			- Syndrome differentiation
+			- Translational science
+				- Health phenotyping
+					- Diagnostic testing
+						- Coagulation tests
+						- Colposcopy prevalence
+						- Computer-aided diagnostics
+						- EEG signals
+						- Electromyography
+						- Flow cytometry
+						- Heart sound analysis
+						- Nucleic acid detection
+							- 16S rRNA
+						- Occult blood
+						- Parasite detection
+						- Pneumonia diagnosis
+						- Pulmonary function testing
+						- electrohysterography
+						- gastric histopathology
+					- Microbiome profiling
+					- Node2vec in health
+					- Nonverbal health cues
+					- Patient-reported outcomes
+					- Respiratory data analytics
+						- Pneumonia diagnosis
+				- Medicinal chemistry
+					- Peptides in health
+						- Anticancer peptides
+						- Antimicrobial peptides
+						- Cell-penetrating peptides
+				- Therapeutic modalities
+					- Addiction treatment
+						- Drug therapies
+							- Anesthesia and analgesia
+							- Anticancer peptides
+							- Antimicrobial peptides
+							- Drug interactions
+						- Smoking cessation apps
+					- Exergaming in health
+					- Reconstructive surgery
+					- antiretroviral therapy guidelines
+					- darbepoietin alfa
+					- multisensory stimulation
+			- Treatment strategies
+				- Diabetes treatment
+				- LVAD therapies
+				- Radiation therapy
+				- Rehabilitation modalities
+					- Speech therapy
+				- Renal replacement therapy
+				- Therapeutic modalities
+					- Addiction treatment
+						- Drug therapies
+							- Anesthesia and analgesia
+							- Anticancer peptides
+							- Antimicrobial peptides
+							- Drug interactions
+						- Smoking cessation apps
+					- Exergaming in health
+					- Reconstructive surgery
+					- antiretroviral therapy guidelines
+					- darbepoietin alfa
+					- multisensory stimulation
+				- Thyroid hormones
+				- traditional, complementary, and integrative medicine
+			- Urinary tract infections
+			- Vaccine hesitancy
+			- Veteran health
+				- Urinary incontinence
+			- Virology and development
+			- adverse health effects
+				- Healthcare-associated infections
+				- Inflammatory diseases
+					- aecopd -acute exacerbation of chronic obstructive pulmonary disease
+				- Pressure injuries
+				- Urinary incontinence
+				- anastomosis leakage (al)
+				- foreign body reaction
+			- effective reproduction number
+			- jeevaneeya rasayana
+			- legal medicine
+				- Informed consent
+			- mechanisms of action
+				- Mechanotransduction
+					- Wall shear stress
+			- pulmonary sequestration
+			- puskesmas
+	- Osteoimmunology
+	- Pathogenicity islands
+	- Pattern recognition receptors
+	- Phosphatase types
+	- Post-translational modifications
+	- Public health system
+		- Diagnostic testing
+			- Coagulation tests
+			- Colposcopy prevalence
+			- Computer-aided diagnostics
+			- EEG signals
+			- Electromyography
+			- Flow cytometry
+			- Heart sound analysis
+			- Nucleic acid detection
+				- 16S rRNA
+			- Occult blood
+			- Parasite detection
+			- Pneumonia diagnosis
+			- Pulmonary function testing
+			- electrohysterography
+			- gastric histopathology
+		- Maternal health
+			- Pelvic floor disorders
+			- Pregnancy loss types
+			- Urinary incontinence
+			- Vital signs monitoring
+				- Respiratory data analytics
+					- Pneumonia diagnosis
+		- Mental health
+			- Psychoeducation
+			- Sleep disorders
+				- CBT for insomnia
+				- Sleep-disordered breathing
+			- Therapeutic modalities
+				- Addiction treatment
+					- Drug therapies
+						- Anesthesia and analgesia
+						- Anticancer peptides
+						- Antimicrobial peptides
+						- Drug interactions
+					- Smoking cessation apps
+				- Exergaming in health
+				- Reconstructive surgery
+				- antiretroviral therapy guidelines
+				- darbepoietin alfa
+				- multisensory stimulation
+		- Preventive Medicine
+			- Alcohol consumption
+			- COVID-19 pandemic
+			- Healthcare-associated infections
+			- Hypertension risk factors
+			- Occupational health
+				- Burnout in healthcare
+				- Radiation dose assessment
+	- Pulmonary calcifications
+	- RNA methylation
+	- Sequence deletion
+	- Small GTPases
+	- Thinness ideals
+	- Tumor microenvironment
+		- Extracellular vesicles
+	- Ubiquitin ligases
+	- Uterine fibroids
+	- Variant calling
+	- Voice production
+	- Xenobiotic metabolism
+	- Young adults
+	- apples
+	- bio-specimens
+	- cancer education
+		- K-ras mutations
+		- Treatment strategies
+			- Diabetes treatment
+			- LVAD therapies
+			- Radiation therapy
+			- Rehabilitation modalities
+				- Speech therapy
+			- Renal replacement therapy
+			- Therapeutic modalities
+				- Addiction treatment
+					- Drug therapies
+						- Anesthesia and analgesia
+						- Anticancer peptides
+						- Antimicrobial peptides
+						- Drug interactions
+					- Smoking cessation apps
+				- Exergaming in health
+				- Reconstructive surgery
+				- antiretroviral therapy guidelines
+				- darbepoietin alfa
+				- multisensory stimulation
+			- Thyroid hormones
+			- traditional, complementary, and integrative medicine
+	- cha2ds2-vasc
+	- complement cascade
+	- electrooculography (eog) artifacts
+	- noncardiac chest pain
+	- penicillin-binding protein
+	- serial interval
+	- tumor clonal evolution
+		- K-ras mutations
+- Double-stranded DNA
+	- Non-coding DNA
+	- Repetitive DNA elements
+- Grouped CNNs
+	- Xception neural network
+- Molecular biophysics
+	- carbohydrate conformation
+- Visual perception
+	- Target identification
+- ACE2 distribution
+- ACLS
+- APOBEC mutagenesis
+- ATP-binding proteins
+- Abdominal pain
+- Ablation therapy modalities
+- Academic career development
+- Adaptive filtering
+- Age distribution
+- Airway management
+- Alzheimer's disease
+- Animal disease models
+- Antibody CDRs
+- Antiviral drugs
+- Awards and compensation
+- Bacterial biofilms
+- Bacterial infections
+- Bacterial riboswitches
+- Biomedical workforce diversity
+- Bladder outlet obstruction
+- Blood transfusion
+- Body Mass Index
+- Body image
+- Bone fractures
+- Bone lesions
+- Breast lesions
+- Burn injuries
+- Cancer biomarkers
+- Cardiac MRI
+- Cardiac arrhythmia mechanisms
+- Cardiac autonomic dysfunction
+- Care delivery models
+- Celiac disease
+- Cell signaling
+- Chromosomal microarrays
+- Classification performance evaluation
+- CpG islands
+- Critical success factors
+- Cytokine-inducing peptides
+- DNA cytosine methylation
+- DNA endonucleases
+- DNA replication
+- DNA storage
+- Dating apps
+- Degenerative joint disease
+- Dental caries
+- Dermoscopy
+- Disentangled representation learning
+- Domain transfer
+- Eukaryotic dominance
+- Graph representation learning
+- Health consensus methods
+- Health news media
+- Horizontal gene transfer
+- Human-Robot Interaction
+- Interprofessional education
+- Keyword noise
+- Late integration events
+- Loss function
+- Low-resource settings
+- Medical students
+- Metric learning
+- MicroRNA biology
+- Mitosis
+- Multimodal data fusion
+- Organizational innovation
+- PD-L1 expression
+- Plant breeding
+- Plant diseases
+- Population density
+- Population genetics
+- Practice variation
+- Pretrained language models
+- Protein engineering
+- Sequence logos
+- Signal quality metrics
+- Time factors
+- User-centered design
+- Yeast model organisms
+- academic integrity
+- animal communication
+- architectural distortion (ad)
+- astral
+- b-factor
+- center of mass
+- chaperonins
+- clear aligners
+- cytoplasm
+- false discovery control
+- generalized geometric mean
+- ibm rxn retrosynthesis
+- median count value
+- peath/g
+- plant hormones
+- poroelasticity
+- spectral unmixing
+- transition probability
+- unknown_topic_7-18

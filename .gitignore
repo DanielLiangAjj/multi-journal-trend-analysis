@@ -3,6 +3,7 @@ data/keyword_embeddings.pkl
 data/mesh_embeddings.pkl
 data/mesh_tree_raw.bin
 data/pubmed_all_journals_2011_2025_w_keywords.csv
+data/pubmed_all_journals_2011_2025_w_keywords_patched.csv
 
 # Intermediate progress files
 *.progress.json
@@ -16,6 +17,8 @@ data/hierarchy/*_edge_verification_round*
 nohup.out
 !biomedical_informatics_journals.csv
 !data/hierarchy/*_hierarchy.txt
+!data/hierarchy_k100/*_hierarchy.txt
+!data/hierarchy_k750/*_hierarchy.txt
 
 # Python
 __pycache__/

@@ -1,0 +1,5 @@
+k,domain,n_topics,median_keywords_per_topic,mean_keywords_per_topic,p10_keywords,p90_keywords,n_unique_keywords
+100,methodology,70,177,620.1,18,1921,43177
+100,health,86,354,653.0,39,1535,55841
+750,methodology,335,36,128.7,4,287,42673
+750,health,413,31,135.5,2,358,55367
