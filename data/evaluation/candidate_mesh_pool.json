@@ -1,0 +1,1569 @@
+{
+  "heuristic_substrings": [
+    "algorithm",
+    "machine learning",
+    "deep learning",
+    "natural language processing",
+    "data mining",
+    "software",
+    "computational biology",
+    "neural network",
+    "support vector",
+    "bayes",
+    "regression",
+    "classification",
+    "cluster analysis",
+    "pattern recognition",
+    "image processing",
+    "decision support",
+    "informatics",
+    "text",
+    "model",
+    "database",
+    "simulation",
+    "analysis",
+    "methodology",
+    "electronic health records"
+  ],
+  "coverage_target": 0.85,
+  "n_mesh_tagged_articles": 67480,
+  "n_articles_covered": 44973,
+  "coverage_fraction": 0.6664641375222288,
+  "pool_size": 170,
+  "pool": [
+    {
+      "mesh_term": "Algorithms",
+      "corpus_frequency": 13620,
+      "matched_substrings": [
+        "algorithm"
+      ],
+      "cumulative_articles_covered": 13620,
+      "cumulative_coverage_fraction": 0.2018375815056313
+    },
+    {
+      "mesh_term": "Software",
+      "corpus_frequency": 9171,
+      "matched_substrings": [
+        "software"
+      ],
+      "cumulative_articles_covered": 19822,
+      "cumulative_coverage_fraction": 0.29374629519857737
+    },
+    {
+      "mesh_term": "Computational Biology",
+      "corpus_frequency": 5742,
+      "matched_substrings": [
+        "computational biology"
+      ],
+      "cumulative_articles_covered": 21738,
+      "cumulative_coverage_fraction": 0.32213989330171905
+    },
+    {
+      "mesh_term": "Machine Learning",
+      "corpus_frequency": 5518,
+      "matched_substrings": [
+        "machine learning"
+      ],
+      "cumulative_articles_covered": 25000,
+      "cumulative_coverage_fraction": 0.37048014226437465
+    },
+    {
+      "mesh_term": "Electronic Health Records",
+      "corpus_frequency": 5367,
+      "matched_substrings": [
+        "electronic health records"
+      ],
+      "cumulative_articles_covered": 29033,
+      "cumulative_coverage_fraction": 0.43024599881446357
+    },
+    {
+      "mesh_term": "Neural Networks, Computer",
+      "corpus_frequency": 4732,
+      "matched_substrings": [
+        "neural network"
+      ],
+      "cumulative_articles_covered": 31212,
+      "cumulative_coverage_fraction": 0.46253704801422646
+    },
+    {
+      "mesh_term": "Deep Learning",
+      "corpus_frequency": 3670,
+      "matched_substrings": [
+        "deep learning"
+      ],
+      "cumulative_articles_covered": 32574,
+      "cumulative_coverage_fraction": 0.4827208061647896
+    },
+    {
+      "mesh_term": "Image Processing, Computer-Assisted",
+      "corpus_frequency": 3153,
+      "matched_substrings": [
+        "image processing"
+      ],
+      "cumulative_articles_covered": 33437,
+      "cumulative_coverage_fraction": 0.4955097806757558
+    },
+    {
+      "mesh_term": "Databases, Factual",
+      "corpus_frequency": 2779,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 34394,
+      "cumulative_coverage_fraction": 0.509691760521636
+    },
+    {
+      "mesh_term": "Computer Simulation",
+      "corpus_frequency": 2224,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 35368,
+      "cumulative_coverage_fraction": 0.5241256668642561
+    },
+    {
+      "mesh_term": "Natural Language Processing",
+      "corpus_frequency": 2005,
+      "matched_substrings": [
+        "natural language processing"
+      ],
+      "cumulative_articles_covered": 35923,
+      "cumulative_coverage_fraction": 0.5323503260225252
+    },
+    {
+      "mesh_term": "Data Mining",
+      "corpus_frequency": 1870,
+      "matched_substrings": [
+        "data mining"
+      ],
+      "cumulative_articles_covered": 36354,
+      "cumulative_coverage_fraction": 0.538737403675163
+    },
+    {
+      "mesh_term": "Sequence Analysis, DNA",
+      "corpus_frequency": 1584,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 36627,
+      "cumulative_coverage_fraction": 0.5427830468286899
+    },
+    {
+      "mesh_term": "Decision Support Systems, Clinical",
+      "corpus_frequency": 1568,
+      "matched_substrings": [
+        "decision support"
+      ],
+      "cumulative_articles_covered": 37412,
+      "cumulative_coverage_fraction": 0.5544161232957914
+    },
+    {
+      "mesh_term": "Medical Informatics",
+      "corpus_frequency": 1554,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 38113,
+      "cumulative_coverage_fraction": 0.5648043864848844
+    },
+    {
+      "mesh_term": "Sequence Analysis, RNA",
+      "corpus_frequency": 1397,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 38423,
+      "cumulative_coverage_fraction": 0.5693983402489626
+    },
+    {
+      "mesh_term": "Cluster Analysis",
+      "corpus_frequency": 1378,
+      "matched_substrings": [
+        "cluster analysis",
+        "analysis"
+      ],
+      "cumulative_articles_covered": 38645,
+      "cumulative_coverage_fraction": 0.5726882039122703
+    },
+    {
+      "mesh_term": "Databases, Genetic",
+      "corpus_frequency": 1251,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 39038,
+      "cumulative_coverage_fraction": 0.5785121517486663
+    },
+    {
+      "mesh_term": "Bayes Theorem",
+      "corpus_frequency": 1226,
+      "matched_substrings": [
+        "bayes"
+      ],
+      "cumulative_articles_covered": 39359,
+      "cumulative_coverage_fraction": 0.5832691167753409
+    },
+    {
+      "mesh_term": "Models, Biological",
+      "corpus_frequency": 1186,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 39715,
+      "cumulative_coverage_fraction": 0.5885447540011856
+    },
+    {
+      "mesh_term": "Single-Cell Analysis",
+      "corpus_frequency": 1176,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 39864,
+      "cumulative_coverage_fraction": 0.5907528156490812
+    },
+    {
+      "mesh_term": "Support Vector Machine",
+      "corpus_frequency": 1083,
+      "matched_substrings": [
+        "support vector"
+      ],
+      "cumulative_articles_covered": 40069,
+      "cumulative_coverage_fraction": 0.5937907528156491
+    },
+    {
+      "mesh_term": "Models, Statistical",
+      "corpus_frequency": 1064,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 40295,
+      "cumulative_coverage_fraction": 0.597139893301719
+    },
+    {
+      "mesh_term": "Models, Theoretical",
+      "corpus_frequency": 931,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 40572,
+      "cumulative_coverage_fraction": 0.6012448132780083
+    },
+    {
+      "mesh_term": "Databases, Protein",
+      "corpus_frequency": 929,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 40777,
+      "cumulative_coverage_fraction": 0.6042827504445761
+    },
+    {
+      "mesh_term": "Pattern Recognition, Automated",
+      "corpus_frequency": 712,
+      "matched_substrings": [
+        "pattern recognition"
+      ],
+      "cumulative_articles_covered": 40862,
+      "cumulative_coverage_fraction": 0.605542382928275
+    },
+    {
+      "mesh_term": "Molecular Docking Simulation",
+      "corpus_frequency": 557,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 41200,
+      "cumulative_coverage_fraction": 0.6105512744516894
+    },
+    {
+      "mesh_term": "Text Messaging",
+      "corpus_frequency": 507,
+      "matched_substrings": [
+        "text"
+      ],
+      "cumulative_articles_covered": 41645,
+      "cumulative_coverage_fraction": 0.6171458209839953
+    },
+    {
+      "mesh_term": "Logistic Models",
+      "corpus_frequency": 503,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 41773,
+      "cumulative_coverage_fraction": 0.6190426793123889
+    },
+    {
+      "mesh_term": "Models, Molecular",
+      "corpus_frequency": 501,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 41881,
+      "cumulative_coverage_fraction": 0.620643153526971
+    },
+    {
+      "mesh_term": "Models, Cardiovascular",
+      "corpus_frequency": 478,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 42051,
+      "cumulative_coverage_fraction": 0.6231624184943687
+    },
+    {
+      "mesh_term": "Models, Genetic",
+      "corpus_frequency": 445,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 42119,
+      "cumulative_coverage_fraction": 0.6241701244813278
+    },
+    {
+      "mesh_term": "Supervised Machine Learning",
+      "corpus_frequency": 420,
+      "matched_substrings": [
+        "machine learning"
+      ],
+      "cumulative_articles_covered": 42168,
+      "cumulative_coverage_fraction": 0.624896265560166
+    },
+    {
+      "mesh_term": "Decision Support Techniques",
+      "corpus_frequency": 418,
+      "matched_substrings": [
+        "decision support"
+      ],
+      "cumulative_articles_covered": 42386,
+      "cumulative_coverage_fraction": 0.6281268524007113
+    },
+    {
+      "mesh_term": "Molecular Dynamics Simulation",
+      "corpus_frequency": 413,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 42486,
+      "cumulative_coverage_fraction": 0.6296087729697688
+    },
+    {
+      "mesh_term": "Sequence Analysis, Protein",
+      "corpus_frequency": 387,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 42495,
+      "cumulative_coverage_fraction": 0.629742145820984
+    },
+    {
+      "mesh_term": "Large Language Models",
+      "corpus_frequency": 332,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 42628,
+      "cumulative_coverage_fraction": 0.6317131001778304
+    },
+    {
+      "mesh_term": "Databases, Nucleic Acid",
+      "corpus_frequency": 307,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 42736,
+      "cumulative_coverage_fraction": 0.6333135743924125
+    },
+    {
+      "mesh_term": "Disease Models, Animal",
+      "corpus_frequency": 292,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 42966,
+      "cumulative_coverage_fraction": 0.6367219917012448
+    },
+    {
+      "mesh_term": "Database Management Systems",
+      "corpus_frequency": 277,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 42998,
+      "cumulative_coverage_fraction": 0.6371962062833432
+    },
+    {
+      "mesh_term": "Data Analysis",
+      "corpus_frequency": 273,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43095,
+      "cumulative_coverage_fraction": 0.6386336692353289
+    },
+    {
+      "mesh_term": "Cost-Benefit Analysis",
+      "corpus_frequency": 271,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43287,
+      "cumulative_coverage_fraction": 0.6414789567279194
+    },
+    {
+      "mesh_term": "Regression Analysis",
+      "corpus_frequency": 258,
+      "matched_substrings": [
+        "regression",
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43333,
+      "cumulative_coverage_fraction": 0.6421606401896859
+    },
+    {
+      "mesh_term": "Survival Analysis",
+      "corpus_frequency": 257,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43399,
+      "cumulative_coverage_fraction": 0.6431387077652638
+    },
+    {
+      "mesh_term": "Oligonucleotide Array Sequence Analysis",
+      "corpus_frequency": 256,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43440,
+      "cumulative_coverage_fraction": 0.6437462951985774
+    },
+    {
+      "mesh_term": "International Classification of Diseases",
+      "corpus_frequency": 248,
+      "matched_substrings": [
+        "classification"
+      ],
+      "cumulative_articles_covered": 43513,
+      "cumulative_coverage_fraction": 0.6448280972139894
+    },
+    {
+      "mesh_term": "Linear Models",
+      "corpus_frequency": 238,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 43571,
+      "cumulative_coverage_fraction": 0.6456876111440427
+    },
+    {
+      "mesh_term": "Wavelet Analysis",
+      "corpus_frequency": 236,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43587,
+      "cumulative_coverage_fraction": 0.6459247184350919
+    },
+    {
+      "mesh_term": "Software Design",
+      "corpus_frequency": 227,
+      "matched_substrings": [
+        "software"
+      ],
+      "cumulative_articles_covered": 43675,
+      "cumulative_coverage_fraction": 0.6472288085358625
+    },
+    {
+      "mesh_term": "Principal Component Analysis",
+      "corpus_frequency": 223,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43702,
+      "cumulative_coverage_fraction": 0.647628927089508
+    },
+    {
+      "mesh_term": "Finite Element Analysis",
+      "corpus_frequency": 217,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43777,
+      "cumulative_coverage_fraction": 0.6487403675163012
+    },
+    {
+      "mesh_term": "Medical Informatics Applications",
+      "corpus_frequency": 215,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 43852,
+      "cumulative_coverage_fraction": 0.6498518079430943
+    },
+    {
+      "mesh_term": "Proportional Hazards Models",
+      "corpus_frequency": 160,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 43898,
+      "cumulative_coverage_fraction": 0.6505334914048607
+    },
+    {
+      "mesh_term": "Single-Cell Gene Expression Analysis",
+      "corpus_frequency": 160,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43904,
+      "cumulative_coverage_fraction": 0.6506224066390042
+    },
+    {
+      "mesh_term": "Multivariate Analysis",
+      "corpus_frequency": 158,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 43924,
+      "cumulative_coverage_fraction": 0.6509187907528157
+    },
+    {
+      "mesh_term": "Databases as Topic",
+      "corpus_frequency": 128,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 43962,
+      "cumulative_coverage_fraction": 0.6514819205690575
+    },
+    {
+      "mesh_term": "Task Performance and Analysis",
+      "corpus_frequency": 124,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44010,
+      "cumulative_coverage_fraction": 0.6521932424422051
+    },
+    {
+      "mesh_term": "Unsupervised Machine Learning",
+      "corpus_frequency": 124,
+      "matched_substrings": [
+        "machine learning"
+      ],
+      "cumulative_articles_covered": 44018,
+      "cumulative_coverage_fraction": 0.6523117960877297
+    },
+    {
+      "mesh_term": "Analysis of Variance",
+      "corpus_frequency": 124,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44068,
+      "cumulative_coverage_fraction": 0.6530527563722585
+    },
+    {
+      "mesh_term": "Models, Neurological",
+      "corpus_frequency": 101,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44098,
+      "cumulative_coverage_fraction": 0.6534973325429757
+    },
+    {
+      "mesh_term": "Models, Organizational",
+      "corpus_frequency": 98,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44141,
+      "cumulative_coverage_fraction": 0.6541345583876704
+    },
+    {
+      "mesh_term": "Sequence Analysis",
+      "corpus_frequency": 85,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44146,
+      "cumulative_coverage_fraction": 0.6542086544161233
+    },
+    {
+      "mesh_term": "Least-Squares Analysis",
+      "corpus_frequency": 82,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44158,
+      "cumulative_coverage_fraction": 0.6543864848844102
+    },
+    {
+      "mesh_term": "Classification",
+      "corpus_frequency": 81,
+      "matched_substrings": [
+        "classification"
+      ],
+      "cumulative_articles_covered": 44172,
+      "cumulative_coverage_fraction": 0.6545939537640783
+    },
+    {
+      "mesh_term": "Discriminant Analysis",
+      "corpus_frequency": 80,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44178,
+      "cumulative_coverage_fraction": 0.6546828689982217
+    },
+    {
+      "mesh_term": "Fourier Analysis",
+      "corpus_frequency": 75,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44192,
+      "cumulative_coverage_fraction": 0.6548903378778897
+    },
+    {
+      "mesh_term": "Meta-Analysis as Topic",
+      "corpus_frequency": 73,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44211,
+      "cumulative_coverage_fraction": 0.6551719027860107
+    },
+    {
+      "mesh_term": "Databases, Pharmaceutical",
+      "corpus_frequency": 72,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 44216,
+      "cumulative_coverage_fraction": 0.6552459988144635
+    },
+    {
+      "mesh_term": "Databases, Chemical",
+      "corpus_frequency": 72,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 44227,
+      "cumulative_coverage_fraction": 0.6554090100770599
+    },
+    {
+      "mesh_term": "Pulse Wave Analysis",
+      "corpus_frequency": 70,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44258,
+      "cumulative_coverage_fraction": 0.6558684054534677
+    },
+    {
+      "mesh_term": "Factor Analysis, Statistical",
+      "corpus_frequency": 69,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44295,
+      "cumulative_coverage_fraction": 0.656416716064019
+    },
+    {
+      "mesh_term": "Microarray Analysis",
+      "corpus_frequency": 69,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44317,
+      "cumulative_coverage_fraction": 0.6567427385892116
+    },
+    {
+      "mesh_term": "Costs and Cost Analysis",
+      "corpus_frequency": 62,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44347,
+      "cumulative_coverage_fraction": 0.6571873147599289
+    },
+    {
+      "mesh_term": "Xenograft Model Antitumor Assays",
+      "corpus_frequency": 62,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44396,
+      "cumulative_coverage_fraction": 0.657913455838767
+    },
+    {
+      "mesh_term": "Speech Recognition Software",
+      "corpus_frequency": 58,
+      "matched_substrings": [
+        "software"
+      ],
+      "cumulative_articles_covered": 44415,
+      "cumulative_coverage_fraction": 0.658195020746888
+    },
+    {
+      "mesh_term": "Medical Informatics Computing",
+      "corpus_frequency": 58,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44426,
+      "cumulative_coverage_fraction": 0.6583580320094843
+    },
+    {
+      "mesh_term": "Models, Chemical",
+      "corpus_frequency": 58,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44432,
+      "cumulative_coverage_fraction": 0.6584469472436277
+    },
+    {
+      "mesh_term": "Models, Anatomic",
+      "corpus_frequency": 58,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44448,
+      "cumulative_coverage_fraction": 0.6586840545346769
+    },
+    {
+      "mesh_term": "Convolutional Neural Networks",
+      "corpus_frequency": 56,
+      "matched_substrings": [
+        "neural network"
+      ],
+      "cumulative_articles_covered": 44450,
+      "cumulative_coverage_fraction": 0.6587136929460581
+    },
+    {
+      "mesh_term": "Informatics",
+      "corpus_frequency": 55,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44481,
+      "cumulative_coverage_fraction": 0.6591730883224659
+    },
+    {
+      "mesh_term": "Gait Analysis",
+      "corpus_frequency": 55,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44499,
+      "cumulative_coverage_fraction": 0.6594398340248963
+    },
+    {
+      "mesh_term": "Graph Neural Networks",
+      "corpus_frequency": 55,
+      "matched_substrings": [
+        "neural network"
+      ],
+      "cumulative_articles_covered": 44499,
+      "cumulative_coverage_fraction": 0.6594398340248963
+    },
+    {
+      "mesh_term": "Spatio-Temporal Analysis",
+      "corpus_frequency": 52,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44517,
+      "cumulative_coverage_fraction": 0.6597065797273266
+    },
+    {
+      "mesh_term": "Systems Analysis",
+      "corpus_frequency": 51,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44542,
+      "cumulative_coverage_fraction": 0.660077059869591
+    },
+    {
+      "mesh_term": "DNA Mutational Analysis",
+      "corpus_frequency": 50,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44551,
+      "cumulative_coverage_fraction": 0.6602104327208062
+    },
+    {
+      "mesh_term": "Databases, Bibliographic",
+      "corpus_frequency": 45,
+      "matched_substrings": [
+        "database"
+      ],
+      "cumulative_articles_covered": 44557,
+      "cumulative_coverage_fraction": 0.6602993479549496
+    },
+    {
+      "mesh_term": "Patient Simulation",
+      "corpus_frequency": 44,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 44581,
+      "cumulative_coverage_fraction": 0.6606550088915234
+    },
+    {
+      "mesh_term": "Public Health Informatics",
+      "corpus_frequency": 43,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44599,
+      "cumulative_coverage_fraction": 0.6609217545939537
+    },
+    {
+      "mesh_term": "Mendelian Randomization Analysis",
+      "corpus_frequency": 42,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44623,
+      "cumulative_coverage_fraction": 0.6612774155305275
+    },
+    {
+      "mesh_term": "Models, Psychological",
+      "corpus_frequency": 42,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44647,
+      "cumulative_coverage_fraction": 0.6616330764671013
+    },
+    {
+      "mesh_term": "Consumer Health Informatics",
+      "corpus_frequency": 40,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44667,
+      "cumulative_coverage_fraction": 0.6619294605809128
+    },
+    {
+      "mesh_term": "Equipment Failure Analysis",
+      "corpus_frequency": 40,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44684,
+      "cumulative_coverage_fraction": 0.6621813870776526
+    },
+    {
+      "mesh_term": "Latent Class Analysis",
+      "corpus_frequency": 39,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44702,
+      "cumulative_coverage_fraction": 0.662448132780083
+    },
+    {
+      "mesh_term": "Nursing Informatics",
+      "corpus_frequency": 37,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44717,
+      "cumulative_coverage_fraction": 0.6626704208654416
+    },
+    {
+      "mesh_term": "Simulation Training",
+      "corpus_frequency": 36,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 44736,
+      "cumulative_coverage_fraction": 0.6629519857735625
+    },
+    {
+      "mesh_term": "Interrupted Time Series Analysis",
+      "corpus_frequency": 33,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44756,
+      "cumulative_coverage_fraction": 0.663248369887374
+    },
+    {
+      "mesh_term": "Patient-Specific Modeling",
+      "corpus_frequency": 33,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44758,
+      "cumulative_coverage_fraction": 0.6632780082987552
+    },
+    {
+      "mesh_term": "Sentiment Analysis",
+      "corpus_frequency": 30,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44781,
+      "cumulative_coverage_fraction": 0.6636188500296384
+    },
+    {
+      "mesh_term": "Metabolic Flux Analysis",
+      "corpus_frequency": 29,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44783,
+      "cumulative_coverage_fraction": 0.6636484884410195
+    },
+    {
+      "mesh_term": "Models, Immunological",
+      "corpus_frequency": 28,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44795,
+      "cumulative_coverage_fraction": 0.6638263189093064
+    },
+    {
+      "mesh_term": "Spectrum Analysis",
+      "corpus_frequency": 25,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44805,
+      "cumulative_coverage_fraction": 0.6639745109662122
+    },
+    {
+      "mesh_term": "Models, Animal",
+      "corpus_frequency": 22,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44817,
+      "cumulative_coverage_fraction": 0.6641523414344991
+    },
+    {
+      "mesh_term": "Software Validation",
+      "corpus_frequency": 21,
+      "matched_substrings": [
+        "software"
+      ],
+      "cumulative_articles_covered": 44820,
+      "cumulative_coverage_fraction": 0.6641967990515708
+    },
+    {
+      "mesh_term": "Spatial Analysis",
+      "corpus_frequency": 20,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44826,
+      "cumulative_coverage_fraction": 0.6642857142857143
+    },
+    {
+      "mesh_term": "Spectrum Analysis, Raman",
+      "corpus_frequency": 20,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44835,
+      "cumulative_coverage_fraction": 0.6644190871369294
+    },
+    {
+      "mesh_term": "Social Network Analysis",
+      "corpus_frequency": 19,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44849,
+      "cumulative_coverage_fraction": 0.6646265560165975
+    },
+    {
+      "mesh_term": "Mediation Analysis",
+      "corpus_frequency": 19,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44858,
+      "cumulative_coverage_fraction": 0.6647599288678127
+    },
+    {
+      "mesh_term": "Models, Dental",
+      "corpus_frequency": 19,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44863,
+      "cumulative_coverage_fraction": 0.6648340248962655
+    },
+    {
+      "mesh_term": "Models, Economic",
+      "corpus_frequency": 17,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44864,
+      "cumulative_coverage_fraction": 0.6648488441019561
+    },
+    {
+      "mesh_term": "Tissue Array Analysis",
+      "corpus_frequency": 17,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44867,
+      "cumulative_coverage_fraction": 0.6648933017190278
+    },
+    {
+      "mesh_term": "Protein Array Analysis",
+      "corpus_frequency": 16,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44870,
+      "cumulative_coverage_fraction": 0.6649377593360996
+    },
+    {
+      "mesh_term": "Bone Remodeling",
+      "corpus_frequency": 16,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44874,
+      "cumulative_coverage_fraction": 0.6649970361588619
+    },
+    {
+      "mesh_term": "Cost-Effectiveness Analysis",
+      "corpus_frequency": 15,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44876,
+      "cumulative_coverage_fraction": 0.665026674570243
+    },
+    {
+      "mesh_term": "Secondary Data Analysis",
+      "corpus_frequency": 13,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44885,
+      "cumulative_coverage_fraction": 0.6651600474214582
+    },
+    {
+      "mesh_term": "Blood Gas Analysis",
+      "corpus_frequency": 13,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44887,
+      "cumulative_coverage_fraction": 0.6651896858328393
+    },
+    {
+      "mesh_term": "Numerical Analysis, Computer-Assisted",
+      "corpus_frequency": 13,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44887,
+      "cumulative_coverage_fraction": 0.6651896858328393
+    },
+    {
+      "mesh_term": "Semen Analysis",
+      "corpus_frequency": 12,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44890,
+      "cumulative_coverage_fraction": 0.665234143449911
+    },
+    {
+      "mesh_term": "Intention to Treat Analysis",
+      "corpus_frequency": 11,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44897,
+      "cumulative_coverage_fraction": 0.6653378778897451
+    },
+    {
+      "mesh_term": "Textiles",
+      "corpus_frequency": 11,
+      "matched_substrings": [
+        "text"
+      ],
+      "cumulative_articles_covered": 44905,
+      "cumulative_coverage_fraction": 0.6654564315352697
+    },
+    {
+      "mesh_term": "Boosting Machine Learning Algorithms",
+      "corpus_frequency": 10,
+      "matched_substrings": [
+        "algorithm",
+        "machine learning"
+      ],
+      "cumulative_articles_covered": 44906,
+      "cumulative_coverage_fraction": 0.6654712507409603
+    },
+    {
+      "mesh_term": "Multiple-Instance Learning Algorithms",
+      "corpus_frequency": 10,
+      "matched_substrings": [
+        "algorithm"
+      ],
+      "cumulative_articles_covered": 44907,
+      "cumulative_coverage_fraction": 0.6654860699466508
+    },
+    {
+      "mesh_term": "Cheminformatics",
+      "corpus_frequency": 10,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44907,
+      "cumulative_coverage_fraction": 0.6654860699466508
+    },
+    {
+      "mesh_term": "Epidemiological Models",
+      "corpus_frequency": 10,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44910,
+      "cumulative_coverage_fraction": 0.6655305275637226
+    },
+    {
+      "mesh_term": "Decision Support Systems, Management",
+      "corpus_frequency": 9,
+      "matched_substrings": [
+        "decision support"
+      ],
+      "cumulative_articles_covered": 44913,
+      "cumulative_coverage_fraction": 0.6655749851807943
+    },
+    {
+      "mesh_term": "Models, Econometric",
+      "corpus_frequency": 9,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44915,
+      "cumulative_coverage_fraction": 0.6656046235921754
+    },
+    {
+      "mesh_term": "Multilevel Analysis",
+      "corpus_frequency": 9,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44922,
+      "cumulative_coverage_fraction": 0.6657083580320095
+    },
+    {
+      "mesh_term": "Dental Stress Analysis",
+      "corpus_frequency": 9,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44922,
+      "cumulative_coverage_fraction": 0.6657083580320095
+    },
+    {
+      "mesh_term": "Immunoinformatics",
+      "corpus_frequency": 8,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44922,
+      "cumulative_coverage_fraction": 0.6657083580320095
+    },
+    {
+      "mesh_term": "Blood Chemical Analysis",
+      "corpus_frequency": 7,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44924,
+      "cumulative_coverage_fraction": 0.6657379964433906
+    },
+    {
+      "mesh_term": "Models, Educational",
+      "corpus_frequency": 7,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44926,
+      "cumulative_coverage_fraction": 0.6657676348547718
+    },
+    {
+      "mesh_term": "Canonical Correlation Analysis",
+      "corpus_frequency": 7,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44927,
+      "cumulative_coverage_fraction": 0.6657824540604623
+    },
+    {
+      "mesh_term": "Ventricular Remodeling",
+      "corpus_frequency": 7,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44931,
+      "cumulative_coverage_fraction": 0.6658417308832246
+    },
+    {
+      "mesh_term": "Models, Nursing",
+      "corpus_frequency": 6,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44932,
+      "cumulative_coverage_fraction": 0.6658565500889152
+    },
+    {
+      "mesh_term": "Reinforcement Machine Learning",
+      "corpus_frequency": 6,
+      "matched_substrings": [
+        "machine learning"
+      ],
+      "cumulative_articles_covered": 44934,
+      "cumulative_coverage_fraction": 0.6658861885002963
+    },
+    {
+      "mesh_term": "Genetic Algorithms",
+      "corpus_frequency": 6,
+      "matched_substrings": [
+        "algorithm"
+      ],
+      "cumulative_articles_covered": 44934,
+      "cumulative_coverage_fraction": 0.6658861885002963
+    },
+    {
+      "mesh_term": "Health Belief Model",
+      "corpus_frequency": 5,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44939,
+      "cumulative_coverage_fraction": 0.6659602845287492
+    },
+    {
+      "mesh_term": "Models, Structural",
+      "corpus_frequency": 5,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44941,
+      "cumulative_coverage_fraction": 0.6659899229401304
+    },
+    {
+      "mesh_term": "Pattern Recognition, Visual",
+      "corpus_frequency": 5,
+      "matched_substrings": [
+        "pattern recognition"
+      ],
+      "cumulative_articles_covered": 44942,
+      "cumulative_coverage_fraction": 0.666004742145821
+    },
+    {
+      "mesh_term": "International Classification of Functioning, Disability and Health",
+      "corpus_frequency": 5,
+      "matched_substrings": [
+        "classification"
+      ],
+      "cumulative_articles_covered": 44944,
+      "cumulative_coverage_fraction": 0.6660343805572021
+    },
+    {
+      "mesh_term": "Pattern Recognition, Physiological",
+      "corpus_frequency": 5,
+      "matched_substrings": [
+        "pattern recognition"
+      ],
+      "cumulative_articles_covered": 44945,
+      "cumulative_coverage_fraction": 0.6660491997628927
+    },
+    {
+      "mesh_term": "Document Analysis",
+      "corpus_frequency": 4,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44947,
+      "cumulative_coverage_fraction": 0.6660788381742738
+    },
+    {
+      "mesh_term": "Ethical Analysis",
+      "corpus_frequency": 4,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44950,
+      "cumulative_coverage_fraction": 0.6661232957913455
+    },
+    {
+      "mesh_term": "Food Analysis",
+      "corpus_frequency": 4,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44952,
+      "cumulative_coverage_fraction": 0.6661529342027267
+    },
+    {
+      "mesh_term": "Prediction Algorithms",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "algorithm"
+      ],
+      "cumulative_articles_covered": 44952,
+      "cumulative_coverage_fraction": 0.6661529342027267
+    },
+    {
+      "mesh_term": "High Fidelity Simulation Training",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 44955,
+      "cumulative_coverage_fraction": 0.6661973918197984
+    },
+    {
+      "mesh_term": "Matched-Pair Analysis",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44956,
+      "cumulative_coverage_fraction": 0.666212211025489
+    },
+    {
+      "mesh_term": "Receptors, Pattern Recognition",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "pattern recognition"
+      ],
+      "cumulative_articles_covered": 44957,
+      "cumulative_coverage_fraction": 0.6662270302311796
+    },
+    {
+      "mesh_term": "Predictive Learning Models",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44958,
+      "cumulative_coverage_fraction": 0.6662418494368701
+    },
+    {
+      "mesh_term": "Recurrent Neural Networks",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "neural network"
+      ],
+      "cumulative_articles_covered": 44958,
+      "cumulative_coverage_fraction": 0.6662418494368701
+    },
+    {
+      "mesh_term": "Vascular Remodeling",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44961,
+      "cumulative_coverage_fraction": 0.6662863070539419
+    },
+    {
+      "mesh_term": "Airway Remodeling",
+      "corpus_frequency": 3,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44962,
+      "cumulative_coverage_fraction": 0.6663011262596324
+    },
+    {
+      "mesh_term": "Transtheoretical Model",
+      "corpus_frequency": 2,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44964,
+      "cumulative_coverage_fraction": 0.6663307646710136
+    },
+    {
+      "mesh_term": "Nursing Methodology Research",
+      "corpus_frequency": 2,
+      "matched_substrings": [
+        "methodology"
+      ],
+      "cumulative_articles_covered": 44965,
+      "cumulative_coverage_fraction": 0.6663455838767042
+    },
+    {
+      "mesh_term": "Healthcare Failure Mode and Effect Analysis",
+      "corpus_frequency": 2,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44966,
+      "cumulative_coverage_fraction": 0.6663604030823947
+    },
+    {
+      "mesh_term": "Space Simulation",
+      "corpus_frequency": 2,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 44967,
+      "cumulative_coverage_fraction": 0.6663752222880853
+    },
+    {
+      "mesh_term": "Sex Determination Analysis",
+      "corpus_frequency": 2,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44967,
+      "cumulative_coverage_fraction": 0.6663752222880853
+    },
+    {
+      "mesh_term": "Hidden Markov Models",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "model"
+      ],
+      "cumulative_articles_covered": 44968,
+      "cumulative_coverage_fraction": 0.6663900414937759
+    },
+    {
+      "mesh_term": "Psychoanalysis",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44969,
+      "cumulative_coverage_fraction": 0.6664048606994665
+    },
+    {
+      "mesh_term": "Applied Behavior Analysis",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Dental Informatics",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "informatics"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Clustering Algorithms",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "algorithm"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Hazard Analysis and Critical Control Points",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Flow Injection Analysis",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Classification Algorithms",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "algorithm",
+        "classification"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Root Cause Analysis",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Multidimensional Scaling Analysis",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44970,
+      "cumulative_coverage_fraction": 0.666419679905157
+    },
+    {
+      "mesh_term": "Network Meta-Analysis as Topic",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44971,
+      "cumulative_coverage_fraction": 0.6664344991108476
+    },
+    {
+      "mesh_term": "Textbooks as Topic",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "text"
+      ],
+      "cumulative_articles_covered": 44972,
+      "cumulative_coverage_fraction": 0.6664493183165382
+    },
+    {
+      "mesh_term": "Weightlessness Simulation",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "simulation"
+      ],
+      "cumulative_articles_covered": 44973,
+      "cumulative_coverage_fraction": 0.6664641375222288
+    },
+    {
+      "mesh_term": "Pattern Analysis, Machine",
+      "corpus_frequency": 1,
+      "matched_substrings": [
+        "analysis"
+      ],
+      "cumulative_articles_covered": 44973,
+      "cumulative_coverage_fraction": 0.6664641375222288
+    }
+  ]
+}
