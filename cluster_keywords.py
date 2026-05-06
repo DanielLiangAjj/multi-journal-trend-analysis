@@ -115,6 +115,11 @@ def parse_args():
         help="Sample size for silhouette score (default: 5000). "
              "Larger = more accurate but slower.",
     )
+    parser.add_argument(
+        "--skip-embedding-recompute", action="store_true",
+        help="If set, do NOT attempt to compute embeddings for keywords missing "
+             "from the cache. They will simply be excluded from clustering.",
+    )
 
     return parser.parse_args()
 
@@ -696,24 +701,30 @@ def main():
         )
         logger.warning(f"First 10 missing: {missing_kws[:10]}")
 
-        # Attempt to recompute missing embeddings
-        cached_keywords, cached_embeddings = compute_missing_embeddings(
-            missing_kws, args.embedding_cache, cached_keywords, cached_embeddings,
-        )
-        # Rebuild index after adding new embeddings
-        kw_to_idx = {}
-        for i, kw in enumerate(cached_keywords):
-            kw_lower = str(kw).strip().lower()
-            if kw_lower not in kw_to_idx:
-                kw_to_idx[kw_lower] = i
-
-        # Verify all are now covered
-        still_missing = [kw for kw in non_neither_kws if kw not in kw_to_idx]
-        if still_missing:
-            logger.error(
-                f"Still {len(still_missing)} keywords without embeddings "
-                f"after recomputation! These will be excluded from clustering."
+        if args.skip_embedding_recompute or os.environ.get("SKIP_EMBEDDING_RECOMPUTE") == "1":
+            logger.warning(
+                "Embedding recomputation disabled: "
+                f"{len(missing_kws)} keywords without cached embeddings will be excluded from clustering."
             )
+        else:
+            # Attempt to recompute missing embeddings
+            cached_keywords, cached_embeddings = compute_missing_embeddings(
+                missing_kws, args.embedding_cache, cached_keywords, cached_embeddings,
+            )
+            # Rebuild index after adding new embeddings
+            kw_to_idx = {}
+            for i, kw in enumerate(cached_keywords):
+                kw_lower = str(kw).strip().lower()
+                if kw_lower not in kw_to_idx:
+                    kw_to_idx[kw_lower] = i
+
+            # Verify all are now covered
+            still_missing = [kw for kw in non_neither_kws if kw not in kw_to_idx]
+            if still_missing:
+                logger.error(
+                    f"Still {len(still_missing)} keywords without embeddings "
+                    f"after recomputation! These will be excluded from clustering."
+                )
     else:
         logger.info(
             f"All {len(non_neither_kws)} non-'neither' keywords found in "

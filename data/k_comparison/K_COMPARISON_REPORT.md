@@ -64,3 +64,18 @@ while many K=750 micro-topics are too sparse to detect a stable slope.
 - High-level stories are consistent across the two Ks (see
   `story_stability.json`); the divergence is one of resolution rather
   than direction.
+
+## K = 1,050 / 1,100 sensitivity (paper-faithful)
+
+The original Fang et al. study selected K = 1,050 (methodology) and K = 1,100 (health) via silhouette analysis on a single-journal (JBI) corpus of 6,930 keywords. We re-run K-means at these exact values on our 90,386-keyword multi-journal corpus to provide the strictest paper-faithful sensitivity check. K-means only — no GPT-based topic naming or hierarchy is constructed at these K values.
+
+| Domain | K | n_topics | median keywords/topic [Q1, Q3] | median articles/topic [Q1, Q3] | Holm-significant trends (% of testable) |
+|---|---|---|---|---|---|
+| methodology | 100 (chosen) | 70 | 177 [69, 500] | 651 [197, 2102] | 56/70 (80%) |
+| methodology | 750 (sensitivity) | 335 | 36 [—] | — | 149/280 (53%) |
+| methodology | **1,050 (paper-faithful)** | 1,050 | 40 [29, 53] | 93 [58, 166] | 375/1045 (36%) |
+| health | 100 (chosen) | 86 | 354 [98, 841] | 1,010 [273, 3158] | 72/86 (84%) |
+| health | 750 (sensitivity) | 413 | 31 [—] | — | 153/326 (47%) |
+| health | **1,100 (paper-faithful)** | 1,100 | 50 [37, 67] | 133 [78, 246] | 399/1098 (36%) |
+
+**Interpretation.** The fraction of clusters with Holm-significant linear trends drops monotonically as K increases: 80%/84% at K=100 → 53%/47% at K=750 → 36%/36% at K=1,050/1,100. This is consistent with the silhouette landscape (see Figure 2 in `k_selection_combined.png`): on our 90,386-keyword multi-journal corpus the silhouette score is maximal at K=100 and becomes negative beyond K≈600. At K=1,050/1,100 the clusters are small (median 40-50 keywords vs 177-354 at K=100) and articles spread thinly across many micro-topics, weakening the signal-to-noise ratio for per-topic temporal trends. The same finding holds at K=750. Granularity-vs-interpretability tradeoff: high K surfaces niche micro-topics that are hard to name and noisy in trends; low K (K=100 here) yields broad, stable themes well-suited to field-scale narrative. The high-level story — overall growth, three innovation waves, ecosystem sub-communities, COVID-era inflections — is preserved across all four K values; only the resolution differs.
