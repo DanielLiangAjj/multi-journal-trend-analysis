@@ -27,6 +27,7 @@ import textwrap
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+import sys; sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent)); from _mirror import mirror_to_main
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -851,6 +852,8 @@ def build_figure(domain: str, out_path: Path) -> dict:
         fig.add_artist(cp)
 
     fig.savefig(out_path, dpi=300, bbox_inches="tight")
+
+    mirror_to_main(out_path)
     plt.close(fig)
 
     return {

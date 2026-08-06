@@ -14,6 +14,7 @@ from collections import Counter, defaultdict
 
 import numpy as np
 import pandas as pd
+import sys; sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent)); from _mirror import mirror_to_main
 import matplotlib.pyplot as plt
 
 PROJECT_ROOT = "/Users/danielliang/Library/CloudStorage/Dropbox/multi_journal_trend_analysis"
@@ -190,6 +191,7 @@ def main():
 
     out = os.path.join(FIG_DIR, "table2_cooccurrence_sparklines.png")
     fig.savefig(out, dpi=300, bbox_inches="tight")
+    mirror_to_main(out)
     plt.close(fig)
     print(f"[t2] Saved {out}")
 

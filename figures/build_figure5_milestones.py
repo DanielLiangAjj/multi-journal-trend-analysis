@@ -25,6 +25,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import sys; sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent)); from _mirror import mirror_to_main
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -39,7 +40,7 @@ except ImportError:  # pragma: no cover
 # -----------------------------------------------------------------------------
 # Paths
 # -----------------------------------------------------------------------------
-ROOT = Path("/Users/danielliang/Library/CloudStorage/Dropbox/multi_journal_trend_analysis")
+ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "visualizations_k100"
 FIG_DIR = ROOT / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
@@ -218,8 +219,10 @@ def deconflict_labels(
         # Anchor x and y points the labels should avoid: data markers + curve nodes.
         x_anchors = list(years) + [t.get_position()[0] for t in text_objs]
         y_anchors = list(counts) + [t.get_position()[1] for t in text_objs]
+        np.random.seed(0)  # adjust_text() draws from the global RNG
         adjust_text(
             text_objs,
+            iter_lim=200,
             x=x_anchors,
             y=y_anchors,
             ax=ax,
@@ -298,13 +301,10 @@ def main() -> None:
         ax.set_ylabel("Articles per year", color="#1f4e79")
         ax.tick_params(axis="y", labelcolor="#1f4e79")
         ax.set_xticks(YEAR_RANGE)
-        # Hide x-tick labels on top row to free space; bottom row keeps them.
-        is_bottom_row = ax_idx >= 2
-        if is_bottom_row:
-            ax.set_xticklabels(YEAR_RANGE, rotation=30, ha="right")
-            ax.set_xlabel("Year")
-        else:
-            ax.set_xticklabels([""] * len(YEAR_RANGE))
+        # Every panel carries its own years: the two rows are far enough apart
+        # that a reader cannot carry the bottom row's axis up to the top row.
+        ax.set_xticklabels(YEAR_RANGE, rotation=30, ha="right", fontsize=8.5)
+        ax.set_xlabel("Year")
 
         ax.grid(True, axis="y", alpha=0.25, linestyle="--")
         ax.set_xlim(YEAR_RANGE[0] - 0.5, YEAR_RANGE[-1] + 0.5)
@@ -353,14 +353,14 @@ def main() -> None:
 
     # Suptitle - period style for consistency with figures 1, 2, 3.
     fig.suptitle(
-        "Figure 5. Milestone-annotated trend curves for selected K=100 case-study topics",
+        "Milestone-annotated trend curves for selected K=100 case-study topics",
         fontsize=14,
         y=0.995,
     )
 
     # Layout first so axis transforms reflect final positions, then de-collide.
     fig.subplots_adjust(left=0.06, right=0.985, top=0.93, bottom=0.08,
-                        hspace=0.5, wspace=0.22)
+                        hspace=0.62, wspace=0.22)
     # Force a draw so adjustText sees correct text bboxes in display coords.
     fig.canvas.draw()
 
@@ -378,7 +378,8 @@ def main() -> None:
         deconflict_labels(ax, YEAR_RANGE, counts, text_objs)
 
     out_main = FIG_DIR / "figure5_milestones.png"
-    fig.savefig(out_main, dpi=300, bbox_inches="tight")
+    fig.savefig(out_main, dpi=400, bbox_inches="tight", facecolor="white")
+    mirror_to_main(out_main)
     plt.close(fig)
     print(f"Wrote: {out_main}")
 

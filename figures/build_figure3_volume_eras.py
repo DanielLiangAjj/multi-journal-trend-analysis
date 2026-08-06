@@ -22,6 +22,7 @@ import os
 from collections import Counter
 
 import pandas as pd
+import sys; sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent)); from _mirror import mirror_to_main
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
 
@@ -149,6 +150,8 @@ def build_figure(counts: list[int], out_path: str) -> None:
     ax.set_axisbelow(True)
 
     fig.savefig(out_path, dpi=300, bbox_inches="tight")
+
+    mirror_to_main(out_path)
     plt.close(fig)
     print(f"[F3] Saved {out_path}")
 

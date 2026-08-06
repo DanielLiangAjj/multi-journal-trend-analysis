@@ -1,6 +1,6 @@
 # Multi-Journal Biomedical Informatics Trend Analysis
 
-A data-driven, AI-augmented pipeline for large-scale research trend analysis across **29 biomedical informatics journals** spanning **2011–2025**. This project extends the methodology of Liang et al.'s single-journal (Journal of Biomedical Informatics) analysis to a multi-journal corpus, enabling cross-journal comparison, journal-level specialization analysis, and field-wide trend detection.
+A data-driven, AI-augmented pipeline for large-scale research trend analysis across **29 biomedical informatics journals** spanning **2011–2025**. This project extends the methodology of Fang et al.'s single-journal (Journal of Biomedical Informatics) analysis to a multi-journal corpus, enabling cross-journal comparison, journal-level specialization analysis, and field-wide trend detection.
 
 ---
 
@@ -48,15 +48,15 @@ This project answers the following research questions about biomedical informati
 |---|---|
 | Journals analyzed | 29 |
 | Time range | 2011–2025 |
-| Articles collected | 77,568 |
-| Unique keywords | 90,386 |
-| Methodology keywords | 31,257 (34.6%) |
-| Health keywords | 47,694 (52.8%) |
-| Both (cross-cutting) | 10,316 (11.4%) |
-| Excluded (neither) | 1,119 (1.2%) |
-| K-means clusters per domain | 100 (chosen via silhouette analysis) |
-| Final methodology topics | 116 |
-| Final health topics | 95 |
+| Articles collected | 78,425 (78,073 published 2011–2025; 352 indexed for 2026, used only for MeSH evaluation) |
+| Unique keywords | 95,872 |
+| Methodology keywords | 34,164 (35.6%) |
+| Health keywords | 49,847 (52.0%) |
+| Both (cross-cutting) | 10,686 (11.1%) |
+| Excluded (neither) | 1,175 (1.2%) |
+| K-means clusters per domain | 100 (highest silhouette among K ≥ 100; see `verify_manuscript_numbers.py`) |
+| Final methodology topics | 70 |
+| Final health topics | 86 |
 | Methodology hierarchy edges | 39 |
 | Health hierarchy edges | 33 (max depth 3) |
 | Visualizations generated | 18 plots + 5 data tables |
@@ -70,7 +70,7 @@ The pipeline consists of 6 sequential stages, each producing intermediate output
 ```
 [Step 0] Data Collection (PubMed)
     │
-    ▼  77,568 articles + 90,386 keywords
+    ▼  78,425 articles + 95,872 keywords
 [Step 1] Keyword Categorization (BiomedBERT + GPT-5-nano)
     │
     ▼  Methodology / Health / Both / Neither labels
@@ -79,10 +79,10 @@ The pipeline consists of 6 sequential stages, each producing intermediate output
     ▼  100 clusters per domain
 [Step 3] Cluster Post-processing & Topic Naming (GPT-5-nano)
     │
-    ▼  921 methodology + 602 health sub-topics → 116 + 95 unique names
+    ▼  100 methodology + 100 health clusters → 70 + 86 named topics
 [Step 4] Deduplication & Hierarchy (Stemming + GPT relationships)
     │
-    ▼  116 methodology + 95 health final topics with hierarchy
+    ▼  70 methodology + 86 health final topics
 [Step 6] Trend Analysis & Visualization
     │
     ▼  18 plots + 5 CSVs answering RQ1–RQ4 + N1–N7
@@ -370,8 +370,8 @@ tail -f step_log.log    # monitor progress
 
 ### Step 4 final outputs (most important for interpretation)
 
-- **`data/hierarchy/methodology_final_topics.json`** — 116 methodology topics with name, keyword list, keyword counts, and constituent sub-topic IDs
-- **`data/hierarchy/health_final_topics.json`** — 95 health topics
+- **`data/hierarchy_k100/methodology_final_topics.json`** — 70 methodology topics with name, keyword list, keyword counts, and constituent sub-topic IDs
+- **`data/hierarchy_k100/health_final_topics.json`** — 86 health topics
 - **`data/hierarchy/methodology_hierarchy.txt`** — Indented tree of methodology topic hierarchy (root → leaves)
 - **`data/hierarchy/health_hierarchy.txt`** — Health topic hierarchy
 - **`data/hierarchy/*_edges.json`** — Parent-child edge lists for programmatic use
@@ -456,11 +456,11 @@ Digital Health (44,501 articles, +310/year — overwhelmingly dominant, 3x the n
 |---|---|---|
 | Journals | 1 | 29 |
 | Time range | 2004–2024 | 2011–2025 |
-| Articles | 2,427 | 77,568 |
-| Initial K | 750 | 100 (silhouette-selected) |
-| Methodology topics | 2,276 | 116 |
-| Health topics | 1,687 | 95 |
-| Median keywords/topic | 6 | ~348 (methodology), ~571 (health) |
+| Articles | 2,427 | 78,425 |
+| Initial K | 1,050 / 1,100 | 100 (highest silhouette among K ≥ 100) |
+| Methodology topics | 2,276 | 70 |
+| Health topics | 1,687 | 86 |
+| Median keywords/topic | 6 | 177 (methodology), 354 (health) |
 
 The smaller number of final topics in the multi-journal version reflects the lower K value (chosen via silhouette analysis), which produces broader, higher-level research themes suitable for cross-journal comparison rather than fine-grained sub-topic identification.
 
@@ -487,7 +487,7 @@ The smaller number of final topics in the multi-journal version reflects the low
 
 Methodology based on:
 
-> Fang et al., *Generative AI–Driven Analysis of Research Trends in Biomedical Informatics* (single-journal JBI analysis).
+> Fang, Y. et al. A data-driven method for research trend analysis in a scientific discipline: Application to the Journal of Biomedical Informatics. *J. Biomed. Inform.* **178**, 105013 (2026).
 
 This project extends the original methodology to a 29-journal multi-journal corpus and adds 7 new analyses (N1–N7) specifically designed for cross-journal comparison.
 
@@ -495,4 +495,20 @@ This project extends the original methodology to a 29-journal multi-journal corp
 
 ## License
 
-Please cite the original paper if using this methodology in your own work.
+Released under the MIT License — see [LICENSE](LICENSE).
+
+Please also cite the original single-journal study (Fang et al., 2026) if you use this
+methodology in your own work.
+
+## Reproducibility
+
+`verify_manuscript_numbers.py` re-derives every statistic reported in the accompanying
+manuscript directly from the intermediate data in `data/` and checks each against the
+published value:
+
+```bash
+python3 verify_manuscript_numbers.py    # 154 checks, exits non-zero on any mismatch
+```
+
+The figure build scripts under `figures/` are deterministic: two clean runs produce
+byte-identical PNGs.

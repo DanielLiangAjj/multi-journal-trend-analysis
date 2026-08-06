@@ -13,10 +13,11 @@ Strategy:
 import os
 import numpy as np
 import pandas as pd
+import sys; sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent)); from _mirror import mirror_to_main
 import matplotlib.pyplot as plt
 from adjustText import adjust_text
 
-PROJECT_ROOT = "/Users/danielliang/Library/CloudStorage/Dropbox/multi_journal_trend_analysis"
+PROJECT_ROOT = str(__import__("pathlib").Path(__file__).resolve().parent.parent)
 VIS_DIR = os.path.join(PROJECT_ROOT, "data", "visualizations_k100")
 FIG_DIR = os.path.join(PROJECT_ROOT, "figures")
 
@@ -28,9 +29,18 @@ def main():
     df = pd.read_csv(os.path.join(VIS_DIR, "pi_q7_covid_impact.csv"))
     df = df.dropna(subset=["pct_change_during", "p_value_during"]).copy()
 
-    # Compute raw and capped -log10 p
+    # Holm-Bonferroni adjust the 'during' p-values across the testable topics so the
+    # plotted threshold matches the Holm-based counts reported in the text
+    # (90/133 significant; 88 up, 2 down). Without this the figure plots RAW p.
+    from statsmodels.stats.multitest import multipletests
+    df["p_holm"] = multipletests(df["p_value_during"].clip(lower=1e-300),
+                                 method="holm")[1]
+    n_sig = int((df["p_holm"] < 0.05).sum())
+    print(f"[fig9] Holm-significant during-window topics: {n_sig} / {len(df)}")
+
+    # Compute raw and capped -log10 of the Holm-adjusted p.
     # Floor at 1e-300 so -log10 is finite; then cap at CAP for display.
-    safe_p = df["p_value_during"].clip(lower=1e-300)
+    safe_p = df["p_holm"].clip(lower=1e-300)
     df["neg_log10_p_raw"] = -np.log10(safe_p)
     df["neg_log10_p"] = df["neg_log10_p_raw"].clip(upper=CAP)
     df["capped"] = df["neg_log10_p_raw"] > CAP
@@ -70,12 +80,15 @@ def main():
     # Compute padded x range to leave room for end-of-line annotation
     xmin, xmax = df["pct_change_during"].min(), df["pct_change_during"].max()
     xpad = (xmax - xmin) * 0.08
-    ax.set_xlim(xmin - xpad, xmax + xpad)
+    ax.set_xlim(xmin - xpad, xmax + xpad * 3.2)
     ax.set_ylim(-2, CAP + 4)  # small headroom above cap
 
     # Annotate the Holm threshold near the right end of the line
+    # Far right, just above the line: the only band that stays clear of the
+    # point cloud and of the callout boxes adjustText places.
     ax.text(
-        ax.get_xlim()[1] * 0.99, holm_y + 1.2,
+        ax.get_xlim()[1] - (ax.get_xlim()[1] - ax.get_xlim()[0]) * 0.012,
+        holm_y + 1.0,
         "p = 0.05 (Holm)",
         color="red", fontsize=9, fontweight="bold",
         ha="right", va="bottom",
@@ -113,8 +126,10 @@ def main():
         texts.append(t)
 
     # adjustText for collision avoidance with short straight leaders
+    np.random.seed(0)  # adjust_text() draws from the global RNG
     adjust_text(
         texts,
+        iter_lim=200,
         ax=ax,
         expand=(1.4, 1.6),
         force_text=(0.6, 0.9),
@@ -127,21 +142,21 @@ def main():
     ax.set_xlabel(
         "% change during COVID-19 (2020-2021 vs 2018-2019)", fontsize=12,
     )
-    ax.set_ylabel("-log10 Poisson p-value (during-window)", fontsize=12)
+    ax.set_ylabel("-log10 Holm-adjusted Poisson p (during-window)", fontsize=12)
 
     # Title + subtitle (period not colon to match other figures)
     fig.suptitle(
-        "Figure 9. COVID-19 impact volcano: effect size × statistical significance",
+        "COVID-19 impact volcano: effect size × statistical significance",
         fontsize=14, fontweight="bold", y=0.995,
     )
     ax.set_title(
-        "Each point = one topic (K=100). Topics above the dashed line have Poisson p < 0.05.",
+        "Each point = one topic (K=100). Topics above the dashed line have Holm-adjusted p < 0.05.",
         fontsize=10, color="#444444", style="italic", pad=8,
     )
 
     # Legend (lower right, bigger swatches for clarity)
     leg = ax.legend(
-        title="Domain", loc="lower right",
+        title="Domain", loc="upper left",
         fontsize=10, title_fontsize=10,
         markerscale=1.3, framealpha=0.95,
     )
@@ -161,7 +176,8 @@ def main():
         )
 
     out = os.path.join(FIG_DIR, "figure9_covid_volcano.png")
-    fig.savefig(out, dpi=300, bbox_inches="tight")
+    fig.savefig(out, dpi=400, bbox_inches="tight", facecolor="white")
+    mirror_to_main(out)
     plt.close(fig)
     print(f"[fig9] Saved {out}")
 

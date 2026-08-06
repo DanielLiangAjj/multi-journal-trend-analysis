@@ -37,3 +37,14 @@ venv/
 .env
 *.key
 api_keys.txt
+
+# Print-resolution figure exports for journal submission (~24 MB of duplicates
+# of figures/*.png). Regenerate by copying from figures/ at submission time.
+figures/submission/
+
+# Legacy v5-numbering figure overlay (~24 MB, superseded). Figures 6 and 7 of the
+# manuscript regenerate from figures/build_figure08_09_count_and_rate.py.
+figures/manuscript_v5/
+
+# Regenerable cache: rebuilt on demand by figures/build_figure14_journal_network.py
+data/journal_similarity_graph.pkl
