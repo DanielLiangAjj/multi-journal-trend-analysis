@@ -45,13 +45,13 @@ STAGES = [
         "title": "1. Data\n    Collection",
         "subtext": (
             "IN: 29 PubMed\njournals, 2011-2025\n\n"
-            "OUT: 78,425 articles\n90,386 author keywords"
+            "OUT: 78,425 articles\n95,872 author keywords"
         ),
     },
     {
         "title": "2. Keyword\n    Categorization",
         "subtext": (
-            "IN: 90,386 keywords\n"
+            "IN: 95,872 keywords\n"
             "(BiomedBERT + GPT-5)\n\n"
             "OUT: methodology vs.\nhealth labels"
         ),
@@ -60,7 +60,7 @@ STAGES = [
         "title": "3. Topic\n    Clustering",
         "subtext": (
             "IN: keyword\nembeddings\n"
-            "K-means (K=100,\nsilhouette)\n\n"
+            "K-means, K=100\n\n"
             "OUT: 100 clusters"
         ),
     },
@@ -69,15 +69,15 @@ STAGES = [
         "subtext": (
             "IN: 100 clusters\n"
             "(GPT-5)\n\n"
-            "OUT: 100 named\ntopics"
+            "OUT: 100 named\ntopics per domain"
         ),
     },
     {
-        "title": "5. Hierarchy\n    Construction",
+        "title": "5. Topic\n    Consolidation",
         "subtext": (
             "IN: 100 named topics\n"
-            "Ward linkage\n\n"
-            "OUT: topic taxonomy\ntree"
+            "coherence check,\nsplit, merge\n\n"
+            "OUT: 70 methodology\n+ 86 health topics"
         ),
     },
     {
@@ -312,10 +312,9 @@ def build_figure(out_path: str):
             "Named topic:\n"
             ' "Clinical Predictive\n'
             '  Modeling from EHR Data"\n\n'
-            "Taxonomy placement:\n"
-            " Machine Learning\n"
-            "  └ Clinical Prediction\n"
-            "     └ EHR-based Risk Models\n\n"
+            "Domain: methodology\n\n"
+            "Share of annual output:\n"
+            " rising, Holm-significant\n\n"
             "Trend 2011–2025:"
         ),
     )
