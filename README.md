@@ -510,5 +510,12 @@ published value:
 python3 verify_manuscript_numbers.py    # 154 checks, exits non-zero on any mismatch
 ```
 
+All 154 checks run from a fresh clone. The full corpus CSV is too large to track
+(see `.gitignore`); the corpus-level checks fall back to the small provenance
+tables `data/corpus_summary.csv`, `data/corpus_articles_per_year.csv`,
+`data/corpus_articles_per_journal.csv` and `data/corpus_keyword_provenance.csv`,
+which are exported from it. Article identifiers (PMIDs) for reconstructing the
+corpus from PubMed are in `data/`.
+
 The figure build scripts under `figures/` are deterministic: two clean runs produce
 byte-identical PNGs.

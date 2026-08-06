@@ -35,24 +35,39 @@ def section(t):
 
 # ---------------------------------------------------------------- A. corpus
 section("A. CORPUS")
-recs = pd.read_csv(CORPUS_CSV, usecols=["journal", "year", "keywords", "keyword_source"],
-                   low_memory=False)
-chk("total records collected", len(recs), 78425)
-w = recs[recs.year.between(2011, 2025)]
-chk("records published 2011-2025", len(w), 78073)
-chk("records indexed for 2026", int((recs.year == 2026).sum()), 352)
-chk("journals", w.journal.nunique(), 29)
+# The full corpus CSV is too large for the repository (see .gitignore). When it is
+# absent, fall back to the small provenance tables exported alongside it, so the
+# harness runs from a clean clone.
+HAVE_CORPUS = os.path.exists(CORPUS_CSV)
+if HAVE_CORPUS:
+    recs = pd.read_csv(CORPUS_CSV, usecols=["journal", "year", "keywords", "keyword_source"],
+                       low_memory=False)
+    n_total, n_win = len(recs), int(recs.year.between(2011, 2025).sum())
+    n_2026, n_j = int((recs.year == 2026).sum()), recs[recs.year.between(2011, 2025)].journal.nunique()
+    vol = recs[recs.year.between(2011, 2025)].year.value_counts().sort_index()
+    ks = recs.keyword_source.value_counts()
+else:
+    print("  (full corpus CSV absent - using data/corpus_*.csv provenance tables)")
+    summ = pd.read_csv("data/corpus_summary.csv").set_index("metric").value
+    n_total, n_win, n_2026 = int(summ.records_total), int(summ.records_2011_2025), int(summ.records_2026)
+    n_j = int(summ.journals)
+    vol = pd.read_csv("data/corpus_articles_per_year.csv").set_index("year").n_articles
+    ks = pd.read_csv("data/corpus_keyword_provenance.csv").set_index("keyword_source").n_records
+chk("total records collected", n_total, 78425)
+chk("records published 2011-2025", n_win, 78073)
+chk("records indexed for 2026", n_2026, 352)
+chk("journals", n_j, 29)
 # 95,872 is the number of distinct keywords entering categorisation, after the
 # pipeline's own normalisation - not a naive split of the raw `keywords` column.
 kwc = pd.read_csv("data/keywords_categorized.csv", low_memory=False)
 chk("distinct author keywords (categorisation input)", len(kwc), 95872)
-raw = set()
-for _s in recs.keywords.dropna().astype(str):
-    raw.update(k.strip().lower() for k in _s.split(";") if k.strip())
-print(f"       (naive lowercased split of the raw column gives {len(raw):,} - "
-      f"normalisation accounts for the difference)")
+if HAVE_CORPUS:
+    raw = set()
+    for _s in recs.keywords.dropna().astype(str):
+        raw.update(k.strip().lower() for k in _s.split(";") if k.strip())
+    print(f"       (naive lowercased split of the raw column gives {len(raw):,} - "
+          f"normalisation accounts for the difference)")
 
-vol = w.year.value_counts().sort_index()
 chk("2011 volume", int(vol[2011]), 1494)
 chk("2025 volume", int(vol[2025]), 11384)
 chk("fold increase 2011->2025", round(vol[2025] / vol[2011], 1), 7.6, 0.05)
@@ -63,11 +78,10 @@ chk("2020 volume", int(vol[2020]), 6647)
 chk("2021 volume", int(vol[2021]), 7438)
 
 section("B. KEYWORD ACQUISITION PASSES (Methods 3.1)")
-ks = recs.keyword_source.value_counts()
 chk("Pass 3 GPT abstract extraction (n)", int(ks.get("abstract_gpt", 0)), 857)
-chk("Pass 3 share (%)", round(100 * ks.get("abstract_gpt", 0) / len(recs), 1), 1.1, 0.05)
+chk("Pass 3 share (%)", round(100 * ks.get("abstract_gpt", 0) / n_total, 1), 1.1, 0.05)
 chk("Pass 4 MeSH substitution (n)", int(ks.get("mesh", 0)), 18409)
-chk("Pass 4 share (%)", round(100 * ks.get("mesh", 0) / len(recs), 1), 23.5, 0.05)
+chk("Pass 4 share (%)", round(100 * ks.get("mesh", 0) / n_total, 1), 23.5, 0.05)
 
 # ---------------------------------------------------------------- C. topics & trends
 section("C. TOPIC COUNTS AND LINEAR TRENDS (4.1.2)")
