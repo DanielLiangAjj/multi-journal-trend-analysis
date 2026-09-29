@@ -1,0 +1,157 @@
+Domain,Topic,Articles 2011–2025,Full corpus: share change %/yr,Full corpus: Holm p,Full corpus: significant,Author-keyword records 2013–2025: share change %/yr,Author-keyword: Holm p,Author-keyword: significant
+health,Sequence and structure prediction,198,13.3,0.0486,True,12.8,1.0,False
+health,Health semantic similarity,189,12.3,0.00333,True,6.9,1.0,False
+health,Causal mediation analysis,204,11.2,8.72e-05,True,6.1,0.612,False
+health,Skin disease classification,29,8.9,1.0,False,9.9,1.0,False
+health,Motor imagery,567,8.4,0.0189,True,3.7,1.0,False
+health,Rare diseases,81,7.8,0.124,False,8.3,1.0,False
+health,Epitope analysis,156,7.5,0.324,False,16.5,1.0,False
+health,Mixed terminology and histopathology,781,7.3,0.0132,True,4.9,1.0,False
+health,"Eye, ENT, and oral diseases",113,7.1,1.0,False,24.4,0.00066,True
+health,Aortic diseases,299,7.0,0.0871,False,7.9,0.0401,True
+health,Mixed health informatics safety topics,872,6.1,0.000193,True,6.2,4.64e-05,True
+health,Population health surveillance,2570,6.1,0.0627,False,5.6,0.612,False
+health,Cardiac device prevalence,40,5.9,1.0,False,-0.0,1.0,False
+health,Unclassified keyword cluster,91,5.9,0.818,False,1.0,1.0,False
+health,Mixed medical imaging,1869,5.5,2.92e-08,True,2.1,1.0,False
+health,Cures Act,13,5.2,1.0,False,5.0,1.0,False
+health,Medical devices,2348,4.9,3.57e-05,True,0.5,1.0,False
+health,Privacy-preserving cryptography,56,4.8,1.0,False,-1.1,1.0,False
+health,Older people,1223,4.7,0.00149,True,2.2,1.0,False
+health,Determinants of health,1580,4.3,0.00561,True,4.8,0.000892,True
+health,Health policy landscape,3594,4.3,0.48,False,6.8,3.93e-22,True
+health,Limited English Proficiency,22,4.2,1.0,False,-1.9,1.0,False
+health,Maternal and reproductive health,122,3.9,1.0,False,5.9,1.0,False
+health,Multimodal imaging,144,3.9,1.0,False,-1.4,1.0,False
+health,Health and functional status assessment,1243,3.8,0.852,False,6.3,0.00028,True
+health,Neuroscience and cognition,1806,3.8,0.0441,True,0.6,1.0,False
+health,Medical specialties,635,3.7,1.0,False,5.3,1.0,False
+health,Lung nodules,168,3.5,1.0,False,-0.3,1.0,False
+health,Upper airway disorders,677,3.5,0.473,False,3.0,1.0,False
+health,Neurodegenerative diseases,3202,3.2,0.00474,True,3.7,8.59e-05,True
+health,Perinatal outcomes,1058,3.2,0.608,False,0.8,1.0,False
+health,Drug discovery,2697,2.9,1.0,False,5.3,0.124,False
+health,Cancer types and screening,5544,2.5,0.811,False,4.5,8.1e-13,True
+health,Cardiovascular diseases,1974,2.5,0.672,False,2.2,0.987,False
+health,Psychiatric disorders,5570,2.5,0.0618,False,1.2,1.0,False
+health,Prognosis and risk prediction,3688,2.4,1.0,False,5.5,5.52e-17,True
+health,Signs and symptoms,700,2.2,1.0,False,5.6,0.000243,True
+health,Health behavior change,3521,2.0,1.0,False,-1.6,1.0,False
+health,Myocardial infarction,791,2.0,1.0,False,-0.3,1.0,False
+health,Health information seeking,2958,0.9,1.0,False,-0.4,1.0,False
+health,Physiological signals and AI methods,5540,0.9,1.0,False,2.1,1.0,False
+health,cancer immunotherapy,1430,0.9,1.0,False,7.9,3.83e-06,True
+health,Emergency Department,2582,0.8,1.0,False,2.2,0.462,False
+health,Mass screening,268,0.8,1.0,False,0.3,1.0,False
+health,Surgical procedures,1301,0.8,1.0,False,3.5,0.28,False
+health,Infectious diseases,9796,0.6,1.0,False,3.1,1.0,False
+health,Cancer treatment modalities,604,0.4,1.0,False,0.1,1.0,False
+health,Translational and clinical research,5678,0.2,1.0,False,2.5,5.56e-09,True
+health,Natural products and traditional medicine,968,0.0,1.0,False,12.5,0.0092,True
+health,Decision support,5341,-0.4,1.0,False,1.4,1.0,False
+health,Bayesian health modeling,1321,-0.5,1.0,False,5.1,0.101,False
+health,Cardiorespiratory monitoring,927,-0.5,1.0,False,-2.4,1.0,False
+health,Digital health technologies,32416,-0.6,1.0,False,-1.7,1.0,False
+health,Caregivers and care quality,1036,-0.7,1.0,False,-0.3,1.0,False
+health,Mixed clinical conditions and demographics,3959,-1.0,1.0,False,0.1,1.0,False
+health,Sensory evoked potentials,14,-1.0,1.0,False,13.7,1.0,False
+health,Anatomical terminology,124,-1.1,1.0,False,0.7,1.0,False
+health,Environmental health risks,283,-1.1,1.0,False,1.8,1.0,False
+health,Diabetes mellitus,2940,-1.4,1.0,False,-2.8,1.0,False
+health,Endoscopic procedures,123,-1.5,1.0,False,-1.3,1.0,False
+health,Tumor immunology and microenvironment,370,-1.5,1.0,False,2.3,1.0,False
+health,Primary care delivery,4592,-1.6,1.0,False,0.8,1.0,False
+health,Cardiovascular hemodynamics,896,-1.7,1.0,False,-0.7,1.0,False
+health,Microbial and fungal genomics,642,-1.7,1.0,False,17.3,1.98e-05,True
+health,Cardiac arrhythmias,1232,-2.3,1.0,False,-1.2,1.0,False
+health,Protein and gene networks,6461,-2.3,0.525,False,4.5,0.0225,True
+health,Health workforce education,1882,-2.5,1.0,False,0.6,1.0,False
+health,Amino acid sequence,1624,-2.8,1.0,False,10.1,0.281,False
+health,Computational cancer biology,11349,-2.9,0.505,False,-1.3,1.0,False
+health,Environmental biota and species,67,-3.0,1.0,False,0.1,1.0,False
+health,Gene expression regulation,7602,-3.3,0.113,False,3.0,1.0,False
+health,Countries and demographics,3028,-3.9,1.0,False,4.1,0.00676,True
+health,Drug safety surveillance,2383,-3.9,0.00646,True,-1.7,0.237,False
+health,Genomic variant analysis,8816,-4.4,0.152,False,2.0,1.0,False
+health,Clinical guidelines,532,-4.9,0.000264,True,-3.9,1.0,False
+health,Patient-provider communication,5673,-5.0,0.00735,True,-1.6,1.0,False
+health,Protein-peptide binding,938,-5.1,0.00561,True,13.4,0.04,True
+health,Genetic predisposition,3423,-5.5,3.97e-06,True,0.4,1.0,False
+health,Repetitive DNA sequences,295,-5.6,0.485,False,9.9,0.825,False
+health,Health program evaluation,1014,-7.2,8.73e-07,True,-6.2,0.00268,True
+health,User-centered design,443,-7.4,1.04e-08,True,-8.4,8.94e-11,True
+health,Cell signaling and oncogenic pathways,305,-8.3,0.053,False,0.6,1.0,False
+health,Metabolic networks,572,-8.4,1.96e-05,True,-0.0,1.0,False
+health,Ploidy variation,44,-9.8,0.852,False,-18.9,0.165,False
+health,Post-translational modifications,229,-10.3,6.13e-07,True,-9.3,2.14e-05,True
+health,Biomedical databases,3538,-10.9,4.47e-08,True,2.0,1.0,False
+methodology,Large language models,1082,65.4,7.35e-07,True,59.0,8.72e-05,True
+methodology,Knowledge distillation,98,51.3,1.37e-12,True,49.9,1.19e-12,True
+methodology,Federated learning,154,46.5,2.17e-06,True,41.2,0.000596,True
+methodology,All of Us,28,36.5,1.0,False,46.3,0.324,False
+methodology,Transfer learning variants,41,30.8,2.82e-07,True,26.1,0.000186,True
+methodology,Contrastive learning,1579,25.9,7.69e-27,True,22.0,1.57e-14,True
+methodology,Data augmentation,383,21.2,2.57e-14,True,16.1,3.55e-08,True
+methodology,Generative AI and corpus methods,211,20.0,0.000185,True,15.1,0.0752,False
+methodology,Transformer models,396,19.8,3.91e-08,True,14.8,0.00133,True
+methodology,Multi-task and meta learning,646,17.5,2.17e-15,True,13.3,8.62e-08,True
+methodology,Diffusion generative models,260,16.5,0.0209,True,11.3,1.0,False
+methodology,Data governance and standards,287,15.4,9.39e-17,True,10.2,1.25e-09,True
+methodology,Algorithmic bias,196,11.4,0.0379,True,15.8,0.0594,False
+methodology,Graph and network methods,841,9.1,0.00826,True,3.9,1.0,False
+methodology,Biobanking methodologies,32,8.5,1.0,False,2.9,1.0,False
+methodology,Predictive and Markov modeling,1222,8.2,1.7e-07,True,8.2,5.5e-12,True
+methodology,Agent-based Modeling,138,8.0,0.0971,False,3.7,1.0,False
+methodology,Missing data imputation,870,7.6,0.000343,True,2.1,1.0,False
+methodology,Assisted reproduction,19,7.5,1.0,False,11.6,1.0,False
+methodology,Mixed clinical NLP applications,178,7.4,0.0445,True,2.9,1.0,False
+methodology,Biological modeling,1440,7.0,0.014,True,10.1,0.28,False
+methodology,Clinical monitoring and surveillance,1677,6.8,0.00829,True,2.5,1.0,False
+methodology,Mixed deep learning applications,3768,6.4,9.08e-05,True,6.7,7.92e-05,True
+methodology,Clinical data standards,356,5.8,0.00223,True,2.1,1.0,False
+methodology,Behavioral theories,318,4.5,0.361,False,-0.5,1.0,False
+methodology,Mixed automation and optimization methods,1106,4.3,0.00052,True,4.6,0.000781,True
+methodology,Machine learning methods,29698,4.2,1.11e-10,True,7.4,9.5e-22,True
+methodology,Serious games,198,4.0,1.0,False,0.9,1.0,False
+methodology,Data visualization methods,991,3.7,0.281,False,2.2,1.0,False
+methodology,Medical image segmentation,6482,3.4,0.0384,True,2.7,0.779,False
+methodology,Additive manufacturing optimization,24,3.3,1.0,False,0.5,1.0,False
+methodology,Ecological momentary assessment,2095,3.3,0.000356,True,1.1,1.0,False
+methodology,Mixed mathematical and geometric methods,353,2.7,1.0,False,-3.5,1.0,False
+methodology,Biomedical signal processing,4639,2.3,0.133,False,1.0,1.0,False
+methodology,Privacy and de-identification,968,2.2,1.0,False,-1.7,1.0,False
+methodology,Distributed ledger technology,19,1.6,1.0,False,-4.6,1.0,False
+methodology,RNA-seq data analysis,2093,1.4,1.0,False,3.8,1.0,False
+methodology,Knowledge graphs,1753,1.3,1.0,False,5.0,0.1,False
+methodology,Ultrasound and echocardiography,174,1.1,1.0,False,-2.5,1.0,False
+methodology,Drug discovery and evaluation,3821,0.7,1.0,False,0.1,1.0,False
+methodology,Mobile health and social media,7902,0.6,1.0,False,-3.1,1.0,False
+methodology,eHealth and mobile applications,3142,0.6,1.0,False,-3.6,1.0,False
+methodology,Neuroscience and cognitive psychology,551,0.2,1.0,False,2.9,1.0,False
+methodology,Mixed engineering and imaging acronyms,97,0.0,1.0,False,-6.5,0.469,False
+methodology,Big data infrastructure and interoperability,2349,-0.2,1.0,False,-1.3,0.779,False
+methodology,Content-based image retrieval,40,-0.2,1.0,False,-6.7,1.0,False
+methodology,Research ethics and patient involvement,644,-0.5,1.0,False,2.4,1.0,False
+methodology,Bayesian and statistical modeling,5046,-0.7,1.0,False,3.0,7.86e-05,True
+methodology,Mixed psychological and measurement theories,98,-0.7,1.0,False,-3.5,1.0,False
+methodology,Clinical study designs,5046,-0.9,1.0,False,1.0,1.0,False
+methodology,Statistical methods,9654,-2.1,0.0451,True,0.3,1.0,False
+methodology,Fractal dimension,65,-2.2,1.0,False,-9.0,0.0937,False
+methodology,Named Entity Recognition,1014,-2.3,0.0933,False,-2.4,0.754,False
+methodology,Virtual medical simulation,5925,-2.3,0.111,False,1.5,0.225,False
+methodology,Clinical decision support,15542,-2.4,0.247,False,-1.2,0.0388,True
+methodology,Information dissemination,5950,-2.6,0.111,False,-2.4,0.715,False
+methodology,Genomics and sequence bioinformatics,9928,-2.8,0.454,False,2.3,1.0,False
+methodology,Qualitative research methods,2152,-3.6,1.0,False,0.6,1.0,False
+methodology,Immunological techniques,382,-3.7,0.113,False,0.9,1.0,False
+methodology,Software and usability research,13066,-3.7,0.1,False,-1.3,1.0,False
+methodology,Mixed narrative and language studies,16,-4.5,1.0,False,-12.2,1.0,False
+methodology,Mass spectrometry and ROC analysis,1302,-5.3,1.05e-11,True,-2.3,1.0,False
+methodology,Cryo-electron microscopy,666,-5.5,0.0445,True,-3.5,1.0,False
+methodology,High-throughput screening,282,-6.6,0.0393,True,-4.1,1.0,False
+methodology,Gene editing,248,-9.8,6.72e-07,True,-12.0,0.0512,False
+methodology,Open access publishing,432,-12.1,8.21e-08,True,-5.8,0.0512,False
+methodology,Mixed reasoning and modeling methods,840,-14.5,2.69e-06,True,3.9,1.0,False
+methodology,Computer security,555,-15.5,1.89e-07,True,-5.7,0.243,False
+methodology,Microarray analysis,259,-19.3,1.18e-16,True,0.0,1.0,False
+methodology,Pilot studies and synthetic data,176,-22.2,1.12e-06,True,-6.4,1.0,False

@@ -1,0 +1,20 @@
+"Clinical pattern (regular expression, case-insensitive)","Computational pattern (regular expression, case-insensitive)"
+\bschool of medicine\b,\bcomputer science\b
+\bmedical school\b,\bcomputer engineering\b
+\bfaculty of medicine\b,\bcomputational\b
+\bcollege of medicine\b,\binformatics\b
+\bhospital\b,\bbioinformatics\b
+\bmedical center\b,\bmedical informatics\b
+\bmedical centre\b,\bbiomedical informatics\b
+\bcancer center\b,\bhealth informatics\b
+\bclinic\b,\bcomputing\b
+\bdepartment of (medicine|surgery|pediatrics|cardiology|neurology|,\binformation (systems|technology|science)\b
+oncology|radiology|pathology|psychiatry|anesthesiology|internal medicine|,\b(biomedical|electrical|chemical|software|computer|systems) engineering\b
+family medicine|emergency medicine|pulmonology|gastroenterology|,\bstatistics\b
+endocrinology|rheumatology|dermatology|ophthalmology|otolaryngology|,\bbiostatistics\b
+urology|obstetrics|gynecology|pharmacology|nursing|critical care|,\bmathematics\b
+orthopaedics|orthopedics|hematology|nephrology|infectious diseases|,\bdata science\b
+public health|preventive medicine|geriatrics|family practice)\b,\bartificial intelligence\b
+\bclinical (research|sciences|trials|epidemiology|medicine|pharmacology)\b,\bmachine learning\b
+\bhealth (system|service|services)\b,\bschool of (engineering|computing|informatics)\b
+\bnhs\b,

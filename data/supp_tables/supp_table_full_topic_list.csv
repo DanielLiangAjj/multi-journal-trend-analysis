@@ -1,0 +1,157 @@
+domain,topic,n_keywords,n_articles_2011_2025,example_keywords
+health,Digital health technologies,9658,32491,population-specific empowerment processes; social networking services; medical tabular data; hybrid u-net; research application
+health,Mixed medical imaging,1086,12385,eye orbit; vision impairment; time series segmentation; corneal imaging system; tissue-specific segmentation
+health,Infectious diseases,2519,11415,health surveillance assistants; secondary immunodeficiency; ontoloviz; core-genome multilocus sequence typing; antibacterial agents
+health,Computational cancer biology,1865,11349,"personalized medicine; adult germline stem cells; leukemia, myeloid, acute; bone segmentation; protein dynamics"
+health,Genomic variant analysis,1532,8816,"interaction scanning; fragment size distribution; pangenomics; multi-gene datasets; genome, chloroplast"
+health,Gene expression regulation,2064,7602,low-complexity regions; gene amplification; dna gyrase; topoisomerase ii interdomain relationships; dna binding proteins
+health,Protein and gene networks,1634,6461,automated cell type annotation; hierarchical representation; graph edit distance; mobility dynamics; distance transform
+health,Translational and clinical research,1071,5678,corrigendum; diabetes type 2 (t2d); research unit network; patient assignment; clinical settings
+health,Patient-provider communication,1506,5673,stakeholder-engagement; trio optimal health management program; inter-organizational collaboration; physician review; perceived usefulness
+health,Psychiatric disorders,1539,5570,personality disorder; crying problems; trait self-control; bpsd; folic acid
+health,Cancer types and screening,1689,5544,malignant mesothelioma; myeloproliferative neoplasms; hepato- cellular carcinoma; purkinje network; pill recognition
+health,Physiological signals and AI methods,2935,5540,tonic clonic seizures; ultra-short signal; temporal reasoning; recursive residual (r2) block; non-motor features
+health,Mixed clinical conditions and demographics,1290,5376,secondary immunodeficiency; irritable bowel syndrome; bone mineral density; fidelity; app abandonment
+health,Decision support,1547,5341,co-construction; interpretable learning; patient preference information; sending information; user-friendly
+health,Primary care delivery,1353,4603,sex determination analysis; cardiologists; respiration disorder; distant medical care; asthma caregivers
+health,Prognosis and risk prediction,1206,3688,consensus partitioning; stroke-risk early warning; jensen-shannon divergence; time-varying; intersecting covariates
+health,Health behavior change,1061,3604,musculoskeletal-related pain; self-evaluation; self-awareness; outdoor physical activity; sedentariness
+health,Health policy landscape,811,3594,diffusion and adoption; dna privacy; digital behavior change interventions design; gels; digital health implementation
+health,Biomedical databases,478,3571,functional impact prediction; microbial metabolic pathway database; medication errors [e02.319.529]; protein property prediction; prognosis [e01.789]
+health,Genetic predisposition,870,3423,mosaicism; brca1/2 mutation carriers; shared frailty; pectoral segmentation; protein double indel mutations
+health,Countries and demographics,852,3363,political economy; resource-poor community; somalian women; riverside; lesbian
+health,Neurodegenerative diseases,897,3202,alzheimer's disease neuroimaging initiative; ad; alzheimer disease; geriatric heart failure; neurodegenerative diseases
+health,Health information seeking,700,2958,automaton; diabetes awareness; recnet; health-seeking behaviors; web-based sti testing
+health,Diabetes mellitus,397,2940,diabetic; diabetes melitus; long-qt syndrome; multiple long-term conditions; normal-weight obesity
+health,Drug discovery,933,2697,gabapentin; protein biomarkers; therapeutic development; allosteric modulators; pharmacological chaperones
+health,Emergency Department,730,2582,oncology service; critical disabilities; emergency patient; emerging outbreak; alert specificity
+health,Population health surveillance,304,2570,human rights; veterans health; deep forests; negative sampling method; hearing health
+health,Drug safety surveillance,759,2383,test ordering; crystalloids; pharmaceutical company; vaccine adverse event; health risk assessment
+health,Medical devices,1026,2348,primary stability; smart glasses; safety device; computerized therapy; temporary disability
+health,Older people,157,2216,elementary school students; older people; older adults (75+); lung health; geriatric chronic disease
+health,Cardiovascular diseases,383,1974,blunt head trauma; hypertensive intracerebral hemorrhage; masked hypertension; cerebral arteries; nidus
+health,Health workforce education,642,1882,entrepreneurship programs; staff development; md; md–phd; hospital nursing interns
+health,Neuroscience and cognition,383,1806,blind masking mechanism; memory recall; line bisection; autobiographical memory; hierarchical concentrative attention
+health,Amino acid sequence,453,1624,topoisomerase ii interdomain relationships; b cell epitope; protein–ligand interaction; collagen mimetic peptides; drug proteins
+health,Determinants of health,139,1580,disparities (health; phytotherapy; carbon; lifestyle medicine; gender disparities
+health,cancer immunotherapy,382,1430,"antibodies, viral; pd-l1; time dependent exposure; drug agonism; adjuvants, immunologic"
+health,Bayesian health modeling,487,1321,geometric patterns; false alarm; fast-tracking; low frequency; retro-propagation
+health,Surgical procedures,632,1301,"thoracic endovascular aortic repair; hernia, inguinal; assisted reproductive technique; surgical consultation; central venous catheters"
+health,Health and functional status assessment,421,1243,e-health impact questionnaire; observations of daily living; swanson impairment evaluation; user version of the mobile app rating scale; instrumental activities of daily living
+health,Cardiac arrhythmias,470,1232,epicardial potentials; cardiac time intervals; his-purkinje system; systolic murmurs; carotid artery pulsation
+health,Perinatal outcomes,376,1160,breastfeeding; cardiovascular health monitoring; congenital abnormalities; dairy cattle; cumulative live birth
+health,Caregivers and care quality,239,1036,spouses; product surveillance; patients’ adoption; negative reviews; participant experience
+health,Health program evaluation,153,1014,"care model; caremaps; hospital electronic prescribing and medicines administration, implementation; prioritization; healthcare provider economics"
+health,Cardiovascular hemodynamics,322,997,lymph transport; circulatory system; arterial tissue; ejection fraction; hypoxia-ischemia
+health,Natural products and traditional medicine,539,968,olive oil; zepyros; sialic acid; thiones; naringin
+health,Protein-peptide binding,205,938,tcr–peptide binding; transmembrane current; met-hgf complex; gtp-4; ph sensor
+health,Cardiorespiratory monitoring,550,927,skin substitute; seismocardiogram (scg); hematocrit; vocal tract pressure; carotid wall
+health,Mixed health informatics safety topics,452,872,professional discontinuity; competition policy; medical disputes; hard sample mining; designing for connected health
+health,Myocardial infarction,333,791,erythrocyte transfusion; computed tomography angiography; coronary arteries; strut malapposition; acute normovolemic hemodilution
+health,Mixed terminology and histopathology,499,781,transcript evolution; long sequence modelling; matrix profile; drug properties mining; subpopulation discrimination
+health,Signs and symptoms,401,700,tocography; encrustation and biofilm; medical evaluation; clinical characteristic; internal organs
+health,Upper airway disorders,220,677,nasopharyngeal lymphoid hyperplasia; otitis media; respiratory airways; human respiratory system; obstructive sleep apnea
+health,Microbial and fungal genomics,241,642,convex hull; microbial source tracking; medicinal leaf and plant classification; isolation forest; colony morphology
+health,Medical specialties,73,635,mental health and psychiatry; obstetrics and gynecology; medical oncology; hematology oncology; pulmonary medicine
+health,Cancer treatment modalities,192,604,"prostate neoplasms; encephalitis, california; antineoplastic combined chemotherapy protocols; hep-2 cells; neoplasms/mortality"
+health,Metabolic networks,220,572,sub-endothelial ldl accumulation; glutamate receptor 2; glucose transporter; apoferritin; mitochondrial metabolism
+health,Motor imagery,118,567,"eeg, eog, emg signals; eeg and meg classification; single-lead eog; movement-based interaction; phase locking value (plv)"
+health,Clinical guidelines,199,532,subcutaneous injection; knowledge-based recommendation; evidence-based guidelines; de novo drug generation; practice guidelines
+health,User-centered design,71,443,user perspective; training performance evaluation; qualitative survey; usage evaluation; participatory design processes
+health,Tumor immunology and microenvironment,135,370,neoplastic stem cells; tumor clonal evolution; axillary lymph nodes; distant recurrence; lymph node
+health,Cell signaling and oncogenic pathways,205,305,muscle loss; mmp-9; interleukin-1 receptor-associated kinases; ataxia telangiectasia and rad3-related (atr) kinase; biomineralization
+health,Aortic diseases,182,299,aortic valve open; aortic dissection; left atrial appendage excision; discrete subaortic stenosis; heart valve prosthesis
+health,Repetitive DNA sequences,82,295,split-complex; crispr-cas systems; dual domain; long interspersed nucleotide elements; dual domains
+health,Environmental health risks,75,283,air pollution; outdoor pollution; pathogen exposure; lifestyle exposure; personal health environment
+health,Mass screening,73,268,risk control; mandatory programs; communicating exposure risk; detecting epidemics; psa-testing
+health,Post-translational modifications,25,229,phosphorylated protein pathway; centromeres; microtubules; protein ubiqutination; trafficking
+health,Causal mediation analysis,111,204,latent confounding; common factors; mediation analysis; moderators; dose-response effects
+health,Sequence and structure prediction,127,199,selex; single cell; staining and labeling; t-cell receptor repertoires; tcr prediction
+health,Health semantic similarity,93,189,long lasting memories; barlow twins non-contrastive learning; learning latent representations; dual-view representation learning; global context-aware learning
+health,Lung nodules,112,168,lung nodules; classification of lung nodules; pilomatricoma; chondrosarcoma; faded histological samples
+health,Epitope analysis,68,156,affinity matrix; antibody affinity; epitope reactivity analyses; mhc class i peptide loading; imgt germline comparison
+health,Multimodal imaging,101,144,step variability; thoracic injury; grip strength tracking; volume preservation; heart rate asymmetry
+health,Anatomical terminology,98,124,paracingulate; forearms; teeth crown; ribs; shallow features
+health,Endoscopic procedures,43,123,enteroscopy; hysteroscopy; endososcopy; gastroesophageal reflux disease treatment; uc
+health,Maternal and reproductive health,73,122,prenatal nutrition literature; growth hormone-releasing hormone; irregular menstrual cycles; fibroid; overactive bladder
+health,"Eye, ENT, and oral diseases",42,113,muscular diseases; urogenital reproductive disorders; meibomian gland dysfunction; ocular diseases; ear diseases
+health,Unclassified keyword cluster,66,91,ovulate; waterwheel plant algorithm; human brichos family; pairedphewas; smombies
+health,Rare diseases,37,81,traumatic coagulopathy; acute hepatic porphyria; hematological disorder; urinary tract disorders; hyponatremia
+health,Environmental biota and species,50,67,needle terpenes; blackbird; microalgae; marine sponges; plankton
+health,Privacy-preserving cryptography,23,56,function encryption; all-ip wireless sensor network; char-entity-transformer; multi-level privacy preserving; proof of retrievability
+health,Ploidy variation,15,44,autotetraploid species; apomixes; allopolyploid; tetraploidy; haploidy
+health,Cardiac device prevalence,14,40,transjugular intrahepatic portosystemic shunt; implantable cardioverter defibrillator; cardiac device; implantable cardioverter-defibrillator; ventricular assist device
+health,Skin disease classification,19,29,thorax disease classification; case management [mesh]; chronic disease (c23.550.291.500); chronic disease [mesh]; international classifications of disease 9
+health,Limited English Proficiency,11,22,spanish-speaking latino men who have sex with men (msm); english proficiency; spanish speakers; non-english; non-english language preference
+health,Sensory evoked potentials,7,14,"audiometry, pure-tone; transcranial static magnetic stimulation (tsms); augmented reality-fused stimulus (ar-fs) paradigm; auditory steady-state response (assr); steady-state visual evoked potential (ssvep)"
+health,Cures Act,9,13,good doctors website; fake drugs; million hearts; the cures act; cures act
+methodology,Machine learning methods,5973,29698,"health information interoperability, workflow analysis; frequency-adaptive separation; u-shape neural network; nested cross-validation; kolmogorov–arnold networks (kan)"
+methodology,Clinical decision support,5104,15542,stroke-risk early warning; researcher opinion; medical tabular data; variant effect prediction evaluation; mobile operating system differences
+methodology,Clinical study designs,1165,14528,diabetic; sub-group based adaptive designs; controlled trial; decentralized study; medical data analysis
+methodology,Software and usability research,2077,13066,data integrity; optical inversion; rigidity; swgdt; task-technology fit
+methodology,Genomics and sequence bioinformatics,2542,9928,open-source framework; annotation time; lavaa web application; protein secondary structure prediction; user-friendly software
+methodology,Statistical methods,2939,9671,stochastic frontier analysis; exploratory sequential analysis; face anti-spoofing; information enhancement; nonlinear dynamic systems
+methodology,Mobile health and social media,1600,7902,global positioning system (gps) system; educational website; wearable sleep trackers; textual inference; uncertainty visualization in spatial transcriptomics
+methodology,Medical image segmentation,2620,6482,live-cell imaging; chest x-ray (cxr); bone segmentation; fov; microneurography
+methodology,Information dissemination,1017,5950,resource sharing; electronic occurrence reporting; google assistant; information management; alert specificity
+methodology,Virtual medical simulation,1737,5925,research training; digital pain drawings; undergraduate reu program; non-newtonian; multi-phase deformable model
+methodology,Bayesian and statistical modeling,1466,5046,ml models; multiple qtl model; digital behavior change interventions design; shared frailty; intervention measures
+methodology,Biomedical signal processing,2188,4639,stimulation resolution; 12-lead electrocardiogram; bpsd; time series data; body surface potential mapping
+methodology,Drug discovery and evaluation,779,3821,infectious disease management; psychometric testing; evaluation and assessment; therapeutic development; public service announcements
+methodology,Mixed deep learning applications,1904,3768,"colonography, computed tomographic; temporal reasoning; abdominal ultrasonography; robot skin; vowel classification"
+methodology,eHealth and mobile applications,464,3142,online source; online resources; fitness app; telemedicine solution; digital contraception
+methodology,Big data infrastructure and interoperability,596,2349,massive datasets; spreadsheet; automated cell type annotation; data warehourse; automatic data augmentation
+methodology,Qualitative research methods,244,2152,quantitative context analysis; descriptive–analytical method; donor recruitment; mixed-methods evaluative study; qualitative survey
+methodology,Ecological momentary assessment,593,2095,aerobic capacity; just-in-time adaptive intervention; portable sleep eeg monitor; actigraphy; triaxial accelerometry
+methodology,RNA-seq data analysis,506,2093,multitaxonomic analyses; transcriptome-wide association study; adapter trimming; gene expression distribution; cluster analysis
+methodology,Knowledge graphs,537,1753,graph coarsening; knowledge-base integration; queries; semantic augmentation; concept-attribute relation classification
+methodology,Clinical monitoring and surveillance,273,1677,dialogue script; consent model; influence diagrams; human-centric ai; appropriability regime
+methodology,Contrastive learning,431,1579,attentions at neighbor-type level and at network level; region-level attention; multi-view representation learning; chinese natural language processing; non-local attention mechanism
+methodology,Biological modeling,484,1440,protein dynamics; rotamer library; inhibitor screening; in silico vaccine development; prime mm/gbsa free energy calculations
+methodology,Missing data imputation,107,1391,methodologies; validating; imputation method selection; missing value imputation; performance risk
+methodology,Mass spectrometry and ROC analysis,403,1302,centrality measures; segmentation quality assessment; ubiquitous and mobile computing; utility coefficients; quality evaluation
+methodology,Predictive and Markov modeling,205,1222,cross-population train/test models; gaussian graphical models; fuzzy expert system model; actor model; network modeling
+methodology,Mixed automation and optimization methods,452,1106,neural architecture search (nas); nature-inspired optimisation; neural net- works; multi-task training; machine-fair principles
+methodology,Large language models,205,1082,domain-specific language model; distributional semantic models; word-analysis; decoding model; general-purpose language model
+methodology,Named Entity Recognition,379,1014,drug properties mining; biomedical and biological ontology (bio-ontology); biomedical question answering system; multilingual representation; discourse markers
+methodology,Data visualization methods,391,991,creating images from text; user identification; results interpretation; matrix profile; 3d u-net model
+methodology,Privacy and de-identification,202,968,"privacy; patient privacy, confidentiality; privacy preserving data publishing; privacy preserving record linkage; writing assistance for physicians"
+methodology,Graph and network methods,470,841,heterogeneous to homogeneous network; visualization of genomic interactions; dimensionality expansion; intra-omics/inter-omics network; edge networks
+methodology,Mixed reasoning and modeling methods,176,840,explain- ability; symbolic models; hyperbolic complex; hesitation degree; reliability failure possibility
+methodology,Cryo-electron microscopy,95,666,molecular orientation; x-ray diffraction; short-long range interactions; nmr spectroscopy; thermophoresis and brownian diffusion
+methodology,Multi-task and meta learning,242,646,hippo-guided learning; manifold learning; adaptive token selection; learning latent representations; conformation-aware embeddings
+methodology,Research ethics and patient involvement,130,644,"human subject research; irbs; jurisdiction; medical device regulation (ue) 2017/745; ethics, research"
+methodology,Computer security,105,555,data security; fair remote data retrieval; post-quantum encryption; partially ordered set; ciphertext attribute-based encryption
+methodology,Neuroscience and cognitive psychology,114,551,stroop task; model retraining; shapley values; mobile cognitive testing; swanson impairment evaluation
+methodology,Open access publishing,60,432,open platform; electronic acknowledgment; academic social network; e-publishing; open access to information
+methodology,Transformer models,237,396,“black-box” models; network control principles; asymmetric encoder–decoder architecture; transformer model; fuzzy topsis
+methodology,Data augmentation,136,383,claude 3.5 sonnet; wgcca; virtual data collection; mcncp; german nlp
+methodology,Immunological techniques,179,382,immunofluorescence staining; software lifecycle; antibody phage display; rt-stop method; quantitative morphology
+methodology,Clinical data standards,174,356,access; consent resentativeness; technological innovation; research unit network; ich e6(r3)
+methodology,Mixed mathematical and geometric methods,254,353,sigmoid kernel; sparse-spectrum; force model; deformable; chaotic transform
+methodology,Behavioral theories,154,318,self-determination theory (sdt); argument theory; transtheoretical model; social processes; self-description
+methodology,Data governance and standards,115,287,llm-generated clinical trial designs; data cohort; data resource; data density; information appraisal
+methodology,High-throughput screening,82,284,high-throughput reporter assays; high-throughput pharmacologic screens; in vitro embryo production; cell free fetal dna; cell free dna
+methodology,Gene editing,48,262,amino acid insertion mutations; gene editing efficiency; crispr-cas tools; sirna delivery; gene knockdown techniques
+methodology,Diffusion generative models,168,260,maximum entropy model; survival path mapping (sp) model; hybrid-models; lattices; mutation trees
+methodology,Microarray analysis,52,259,cross-linking; h nmr spectroscopy; robotic process automation; isoelectric focusing; laboratory techniques and procedures
+methodology,Generative AI and corpus methods,95,211,"cyclegan; ai(4); protein language model, transformed features; protein sequence hashing; $l_{1}$   regularization"
+methodology,Serious games,82,198,champs; user needs; mixup; swift teams; online to offline
+methodology,Algorithmic bias,44,196,bias; decryption; information affordance; fairification; marketplace
+methodology,Mixed clinical NLP applications,97,178,clinical characteristics analysis; fingernail key points detection; disease progression trajectories; treatment entity normalization; validation studies as topic
+methodology,Pilot studies and synthetic data,19,176,scaling tool; benchmark data; machine comprehension dataset; realistic data generation; synthetic data utility
+methodology,Ultrasound and echocardiography,127,174,noninvasive method; doppler echocardiography; acoustic environment; plane-wave transmission; magnetohydrodynamics
+methodology,Federated learning,8,154,federated; federated learning; ∊-differential privacy; daily dosage extraction; federated evaluation
+methodology,Agent-based Modeling,66,138,population-graph based model; fitness landscape models; epidemic ode model; large-scale mechanistic modeling; data-driven epidemic model
+methodology,Knowledge distillation,27,98,self-distillation mechanism; solid mass; model distillation; multi scale feature distillation; asynchronous knowledge distillation
+methodology,Mixed psychological and measurement theories,41,98,semigroup theory; two-factor theory; latent space research; head circumference; circumference measurements
+methodology,Mixed engineering and imaging acronyms,80,97,adaptive convex region contour (acrc); convolutive blind source separation (bss); model based smooth super-twisting control (mbsstc); offline dynamic class activation mapping (ofld cam); fiber bragg gratings (fbgs)
+methodology,Fractal dimension,39,65,topological indices; point clouds; chemical descriptors; topological descriptor; multiple vowels
+methodology,Transfer learning variants,27,41,inductive learning; cross-dataset robustness; domain robust matching; 3d transfer learning; multi-fidelity learning
+methodology,Content-based image retrieval,23,40,integration based flow visualization; bio-inspired processing; biomedical event trigger detection; deep learning for ultrasound image; genomic privacy and security
+methodology,Biobanking methodologies,7,32,uk biobank; biobank database; biobank resources; biobanking; biobanking irb
+methodology,All of Us,11,28,ghana hiv/aids commission; us national institute of mental health; association for the advancement of medical instrumentation (aami); all of us research program; research grants
+methodology,Additive manufacturing optimization,13,24,advanced manufacturing; system optimization; extrusion-based 3d printing; process optimization; polymerization
+methodology,Distributed ledger technology,3,19,distributed ledger technologies; distributed ledger technology; blockchain distributed ledger technology
+methodology,Assisted reproduction,18,19,autologous transplantation; uterine cervical dysplasia; intrauterine insemination; platelet-rich plasma therapy; reproductive techniques
+methodology,Mixed narrative and language studies,9,16,personal narratives; feminist new materialism; linguistic inquiry; language acquisition; bilingualism

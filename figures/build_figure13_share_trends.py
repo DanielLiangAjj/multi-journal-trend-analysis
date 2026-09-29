@@ -114,10 +114,7 @@ def main():
     sm_ = draw(axes[0], meth, "A", "Methodology topics")
     sh_ = draw(axes[1], heal, "B", "Health topics")
 
-    fig.suptitle(
-        "Topic share trends — overdispersion-robust Poisson model with a "
-        "log-corpus-size offset, Holm-corrected within domain",
-        fontsize=13.5, fontweight="bold", color=INK, y=0.995)
+    # in-image figure title removed (caption carries it)
     fig.text(0.5, 0.008,
              "Positive values gain share of annual corpus output; negative values lose share. "
              "Bars show only topics significant after Holm correction; n = articles 2011–2025. "

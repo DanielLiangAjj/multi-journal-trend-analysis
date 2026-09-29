@@ -89,14 +89,17 @@ def build_panel(domain: str, fig_num: int, out_path: Path):
 
     # ===== RIGHT PANEL: genuinely-emergent topics, breakthrough timeline =====
     # Color by breakthrough era band
+    # Era bins now match the drawn era bands exactly (2011-2015 /
+    # 2016-2020 / 2021-2025); the old <=2014 / <=2019 cuts coloured
+    # 2015 and 2020 breakthroughs with the NEXT era's colour (reviewer catch).
     colours = []
     for y in df["breakthrough_year"]:
-        if y <= 2014:
-            colours.append("#1f77b4")  # foundational
-        elif y <= 2019:
-            colours.append("#2ca02c")  # ML wave
+        if y <= 2015:
+            colours.append("#1f77b4")  # genomics-foundational era
+        elif y <= 2020:
+            colours.append("#2ca02c")  # ML surge
         else:
-            colours.append("#d62728")  # LLM era
+            colours.append("#d62728")  # LLM / Gen-AI era
 
     y_pos = np.arange(n)
     sizes = 60 + 6.0 * np.sqrt(df["total"].values)
@@ -136,13 +139,9 @@ def build_panel(domain: str, fig_num: int, out_path: Path):
             fontweight="bold", ha="center")
 
     domain_label = "methodology" if domain == "methodology" else "health"
-    fig.suptitle(
-        f"Topic breakthrough years — {domain_label} (K=100)\n"
-        f"Right panel: year a topic first crossed 25% of its eventual peak (n={n} genuinely-emergent topics).  "
-        f"Left panel: topics already at ≥25% of peak in 2011 (true breakthrough is pre-corpus and unobservable; n={n_est}).  "
-        f"Dot size = total volume; right-panel colour = era of breakthrough.",
-        fontsize=11, fontweight="bold", y=0.995,
-    )
+    letter = "a" if domain == "methodology" else "b"
+    fig.text(0.01, 0.985, f"({letter}) {domain_label.capitalize()}",
+             fontsize=14, fontweight="bold", ha="left", va="top")
 
     # Don't call tight_layout — we set axes positions manually for the dual panel.
     fig.savefig(out_path, dpi=200, bbox_inches="tight", pad_inches=0.25)

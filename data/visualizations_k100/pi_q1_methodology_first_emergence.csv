@@ -8,7 +8,7 @@ Biomedical signal processing,2011,Journal of Biomedical Informatics (JBI)
 Clinical data standards,2011,Journal of Medical Systems
 Clinical decision support,2011,Journal of Biomedical Informatics (JBI)
 Clinical monitoring and surveillance,2011,Journal of the American Medical Informatics Association (JAMIA)
-Clinical study designs,2011,Journal of Biomedical Informatics (JBI)
+Clinical study designs,2011,Methods of Information in Medicine
 Computer security,2011,Journal of Medical Systems
 Cryo-electron microscopy,2011,Journal of Medical Systems
 Data visualization methods,2011,Methods of Information in Medicine
@@ -25,7 +25,6 @@ Machine learning methods,2011,Briefings in Bioinformatics
 Mass spectrometry and ROC analysis,2011,Briefings in Bioinformatics
 Medical image segmentation,2011,Methods of Information in Medicine
 Microarray analysis,2011,Briefings in Bioinformatics
-Missing data imputation,2011,Computers in Biology and Medicine
 Mixed automation and optimization methods,2011,Nature Methods
 Mixed deep learning applications,2011,Journal of Biomedical Informatics (JBI)
 Mixed psychological and measurement theories,2011,Journal of Medical Systems
@@ -50,6 +49,7 @@ Additive manufacturing optimization,2012,Computers in Biology and Medicine
 Algorithmic bias,2012,Artificial Intelligence in Medicine
 All of Us,2012,Journal of the American Medical Informatics Association (JAMIA)
 Contrastive learning,2012,Artificial Intelligence in Medicine
+Missing data imputation,2012,Nature Medicine
 Mixed clinical NLP applications,2012,Journal of Medical Systems
 Multi-task and meta learning,2012,Artificial Intelligence in Medicine
 Assisted reproduction,2013,Artificial Intelligence in Medicine

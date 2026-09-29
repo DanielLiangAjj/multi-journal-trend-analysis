@@ -1,4 +1,7 @@
-"""Cross-journal universality vs niche: per-topic entropy spectrum.
+"""Cross-journal universality vs niche: per-topic entropy spectrum (manuscript Figure 8).
+
+2026-09-29: band labels shortened so INTERMEDIATE no longer collides with UNIVERSAL; annotated journal names use
+standard abbreviations instead of an 18-character truncation.
 
 Horizontal bar chart of normalised Shannon entropy per topic, sorted from
 most-niche (low entropy, journal-concentrated) to most-universal
@@ -16,6 +19,23 @@ MAIN_MIRROR = Path("/Users/danielliang/Library/CloudStorage/Dropbox/multi_journa
 OUT = ROOT / "figures" / "figure_entropy_spectrum.png"
 
 
+JOURNAL_ABBR = {
+    "Journal of Medical Internet Research (JMIR)": "JMIR", "Computers in Biology and Medicine": "CBM",
+    "IEEE Journal of Biomedical and Health Informatics (J-BHI)": "IEEE J-BHI", "Briefings in Bioinformatics": "Brief Bioinform",
+    "BMC Medical Informatics and Decision Making": "BMC MIDM", "Nature Medicine": "Nat Med",
+    "Journal of the American Medical Informatics Association (JAMIA)": "JAMIA", "JMIR mHealth and uHealth": "JMIR mHealth",
+    "Journal of Medical Systems": "J Med Syst", "Journal of Biomedical Informatics (JBI)": "JBI",
+    "International Journal of Medical Informatics (IJMI)": "IJMI", "Nature Methods": "Nat Methods",
+    "npj Digital Medicine": "npj Digit Med", "JMIR Medical Informatics (JMI)": "JMIR Med Inform",
+    "Database: The Journal of Biological Databases and Curation": "Database", "Artificial Intelligence in Medicine": "Artif Intell Med",
+    "Frontiers in Digital Health": "Front Digit Health", "Applied Clinical Informatics": "Appl Clin Inform",
+    "Journal of Clinical and Translational Science": "J Clin Transl Sci", "Health Informatics Journal": "Health Inform J",
+    "JAMIA Open": "JAMIA Open", "Bioinformatics Advances": "Bioinform Adv", "PLOS Digital Health": "PLOS Digit Health",
+    "Methods of Information in Medicine": "Methods Inf Med", "The Lancet Digital Health": "Lancet Digit Health",
+    "BMJ Health & Care Informatics": "BMJ Health Care", "Digital Biomarkers": "Digit Biomark",
+    "Journal of Innovation in Health Informatics": "J Innov Health Inform", "Bioinformatics": "Bioinformatics",
+}
+
 def panel(ax, df, domain_label, colour):
     df2 = df.sort_values("norm_entropy")
     n = len(df2)
@@ -27,9 +47,9 @@ def panel(ax, df, domain_label, colour):
     ax.axvspan(0.85, 1.0, alpha=0.07, color="#2ca02c", zorder=0)
     ax.axvline(0.55, color="#d62728", lw=0.7, ls="--", alpha=0.6)
     ax.axvline(0.85, color="#2ca02c", lw=0.7, ls="--", alpha=0.6)
-    ax.text(0.275, n + 0.7, "NICHE\n(entropy ≤ 0.55)",
+    ax.text(0.275, n + 0.7, "NICHE\n(≤ 0.55)",
             fontsize=8.5, color="#d62728", ha="center", fontweight="bold")
-    ax.text(0.925, n + 0.7, "UNIVERSAL\n(entropy ≥ 0.85)",
+    ax.text(0.925, n + 0.7, "UNIVERSAL\n(≥ 0.85)",
             fontsize=8.5, color="#2ca02c", ha="center", fontweight="bold")
     ax.text(0.70, n + 0.7, "INTERMEDIATE",
             fontsize=8.5, color="#666", ha="center", fontweight="bold")
@@ -51,8 +71,8 @@ def panel(ax, df, domain_label, colour):
             row = df2.iloc[ix]
             ax.text(row["norm_entropy"] + 0.005, ix,
                     f"  {int(row['n_journals'])} jrnls · "
-                    f"{row['max_journal'][:18] if isinstance(row['max_journal'], str) else ''} {row['max_share']:.0f}%",
-                    fontsize=6.6, va="center", ha="left", color="#444")
+                    f"{JOURNAL_ABBR.get(row['max_journal'], row['max_journal']) if isinstance(row['max_journal'], str) else ''} {row['max_share']:.0f}%",
+                    fontsize=7.2, va="center", ha="left", color="#444")
 
     ax.set_title(f"({domain_label[0]}) {domain_label[1]} topics — entropy spectrum",
                  fontsize=11.5, fontweight="bold", pad=8)
@@ -69,13 +89,7 @@ def main():
     panel(axes[0], sp_m, ("A", "Methodology"), "#1f4ea0")
     panel(axes[1], sp_h, ("B", "Health"), "#9c27b0")
 
-    fig.suptitle(
-        "Cross-journal topic universality vs niche concentration (K=100)\n"
-        "Higher entropy → topic spread evenly across all 29 journals (universal vocabulary). "
-        "Lower entropy → topic concentrated in a few journals (identity marker).",
-        fontsize=12.5, fontweight="bold", y=0.995,
-    )
-    fig.tight_layout(rect=[0, 0, 1, 0.94])
+    fig.tight_layout()
     fig.savefig(OUT, dpi=200)
     plt.close(fig)
     print(f"  wrote {OUT}")

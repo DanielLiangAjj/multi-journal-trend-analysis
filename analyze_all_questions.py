@@ -982,7 +982,7 @@ def q7_historical_events(topic_year, year_total, years, output_dir):
         sns.heatmap(mat, xticklabels=years, yticklabels=topics,
                     cmap="RdBu_r", center=0, ax=ax,
                     linewidths=0.5, linecolor="white", annot=False)
-        ax.set_title(f"Q7: Year-over-Year Growth Rate — Top 20 {domain.title()} Topics\n"
+        ax.set_title(f"Year-over-year change in article count, top 20 {domain} topics\n"
                      f"(red = surge, blue = decline; find change points visually)",
                      fontsize=13)
         ax.set_xlabel("Year", fontsize=12)

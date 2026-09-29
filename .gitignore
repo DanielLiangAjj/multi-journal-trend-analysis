@@ -48,3 +48,11 @@ figures/manuscript_v5/
 
 # Regenerable cache: rebuilt on demand by figures/build_figure14_journal_network.py
 data/journal_similarity_graph.pkl
+
+# Backups and superseded figure sets (not pushed)
+*.bak_*
+*_bak_*/
+data/icite_links.json
+figures/submission/
+figures/manuscript_v5/
+figures/cropped_supp/

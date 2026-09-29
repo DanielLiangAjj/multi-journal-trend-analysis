@@ -95,8 +95,9 @@ def build(domain: str, out_path: Path):
                 bbox=dict(boxstyle="round,pad=0.3", fc="white",
                           ec="#dddddd", lw=0.7, alpha=0.9))
 
-        # Title with topic + total
-        ax.set_title(f"{name}\n(total = {int(row['total']):,})",
+        # Title with topic + 2011-2025 total (the CSV 'total' column
+        # includes 2026 records, so sum the plotted years instead)
+        ax.set_title(f"{name}\n(total = {int(y.sum()):,})",
                      fontsize=10, pad=4)
         ax.set_ylim(0, ymax * 1.08)
         ax.tick_params(axis="x", rotation=45, labelsize=8)
@@ -111,19 +112,15 @@ def build(domain: str, out_path: Path):
     for ax in axes[len(topic_names):]:
         ax.set_visible(False)
 
-    # Shared axis labels
-    fig.supxlabel("Year", fontsize=11)
+    # Shared axis labels — supxlabel lifted clear of the bottom legend
+    # (reviewer: x-label and legend overlapped)
+    fig.supxlabel("Year", fontsize=11, y=0.055)
     fig.supylabel("Articles per year", fontsize=11)
 
     domain_label = "methodology" if domain == "methodology" else "health"
     panel = "a" if domain == "methodology" else "b"
-    n_sig = int(trends["significant_holm"].sum())
-    n_total = len(trends)
-    fig.suptitle(
-        f"({panel}) Top {N_TOP} {domain_label} topics by total volume — yearly trajectories\n"
-        f"{n_sig}/{n_total} topics carry a Holm-significant linear slope; line colour encodes significance",
-        fontsize=13, fontweight="bold", y=0.995,
-    )
+    fig.text(0.005, 0.995, f"({panel}) {domain_label.capitalize()}",
+             fontsize=14, fontweight="bold", ha="left", va="top")
 
     # Legend at the bottom
     handles = [
@@ -135,9 +132,9 @@ def build(domain: str, out_path: Path):
                    marker="o", markersize=5, label="Holm-significant negative slope"),
     ]
     fig.legend(handles=handles, loc="lower center", ncol=3,
-               frameon=False, fontsize=10, bbox_to_anchor=(0.5, 0.005))
+               frameon=False, fontsize=10, bbox_to_anchor=(0.5, 0.0))
 
-    fig.tight_layout(rect=[0.03, 0.05, 1, 0.94])
+    fig.tight_layout(rect=[0.03, 0.075, 1, 0.97])
     fig.savefig(out_path, dpi=200)
     plt.close(fig)
     print(f"  wrote {out_path}")

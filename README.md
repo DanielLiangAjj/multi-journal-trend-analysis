@@ -2,10 +2,61 @@
 
 A data-driven, AI-augmented pipeline for large-scale research trend analysis across **29 biomedical informatics journals** spanning **2011–2025**. This project extends the methodology of Fang et al.'s single-journal (Journal of Biomedical Informatics) analysis to a multi-journal corpus, enabling cross-journal comparison, journal-level specialization analysis, and field-wide trend detection.
 
+
+## Manuscript
+
+**A Scalable Framework for Longitudinal Surveillance of Research Evolution in Digital Medicine.**
+Yilun Liang, Gongbo Zhang, Casey Ta, Yilu Fang, Chunhua Weng (Department of Biomedical Informatics, Columbia University).
+Submitted to *npj Digital Medicine* on 29 September 2026. The framework is called **TRACE** (Tracking Research Attention and Community Evolution) in the manuscript.
+
+This repository holds the code that produced every figure, table and statistic in the manuscript, together with the derived data tables they are computed from. The raw article records (titles, abstracts and author keywords harvested from PubMed and publisher pages) are not redistributed; `data/corpus_pmids.csv` lists the 78,425 PMIDs (78,073 published 2011–2025) with journal, year and keyword source so that the corpus can be rebuilt from PubMed with `collect_pubmed_data.py`. On acceptance the repository will be archived on Zenodo with a DOI.
+
+### Manuscript figures and tables → repository files
+
+| Manuscript | Repository file | Builder |
+|---|---|---|
+| Figure 1 | `figures/figure1_pipeline.png` | `figures/build_figure1_pipeline.py` |
+| Figure 2 | `figures/figure2_volume_waves.png` | `figures/build_figure2_waves.py` |
+| Figure 3 | `figures/figure5_milestones.png` | `figures/build_figure5_milestones.py` |
+| Figure 4a/b | `figures/figure4_methodology_topic_trends.png`, `figures/figure4_health_topic_trends.png` | `figures/build_figure4_topic_trends.py` |
+| Figure 5 | `figures/figure5_cooccurrence_k100.png` | `figures/build_figure5_cooccurrence.py` |
+| Figure 6 | `figures/figure8_journal_archetypes.png` | `figures/build_figure8_journal_archetypes.py` |
+| Figure 7 | `figures/figure13_journal_topic_specialization.png` | `figures/build_figure13_n2_heatmap.py` |
+| Figure 8 | `figures/figure_entropy_spectrum.png` | `figures/build_figure_entropy_spectrum.py` |
+| Figure 9a/b | `figures/figure14_methodology_breakthrough.png`, `figures/figure15_health_breakthrough.png` | `figures/build_figure14_15_breakthrough.py` |
+| Figure 10 | `figures/figure13_share_trends.png` | `figures/build_figure13_share_trends.py` |
+| Figure 11 | `figures/figure14_journal_similarity_network.png` | `figures/build_figure14_journal_network.py` |
+| Figure 12 | `figures/figure9_covid_volcano.png` | `figures/build_figure9_covid_volcano.py` |
+| Supp. Fig. 1 | `figures/figure_supp_journal_timeline.png` | `figures/build_supp_journal_timeline.py` |
+| Supp. Fig. 2a/b | `figures/supp_figure2_keywords_methodology.png`, `…_health.png` | `figures/build_supp_fig2_keywords.py` |
+| Supp. Fig. 3 | `figures/figure6_windows_combined.png` | `figures/build_figure6_windows_combined.py` |
+| Supp. Fig. 4 | `figures/supp_figure_per_journal_trends.png` | `analyze_share_trends.py` |
+| Supp. Fig. 5 | `figures/supp_figure9_provenance.png` | `figures/build_supp_fig9_provenance.py` |
+| Supp. Fig. 6 | `figures/figure_supp_bridge_centrality.png` | `figures/build_figure_betweenness.py` |
+| Supp. Fig. 7 | `figures/supp_figure3_authorship.png` | `figures/build_supp_fig347.py` |
+| Supp. Fig. 8 | `figures/supp_figure4_journal_teamscience.png` | `figures/build_supp_fig347.py` |
+| Supp. Fig. 9a/b | `figures/supp_figure7_journalfit_methodology.png`, `…_health.png` | `figures/build_supp_fig347.py` |
+| Supp. Fig. 10a/b | `figures/supp_figure8_landscape_methodology.png`, `…_health.png` | `figures/build_supp_figure8_landscape.py` |
+| Supp. Fig. 11a/b | `data/visualizations_k100/pi_q7_methodology_changepoint_heatmap.png`, `…health…` | `analyze_pi_questions.py` |
+| Supp. Fig. 12 | `figures/supp_figure10_citation_influence.png` | `analyze_citation_influence.py` |
+| Supp. Table 7 (sparklines) | `figures/table2_cooccurrence_sparklines.png` | `figures/build_table2_sparklines_v2.py` |
+| Supp. Table 1 | inline in the manuscript (journal list; also `biomedical_informatics_journals.csv`) | — |
+| Supp. Tables 2, 3, 4 | `data/supp_tables/round23/supp_table_2.csv`, `supp_table_3.csv`, `supp_table_4.csv` | `analyze_all_questions.py` |
+| Supp. Table 5 (milestones) | `data/supp_tables/round23/supp_table_14.csv` | manual curation |
+| Supp. Table 6 (named datasets) | `data/supp_tables/round23/supp_table_8.csv` | `analyze_all_questions.py` |
+| Supp. Table 8 (journal descriptors) | `data/supp_tables/round23/supp_table_6.csv` | `analyze_all_questions.py` |
+| Supp. Table 9 (per-journal trends) | `data/supp_tables/round23/supp_table_13.csv`, `supp_table_13_full_per_journal_topic_trends.csv` | `analyze_share_trends.py` |
+| Supp. Table 10 (provenance sensitivity) | `data/supp_tables/round23/supp_table_7.csv` | `analyze_share_trends.py` |
+| Supp. Tables 11, 12, 13 (citation impact) | `data/supp_tables/round23/supp_table_10.csv`, `supp_table_11.csv`, `supp_table_12.csv` | `analyze_citation_influence.py` |
+| Supp. Table 14 (affiliation regex lists) | `data/supp_tables/round23/supp_table_9.csv` | `collect_author_data.py` |
+
+The tables underlying the figures are in `data/visualizations_k100/` (per-topic annual counts, linear-trend and share-trend statistics, journal-by-topic specialization matrices, cross-journal entropy rankings, co-occurrence matrix) and `data/journal_similarity_graph.pkl` (the journal-similarity network).
+
 ---
 
 ## Table of Contents
 
+1. [Manuscript](#manuscript)
 1. [Project Overview](#project-overview)
 2. [Key Statistics](#key-statistics)
 3. [Pipeline Architecture](#pipeline-architecture)
@@ -272,6 +323,8 @@ multi_journal_trend_analysis/
 - `data/mesh_tree_raw.bin` — MeSH 2024 raw download
 - All `*.progress.json` and `*_progress` intermediate state files
 - All `*.log`, `*.txt`, `nohup.out` logs
+- `data/icite_links.json` (63 MB) — raw NIH iCite citation-link lists, regenerable via `fetch_icite_metrics.py` (the per-article metrics used in the paper are kept in `data/icite_metrics.csv`)
+- `*.bak_*` backups and the superseded figure sets `figures/submission/`, `figures/manuscript_v5/`, `figures/cropped_supp/`
 
 ---
 
@@ -507,15 +560,15 @@ manuscript directly from the intermediate data in `data/` and checks each agains
 published value:
 
 ```bash
-python3 verify_manuscript_numbers.py    # 154 checks, exits non-zero on any mismatch
+python3 verify_manuscript_numbers.py    # 146 checks, exits non-zero on any mismatch
 ```
 
-All 154 checks run from a fresh clone. The full corpus CSV is too large to track
+All 146 checks pass from a fresh clone (expected values follow the manuscript as submitted on 29 September 2026). The full corpus CSV is too large to track
 (see `.gitignore`); the corpus-level checks fall back to the small provenance
 tables `data/corpus_summary.csv`, `data/corpus_articles_per_year.csv`,
 `data/corpus_articles_per_journal.csv` and `data/corpus_keyword_provenance.csv`,
-which are exported from it. Article identifiers (PMIDs) for reconstructing the
-corpus from PubMed are in `data/`.
+which are exported from it. Article identifiers for reconstructing the corpus from PubMed are in
+`data/corpus_pmids.csv` (78,425 PMIDs with journal, year and keyword source; 78,073 published 2011–2025).
 
 The figure build scripts under `figures/` are deterministic: two clean runs produce
 byte-identical PNGs.

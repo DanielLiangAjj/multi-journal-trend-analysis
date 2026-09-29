@@ -1,0 +1,30 @@
+journal,total,n_author_or_publisher,pct_author_or_publisher,n_mesh_substituted,pct_mesh_substituted,n_gpt_extracted,pct_gpt_extracted
+Bioinformatics,9564,12,0.1,9552,99.9,0,0.0
+Bioinformatics Advances,830,1,0.1,0,0.0,829,99.9
+The Lancet Digital Health,444,4,0.9,440,99.1,0,0.0
+Database: The Journal of Biological Databases and Curation,1623,16,1.0,1607,99.0,0,0.0
+Applied Clinical Informatics,1353,393,29.0,960,71.0,0,0.0
+Methods of Information in Medicine,652,280,42.9,372,57.1,0,0.0
+Journal of Medical Systems,2755,1790,65.0,965,35.0,0,0.0
+Journal of Innovation in Health Informatics,119,87,73.1,32,26.9,0,0.0
+Journal of the American Medical Informatics Association (JAMIA),3213,2452,76.3,761,23.7,0,0.0
+BMC Medical Informatics and Decision Making,3654,2857,78.2,797,21.8,0,0.0
+International Journal of Medical Informatics (IJMI),2722,2384,87.6,338,12.4,0,0.0
+Journal of Biomedical Informatics (JBI),2734,2416,88.4,318,11.6,0,0.0
+Artificial Intelligence in Medicine,1539,1385,90.0,154,10.0,0,0.0
+Journal of Medical Internet Research (JMIR),9728,8969,92.2,759,7.8,0,0.0
+Briefings in Bioinformatics,4579,4245,92.7,334,7.3,0,0.0
+Computers in Biology and Medicine,8908,8393,94.2,515,5.8,0,0.0
+Health Informatics Journal,1063,1011,95.1,52,4.9,0,0.0
+JMIR mHealth and uHealth,2872,2742,95.5,130,4.5,0,0.0
+IEEE Journal of Biomedical and Health Informatics (J-BHI),5071,4933,97.3,138,2.7,0,0.0
+BMJ Health & Care Informatics,399,390,97.7,9,2.3,0,0.0
+Nature Medicine,3460,3379,97.7,81,2.3,0,0.0
+Nature Methods,2503,2448,97.8,55,2.2,0,0.0
+JAMIA Open,836,830,99.3,6,0.7,0,0.0
+JMIR Medical Informatics (JMI),1684,1672,99.3,12,0.7,0,0.0
+Journal of Clinical and Translational Science,1194,1186,99.3,8,0.7,0,0.0
+Frontiers in Digital Health,1458,1449,99.4,9,0.6,0,0.0
+PLOS Digital Health,824,823,99.9,1,0.1,0,0.0
+Digital Biomarkers,145,145,100.0,0,0.0,0,0.0
+npj Digital Medicine,2147,2147,100.0,0,0.0,0,0.0

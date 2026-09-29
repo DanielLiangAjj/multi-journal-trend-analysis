@@ -108,6 +108,26 @@ def build_network():
     return G
 
 
+# ---- community naming (round 23): Louvain on the check-tag-cleaned network yields four weakly separated
+# communities; name/colour them by membership so the assignment is stable across reruns ----
+COMM_RULES = [("Bioinformatics", "Computational biology", "#0072B2"),
+              ("Journal of Medical Internet Research (JMIR)", "Clinical informatics and digital health", "#D55E00"),
+              ("Journal of Biomedical Informatics (JBI)", "AI methods and bridging venues", "#009E73"),
+              ("Nature Medicine", "General and digital medicine", "#CC79A7")]
+def name_communities(communities):
+    """return (ordered communities, names, colours) using COMM_RULES; leftovers get grey."""
+    ordered, names, cols = [], [], []
+    used = set()
+    for anchor, nm, col in COMM_RULES:
+        for ci, c in enumerate(communities):
+            if ci in used: continue
+            if anchor in c:
+                ordered.append(c); names.append(nm); cols.append(col); used.add(ci); break
+    for ci, c in enumerate(communities):
+        if ci not in used:
+            ordered.append(c); names.append("Other"); cols.append("#8c8c8c")
+    return ordered, names, cols
+
 def main():
     G = build_network()
     bc = nx.betweenness_centrality(G, weight=lambda u, v, d: 1 - d["weight"])
@@ -121,10 +141,7 @@ def main():
     # Color by Louvain community
     import networkx.algorithms.community as nx_com
     communities = nx_com.louvain_communities(G, weight="weight", seed=42)
-    communities = sorted(communities, key=lambda c: 0 if "Bioinformatics" in c else 1)
-    COMM_COLOUR = ["#0072B2", "#D55E00"]
-    COMM_NAME = ["Computational biology and bioinformatics",
-                 "Clinical informatics and digital health"]
+    communities, COMM_NAME, COMM_COLOUR = name_communities(communities)
     j_to_comm = {j: ci for ci, comm in enumerate(communities) for j in comm}
     colours = [COMM_COLOUR[j_to_comm[j]] for j, _ in top]
 

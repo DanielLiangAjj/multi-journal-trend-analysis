@@ -61,10 +61,7 @@ cb.outline.set_visible(False)
 
 ax.set_xlabel("Health topics (K=100)", fontsize=11, color=INK, labelpad=10)
 ax.set_ylabel("Methodology topics (K=100)", fontsize=11, color=INK, labelpad=8)
-ax.set_title("Methodology × health topic co-occurrence, 29 journals, 2011–2025\n"
-             f"Top {N} topics per domain by co-occurrence volume; digital health "
-             "technologies is the dominant connective column",
-             fontsize=12.5, fontweight="bold", color=INK, pad=14)
+# (in-image title removed 2026-09-29; the caption carries it)
 for s in ax.spines.values():
     s.set_visible(False)
 

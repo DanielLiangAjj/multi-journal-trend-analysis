@@ -1,0 +1,548 @@
+{
+ "n_with_metrics": 78070,
+ "n_with_rcr": 69787,
+ "n_with_rcr_to_2023": 57940,
+ "median_rcr_all": 1.166578142311724,
+ "pct_rcr_ge1": 49.06305637032008,
+ "pct_rcr_ge2": 29.638927670257324,
+ "total_citations": 3533490,
+ "median_rcr_by_year": {
+  "2011": 0.97,
+  "2012": 0.83,
+  "2013": 0.97,
+  "2014": 0.88,
+  "2015": 0.88,
+  "2016": 0.85,
+  "2017": 0.96,
+  "2018": 1.03,
+  "2019": 1.01,
+  "2020": 1.16,
+  "2021": 1.18,
+  "2022": 1.15,
+  "2023": 1.28,
+  "2024": 1.25,
+  "2025": 3.06
+ },
+ "topic_influence": {
+  "methodology": {
+   "top_median_rcr": [
+    [
+     "Neuroscience and cognitive psychology",
+     2.3,
+     366
+    ],
+    [
+     "Cryo-electron microscopy",
+     1.82,
+     534
+    ],
+    [
+     "Federated learning",
+     1.74,
+     71
+    ],
+    [
+     "Ecological momentary assessment",
+     1.61,
+     1492
+    ],
+    [
+     "eHealth and mobile applications",
+     1.51,
+     2497
+    ],
+    [
+     "Mobile health and social media",
+     1.4,
+     6130
+    ]
+   ],
+   "bottom_median_rcr": [
+    [
+     "Content-based image retrieval",
+     0.46,
+     30
+    ],
+    [
+     "Mixed mathematical and geometric methods",
+     0.53,
+     240
+    ],
+    [
+     "Ultrasound and echocardiography",
+     0.56,
+     120
+    ],
+    [
+     "Fractal dimension",
+     0.56,
+     48
+    ],
+    [
+     "Computer security",
+     0.58,
+     464
+    ],
+    [
+     "Mixed reasoning and modeling methods",
+     0.61,
+     707
+    ]
+   ],
+   "corr_median_rcr_vs_share_trend": 0.23,
+   "corr_median_rcr_vs_log_volume": 0.1,
+   "median_rcr_overall": 0.97,
+   "median_rcr_share_gainers": 1.06,
+   "median_rcr_share_losers": 0.91,
+   "median_rcr_nonsig": 0.83
+  },
+  "health": {
+   "top_median_rcr": [
+    [
+     "Determinants of health",
+     1.68,
+     1075
+    ],
+    [
+     "Older people",
+     1.67,
+     835
+    ],
+    [
+     "Psychiatric disorders",
+     1.62,
+     4034
+    ],
+    [
+     "Health behavior change",
+     1.56,
+     2596
+    ],
+    [
+     "cancer immunotherapy",
+     1.48,
+     1049
+    ],
+    [
+     "Neurodegenerative diseases",
+     1.47,
+     2197
+    ]
+   ],
+   "bottom_median_rcr": [
+    [
+     "Privacy-preserving cryptography",
+     0.5,
+     38
+    ],
+    [
+     "Environmental biota and species",
+     0.57,
+     51
+    ],
+    [
+     "Ploidy variation",
+     0.57,
+     39
+    ],
+    [
+     "Health semantic similarity",
+     0.6,
+     107
+    ],
+    [
+     "Genetic predisposition",
+     0.64,
+     2770
+    ],
+    [
+     "Biomedical databases",
+     0.66,
+     2844
+    ]
+   ],
+   "corr_median_rcr_vs_share_trend": 0.24,
+   "corr_median_rcr_vs_log_volume": 0.38,
+   "median_rcr_overall": 1.0,
+   "median_rcr_share_gainers": 1.15,
+   "median_rcr_share_losers": 0.93,
+   "median_rcr_nonsig": 1.04
+  }
+ },
+ "top_papers": [
+  [
+   "24695404",
+   2014,
+   "Bioinformatics",
+   "Trimmomatic: a flexible trimmer for Illumina sequence data.",
+   1771.6,
+   47878
+  ],
+  [
+   "22743772",
+   2012,
+   "Nature Methods",
+   "Fiji: an open-source platform for biological-image analysis.",
+   1518.0,
+   47736
+  ],
+  [
+   "31078660",
+   2019,
+   "Journal of Biomedical Informatics (JBI)",
+   "The REDCap consortium: Building an international community of software platform partners.",
+   1370.6,
+   19972
+  ],
+  [
+   "22930834",
+   2012,
+   "Nature Methods",
+   "NIH Image to ImageJ: 25 years of image analysis.",
+   1345.8,
+   40561
+  ],
+  [
+   "22388286",
+   2012,
+   "Nature Methods",
+   "Fast gapped-read alignment with Bowtie 2.",
+   1309.6,
+   42111
+  ],
+  [
+   "27214047",
+   2016,
+   "Nature Methods",
+   "DADA2: High-resolution sample inference from Illumina amplicon data.",
+   1088.9,
+   22184
+  ],
+  [
+   "30423086",
+   2018,
+   "Bioinformatics",
+   "fastp: an ultra-fast all-in-one FASTQ preprocessor.",
+   955.5,
+   20861
+  ],
+  [
+   "24451623",
+   2014,
+   "Bioinformatics",
+   "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies.",
+   844.8,
+   21079
+  ],
+  [
+   "32015543",
+   2020,
+   "Nature Methods",
+   "SciPy 1.0: fundamental algorithms for scientific computing in Python.",
+   722.8,
+   12891
+  ],
+  [
+   "25751142",
+   2015,
+   "Nature Methods",
+   "HISAT: a fast spliced aligner with low memory requirements.",
+   635.1,
+   17498
+  ]
+ ],
+ "pioneers_methodology": {
+  "citation_weighted_top": [
+   [
+    "Journal of the American Medical Informatics A",
+    15
+   ],
+   [
+    "Nature Methods",
+    14
+   ],
+   [
+    "Journal of Medical Internet Research (JMIR)",
+    10
+   ],
+   [
+    "Journal of Biomedical Informatics (JBI)",
+    7
+   ],
+   [
+    "Nature Medicine",
+    5
+   ],
+   [
+    "Computers in Biology and Medicine",
+    4
+   ]
+  ],
+  "first_to_publish_top": [
+   [
+    "Journal of Biomedical Informatics (JBI)",
+    17
+   ],
+   [
+    "Methods of Information in Medicine",
+    11
+   ],
+   [
+    "Journal of Medical Systems",
+    11
+   ],
+   [
+    "Journal of the American Medical Informatics A",
+    6
+   ],
+   [
+    "Briefings in Bioinformatics",
+    6
+   ],
+   [
+    "Artificial Intelligence in Medicine",
+    5
+   ]
+  ],
+  "agreement_pct": 27.1,
+  "n_topics": 70
+ },
+ "pioneers_health": {
+  "citation_weighted_top": [
+   [
+    "Nature Medicine",
+    37
+   ],
+   [
+    "Journal of Medical Internet Research (JMIR)",
+    18
+   ],
+   [
+    "Nature Methods",
+    9
+   ],
+   [
+    "Journal of the American Medical Informatics A",
+    5
+   ],
+   [
+    "Computers in Biology and Medicine",
+    4
+   ],
+   [
+    "Briefings in Bioinformatics",
+    3
+   ]
+  ],
+  "first_to_publish_top": [
+   [
+    "Journal of Medical Systems",
+    25
+   ],
+   [
+    "Journal of Biomedical Informatics (JBI)",
+    18
+   ],
+   [
+    "Methods of Information in Medicine",
+    10
+   ],
+   [
+    "Briefings in Bioinformatics",
+    9
+   ],
+   [
+    "Nature Medicine",
+    6
+   ],
+   [
+    "Computers in Biology and Medicine",
+    4
+   ]
+  ],
+  "agreement_pct": 20.9,
+  "n_topics": 86
+ },
+ "citation_network": {
+  "references_total": 2436891,
+  "references_within_corpus": 280315,
+  "pct_within": 11.5,
+  "betweenness_top": [
+   [
+    "Journal of the American Medical Informatics A",
+    0.534
+   ],
+   [
+    "Journal of Biomedical Informatics (JBI)",
+    0.294
+   ],
+   [
+    "npj Digital Medicine",
+    0.222
+   ],
+   [
+    "Journal of Medical Internet Research (JMIR)",
+    0.212
+   ],
+   [
+    "Briefings in Bioinformatics",
+    0.074
+   ],
+   [
+    "Applied Clinical Informatics",
+    0.071
+   ]
+  ],
+  "cross_journal_citations_top": [
+   [
+    "Journal of Medical Internet Research (JMIR)",
+    42599
+   ],
+   [
+    "Journal of the American Medical Informatics A",
+    29228
+   ],
+   [
+    "Bioinformatics",
+    27700
+   ],
+   [
+    "Briefings in Bioinformatics",
+    24617
+   ],
+   [
+    "Journal of Biomedical Informatics (JBI)",
+    19155
+   ],
+   [
+    "JMIR mHealth and uHealth",
+    19083
+   ]
+  ],
+  "self_citation_share_median": 30.1
+ },
+ "bridging_papers_top": [
+  [
+   "31501885",
+   2020,
+   "Bioinformatics",
+   "BioBERT: a pre-trained biomedical language representation model for biomedical t",
+   118,
+   649
+  ],
+  [
+   "32015543",
+   2020,
+   "Nature Methods",
+   "SciPy 1.0: fundamental algorithms for scientific computing in Python.",
+   118,
+   329
+  ],
+  [
+   "33288961",
+   2021,
+   "Nature Methods",
+   "nnU-Net: a self-configuring method for deep learning-based biomedical image segm",
+   114,
+   340
+  ],
+  [
+   "30617339",
+   2019,
+   "Nature Medicine",
+   "High-performance medicine: the convergence of human and artificial intelligence.",
+   110,
+   377
+  ],
+  [
+   "22209829",
+   2011,
+   "Journal of Medical Internet Re",
+   "CONSORT-EHEALTH: improving and standardizing evaluation reports of Web-based and",
+   107,
+   543
+  ],
+  [
+   "35058619",
+   2022,
+   "Nature Medicine",
+   "AI in health and medicine.",
+   103,
+   176
+  ],
+  [
+   "29162496",
+   2018,
+   "Journal of Biomedical Informat",
+   "Clinical information extraction applications: A literature review.",
+   102,
+   182
+  ],
+  [
+   "22388286",
+   2012,
+   "Nature Methods",
+   "Fast gapped-read alignment with Bowtie 2.",
+   101,
+   500
+  ]
+ ],
+ "most_cited_within_corpus": [
+  [
+   "31501885",
+   2020,
+   "Bioinformatics",
+   "BioBERT: a pre-trained biomedical language representation model for biomedical t",
+   649
+  ],
+  [
+   "22209829",
+   2011,
+   "Journal of Medical Internet Re",
+   "CONSORT-EHEALTH: improving and standardizing evaluation reports of Web-based and",
+   543
+  ],
+  [
+   "22388286",
+   2012,
+   "Nature Methods",
+   "Fast gapped-read alignment with Bowtie 2.",
+   500
+  ],
+  [
+   "30617339",
+   2019,
+   "Nature Medicine",
+   "High-performance medicine: the convergence of human and artificial intelligence.",
+   377
+  ],
+  [
+   "25760773",
+   2015,
+   "JMIR mHealth and uHealth",
+   "Mobile app rating scale: a new tool for assessing the quality of health mobile a",
+   357
+  ],
+  [
+   "33288961",
+   2021,
+   "Nature Methods",
+   "nnU-Net: a self-configuring method for deep learning-based biomedical image segm",
+   340
+  ],
+  [
+   "32015543",
+   2020,
+   "Nature Methods",
+   "SciPy 1.0: fundamental algorithms for scientific computing in Python.",
+   329
+  ],
+  [
+   "29750242",
+   2018,
+   "Bioinformatics",
+   "Minimap2: pairwise alignment for nucleotide sequences.",
+   292
+  ]
+ ]
+}

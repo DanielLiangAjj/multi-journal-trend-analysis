@@ -94,7 +94,7 @@ PANELS = [
         "milestones": [
             (2013, "FDA warning to 23andMe"),
             (2014, "NIH Genomic Data Sharing Policy"),
-            (2018, "All of Us / GDPR"),
+            (2018, "GDPR / All of Us launch"),
             (2024, "AI bias regulations"),
         ],
     },
@@ -351,12 +351,7 @@ def main() -> None:
             f"ratio={ratio:.2f}x){post_msg}"
         )
 
-    # Suptitle - period style for consistency with figures 1, 2, 3.
-    fig.suptitle(
-        "Milestone-annotated trend curves for selected K=100 case-study topics",
-        fontsize=14,
-        y=0.995,
-    )
+    # In-image figure title removed — caption carries it (reviewer request).
 
     # Layout first so axis transforms reflect final positions, then de-collide.
     fig.subplots_adjust(left=0.06, right=0.985, top=0.93, bottom=0.08,

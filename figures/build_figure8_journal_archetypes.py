@@ -10,7 +10,7 @@ directly labelled.
 Archetypes are assigned by the rules stated in 3.4, applied to every journal:
   high-volume veteran   full-window coverage (first indexed year 2011) and >4,000 articles
   high-growth newcomer  first indexed after 2011 and >3x growth in annual output by 2025
-  stable specialist     everything else
+  remaining journals    everything else (residual group; renamed from "stable specialists" in round 23)
 NOTE: applying these rules reproducibly does NOT reproduce the journal lists given
 in 4.2.1 - see the audit comment on that section.
 """
@@ -30,7 +30,7 @@ OUT = ROOT / "figures" / "figure8_journal_archetypes.png"
 ARCH = [
     ("High-volume veterans",  "#0072B2"),
     ("High-growth newcomers", "#D55E00"),
-    ("Stable specialists",    "#009E73"),
+    ("Remaining journals",    "#009E73"),
 ]
 INK, MUTED, GRID = "#1a1a1a", "#5c5c5c", "#dcdcdc"
 
@@ -90,45 +90,54 @@ groups = {0: [], 1: [], 2: []}
 for j in total.index:
     groups[archetype(j)].append(j)
 
-fig, axes = plt.subplots(1, 3, figsize=(16.5, 5.4), sharex=True, sharey=True)
+# 2x2 layout per reviewer request: veterans upper-left, newcomers lower-left,
+# and the 18 stable specialists across the whole right half so every journal
+# can be identified; each journal gets its own colour+marker combination.
 years = list(range(2011, 2026))
+PALETTE = ["#0072B2", "#D55E00", "#009E73", "#CC79A7", "#E69F00", "#56B4E9",
+           "#8C510A", "#5E3C99", "#1B9E77", "#E7298A", "#66A61E", "#A6611A",
+           "#7570B3", "#D95F02", "#80B1D3", "#B2182B", "#4D4D4D", "#35978F"]
+MARKERS = ["o", "s", "^", "D", "v", "P", "X", "*", "<", ">", "p", "h",
+           "o", "s", "^", "D", "v", "P"]
 
-for ax, (gi, (title, col)) in zip(axes, enumerate(ARCH)):
+fig = plt.figure(figsize=(15.5, 9.2))
+gs = fig.add_gridspec(2, 2, width_ratios=[1, 1.15], hspace=0.30, wspace=0.16)
+ax_vet = fig.add_subplot(gs[0, 0])
+ax_new = fig.add_subplot(gs[1, 0])
+ax_sta = fig.add_subplot(gs[:, 1])
+panel_axes = [ax_vet, ax_new, ax_sta]
+letters = ["a", "b", "c"]
+
+for ax, letter, (gi, (title, _col)) in zip(panel_axes, letters, enumerate(ARCH)):
     members = sorted(groups[gi], key=lambda j: -total[j])
     for rank, j in enumerate(members):
         y = piv.loc[j].reindex(years).to_numpy(dtype=float)
-        y[y == 0] = float("nan")            # do not draw years before a journal is indexed
-        lead = rank < 4
-        ax.plot(years, y, color=col, lw=2.0 if lead else 1.0,
-                alpha=0.95 if lead else 0.30, zorder=3 if lead else 2,
-                solid_capstyle="round")
-        if lead:
-            xs = [x for x, v in zip(years, y) if v == v]
-            ax.annotate(f" {SHORT.get(j, j[:18])}", (xs[-1], y[years.index(xs[-1])]),
-                        fontsize=8.6, color=INK, va="center", ha="left",
-                        xytext=(3, 0), textcoords="offset points", zorder=5)
-    ax.set_title(f"{title}\n{len(members)} journals", fontsize=11.5,
-                 fontweight="bold", color=INK, pad=9)
+        y[y == 0] = float("nan")            # skip years before a journal is indexed
+        ax.plot(years, y,
+                color=PALETTE[rank % len(PALETTE)],
+                marker=MARKERS[rank % len(MARKERS)],
+                markersize=4.2, markevery=2, lw=1.5, alpha=0.9,
+                label=SHORT.get(j, j[:18]), solid_capstyle="round")
+    ax.set_title(f"({letter}) {title} — {len(members)} journals",
+                 fontsize=11.5, fontweight="bold", color=INK, pad=8, loc="left")
     ax.grid(axis="y", color=GRID, lw=0.6, alpha=0.8, zorder=0)
     ax.set_axisbelow(True)
-    ax.set_xlim(2010.6, 2027.6)
+    ax.set_xlim(2010.6, 2025.6)
     ax.set_xticks([2011, 2015, 2020, 2025])
     ax.tick_params(colors=MUTED, labelsize=9.5)
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
     for s in ("left", "bottom"):
         ax.spines[s].set_color(GRID)
+    ncol = 1 if len(members) <= 4 else 2
+    ax.legend(fontsize=7.6, ncol=ncol, frameon=False, loc="upper left",
+              handlelength=2.2, labelspacing=0.35, columnspacing=0.9)
 
-axes[0].set_ylabel("Articles published per year", fontsize=11, color=INK)
-for ax in axes:
-    ax.set_xlabel("Year", fontsize=11, color=INK)
-fig.suptitle("Per-journal publication volume, 2011–2025 — all 29 journals by trajectory "
-             "archetype", fontsize=13, fontweight="bold", color=INK, y=1.03)
-fig.text(0.5, -0.035, "Bold lines with labels: the four highest-volume journals in each "
-         "archetype. Faint lines: the remaining members. Lines begin in each journal's "
-         "first indexed year.", ha="center", fontsize=9, color=MUTED)
+ax_vet.set_ylabel("Articles published per year", fontsize=11, color=INK)
+ax_new.set_ylabel("Articles published per year", fontsize=11, color=INK)
+ax_new.set_xlabel("Year", fontsize=11, color=INK)
+ax_sta.set_xlabel("Year", fontsize=11, color=INK)
 
-fig.tight_layout()
 fig.savefig(OUT, dpi=220, bbox_inches="tight", facecolor="white")
 plt.close(fig)
 print(f"wrote {OUT}")

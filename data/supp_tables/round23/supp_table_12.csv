@@ -1,0 +1,157 @@
+Domain,Topic,First year in corpus,First-to-publish journal,Citation-weighted pioneer (most citations to articles of the first three years),Citations accumulated by the leader,Articles in the first three years,Same journal under both definitions
+methodology,Agent-based Modeling,2011,Nature Methods,Nature Methods,45,3,True
+methodology,Bayesian and statistical modeling,2011,Journal of Biomedical Informatics (JBI),Journal of the American Medical Informatics Association (JAMIA),3006,431,False
+methodology,Behavioral theories,2011,Journal of Biomedical Informatics (JBI),Journal of Biomedical Informatics (JBI),55,5,True
+methodology,Big data infrastructure and interoperability,2011,Methods of Information in Medicine,Journal of the American Medical Informatics Association (JAMIA),1394,174,False
+methodology,Biological modeling,2011,Nature Methods,Nature Methods,2399,44,True
+methodology,Biomedical signal processing,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,5065,317,False
+methodology,Clinical data standards,2011,Journal of Medical Systems,Journal of the American Medical Informatics Association (JAMIA),190,13,False
+methodology,Clinical decision support,2011,Journal of Biomedical Informatics (JBI),Journal of the American Medical Informatics Association (JAMIA),13428,1722,False
+methodology,Clinical monitoring and surveillance,2011,Journal of the American Medical Informatics Association (JAMIA),Journal of the American Medical Informatics Association (JAMIA),625,49,True
+methodology,Clinical study designs,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),8734,533,False
+methodology,Computer security,2011,Journal of Medical Systems,Journal of Medical Systems,1423,155,True
+methodology,Cryo-electron microscopy,2011,Journal of Medical Systems,Nature Methods,16714,94,False
+methodology,Data visualization methods,2011,Methods of Information in Medicine,Briefings in Bioinformatics,8780,50,False
+methodology,Drug discovery and evaluation,2011,Journal of Biomedical Informatics (JBI),Nature Methods,41111,292,False
+methodology,Ecological momentary assessment,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),4596,108,False
+methodology,Gene editing,2011,Nature Methods,Nature Methods,5115,42,True
+methodology,Genomics and sequence bioinformatics,2011,Journal of Biomedical Informatics (JBI),Nature Methods,106805,553,False
+methodology,Graph and network methods,2011,Journal of the American Medical Informatics Association (JAMIA),Journal of Biomedical Informatics (JBI),65,15,False
+methodology,High-throughput screening,2011,Briefings in Bioinformatics,Nature Methods,3016,34,False
+methodology,Immunological techniques,2011,Artificial Intelligence in Medicine,Nature Medicine,3518,38,False
+methodology,Information dissemination,2011,Journal of Biomedical Informatics (JBI),Journal of Medical Internet Research (JMIR),8475,592,False
+methodology,Knowledge graphs,2011,Journal of Biomedical Informatics (JBI),Journal of Biomedical Informatics (JBI),1707,173,True
+methodology,Machine learning methods,2011,Briefings in Bioinformatics,Nature Methods,27930,1670,False
+methodology,Mass spectrometry and ROC analysis,2011,Briefings in Bioinformatics,Nature Methods,8199,139,False
+methodology,Medical image segmentation,2011,Methods of Information in Medicine,Nature Methods,113992,444,False
+methodology,Microarray analysis,2011,Briefings in Bioinformatics,Nature Medicine,3041,64,False
+methodology,Mixed automation and optimization methods,2011,Nature Methods,Nature Medicine,2038,66,False
+methodology,Mixed deep learning applications,2011,Journal of Biomedical Informatics (JBI),Journal of the American Medical Informatics Association (JAMIA),1363,224,False
+methodology,Mixed psychological and measurement theories,2011,Journal of Medical Systems,Computers in Biology and Medicine,16,5,False
+methodology,Mixed reasoning and modeling methods,2011,Methods of Information in Medicine,Journal of the American Medical Informatics Association (JAMIA),2124,240,False
+methodology,Mobile health and social media,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),8854,354,False
+methodology,Named Entity Recognition,2011,Journal of Medical Systems,Journal of the American Medical Informatics Association (JAMIA),1163,99,False
+methodology,Neuroscience and cognitive psychology,2011,Computers in Biology and Medicine,Nature Methods,8975,68,False
+methodology,Open access publishing,2011,Journal of Medical Systems,Database: The Journal of Biological Databases and Curation,1201,107,False
+methodology,Pilot studies and synthetic data,2011,Journal of Biomedical Informatics (JBI),Journal of Medical Internet Research (JMIR),2394,81,False
+methodology,Predictive and Markov modeling,2011,Journal of Biomedical Informatics (JBI),Artificial Intelligence in Medicine,190,25,False
+methodology,Privacy and de-identification,2011,International Journal of Medical Informatics (IJMI),Journal of Biomedical Informatics (JBI),207,44,False
+methodology,Qualitative research methods,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),4808,313,False
+methodology,RNA-seq data analysis,2011,Methods of Information in Medicine,Nature Methods,6749,117,False
+methodology,Research ethics and patient involvement,2011,International Journal of Medical Informatics (IJMI),BMC Medical Informatics and Decision Making,2844,68,False
+methodology,Serious games,2011,Journal of Medical Systems,Applied Clinical Informatics,50,10,False
+methodology,Software and usability research,2011,Methods of Information in Medicine,Nature Methods,105269,755,False
+methodology,Statistical methods,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),6232,917,False
+methodology,Ultrasound and echocardiography,2011,Journal of Medical Systems,Journal of Medical Systems,26,8,True
+methodology,Virtual medical simulation,2011,Methods of Information in Medicine,Briefings in Bioinformatics,9679,558,False
+methodology,eHealth and mobile applications,2011,Journal of Biomedical Informatics (JBI),Journal of Medical Internet Research (JMIR),4673,128,False
+methodology,Additive manufacturing optimization,2012,Computers in Biology and Medicine,International Journal of Medical Informatics (IJMI),20,2,False
+methodology,Algorithmic bias,2012,Artificial Intelligence in Medicine,BMC Medical Informatics and Decision Making,432,12,False
+methodology,All of Us,2012,Journal of the American Medical Informatics Association (JAMIA),Journal of the American Medical Informatics Association (JAMIA),58,1,True
+methodology,Contrastive learning,2012,Artificial Intelligence in Medicine,Journal of the American Medical Informatics Association (JAMIA),264,26,False
+methodology,Missing data imputation,2012,Nature Medicine,Nature Medicine,779,42,True
+methodology,Mixed clinical NLP applications,2012,Journal of Medical Systems,Journal of the American Medical Informatics Association (JAMIA),97,8,False
+methodology,Multi-task and meta learning,2012,Artificial Intelligence in Medicine,BMC Medical Informatics and Decision Making,245,11,False
+methodology,Assisted reproduction,2013,Artificial Intelligence in Medicine,Nature Methods,73,2,False
+methodology,Data augmentation,2013,Journal of the American Medical Informatics Association (JAMIA),Journal of the American Medical Informatics Association (JAMIA),155,12,True
+methodology,Data governance and standards,2013,Journal of Biomedical Informatics (JBI),Journal of the American Medical Informatics Association (JAMIA),292,15,False
+methodology,Diffusion generative models,2013,Briefings in Bioinformatics,Briefings in Bioinformatics,137,18,True
+methodology,Fractal dimension,2013,IEEE Journal of Biomedical and Health Informatics (J-BHI),Computers in Biology and Medicine,83,10,False
+methodology,Generative AI and corpus methods,2013,Journal of Biomedical Informatics (JBI),Journal of Medical Internet Research (JMIR),113,11,False
+methodology,Large language models,2013,Journal of Biomedical Informatics (JBI),Journal of Biomedical Informatics (JBI),176,16,True
+methodology,Mixed engineering and imaging acronyms,2013,IEEE Journal of Biomedical and Health Informatics (J-BHI),IEEE Journal of Biomedical and Health Informatics (J-BHI),131,13,True
+methodology,Mixed mathematical and geometric methods,2013,Computers in Biology and Medicine,Computers in Biology and Medicine,432,47,True
+methodology,Mixed narrative and language studies,2013,Journal of Biomedical Informatics (JBI),Journal of Medical Internet Research (JMIR),69,4,False
+methodology,Transformer models,2013,Briefings in Bioinformatics,Journal of Biomedical Informatics (JBI),134,22,False
+methodology,Biobanking methodologies,2014,Methods of Information in Medicine,Computers in Biology and Medicine,37,5,False
+methodology,Content-based image retrieval,2014,Journal of the American Medical Informatics Association (JAMIA),Journal of the American Medical Informatics Association (JAMIA),37,7,True
+methodology,Federated learning,2014,Journal of Biomedical Informatics (JBI),Journal of Biomedical Informatics (JBI),3,1,True
+methodology,Distributed ledger technology,2017,Journal of the American Medical Informatics Association (JAMIA),Journal of the American Medical Informatics Association (JAMIA),312,7,True
+methodology,Knowledge distillation,2017,IEEE Journal of Biomedical and Health Informatics (J-BHI),Database: The Journal of Biological Databases and Curation,106,3,False
+methodology,Transfer learning variants,2018,International Journal of Medical Informatics (IJMI),International Journal of Medical Informatics (IJMI),55,4,True
+health,Amino acid sequence,2011,Database: The Journal of Biological Databases and Curation,Nature Medicine,2996,98,False
+health,Anatomical terminology,2011,Journal of Biomedical Informatics (JBI),Journal of Biomedical Informatics (JBI),111,13,True
+health,Aortic diseases,2011,Journal of Biomedical Informatics (JBI),Computers in Biology and Medicine,221,20,False
+health,Bayesian health modeling,2011,Journal of Biomedical Informatics (JBI),Journal of the American Medical Informatics Association (JAMIA),493,91,False
+health,Biomedical databases,2011,Journal of Biomedical Informatics (JBI),Briefings in Bioinformatics,12009,516,False
+health,Cancer treatment modalities,2011,Nature Medicine,Nature Medicine,6405,45,True
+health,Cancer types and screening,2011,Artificial Intelligence in Medicine,Nature Medicine,38028,424,False
+health,Cardiac arrhythmias,2011,Journal of Medical Systems,Nature Medicine,3797,141,False
+health,Cardiorespiratory monitoring,2011,Journal of Medical Systems,Computers in Biology and Medicine,431,66,False
+health,Cardiovascular diseases,2011,Journal of Medical Systems,Nature Medicine,9620,143,False
+health,Cardiovascular hemodynamics,2011,Briefings in Bioinformatics,Nature Medicine,2640,98,False
+health,Caregivers and care quality,2011,Journal of Biomedical Informatics (JBI),Journal of Medical Internet Research (JMIR),817,88,False
+health,Causal mediation analysis,2011,BMC Medical Informatics and Decision Making,Briefings in Bioinformatics,235,5,False
+health,Cell signaling and oncogenic pathways,2011,Nature Medicine,Nature Medicine,12840,51,True
+health,Clinical guidelines,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),1951,61,False
+health,Computational cancer biology,2011,Briefings in Bioinformatics,Nature Methods,93838,869,False
+health,Countries and demographics,2011,Methods of Information in Medicine,Nature Methods,40561,545,False
+health,Decision support,2011,Journal of Biomedical Informatics (JBI),Journal of the American Medical Informatics Association (JAMIA),5519,553,False
+health,Determinants of health,2011,Journal of Medical Systems,Nature Medicine,13437,104,False
+health,Diabetes mellitus,2011,Methods of Information in Medicine,Nature Medicine,20746,245,False
+health,Digital health technologies,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),33948,2512,False
+health,Drug discovery,2011,Journal of Medical Systems,Nature Methods,17417,203,False
+health,Drug safety surveillance,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,5185,295,False
+health,Emergency Department,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),1740,236,False
+health,Endoscopic procedures,2011,Journal of Medical Systems,Nature Medicine,424,9,False
+health,Environmental biota and species,2011,Computers in Biology and Medicine,Briefings in Bioinformatics,116,4,False
+health,Environmental health risks,2011,Journal of Medical Systems,Journal of Medical Systems,363,25,True
+health,Epitope analysis,2011,Nature Medicine,Nature Medicine,256,6,True
+health,"Eye, ENT, and oral diseases",2011,Journal of Medical Systems,Computers in Biology and Medicine,103,9,False
+health,Gene expression regulation,2011,Briefings in Bioinformatics,Nature Methods,38418,540,False
+health,Genetic predisposition,2011,Briefings in Bioinformatics,Nature Medicine,11822,270,False
+health,Genomic variant analysis,2011,Journal of Biomedical Informatics (JBI),Nature Methods,88599,476,False
+health,Health and functional status assessment,2011,Artificial Intelligence in Medicine,Journal of Medical Internet Research (JMIR),1822,96,False
+health,Health behavior change,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),9249,166,False
+health,Health information seeking,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),7449,212,False
+health,Health policy landscape,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),2466,298,False
+health,Health program evaluation,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),1530,137,False
+health,Health workforce education,2011,Journal of Biomedical Informatics (JBI),Journal of Medical Internet Research (JMIR),1845,243,False
+health,Infectious diseases,2011,Briefings in Bioinformatics,Nature Medicine,61263,768,False
+health,Mass screening,2011,Journal of the American Medical Informatics Association (JAMIA),Journal of the American Medical Informatics Association (JAMIA),280,22,True
+health,Maternal and reproductive health,2011,International Journal of Medical Informatics (IJMI),International Journal of Medical Informatics (IJMI),116,10,True
+health,Medical devices,2011,Journal of Medical Systems,Nature Medicine,846,78,False
+health,Medical specialties,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,8404,53,False
+health,Metabolic networks,2011,Briefings in Bioinformatics,Nature Medicine,13740,67,False
+health,Microbial and fungal genomics,2011,Database: The Journal of Biological Databases and Curation,Database: The Journal of Biological Databases and Curation,1737,35,True
+health,Mixed clinical conditions and demographics,2011,Methods of Information in Medicine,Nature Medicine,16814,409,False
+health,Mixed health informatics safety topics,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),480,48,False
+health,Mixed medical imaging,2011,Journal of Medical Systems,Nature Methods,868,65,False
+health,Mixed terminology and histopathology,2011,Methods of Information in Medicine,Nature Medicine,222,26,False
+health,Motor imagery,2011,Journal of Medical Systems,Nature Methods,286,17,False
+health,Multimodal imaging,2011,Computers in Biology and Medicine,Computers in Biology and Medicine,24,5,True
+health,Myocardial infarction,2011,Journal of Medical Systems,Nature Medicine,3829,43,False
+health,Natural products and traditional medicine,2011,Briefings in Bioinformatics,Nature Medicine,3837,75,False
+health,Neurodegenerative diseases,2011,Journal of Medical Systems,Nature Medicine,17977,213,False
+health,Neuroscience and cognition,2011,Computers in Biology and Medicine,Nature Medicine,5212,80,False
+health,Older people,2011,Journal of Medical Systems,Nature Medicine,4055,52,False
+health,Patient-provider communication,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),13100,822,False
+health,Perinatal outcomes,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,1234,48,False
+health,Physiological signals and AI methods,2011,Methods of Information in Medicine,Nature Medicine,7872,469,False
+health,Population health surveillance,2011,Methods of Information in Medicine,Journal of Medical Internet Research (JMIR),2138,135,False
+health,Post-translational modifications,2011,Nature Medicine,Nature Medicine,2685,23,True
+health,Primary care delivery,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,11303,524,False
+health,Prognosis and risk prediction,2011,Journal of Biomedical Informatics (JBI),BMC Medical Informatics and Decision Making,2031,289,False
+health,Protein and gene networks,2011,Journal of Biomedical Informatics (JBI),Nature Methods,50076,515,False
+health,Protein-peptide binding,2011,Briefings in Bioinformatics,Database: The Journal of Biological Databases and Curation,1853,72,False
+health,Psychiatric disorders,2011,Journal of Medical Systems,Journal of Medical Internet Research (JMIR),14491,353,False
+health,Rare diseases,2011,Applied Clinical Informatics,Journal of Medical Internet Research (JMIR),80,4,False
+health,Repetitive DNA sequences,2011,Nature Methods,Nature Methods,717,13,True
+health,Sensory evoked potentials,2011,Computers in Biology and Medicine,Journal of Medical Internet Research (JMIR),34,3,False
+health,Signs and symptoms,2011,Journal of Medical Systems,Nature Medicine,298,67,False
+health,Surgical procedures,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,1625,128,False
+health,Translational and clinical research,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,10662,531,False
+health,Tumor immunology and microenvironment,2011,Nature Medicine,Nature Medicine,10049,37,True
+health,Unclassified keyword cluster,2011,Database: The Journal of Biological Databases and Curation,Database: The Journal of Biological Databases and Curation,19,1,True
+health,Upper airway disorders,2011,Journal of Medical Systems,Nature Medicine,1501,41,False
+health,User-centered design,2011,Journal of Medical Systems,Journal of the American Medical Informatics Association (JAMIA),722,64,False
+health,cancer immunotherapy,2011,Journal of Biomedical Informatics (JBI),Nature Medicine,23698,112,False
+health,Lung nodules,2012,Journal of Medical Systems,Nature Medicine,287,10,False
+health,Sequence and structure prediction,2012,Journal of Medical Systems,Nature Medicine,312,13,False
+health,Skin disease classification,2012,Nature Medicine,Nature Medicine,952,3,True
+health,Health semantic similarity,2013,Journal of the American Medical Informatics Association (JAMIA),Journal of the American Medical Informatics Association (JAMIA),141,16,True
+health,Ploidy variation,2013,Briefings in Bioinformatics,Bioinformatics,868,8,False
+health,Cardiac device prevalence,2014,Artificial Intelligence in Medicine,Journal of Medical Internet Research (JMIR),37,8,False
+health,Cures Act,2014,Applied Clinical Informatics,Applied Clinical Informatics,17,1,True
+health,Limited English Proficiency,2014,Journal of Medical Internet Research (JMIR),Journal of Medical Internet Research (JMIR),183,5,True
+health,Privacy-preserving cryptography,2014,Journal of Biomedical Informatics (JBI),Journal of Biomedical Informatics (JBI),59,7,True

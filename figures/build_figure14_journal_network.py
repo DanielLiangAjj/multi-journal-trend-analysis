@@ -30,9 +30,26 @@ CACHE = ROOT / "data" / "journal_similarity_graph.pkl"
 JBI = "Journal of Biomedical Informatics (JBI)"
 
 # CVD-safe categorical pair (Okabe-Ito), same family as Figure 2's wave palette.
-COMM_COLOUR = ["#0072B2", "#D55E00"]
-COMM_NAME = ["Computational biology and bioinformatics",
-             "Clinical informatics and digital health"]
+# ---- community naming (round 23): Louvain on the check-tag-cleaned network yields four weakly separated
+# communities; name/colour them by membership so the assignment is stable across reruns ----
+COMM_RULES = [("Bioinformatics", "Computational biology", "#0072B2"),
+              ("Journal of Medical Internet Research (JMIR)", "Clinical informatics and digital health", "#D55E00"),
+              ("Journal of Biomedical Informatics (JBI)", "AI methods and bridging venues", "#009E73"),
+              ("Nature Medicine", "General and digital medicine", "#CC79A7")]
+def name_communities(communities):
+    """return (ordered communities, names, colours) using COMM_RULES; leftovers get grey."""
+    ordered, names, cols = [], [], []
+    used = set()
+    for anchor, nm, col in COMM_RULES:
+        for ci, c in enumerate(communities):
+            if ci in used: continue
+            if anchor in c:
+                ordered.append(c); names.append(nm); cols.append(col); used.add(ci); break
+    for ci, c in enumerate(communities):
+        if ci not in used:
+            ordered.append(c); names.append("Other"); cols.append("#8c8c8c")
+    return ordered, names, cols
+
 INK, MUTED = "#1a1a1a", "#5c5c5c"
 
 
@@ -54,7 +71,7 @@ def main():
 
     # Order communities so the one holding Bioinformatics is drawn first, keeping
     # the colour assignment stable across reruns of the seeded Louvain call.
-    communities = sorted(communities, key=lambda c: 0 if "Bioinformatics" in c else 1)
+    communities, COMM_NAME, COMM_COLOUR = name_communities(communities)
     comm_of = {j: ci for ci, c in enumerate(communities) for j in c}
 
     pos = nx.kamada_kawai_layout(G, weight="weight")
@@ -101,8 +118,8 @@ def main():
         )
 
     ax.annotate(
-        f"JBI — highest betweenness ({bc[JBI]:.3f})\nbridges the two communities",
-        pos[JBI], xytext=(0.76, 0.60), textcoords=ax.transAxes,
+        f"JBI: highest betweenness centrality ({bc[JBI]:.3f})",
+        pos[JBI], xytext=(0.79, 0.47), textcoords=ax.transAxes,
         ha="center", va="center", fontsize=9.5, style="italic", color=INK, zorder=7,
         bbox=dict(boxstyle="round,pad=0.35", fc="white", ec="#111111", lw=0.9, alpha=0.95),
         arrowprops=dict(arrowstyle="-", color="#111111", lw=0.9,
@@ -118,24 +135,14 @@ def main():
                    label=f"{lab} articles")
         for ms, lab in ((5, "500"), (10, "3,000"), (16, "8,000"))
     ]
-    ax.legend(handles=handles, loc="lower left", fontsize=9, frameon=True,
+    ax.legend(handles=handles, loc="upper left", fontsize=9, frameon=True,
               framealpha=0.94, labelspacing=0.8, borderpad=0.8)
 
-    ax.set_title(
-        "Journal similarity network — 29 biomedical informatics journals, "
-        "Kamada–Kawai layout\n"
-        f"Edges: above-median cosine similarity of K=100 topic distributions "
-        f"({G.number_of_edges()} edges). Node size = articles 2011–2025. "
-        f"Colour = Louvain community (modularity = {modularity:.3f}).",
-        fontsize=12.5, fontweight="bold", color=INK, pad=16,
-    )
-    ax.text(0.5, -0.035,
-            "Modularity of 0.123 is well below the 0.3 benchmark for strong community "
-            "structure: the split is a weak gradient, not two separate fields.",
-            transform=ax.transAxes, ha="center", va="top",
-            fontsize=9.5, style="italic", color=MUTED)
+    # in-image figure title removed (caption carries it)
+    print(f"  edges={G.number_of_edges()} modularity={modularity:.3f}")
+    # modularity footnote removed (round 23, reviewer request); the caption/text carry it
     ax.set_axis_off()
-    fig.tight_layout(rect=[0, 0.03, 1, 1])
+    fig.tight_layout()
     fig.savefig(OUT, dpi=400, bbox_inches="tight", facecolor="white")
     plt.close(fig)
     print(f"  wrote {OUT}")

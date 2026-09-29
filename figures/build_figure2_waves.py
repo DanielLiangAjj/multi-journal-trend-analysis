@@ -22,10 +22,16 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "figures" / "figure2_volume_waves.png"
 
 # Validated categorical triple (CVD-checked: worst adjacent deutan dE 11.0).
+# Onsets = breakthrough year (first year at >=25% of the 2011-2025 peak) of each
+# wave's signature topic; the feathered band starts at the earliest breakthrough
+# among the wave's related topics (round-23 revision: data-derived, not chosen).
 WAVE = [
-    ("Genomics & foundational informatics", 2011, 2025, "#0072B2"),
-    ("Machine learning",                    2016, 2025, "#D55E00"),
-    ("LLM / generative AI",                 2021, 2025, "#009E73"),
+    ("Genomics & foundational informatics", 2011, 2010.0, 2025, "#0072B2",
+     "established by 2011 (left-censored)"),
+    ("Machine learning",                    2019, 2018.0, 2025, "#D55E00",
+     "breakthrough 2019 (related topics 2018–2020)"),
+    ("LLM / generative AI",                 2024, 2022.0, 2025, "#009E73",
+     "breakthrough 2024 (precursor topics 2022–2023)"),
 ]
 INK, MUTED, GRID = "#1a1a1a", "#5c5c5c", "#d8d8d8"
 BAR = "#c3cdd6"
@@ -46,11 +52,11 @@ ax.set_ylim(0, top)
 # Overlapping wave bands: each starts at its onset and runs to the end of the
 # window, stacked in shallow lanes so the overlap is visible rather than implied.
 lane_h = top * 0.052
-for i, (label, onset, end, col) in enumerate(WAVE):
+for i, (label, onset, feather, end, col, note) in enumerate(WAVE):
     y0 = top - lane_h * (i + 1) - top * 0.015 * i
     # feathered onset so the left edge does not read as a hard boundary
     grad = np.linspace(0, 1, 120) ** 0.6
-    xs = np.linspace(onset - 1.1, min(onset + 2.2, end), 120)
+    xs = np.linspace(feather, min(onset + 0.6, end), 120)
     ax.imshow(grad.reshape(1, -1), extent=[xs[0], xs[-1], y0, y0 + lane_h],
               aspect="auto", cmap=matplotlib.colors.LinearSegmentedColormap.from_list(
                   "f", [(1, 1, 1, 0), matplotlib.colors.to_rgba(col, 0.42)]), zorder=3)
@@ -58,8 +64,8 @@ for i, (label, onset, end, col) in enumerate(WAVE):
                                color=col, alpha=0.42, lw=0, zorder=3))
     ax.plot([onset, onset], [0, y0 + lane_h], color=col, lw=1.4, ls=(0, (4, 3)),
             alpha=0.85, zorder=3)
-    ax.text(onset + 0.12, y0 + lane_h / 2, f"  {label}  —  onset ≈ {onset}",
-            va="center", ha="left", fontsize=9.5, color=INK, zorder=5)
+    ax.text(end + 0.38, y0 + lane_h / 2, f"{label}: {note}  ",
+            va="center", ha="right", fontsize=9.2, color=INK, zorder=5)
 
 for x, v in zip(years, vals):
     if x in (2011, 2015, 2020, 2025):
@@ -70,9 +76,6 @@ for x, v in zip(years, vals):
 
 ax.set_xlabel("Year", fontsize=11, color=INK)
 ax.set_ylabel("Articles published", fontsize=11, color=INK)
-ax.set_title("Annual publication volume across 29 biomedical informatics journals, "
-             "2011–2025\nThree overlapping waves of research attention — onsets, not "
-             "period boundaries", fontsize=12.5, fontweight="bold", color=INK, pad=12)
 ax.set_xticks(years)
 ax.tick_params(colors=MUTED, labelsize=9.5)
 ax.grid(axis="y", color=GRID, lw=0.6, alpha=0.7, zorder=0)

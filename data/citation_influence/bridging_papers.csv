@@ -1,0 +1,51 @@
+pmid,year,journal,title,within_corpus_citations,distinct_citing_topics,rcr
+31501885,2020,Bioinformatics,BioBERT: a pre-trained biomedical language representation model for biomedical text mining.,649,118,127.36496798719357
+32015543,2020,Nature Methods,SciPy 1.0: fundamental algorithms for scientific computing in Python.,329,118,722.8272741046186
+33288961,2021,Nature Methods,nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation.,340,114,399.2137293001776
+30617339,2019,Nature Medicine,High-performance medicine: the convergence of human and artificial intelligence.,377,110,248.23599476301237
+22209829,2011,Journal of Medical Internet Research (JMIR),CONSORT-EHEALTH: improving and standardizing evaluation reports of Web-based and mobile health interventions.,543,107,64.1214108638534
+35058619,2022,Nature Medicine,AI in health and medicine.,176,103,150.85521005128393
+29162496,2018,Journal of Biomedical Informatics (JBI),Clinical information extraction applications: A literature review.,182,102,24.25335040811027
+22388286,2012,Nature Methods,Fast gapped-read alignment with Bowtie 2.,500,101,1309.550626559719
+31304302,2018,npj Digital Medicine,Scalable and accurate deep learning with electronic health records.,286,100,64.81740467588794
+37460753,2023,Nature Medicine,Large language models in medicine.,263,98,277.917076945305
+32047862,2020,npj Digital Medicine,"An overview of clinical decision support systems: benefits, risks, and strategies for success.",280,96,116.21004037431447
+21685143,2011,Journal of the American Medical Informatics Association (JAMIA),"2010 i2b2/VA challenge on concepts, assertions, and relations in clinical text.",267,96,18.1997737392372
+31078660,2019,Journal of Biomedical Informatics (JBI),The REDCap consortium: Building an international community of software platform partners.,284,95,1370.6392737035071
+30617335,2019,Nature Medicine,A guide to deep learning in healthcare.,197,95,109.7130506268602
+25760773,2015,JMIR mHealth and uHealth,Mobile app rating scale: a new tool for assessing the quality of health mobile apps.,357,94,69.58509448900372
+22955496,2013,Journal of the American Medical Informatics Association (JAMIA),Next-generation phenotyping of electronic health records.,163,94,17.13117966479447
+28481991,2018,Briefings in Bioinformatics,"Deep learning for healthcare: review, opportunities and challenges.",160,94,48.45671622923665
+22733976,2013,Journal of the American Medical Informatics Association (JAMIA),Methods and dimensions of electronic health record data quality assessment: enabling reuse for clinical research.,216,93,28.874250738151854
+36812645,2023,PLOS Digital Health,Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models.,164,93,370.9387783420849
+29989977,2018,IEEE Journal of Biomedical and Health Informatics (J-BHI),Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis.,171,90,28.881872088852184
+29092808,2017,Journal of Medical Internet Research (JMIR),"Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up,",259,88,96.21813543774958
+33015372,2020,npj Digital Medicine,The future of digital health with federated learning.,139,88,60.422094082523465
+28055930,2017,IEEE Journal of Biomedical and Health Informatics (J-BHI),Deep Learning for Health Informatics.,120,88,27.103114241793385
+24201027,2014,Journal of the American Medical Informatics Association (JAMIA),A review of approaches to identifying patient phenotype cohorts using electronic health records.,121,87,12.47411261236242
+33256715,2020,BMC Medical Informatics and Decision Making,Explainability for artificial intelligence in healthcare: a multidisciplinary perspective.,99,87,59.76149664556903
+27986644,2016,Journal of Medical Internet Research (JMIR),Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research: A Multidisciplinary V,105,86,33.72162870788825
+24695404,2014,Bioinformatics,Trimmomatic: a flexible trimmer for Illumina sequence data.,206,85,1771.6058913908346
+21846786,2011,Journal of the American Medical Informatics Association (JAMIA),Natural language processing: an introduction.,110,85,17.537161028755083
+30617336,2019,Nature Medicine,The practical implementation of artificial intelligence technologies in medicine.,155,84,60.60494569190054
+34017034,2021,npj Digital Medicine,Med-BERT: pretrained contextualized embeddings on large-scale structured electronic health records for disease predictio,116,84,29.44474552408951
+27189013,2017,Journal of the American Medical Informatics Association (JAMIA),Opportunities and challenges in developing risk prediction models with electronic health records data: a systematic revi,154,83,25.89154044309377
+28729030,2017,Journal of Biomedical Informatics (JBI),Natural language processing systems for capturing and standardizing unstructured clinical information: A systematic revi,95,83,17.307365940477975
+26104044,2015,Journal of Medical Internet Research (JMIR),Patient Portals and Patient Engagement: A State of the Science Review.,202,81,26.870197556214837
+23598614,2013,Journal of Medical Internet Research (JMIR),Opportunities and challenges for smartphone applications in supporting health behavior change: qualitative study.,145,81,24.019645221574983
+29893864,2018,Journal of the American Medical Informatics Association (JAMIA),Opportunities and challenges in developing deep learning models using electronic health records data: a systematic revie,122,81,17.965886427219523
+24821743,2014,Journal of the American Medical Informatics Association (JAMIA),"Launching PCORnet, a national patient-centered clinical research network.",122,81,16.333759692168865
+33323251,2019,The Lancet Digital Health,A comparison of deep learning performance against health-care professionals in detecting diseases from medical imaging: ,115,81,56.199398552928045
+23151820,2012,Journal of Medical Internet Research (JMIR),Persuasive system design does matter: a systematic review of adherence to web-based interventions.,246,80,39.07653932889795
+24464287,2014,Nature Methods,Similarity network fusion for aggregating data types on a genomic scale.,189,80,34.126628412417375
+26071682,2015,Journal of Biomedical Informatics (JBI),Mobile-health: A review of current state in 2015.,109,80,18.537056042562803
+31427808,2019,Nature Medicine,Do no harm: a roadmap for responsible machine learning for health care.,99,80,28.089064052793816
+29343463,2018,JMIR mHealth and uHealth,The Impact of mHealth Interventions: Systematic Review of Systematic Reviews.,157,79,46.71152676598074
+26911829,2016,Journal of the American Medical Informatics Association (JAMIA),"SMART on FHIR: a standards-based, interoperable apps platform for electronic health records.",156,79,19.611418405637504
+28663162,2017,Journal of Medical Internet Research (JMIR),Developing and Evaluating Digital Interventions to Promote Behavior Change in Health and Health Care: Recommendations Re,130,79,34.01905137720059
+36572766,2022,npj Digital Medicine,A large language model for electronic health records.,114,79,41.649030570623545
+36156661,2022,Briefings in Bioinformatics,BioGPT: generative pre-trained transformer for biomedical text generation and mining.,99,79,38.26139931753218
+31304384,2019,npj Digital Medicine,Digital health: a path to validation.,70,79,19.965610539341736
+30504886,2018,Nature Methods,Deep generative modeling for single-cell transcriptomics.,183,78,50.00595987685016
+22781312,2012,BMC Medical Informatics and Decision Making,A systematic review of healthcare applications for smartphones.,121,78,26.23807964446734
+31066697,2019,JMIR Medical Informatics (JMI),Natural Language Processing of Clinical Notes on Chronic Diseases: Systematic Review.,89,78,16.465140259106658

@@ -1,15 +1,15 @@
 domain,topic,change_point_year,max_growth,total
 methodology,Machine learning methods,2025,1226.0,29875
 methodology,Clinical decision support,2025,616.0,15611
-methodology,Clinical study designs,2012,373.0,14552
 methodology,Software and usability research,2014,354.0,13094
 methodology,Genomics and sequence bioinformatics,2014,319.0,9978
-methodology,Statistical methods,2025,402.0,9723
+methodology,Statistical methods,2025,402.0,9706
 methodology,Mobile health and social media,2020,361.0,7925
 methodology,Medical image segmentation,2025,196.0,6532
 methodology,Information dissemination,2020,180.0,5964
 methodology,Virtual medical simulation,2025,272.0,5958
 methodology,Bayesian and statistical modeling,2024,116.0,5075
+methodology,Clinical study designs,2025,171.0,5067
 methodology,Biomedical signal processing,2025,289.0,4662
 methodology,Drug discovery and evaluation,2025,145.0,3840
 methodology,Mixed deep learning applications,2025,222.0,3795
@@ -22,17 +22,16 @@ methodology,Knowledge graphs,2020,37.0,1763
 methodology,Clinical monitoring and surveillance,2020,103.0,1680
 methodology,Contrastive learning,2025,97.0,1588
 methodology,Biological modeling,2021,103.0,1453
-methodology,Missing data imputation,2014,44.0,1396
 methodology,Mass spectrometry and ROC analysis,2014,32.0,1306
 methodology,Predictive and Markov modeling,2024,53.0,1234
 methodology,Mixed automation and optimization methods,2024,44.0,1111
 methodology,Large language models,2025,295.0,1101
 methodology,Named Entity Recognition,2019,31.0,1019
 methodology,Data visualization methods,2022,44.0,996
-health,Digital health technologies,2025,1380.0,32613
-health,Mixed medical imaging,2012,368.0,12402
-health,Infectious diseases,2020,519.0,11445
+methodology,Privacy and de-identification,2024,29.0,970
+health,Digital health technologies,2025,1375.0,32538
 health,Computational cancer biology,2024,294.0,11401
+health,Infectious diseases,2020,546.0,9825
 health,Genomic variant analysis,2014,346.0,8841
 health,Gene expression regulation,2014,226.0,7625
 health,Protein and gene networks,2015,146.0,6485
@@ -41,16 +40,16 @@ health,Patient-provider communication,2025,284.0,5692
 health,Psychiatric disorders,2025,256.0,5585
 health,Cancer types and screening,2025,291.0,5581
 health,Physiological signals and AI methods,2025,275.0,5561
-health,Mixed clinical conditions and demographics,2025,193.0,5397
 health,Decision support,2025,273.0,5369
-health,Primary care delivery,2025,130.0,4617
+health,Primary care delivery,2025,130.0,4606
+health,Mixed clinical conditions and demographics,2025,161.0,3978
 health,Prognosis and risk prediction,2025,191.0,3723
-health,Health behavior change,2025,162.0,3611
 health,Health policy landscape,2025,282.0,3599
-health,Biomedical databases,2024,110.0,3573
+health,Biomedical databases,2024,110.0,3540
+health,Health behavior change,2025,155.0,3528
 health,Genetic predisposition,2014,118.0,3435
-health,Countries and demographics,2012,88.0,3372
 health,Neurodegenerative diseases,2025,195.0,3224
+health,Countries and demographics,2012,79.0,3037
 health,Health information seeking,2025,154.0,2963
 health,Diabetes mellitus,2025,152.0,2948
 health,Drug discovery,2021,89.0,2714
@@ -58,4 +57,5 @@ health,Emergency Department,2025,84.0,2596
 health,Population health surveillance,2020,171.0,2577
 health,Drug safety surveillance,2025,50.0,2391
 health,Medical devices,2025,96.0,2359
-health,Older people,2025,98.0,2224
+health,Cardiovascular diseases,2025,126.0,1982
+health,Health workforce education,2025,77.0,1888

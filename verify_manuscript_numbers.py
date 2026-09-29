@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Recompute every statistic quoted in the manuscript and check it against the
 claimed value. Run from the project root:  python3 verify_manuscript_numbers.py
+Expected values follow the manuscript as submitted to npj Digital Medicine on 2026-09-29.
 
 Covers the 2011-2025 window only; the 352 records indexed for 2026 are used
 solely in the MeSH evaluation, matching the manuscript's scope.
@@ -92,10 +93,10 @@ for dom in ("methodology", "health"):
     trend[dom] = pd.read_csv(f"{VIS}/{dom}_trend_analysis.csv")
 chk("methodology topics", len(tyc["methodology"]), 70)
 chk("health topics", len(tyc["health"]), 86)
-chk("methodology Holm-sig linear trends", int(trend["methodology"].significant_holm.sum()), 56)
-chk("health Holm-sig linear trends", int(trend["health"].significant_holm.sum()), 72)
-chk("methodology Holm-sig (%)", round(100 * trend["methodology"].significant_holm.mean(), 1), 80.0, 0.05)
-chk("health Holm-sig (%)", round(100 * trend["health"].significant_holm.mean(), 1), 83.7, 0.05)
+chk("methodology Holm-sig linear trends", int(trend["methodology"].significant_holm.sum()), 57)
+chk("health Holm-sig linear trends", int(trend["health"].significant_holm.sum()), 77)
+chk("methodology Holm-sig (%)", round(100 * trend["methodology"].significant_holm.mean(), 1), 81.4, 0.05)
+chk("health Holm-sig (%)", round(100 * trend["health"].significant_holm.mean(), 1), 89.5, 0.05)
 neg = sum(int(((trend[d].slope < 0) & trend[d].significant_holm).sum()) for d in trend)
 chk("Holm-sig NEGATIVE absolute slopes", neg, 0)
 for dom, name, claim in [("methodology", "Knowledge distillation", 98),
@@ -128,12 +129,12 @@ for dom in ("methodology", "health"):
     share[dom] = R
 chk("methodology topics tested", len(share["methodology"]), 70)
 chk("methodology Holm-sig share trends", int(share["methodology"].sig.sum()), 34)
-chk("  ... gaining share", int((share["methodology"].sig & (share["methodology"].pct > 0)).sum()), 23)
-chk("  ... losing share", int((share["methodology"].sig & (share["methodology"].pct < 0)).sum()), 11)
+chk("  ... gaining share", int((share["methodology"].sig & (share["methodology"].pct > 0)).sum()), 24)
+chk("  ... losing share", int((share["methodology"].sig & (share["methodology"].pct < 0)).sum()), 10)
 chk("health topics tested", len(share["health"]), 86)
-chk("health Holm-sig share trends", int(share["health"].sig.sum()), 21)
-chk("  ... gaining share", int((share["health"].sig & (share["health"].pct > 0)).sum()), 9)
-chk("  ... losing share", int((share["health"].sig & (share["health"].pct < 0)).sum()), 12)
+chk("health Holm-sig share trends", int(share["health"].sig.sum()), 22)
+chk("  ... gaining share", int((share["health"].sig & (share["health"].pct > 0)).sum()), 12)
+chk("  ... losing share", int((share["health"].sig & (share["health"].pct < 0)).sum()), 10)
 for dom, name, claim in [("methodology", "Large language models", 65.4),
                          ("methodology", "Knowledge distillation", 51.3),
                          ("methodology", "Federated learning", 46.5),
@@ -142,9 +143,7 @@ for dom, name, claim in [("methodology", "Large language models", 65.4),
                          ("methodology", "Pilot studies and synthetic data", -22.2),
                          ("methodology", "Microarray analysis", -19.3),
                          ("methodology", "Computer security", -15.5),
-                         ("methodology", "Clinical study designs", -10.9),
-                         ("health", "Health semantic similarity", 12.3),
-                         ("health", "Mixed medical imaging", -13.0)]:
+                         ("health", "Health semantic similarity", 12.3)]:
     v = share[dom].loc[share[dom].topic == name, "pct"].iloc[0]
     chk(f"share %/yr {name}", round(v, 1), claim, 0.05)
 tot_cs = flat = losing_h = 0
@@ -154,14 +153,14 @@ for dom in ("methodology", "health"):
     tot_cs += len(cs); flat += int((~cs.sig).sum())
     if dom == "health":
         losing_h = int((cs.sig & (cs.pct < 0)).sum())
-chk("count-significant topics (both domains)", tot_cs, 128)
-chk("  ... of those, share-flat", flat, 87)
+chk("count-significant topics (both domains)", tot_cs, 134)
+chk("  ... of those, share-flat", flat, 89)
 chk("health count-risers that LOSE share", losing_h, 7)
 dht = tyc["health"][tyc["health"].topic == "Digital health technologies"].iloc[0]
 dy = np.array([float(dht[c]) for c in YC]); dsh = dy / corpus * 100
-chk("Digital health technologies n (2011-25)", int(dy.sum()), 32491)
-chk("  ... share in 2011 (%)", round(dsh[0], 1), 45.3, 0.05)
-chk("  ... share in 2025 (%)", round(dsh[-1], 1), 40.6, 0.05)
+chk("Digital health technologies n (2011-25)", int(dy.sum()), 32416)
+chk("  ... share in 2011 (%)", round(dsh[0], 1), 44.3, 0.05)
+chk("  ... share in 2025 (%)", round(dsh[-1], 1), 40.5, 0.05)
 
 # ---------------------------------------------------------------- E. breakthrough years
 section("E. BREAKTHROUGH YEARS (4.2.3)")
@@ -176,14 +175,13 @@ for dom in ("methodology", "health"):
     bt[dom] = pd.DataFrame(rows, columns=["topic", "byear", "n"])
 m, h = bt["methodology"], bt["health"]
 chk("methodology topics with >=100 articles", len(m), 58)
-chk("  at/above threshold at 2011 corpus start", int((m.byear == 2011).sum()), 13)
-for yr, c in ((2014, 8), (2016, 5), (2018, 5), (2019, 6)):
+chk("  at/above threshold at 2011 corpus start", int((m.byear == 2011).sum()), 12)
+for yr, c in ((2014, 9), (2016, 5), (2018, 6), (2019, 6)):
     chk(f"  methodology breakthroughs in {yr}", int((m.byear == yr).sum()), c)
 chk("methodology median breakthrough year", int(m.byear.median()), 2015)
 chk("health topics with >=100 articles", len(h), 76)
-chk("  at/above threshold at 2011 corpus start", int((h.byear == 2011).sum()), 12)
-for yr, c in ((2012, 14), (2014, 9), (2015, 9), (2018, 8)):
-    chk(f"  health breakthroughs in {yr}", int((h.byear == yr).sum()), c)
+chk("  at/above threshold at 2011 corpus start", int((h.byear == 2011).sum()), 8)
+# (the submitted manuscript no longer itemizes health breakthrough years; it states 8 left-censored and median 2015)
 chk("health median breakthrough year", int(h.byear.median()), 2015)
 chk("methodology LLM-era (2021-25) breakthroughs", int((m.byear >= 2021).sum()), 7)
 chk("health LLM-era (2021-25) breakthroughs", int((h.byear >= 2021).sum()), 3)
@@ -211,9 +209,9 @@ cov = pd.read_csv(f"{VIS}/pi_q7_covid_impact.csv").dropna(subset=["pct_change_du
 cov["p_holm"] = multipletests(cov.p_value_during.clip(lower=1e-300), method="holm")[1]
 sig = cov[cov.p_holm < 0.05]
 chk("topics tested", len(cov), 133)
-chk("Holm-significant", len(sig), 90)
-chk("  increasing", int((sig.pct_change_during > 0).sum()), 88)
-chk("  decreasing", int((sig.pct_change_during < 0).sum()), 2)
+chk("Holm-significant", len(sig), 91)
+chk("  increasing", int((sig.pct_change_during > 0).sum()), 90)
+chk("  decreasing", int((sig.pct_change_during < 0).sum()), 1)
 chk("  share significant (%)", round(100 * len(sig) / len(cov)), 67, 1)
 for name, claim in [("Sequence and structure prediction", 244), ("Data augmentation", 229),
                     ("Population health surveillance", 158), ("Biomedical databases", -36.2)]:
@@ -237,12 +235,12 @@ for j, claim in (("JAMIA Open", 51.5), ("The Lancet Digital Health", 51.1)):
         round(float(ts.loc[ts.journal == j, "pct_inter"].iloc[0]), 1), claim, 0.05)
 pio = pd.read_csv(f"{VIS}/pi_q1_methodology_first_emergence.csv")
 n_jbi = int((pio.first_journal == "Journal of Biomedical Informatics (JBI)").sum())
-chk("JBI pioneer topics", n_jbi, 18)
-chk("JBI pioneer share (%)", round(100 * n_jbi / len(pio), 1), 25.7, 0.05)
+chk("JBI pioneer topics", n_jbi, 17)
+chk("JBI pioneer share (%)", round(100 * n_jbi / len(pio), 1), 24.3, 0.05)
 
 # ---------------------------------------------------------------- I. granularity (Supp Table 3)
 section("I. GRANULARITY SENSITIVITY (Supplementary Note S1.1 / Supplementary Table 3)")
-gran = [("k100", 100, 70, 86, 645, 1006, 56, 70, 72, 86),
+gran = [("k100", 100, 70, 86, None, None, 57, 70, 77, 86),
         ("k750", 750, 335, 413, 95, 76, 149, 280, 153, 326),
         ("k1050_1100", 1050, 1050, 1100, 93, 133, 375, 1045, 399, 1098)]
 for suff, k, nm, nh, mm, mh, sm_, tm_, sh_, th_ in gran:
@@ -253,7 +251,8 @@ for suff, k, nm, nh, mm, mh, sm_, tm_, sh_, th_ in gran:
             print(f"  skip {suff}/{dom} (missing)"); continue
         d = pd.read_csv(f); arts = d[YC].sum(axis=1)
         tr = pd.read_csv(t)
-        chk(f"K={k} {dom} median articles/topic", int(round(arts.median())), med)
+        if med is not None:  # medians are not stated in the submitted manuscript for K=100
+            chk(f"K={k} {dom} median articles/topic", int(round(arts.median())), med)
         chk(f"K={k} {dom} testable topics (>=10 articles)", len(tr), ntest)
         chk(f"K={k} {dom} Holm-significant trends", int(tr.significant_holm.sum()), nsig)
 for dom, n in (("methodology", 335), ("health", 413)):

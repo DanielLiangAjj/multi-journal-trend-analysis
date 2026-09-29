@@ -2,23 +2,23 @@ topic,total,n_journals,entropy,norm_entropy,max_journal,max_share
 Big data infrastructure and interoperability,2358,29,2.97035502904286,0.8821188214564419,Journal of Medical Internet Research (JMIR),13.570822731128073
 Bayesian and statistical modeling,5075,29,2.901670629161318,0.8617213264487585,Journal of Medical Internet Research (JMIR),15.724137931034482
 Clinical decision support,15611,29,2.894081557877245,0.8594675680422382,Journal of Medical Internet Research (JMIR),17.58375504451989
-Statistical methods,9723,29,2.881169294397146,0.8556329588685765,Journal of Medical Internet Research (JMIR),18.101409030134732
+Statistical methods,9706,29,2.8779806747077807,0.854686021073278,Journal of Medical Internet Research (JMIR),18.13311353801772
 Drug discovery and evaluation,3840,29,2.8694619785705435,0.8521561880656234,Journal of Medical Internet Research (JMIR),21.692708333333332
+Clinical study designs,5067,28,2.8418194814170565,0.8439470794665735,Journal of Medical Internet Research (JMIR),23.44582593250444
 Open access publishing,432,28,2.8383556953553577,0.842918424356781,Journal of Medical Internet Research (JMIR),15.50925925925926
 Data visualization methods,996,26,2.8260212364687023,0.8392554082425404,Computers in Biology and Medicine,12.550200803212853
 Machine learning methods,29875,29,2.797362589438883,0.8307445293424426,Computers in Biology and Medicine,16.328033472803348
 Mixed automation and optimization methods,1111,25,2.792117294780488,0.8291868121345619,Journal of Medical Internet Research (JMIR),16.111611161116112
 Virtual medical simulation,5958,29,2.724665800749981,0.8091554583610568,Computers in Biology and Medicine,21.399798590130917
 Privacy and de-identification,970,23,2.7151976401650155,0.8063436589044575,Journal of Medical Internet Research (JMIR),21.855670103092784
+Missing data imputation,875,24,2.708466560719666,0.8043447019416008,Journal of Medical Internet Research (JMIR),19.428571428571427
 Information dissemination,5964,29,2.683326240911499,0.7968786754688784,Journal of Medical Internet Research (JMIR),32.075788061703555
 Predictive and Markov modeling,1234,23,2.680003706503585,0.795891968456585,Journal of Medical Internet Research (JMIR),14.829821717990274
-Missing data imputation,1396,27,2.6720759618962164,0.7935376328093364,Bioinformatics,24.7134670487106
 Mixed reasoning and modeling methods,842,23,2.6637802618346638,0.7910740238838367,Computers in Biology and Medicine,15.676959619952493
 Data governance and standards,288,22,2.65791552269578,0.7893323476442093,Journal of Medical Internet Research (JMIR),17.708333333333336
 Clinical data standards,357,21,2.6348448538070484,0.7824809541066168,Journal of Medical Internet Research (JMIR),23.249299719887954
 Algorithmic bias,197,19,2.6334086176216434,0.7820544290081639,Journal of Medical Internet Research (JMIR),19.796954314720814
 Knowledge graphs,1763,24,2.6310981851091944,0.7813682901510209,Journal of Biomedical Informatics (JBI),15.258082813386272
-Clinical study designs,14552,29,2.6184035785941573,0.7775983194813848,Bioinformatics,28.93073117097306
 Large language models,1101,24,2.6129950521934364,0.7759921266566984,Journal of Medical Internet Research (JMIR),19.618528610354225
 Named Entity Recognition,1019,23,2.603400776999881,0.7731428744145531,Journal of Biomedical Informatics (JBI),21.39352306182532
 Mass spectrometry and ROC analysis,1306,26,2.554936835755539,0.758750334022717,Bioinformatics,24.11944869831547
@@ -55,14 +55,14 @@ Mixed psychological and measurement theories,99,15,2.0673184492631296,0.61394025
 Contrastive learning,1588,25,2.058337629245454,0.6112731797769374,IEEE Journal of Biomedical and Health Informatics (J-BHI),29.72292191435768
 Ecological momentary assessment,2102,27,2.051697949971262,0.60930136630719,Journal of Medical Internet Research (JMIR),42.67364414843007
 Agent-based Modeling,141,17,2.028997782311117,0.6025600020771764,Computers in Biology and Medicine,45.39007092198582
-High-throughput screening,286,16,1.9104877939749645,0.56736559258075,Nature Methods,38.111888111888106
+High-throughput screening,284,16,1.9126724061369025,0.568014366039406,Nature Methods,38.028169014084504
 Diffusion generative models,265,15,1.9087442406393529,0.5668478022161243,Computers in Biology and Medicine,32.45283018867924
 Mixed narrative and language studies,16,8,1.8080457195839967,0.5369429390441348,Journal of Medical Internet Research (JMIR),37.5
 Fractal dimension,65,11,1.8041915273178313,0.5357983433623883,Computers in Biology and Medicine,44.61538461538462
 Microarray analysis,260,15,1.7885932892939096,0.5311660690356077,Bioinformatics,50.76923076923077
 Additive manufacturing optimization,24,10,1.7405117043237697,0.5168870785940899,Computers in Biology and Medicine,50.0
 Biological modeling,1453,19,1.7141950544979903,0.5090717124503065,Computers in Biology and Medicine,38.196834136269786
-Gene editing,262,13,1.7127804592927676,0.508651614164725,Bioinformatics,40.458015267175576
+Gene editing,248,12,1.6845556606553405,0.5002695770457766,Bioinformatics,41.12903225806452
 Mixed mathematical and geometric methods,354,18,1.6540016617725664,0.49119582753713986,Computers in Biology and Medicine,51.12994350282486
 Knowledge distillation,98,11,1.6019009849628687,0.4757232704942658,IEEE Journal of Biomedical and Health Informatics (J-BHI),44.89795918367347
 Distributed ledger technology,19,6,1.5575604616568661,0.4625552788639668,Journal of the American Medical Informatics Association (JAMIA),36.84210526315789

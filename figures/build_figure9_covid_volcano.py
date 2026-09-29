@@ -80,7 +80,7 @@ def main():
     # Compute padded x range to leave room for end-of-line annotation
     xmin, xmax = df["pct_change_during"].min(), df["pct_change_during"].max()
     xpad = (xmax - xmin) * 0.08
-    ax.set_xlim(xmin - xpad, xmax + xpad * 3.2)
+    ax.set_xlim(xmin - xpad * 3.0, xmax + xpad * 3.2)
     ax.set_ylim(-2, CAP + 4)  # small headroom above cap
 
     # Annotate the Holm threshold near the right end of the line
@@ -94,10 +94,14 @@ def main():
         ha="right", va="bottom",
     )
 
-    # Top-5 gainers and decliners (by pct_change_during)
+    # Top-5 gainers and decliners (by pct_change_during), plus every
+    # Holm-significant decliner (the text names biomedical databases AND
+    # mixed medical imaging; the latter is outside the raw top-5 and was
+    # previously unlabeled — Casey's comment).
     top_pos = df.nlargest(5, "pct_change_during")
     top_neg = df.nsmallest(5, "pct_change_during")
-    callouts = pd.concat([top_pos, top_neg])
+    sig_neg = df[(df["p_holm"] < 0.05) & (df["pct_change_during"] < 0)]
+    callouts = pd.concat([top_pos, top_neg, sig_neg]).drop_duplicates(subset=["topic"])
 
     print("[fig9] Top-5 gainers:")
     for _, r in top_pos.iterrows():
@@ -106,10 +110,30 @@ def main():
     for _, r in top_neg.iterrows():
         print(f"   {r['domain']:12s} {r['topic'][:45]:45s}  pct={r['pct_change_during']:+7.1f}%  p={r['p_value_during']:.2e}")
 
+    # Near-floor labels (-log10 p < 2.5) pile up against the axis where
+    # adjustText cannot separate them; stack those by hand in the empty
+    # far-left region with leader lines. The rest go through adjustText.
+    is_manual = (callouts["neg_log10_p"] < 2.5) | (callouts["topic"] == "Biomedical databases")
+    manual = callouts[is_manual].sort_values("neg_log10_p", ascending=False)
+    auto = callouts[~is_manual]
+    x_stack = ax.get_xlim()[0] + (ax.get_xlim()[1] - ax.get_xlim()[0]) * 0.005
+    y_slots = [22.0, 17.5, 13.0, 8.5, 4.0]
+    for slot, (_, r) in zip(y_slots, manual.iterrows()):
+        ax.annotate(
+            f"{r['topic']}\n({r['pct_change_during']:+.0f}%)",
+            xy=(r["pct_change_during"], r["neg_log10_p"]),
+            xytext=(x_stack, slot),
+            fontsize=8, color="black", ha="left", va="center",
+            bbox=dict(boxstyle="round,pad=0.25", facecolor="white",
+                      edgecolor=COLOR[r["domain"]], lw=0.8, alpha=0.93),
+            arrowprops=dict(arrowstyle="-", color="gray", lw=0.7, alpha=0.7),
+            zorder=5,
+        )
+
     # Build label text with topic name + pct on separate lines so duplicate
     # percentages are disambiguated by the topic line.
     texts = []
-    for _, r in callouts.iterrows():
+    for _, r in auto.iterrows():
         label = f"{r['topic']}\n({r['pct_change_during']:+.0f}%)"
         t = ax.text(
             r["pct_change_during"], r["neg_log10_p"], label,
@@ -144,15 +168,8 @@ def main():
     )
     ax.set_ylabel("-log10 Holm-adjusted Poisson p (during-window)", fontsize=12)
 
-    # Title + subtitle (period not colon to match other figures)
-    fig.suptitle(
-        "COVID-19 impact volcano: effect size × statistical significance",
-        fontsize=14, fontweight="bold", y=0.995,
-    )
-    ax.set_title(
-        "Each point = one topic (K=100). Topics above the dashed line have Holm-adjusted p < 0.05.",
-        fontsize=10, color="#444444", style="italic", pad=8,
-    )
+    # In-image titles removed — the caption carries this information
+    # (reviewer request: figure titles belong in captions).
 
     # Legend (lower right, bigger swatches for clarity)
     leg = ax.legend(

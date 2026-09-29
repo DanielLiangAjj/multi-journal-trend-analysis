@@ -78,8 +78,8 @@ def main():
                 height=0.6, color=col, alpha=0.78,
                 edgecolor=col, linewidth=0.6, zorder=2)
         # Endpoint annotations
-        ax.text(r["start"] - 0.55, i, f"{r['start']}",
-                fontsize=7.5, ha="right", va="center", color="#444")
+        ax.text(r["start"] - 0.30, i, f"{r['start']}",
+                fontsize=7.0, ha="left", va="center", color="white", fontweight="bold", zorder=3)
         ax.text(r["end"] + 0.55, i, f"  n={r['count']:,}",
                 fontsize=7.5, ha="left", va="center", color="#444")
         # Journal name
@@ -107,7 +107,6 @@ def main():
                frameon=False, fontsize=10, bbox_to_anchor=(0.5, 0.01))
 
     fig.suptitle(
-        "Supplementary Figure S2. Per-journal coverage timeline (29 journals, 2011–2025)\n"
         "Bars show each journal's first → last indexed year in our corpus; "
         "right-side n = total articles. Colour = sub-domain.",
         fontsize=12, fontweight="bold", y=0.995,

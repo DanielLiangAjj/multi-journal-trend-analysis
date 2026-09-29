@@ -1,0 +1,1420 @@
+journal,domain,topic,n_articles,years,share_first,share_last,pct_per_year,p_raw,p_holm,significant_holm
+Applied Clinical Informatics,health,Countries and demographics,87,2011-2025,0.0,8.0,12.2,0.026809475829820444,0.6166179440858702,False
+Applied Clinical Informatics,health,Decision support,229,2011-2025,12.8,28.6,10.8,1.374689915698859e-05,0.0004261538738666463,True
+Applied Clinical Informatics,health,Cancer types and screening,55,2011-2025,0.0,7.5,9.3,0.0027408356871407727,0.0712617278656601,False
+Applied Clinical Informatics,health,Health workforce education,162,2011-2025,0.0,17.6,9.2,6.533324404812821e-06,0.00020906638095401027,True
+Applied Clinical Informatics,methodology,Qualitative research methods,155,2011-2025,5.1,16.1,9.1,5.4122798502837535e-05,0.0016236839550851261,True
+Applied Clinical Informatics,health,Infectious diseases,181,2011-2025,5.1,12.1,8.1,0.01702695051043715,0.4086468122504916,False
+Applied Clinical Informatics,methodology,Virtual medical simulation,129,2011-2025,0.0,13.6,6.5,0.011664612128597476,0.2916153032149369,False
+Applied Clinical Informatics,health,Translational and clinical research,205,2011-2025,7.7,13.1,5.3,0.061534679572085166,1.0,False
+Applied Clinical Informatics,health,Cardiovascular diseases,45,2011-2025,0.0,4.5,4.8,0.2593944990987227,1.0,False
+Applied Clinical Informatics,methodology,Clinical study designs,200,2011-2025,7.7,10.1,4.5,0.10791697018063888,1.0,False
+Applied Clinical Informatics,health,Prognosis and risk prediction,110,2011-2025,5.1,11.6,3.3,0.43748306941287907,1.0,False
+Applied Clinical Informatics,health,Surgical procedures,46,2011-2025,2.6,3.5,3.2,0.3979375607629265,1.0,False
+Applied Clinical Informatics,health,Psychiatric disorders,62,2011-2025,0.0,4.5,2.2,0.37711827443580337,1.0,False
+Applied Clinical Informatics,health,Emergency Department,194,2011-2025,12.8,10.1,1.9,0.4097757396192413,1.0,False
+Applied Clinical Informatics,methodology,Software and usability research,214,2011-2025,23.1,16.6,1.0,0.6425959419099632,1.0,False
+Applied Clinical Informatics,methodology,Machine learning methods,185,2011-2025,12.8,19.1,0.6,0.782981913807525,1.0,False
+Applied Clinical Informatics,health,Diabetes mellitus,51,2011-2025,5.1,2.0,-0.1,0.9696382929161705,1.0,False
+Applied Clinical Informatics,health,Primary care delivery,208,2011-2025,15.4,13.6,-0.5,0.6959887610434526,1.0,False
+Applied Clinical Informatics,health,User-centered design,32,2011-2025,2.6,4.0,-1.2,0.8057720731039979,1.0,False
+Applied Clinical Informatics,health,Patient-provider communication,216,2011-2025,10.3,9.0,-1.4,0.39605018137482384,1.0,False
+Applied Clinical Informatics,methodology,Bayesian and statistical modeling,62,2011-2025,5.1,3.5,-1.6,0.5477157110544173,1.0,False
+Applied Clinical Informatics,health,Digital health technologies,1035,2011-2025,84.6,66.8,-1.9,3.938758835745667e-10,1.4179531808684402e-08,True
+Applied Clinical Informatics,methodology,Information dissemination,169,2011-2025,12.8,7.5,-2.5,0.10881155475061176,1.0,False
+Applied Clinical Informatics,health,Protein and gene networks,34,2011-2025,0.0,1.0,-2.5,0.5364428170983218,1.0,False
+Applied Clinical Informatics,health,Population health surveillance,31,2011-2025,2.6,1.0,-2.8,0.5843092997269339,1.0,False
+Applied Clinical Informatics,health,Caregivers and care quality,57,2011-2025,7.7,3.5,-2.9,0.2327797931801886,1.0,False
+Applied Clinical Informatics,health,Drug safety surveillance,85,2011-2025,5.1,3.5,-3.2,0.3134014844406241,1.0,False
+Applied Clinical Informatics,health,Mixed clinical conditions and demographics,80,2011-2025,2.6,4.0,-4.2,0.151613234741778,1.0,False
+Applied Clinical Informatics,health,Health program evaluation,34,2011-2025,0.0,2.5,-4.6,0.3039308068371098,1.0,False
+Applied Clinical Informatics,methodology,Clinical decision support,449,2011-2025,43.6,22.1,-6.4,3.1922257112823388e-09,1.1172789989488186e-07,True
+Applied Clinical Informatics,methodology,Mobile health and social media,112,2011-2025,10.3,5.0,-8.8,2.3368189724186877e-08,7.945184506223538e-07,True
+Applied Clinical Informatics,methodology,Statistical methods,95,2011-2025,12.8,2.0,-10.3,0.0005268851443484265,0.014752784041755942,True
+Applied Clinical Informatics,health,Health policy landscape,56,2011-2025,12.8,1.5,-10.5,0.00010327991178463652,0.0029951174417544592,True
+Applied Clinical Informatics,health,Health information seeking,35,2011-2025,5.1,2.0,-10.6,0.0012100910614847638,0.032672458660088624,True
+Applied Clinical Informatics,methodology,Drug discovery and evaluation,41,2011-2025,2.6,1.0,-11.6,0.02937633957265692,0.6462794705984523,False
+Applied Clinical Informatics,methodology,Big data infrastructure and interoperability,35,2011-2025,10.3,0.5,-15.9,5.527078951986929e-07,1.823936054155687e-05,True
+Artificial Intelligence in Medicine,methodology,Large language models,41,2011-2025,0.0,10.6,32.3,0.012734434890718202,0.48390852584729166,False
+Artificial Intelligence in Medicine,methodology,Clinical monitoring and surveillance,31,2011-2025,0.0,4.7,18.2,0.010276538557098983,0.42133808084105834,False
+Artificial Intelligence in Medicine,health,Mixed health informatics safety topics,31,2011-2025,0.0,2.4,15.3,0.025949797990425173,0.9038299030244226,False
+Artificial Intelligence in Medicine,methodology,Contrastive learning,71,2011-2025,0.0,8.2,11.2,0.0007990702913133651,0.03835537398304152,True
+Artificial Intelligence in Medicine,methodology,Multi-task and meta learning,42,2011-2025,0.0,2.9,8.9,0.0023882016208275785,0.10746907293724103,False
+Artificial Intelligence in Medicine,health,Neuroscience and cognition,42,2011-2025,0.0,4.1,8.0,0.155662811995087,1.0,False
+Artificial Intelligence in Medicine,health,Psychiatric disorders,54,2011-2025,3.8,5.9,6.0,0.0999696159920891,1.0,False
+Artificial Intelligence in Medicine,health,Cardiovascular diseases,33,2011-2025,3.8,0.6,4.8,0.32994442855049144,1.0,False
+Artificial Intelligence in Medicine,methodology,Medical image segmentation,261,2011-2025,7.5,20.0,4.2,0.06393401558849686,1.0,False
+Artificial Intelligence in Medicine,methodology,Mobile health and social media,70,2011-2025,0.0,4.1,3.8,0.2963346148602436,1.0,False
+Artificial Intelligence in Medicine,health,Computational cancer biology,165,2011-2025,5.7,13.5,3.4,0.08936745755117992,1.0,False
+Artificial Intelligence in Medicine,health,Mixed medical imaging,91,2011-2025,3.8,6.5,1.9,0.5263091308359082,1.0,False
+Artificial Intelligence in Medicine,methodology,Clinical study designs,65,2011-2025,0.0,4.7,1.4,0.6956104017435502,1.0,False
+Artificial Intelligence in Medicine,methodology,Mixed automation and optimization methods,39,2011-2025,1.9,2.9,1.3,0.6922985086857787,1.0,False
+Artificial Intelligence in Medicine,methodology,Mixed deep learning applications,171,2011-2025,3.8,12.4,1.2,0.42784192359421136,1.0,False
+Artificial Intelligence in Medicine,health,Infectious diseases,96,2011-2025,5.7,7.1,1.0,0.7521233585192973,1.0,False
+Artificial Intelligence in Medicine,health,Drug safety surveillance,46,2011-2025,0.0,4.1,0.8,0.7597421896418467,1.0,False
+Artificial Intelligence in Medicine,methodology,Machine learning methods,1104,2011-2025,81.1,68.8,0.6,0.46685179909384145,1.0,False
+Artificial Intelligence in Medicine,methodology,Graph and network methods,64,2011-2025,0.0,2.4,-0.1,0.975294582071821,1.0,False
+Artificial Intelligence in Medicine,methodology,Knowledge graphs,100,2011-2025,9.4,6.5,-0.7,0.8176172014229048,1.0,False
+Artificial Intelligence in Medicine,health,Digital health technologies,512,2011-2025,34.0,33.5,-1.0,0.4061650289602545,1.0,False
+Artificial Intelligence in Medicine,health,Drug discovery,38,2011-2025,1.9,4.1,-1.3,0.8006435162695624,1.0,False
+Artificial Intelligence in Medicine,health,Diabetes mellitus,54,2011-2025,3.8,2.4,-1.3,0.759003834656544,1.0,False
+Artificial Intelligence in Medicine,methodology,Biomedical signal processing,174,2011-2025,17.0,10.0,-1.6,0.2977839860945949,1.0,False
+Artificial Intelligence in Medicine,methodology,Named Entity Recognition,73,2011-2025,5.7,4.7,-2.7,0.35825804021596364,1.0,False
+Artificial Intelligence in Medicine,health,Neurodegenerative diseases,104,2011-2025,7.5,5.3,-2.7,0.10102517612077018,1.0,False
+Artificial Intelligence in Medicine,methodology,Drug discovery and evaluation,55,2011-2025,3.8,2.4,-2.8,0.4633150753009798,1.0,False
+Artificial Intelligence in Medicine,health,Cancer types and screening,190,2011-2025,24.5,11.2,-3.6,0.026544754231205153,0.9038299030244226,False
+Artificial Intelligence in Medicine,health,Medical devices,59,2011-2025,3.8,3.5,-3.8,0.13800895555305157,1.0,False
+Artificial Intelligence in Medicine,health,Mixed clinical conditions and demographics,75,2011-2025,11.3,7.1,-3.9,0.1200448390205337,1.0,False
+Artificial Intelligence in Medicine,health,Protein and gene networks,141,2011-2025,20.8,8.8,-4.0,0.015121697238238108,0.55950279781481,False
+Artificial Intelligence in Medicine,methodology,Clinical decision support,414,2011-2025,30.2,23.5,-4.0,0.0014675383066318868,0.06897430041169868,False
+Artificial Intelligence in Medicine,health,Translational and clinical research,59,2011-2025,3.8,4.1,-4.0,0.24813375609610322,1.0,False
+Artificial Intelligence in Medicine,health,Physiological signals and AI methods,194,2011-2025,18.9,13.5,-4.1,0.009652857488743593,0.4054200145272309,False
+Artificial Intelligence in Medicine,health,Prognosis and risk prediction,131,2011-2025,9.4,7.1,-4.5,0.050436227010514915,1.0,False
+Artificial Intelligence in Medicine,methodology,Predictive and Markov modeling,51,2011-2025,3.8,2.4,-4.9,0.03529247652863882,1.0,False
+Artificial Intelligence in Medicine,health,Emergency Department,38,2011-2025,0.0,1.2,-5.4,0.1586066039257491,1.0,False
+Artificial Intelligence in Medicine,methodology,Software and usability research,120,2011-2025,9.4,5.3,-5.5,0.004480185385947002,0.19712815698166808,False
+Artificial Intelligence in Medicine,methodology,Statistical methods,294,2011-2025,30.2,10.0,-6.5,0.00013092774873467303,0.006546387436733652,True
+Artificial Intelligence in Medicine,methodology,Genomics and sequence bioinformatics,65,2011-2025,3.8,2.4,-6.7,0.03546472999219265,1.0,False
+Artificial Intelligence in Medicine,health,Genomic variant analysis,38,2011-2025,1.9,1.8,-6.9,0.02782519353413541,0.9038299030244226,False
+Artificial Intelligence in Medicine,health,Bayesian health modeling,49,2011-2025,1.9,1.2,-7.3,0.02001128719135202,0.7204063388886728,False
+Artificial Intelligence in Medicine,health,Cardiac arrhythmias,45,2011-2025,5.7,1.8,-7.3,0.012317738606956775,0.48039180567131423,False
+Artificial Intelligence in Medicine,methodology,Bayesian and statistical modeling,124,2011-2025,11.3,5.9,-7.8,0.0016852348891886982,0.07752080490268012,False
+Artificial Intelligence in Medicine,health,Decision support,148,2011-2025,24.5,5.3,-8.2,0.009007051991598087,0.3873032356387177,False
+Artificial Intelligence in Medicine,methodology,Big data infrastructure and interoperability,37,2011-2025,13.2,2.4,-8.7,0.036208888323277906,1.0,False
+Artificial Intelligence in Medicine,health,Surgical procedures,36,2011-2025,5.7,2.4,-8.8,0.1125136971563392,1.0,False
+Artificial Intelligence in Medicine,health,Primary care delivery,55,2011-2025,5.7,0.6,-10.1,0.025823711514983503,0.9038299030244226,False
+Artificial Intelligence in Medicine,methodology,Virtual medical simulation,112,2011-2025,18.9,5.3,-11.0,2.3111817518152806e-05,0.0012249263284620988,True
+Artificial Intelligence in Medicine,methodology,Information dissemination,40,2011-2025,9.4,1.2,-11.5,2.6011340553066306e-05,0.001352589708759448,True
+Artificial Intelligence in Medicine,health,Gene expression regulation,54,2011-2025,11.3,3.5,-11.9,0.011307173843086635,0.4522869537234654,False
+Artificial Intelligence in Medicine,health,Patient-provider communication,50,2011-2025,7.5,1.2,-12.7,0.0005264847727946648,0.025797753866938573,True
+Artificial Intelligence in Medicine,methodology,Mixed reasoning and modeling methods,49,2011-2025,11.3,3.5,-13.0,0.0001089278585715517,0.0055553207871491365,True
+Artificial Intelligence in Medicine,health,Genetic predisposition,34,2011-2025,1.9,0.6,-17.7,1.3998588351215041e-06,7.559237709656123e-05,True
+BMC Medical Informatics and Decision Making,methodology,Large language models,52,2011-2025,0.0,5.4,57.4,0.00048275314152461044,0.027516929066902795,True
+BMC Medical Informatics and Decision Making,methodology,Predictive and Markov modeling,133,2011-2025,1.3,7.7,21.4,2.721490729590807e-10,2.0955478617849213e-08,True
+BMC Medical Informatics and Decision Making,methodology,Missing data imputation,50,2011-2025,0.0,1.5,16.4,0.0004487544167757527,0.026027756172993657,True
+BMC Medical Informatics and Decision Making,health,Medical devices,70,2011-2025,0.0,2.9,12.5,0.0002814217317501912,0.01660388217326128,True
+BMC Medical Informatics and Decision Making,health,Myocardial infarction,74,2011-2025,1.3,2.7,12.3,0.004525771642782691,0.22628858213913455,False
+BMC Medical Informatics and Decision Making,health,Cardiorespiratory monitoring,33,2011-2025,0.0,1.5,11.3,0.006695988484310696,0.3214074472469134,False
+BMC Medical Informatics and Decision Making,methodology,Medical image segmentation,148,2011-2025,0.0,5.0,11.1,9.678402498270966e-06,0.0006290961623876128,True
+BMC Medical Informatics and Decision Making,methodology,Machine learning methods,1472,2011-2025,22.1,61.7,9.7,3.531868404998525e-24,3.002088144248746e-22,True
+BMC Medical Informatics and Decision Making,methodology,Mixed automation and optimization methods,54,2011-2025,0.0,2.1,9.7,0.063420432332505,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Graph and network methods,31,2011-2025,0.0,1.0,8.7,0.1334810503504488,1.0,False
+BMC Medical Informatics and Decision Making,health,Mixed medical imaging,69,2011-2025,2.6,2.5,8.0,0.04006536197789118,1.0,False
+BMC Medical Informatics and Decision Making,health,Cardiac arrhythmias,59,2011-2025,1.3,1.7,6.6,0.05161261084099338,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Biomedical signal processing,113,2011-2025,1.3,4.4,6.5,0.009913421113534604,0.4560173712225918,False
+BMC Medical Informatics and Decision Making,methodology,Clinical monitoring and surveillance,103,2011-2025,0.0,3.5,6.4,0.05109372333200295,1.0,False
+BMC Medical Informatics and Decision Making,health,cancer immunotherapy,33,2011-2025,1.3,1.0,4.8,0.2743791982783692,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Contrastive learning,46,2011-2025,0.0,1.0,4.7,0.442281592348746,1.0,False
+BMC Medical Informatics and Decision Making,health,Cardiovascular diseases,158,2011-2025,2.6,5.4,3.9,0.04211211332022309,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Mixed deep learning applications,114,2011-2025,1.3,4.4,3.7,0.13749347215637395,1.0,False
+BMC Medical Informatics and Decision Making,health,Cancer types and screening,401,2011-2025,7.8,15.0,3.4,0.013443330103582363,0.6049498546612063,False
+BMC Medical Informatics and Decision Making,health,Upper airway disorders,51,2011-2025,0.0,2.5,3.3,0.39484570883840586,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Privacy and de-identification,59,2011-2025,0.0,1.5,3.2,0.5084047621021512,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Genomics and sequence bioinformatics,110,2011-2025,3.9,3.8,2.9,0.25882553781382234,1.0,False
+BMC Medical Informatics and Decision Making,health,Neurodegenerative diseases,150,2011-2025,1.3,3.5,2.3,0.2652900152141784,1.0,False
+BMC Medical Informatics and Decision Making,health,Bayesian health modeling,62,2011-2025,0.0,2.3,1.9,0.5093988973845998,1.0,False
+BMC Medical Informatics and Decision Making,health,Computational cancer biology,188,2011-2025,2.6,7.1,1.9,0.4225453856881761,1.0,False
+BMC Medical Informatics and Decision Making,health,Signs and symptoms,55,2011-2025,1.3,2.5,1.7,0.6852559489080958,1.0,False
+BMC Medical Informatics and Decision Making,health,Older people,51,2011-2025,0.0,0.8,1.5,0.6943259512031894,1.0,False
+BMC Medical Informatics and Decision Making,methodology,eHealth and mobile applications,124,2011-2025,3.9,1.9,1.2,0.7086338435148605,1.0,False
+BMC Medical Informatics and Decision Making,health,Physiological signals and AI methods,186,2011-2025,2.6,7.7,1.0,0.6015659929445909,1.0,False
+BMC Medical Informatics and Decision Making,health,Mixed health informatics safety topics,61,2011-2025,1.3,1.2,0.3,0.9268128745813663,1.0,False
+BMC Medical Informatics and Decision Making,health,Mixed clinical conditions and demographics,290,2011-2025,11.7,9.6,-0.1,0.945718015568377,1.0,False
+BMC Medical Informatics and Decision Making,health,Perinatal outcomes,87,2011-2025,3.9,3.1,-0.2,0.9380950518690395,1.0,False
+BMC Medical Informatics and Decision Making,health,Surgical procedures,126,2011-2025,6.5,5.0,-0.5,0.8429855277954352,1.0,False
+BMC Medical Informatics and Decision Making,health,Mass screening,37,2011-2025,0.0,0.8,-0.7,0.8760866514317481,1.0,False
+BMC Medical Informatics and Decision Making,health,Health behavior change,115,2011-2025,1.3,2.7,-0.8,0.6992044627838341,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Named Entity Recognition,111,2011-2025,2.6,0.8,-1.0,0.7966261626026833,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Knowledge graphs,106,2011-2025,1.3,2.3,-1.2,0.6841018288179045,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Mass spectrometry and ROC analysis,46,2011-2025,1.3,1.0,-1.3,0.7350349777779767,1.0,False
+BMC Medical Informatics and Decision Making,health,Emergency Department,250,2011-2025,9.1,7.5,-1.5,0.31236524351716577,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Data visualization methods,48,2011-2025,0.0,1.0,-1.5,0.6737187401332658,1.0,False
+BMC Medical Informatics and Decision Making,health,Diabetes mellitus,187,2011-2025,7.8,6.7,-1.7,0.4561110680172775,1.0,False
+BMC Medical Informatics and Decision Making,health,Prognosis and risk prediction,380,2011-2025,14.3,12.1,-2.0,0.2668239087895523,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Big data infrastructure and interoperability,149,2011-2025,3.9,2.1,-2.4,0.32272415698553547,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Ecological momentary assessment,64,2011-2025,0.0,2.1,-3.0,0.2998950493102319,1.0,False
+BMC Medical Informatics and Decision Making,health,Digital health technologies,2024,2011-2025,59.7,43.5,-3.3,5.175001803826867e-16,4.295251497176299e-14,True
+BMC Medical Informatics and Decision Making,methodology,Drug discovery and evaluation,233,2011-2025,5.2,5.4,-3.5,0.0013861952433872888,0.07624073838630088,False
+BMC Medical Informatics and Decision Making,health,Determinants of health,45,2011-2025,0.0,0.6,-3.7,0.41111492121060833,1.0,False
+BMC Medical Informatics and Decision Making,health,Drug discovery,60,2011-2025,5.2,0.6,-3.8,0.2699334918190166,1.0,False
+BMC Medical Informatics and Decision Making,health,User-centered design,40,2011-2025,0.0,1.2,-4.0,0.36602055508737763,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Clinical decision support,1323,2011-2025,62.3,31.9,-4.1,1.736626337550421e-09,1.31983601653832e-07,True
+BMC Medical Informatics and Decision Making,health,Neuroscience and cognition,71,2011-2025,1.3,1.0,-4.4,0.13946190683794632,1.0,False
+BMC Medical Informatics and Decision Making,health,Gene expression regulation,68,2011-2025,3.9,1.2,-4.4,0.16245852502226765,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Bayesian and statistical modeling,319,2011-2025,9.1,6.2,-4.6,0.003088798303299167,0.1575287134682575,False
+BMC Medical Informatics and Decision Making,health,Infectious diseases,392,2011-2025,11.7,9.6,-4.6,0.008866469953321963,0.4167240878061323,False
+BMC Medical Informatics and Decision Making,methodology,Mobile health and social media,246,2011-2025,1.3,2.9,-4.8,0.09681330311436442,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Statistical methods,611,2011-2025,26.0,15.4,-5.0,0.0018404302833635155,0.09754280501826632,False
+BMC Medical Informatics and Decision Making,health,Psychiatric disorders,219,2011-2025,6.5,4.8,-5.1,8.26537134457583e-05,0.005041876520191256,True
+BMC Medical Informatics and Decision Making,health,Medical specialties,30,2011-2025,2.6,1.5,-5.9,0.20139577078894255,1.0,False
+BMC Medical Informatics and Decision Making,methodology,Software and usability research,355,2011-2025,13.0,6.2,-5.9,0.00018159582170982862,0.010895749302589717,True
+BMC Medical Informatics and Decision Making,methodology,Information dissemination,315,2011-2025,14.3,5.4,-6.1,2.7960614492489307e-06,0.00018454005565042943,True
+BMC Medical Informatics and Decision Making,health,Genomic variant analysis,39,2011-2025,2.6,1.2,-6.5,0.04346656347393217,1.0,False
+BMC Medical Informatics and Decision Making,health,Drug safety surveillance,189,2011-2025,5.2,3.5,-6.6,1.396991192982657e-06,9.359840992983802e-05,True
+BMC Medical Informatics and Decision Making,health,Caregivers and care quality,77,2011-2025,1.3,1.0,-6.6,0.01654350713983934,0.727914314152931,False
+BMC Medical Informatics and Decision Making,health,Health and functional status assessment,81,2011-2025,1.3,2.5,-6.8,0.006152578323037776,0.301476337828851,False
+BMC Medical Informatics and Decision Making,health,Primary care delivery,414,2011-2025,18.2,8.5,-6.9,2.4628503948296224e-10,1.9210233079671055e-08,True
+BMC Medical Informatics and Decision Making,health,Health information seeking,143,2011-2025,10.4,2.5,-7.8,2.568867035243384e-05,0.001592697561850898,True
+BMC Medical Informatics and Decision Making,health,Population health surveillance,84,2011-2025,3.9,1.5,-8.1,0.0011006036287140785,0.0616338032079884,False
+BMC Medical Informatics and Decision Making,health,Protein and gene networks,164,2011-2025,13.0,2.1,-8.5,8.046522568363445e-07,5.5212080028502006e-05,True
+BMC Medical Informatics and Decision Making,methodology,Virtual medical simulation,192,2011-2025,10.4,4.0,-8.8,1.647774718285923e-07,1.1699200499830054e-05,True
+BMC Medical Informatics and Decision Making,health,Decision support,579,2011-2025,23.4,11.5,-9.0,3.1483289104735153e-14,2.5501464174835475e-12,True
+BMC Medical Informatics and Decision Making,health,Translational and clinical research,357,2011-2025,24.7,8.1,-9.1,1.9376152708439044e-08,1.3950829950076113e-06,True
+BMC Medical Informatics and Decision Making,methodology,RNA-seq data analysis,41,2011-2025,2.6,0.8,-9.1,0.020022924736238172,0.8609857636582414,False
+BMC Medical Informatics and Decision Making,health,Clinical guidelines,48,2011-2025,2.6,0.2,-10.3,0.00228471054587269,0.11880494838537989,False
+BMC Medical Informatics and Decision Making,health,Patient-provider communication,573,2011-2025,29.9,10.2,-10.5,7.841444015241572e-24,6.58681297280292e-22,True
+BMC Medical Informatics and Decision Making,health,Genetic predisposition,64,2011-2025,1.3,1.2,-10.7,0.0015272023194293964,0.0824689252491874,False
+BMC Medical Informatics and Decision Making,health,Health policy landscape,196,2011-2025,6.5,3.8,-11.0,2.1315179623810705e-09,1.5986384717858028e-07,True
+BMC Medical Informatics and Decision Making,methodology,Clinical study designs,357,2011-2025,19.5,6.7,-11.8,6.393625421954257e-09,4.73128281224615e-07,True
+BMC Medical Informatics and Decision Making,health,Biomedical databases,67,2011-2025,2.6,0.4,-13.1,8.001750728768406e-07,5.5212080028502006e-05,True
+BMC Medical Informatics and Decision Making,methodology,Mixed reasoning and modeling methods,84,2011-2025,9.1,1.0,-14.5,1.787579025218335e-05,0.0011440505761397344,True
+BMC Medical Informatics and Decision Making,health,Health program evaluation,124,2011-2025,2.6,1.0,-15.6,1.749903477211157e-08,1.2774295383641446e-06,True
+BMC Medical Informatics and Decision Making,health,Countries and demographics,214,2011-2025,14.3,2.1,-16.1,2.7714642110297897e-14,2.2726006530444275e-12,True
+BMC Medical Informatics and Decision Making,methodology,Qualitative research methods,225,2011-2025,18.2,2.5,-16.2,6.666595308828756e-13,5.333276247063005e-11,True
+BMC Medical Informatics and Decision Making,health,Health workforce education,122,2011-2025,9.1,0.4,-17.1,8.862777826948826e-13,7.001594483289573e-11,True
+BMC Medical Informatics and Decision Making,methodology,Research ethics and patient involvement,66,2011-2025,5.2,1.0,-18.7,4.100799813712151e-07,2.8705598695985058e-05,True
+BMC Medical Informatics and Decision Making,methodology,Pilot studies and synthetic data,34,2011-2025,2.6,0.2,-28.0,2.2020617401193304e-05,0.0013872988962751781,True
+BMJ Health & Care Informatics,health,Translational and clinical research,43,2019-2025,8.3,20.9,32.2,0.004980343666772776,0.04482309300095498,True
+BMJ Health & Care Informatics,methodology,Machine learning methods,156,2019-2025,6.2,53.6,25.4,0.0007011873012305836,0.007011873012305836,True
+BMJ Health & Care Informatics,health,Decision support,43,2019-2025,8.3,13.6,19.1,0.08019038990084672,0.561332729305927,False
+BMJ Health & Care Informatics,health,Population health surveillance,62,2019-2025,4.2,20.9,10.1,0.1553841731795151,0.9323050390770906,False
+BMJ Health & Care Informatics,health,Infectious diseases,52,2019-2025,8.3,12.7,5.4,0.6001482293783602,1.0,False
+BMJ Health & Care Informatics,health,Digital health technologies,292,2019-2025,75.0,70.0,-0.5,0.7426210526714802,1.0,False
+BMJ Health & Care Informatics,methodology,Clinical decision support,223,2019-2025,54.2,49.1,-1.0,0.6508906678864792,1.0,False
+BMJ Health & Care Informatics,health,Primary care delivery,44,2019-2025,18.8,10.9,-2.4,0.8279071668467085,1.0,False
+BMJ Health & Care Informatics,health,Patient-provider communication,90,2019-2025,12.5,20.9,-4.5,0.5617270617807071,1.0,False
+BMJ Health & Care Informatics,methodology,Information dissemination,64,2019-2025,18.8,10.9,-10.6,0.0003283387809271178,0.0036117265901982956,True
+BMJ Health & Care Informatics,health,Health policy landscape,48,2019-2025,8.3,4.5,-26.9,0.0571369450198318,0.4570955601586544,False
+Bioinformatics,methodology,Mobile health and social media,106,2014-2025,0.3,1.5,16.5,7.3038993559286776e-06,0.00037980276650829124,True
+Bioinformatics,methodology,Drug discovery and evaluation,227,2014-2025,1.9,4.8,9.7,2.254164509297738e-06,0.00012397904801137558,True
+Bioinformatics,health,Digital health technologies,887,2014-2025,4.7,10.5,8.6,4.1518485677871436e-08,2.366553683638672e-06,True
+Bioinformatics,methodology,RNA-seq data analysis,904,2014-2025,8.6,16.6,8.1,2.6277313742816433e-09,1.5503615108261695e-07,True
+Bioinformatics,health,Epitope analysis,53,2014-2025,0.2,1.2,7.8,0.08405753506382545,1.0,False
+Bioinformatics,health,Drug discovery,405,2014-2025,3.4,6.0,5.0,0.0360506601261351,1.0,False
+Bioinformatics,health,Primary care delivery,41,2014-2025,0.7,0.5,4.0,0.35644582643393496,1.0,False
+Bioinformatics,methodology,Knowledge graphs,91,2014-2025,0.5,1.0,3.8,0.2595149258010595,1.0,False
+Bioinformatics,methodology,Biomedical signal processing,66,2014-2025,0.5,1.0,3.4,0.32711971328071,1.0,False
+Bioinformatics,methodology,Cryo-electron microscopy,118,2014-2025,0.7,1.2,2.8,0.43039498395179465,1.0,False
+Bioinformatics,methodology,Data visualization methods,48,2014-2025,0.0,0.2,1.4,0.9308098515470771,1.0,False
+Bioinformatics,methodology,Machine learning methods,4722,2014-2025,58.2,70.4,1.0,0.49511233953455736,1.0,False
+Bioinformatics,methodology,Information dissemination,218,2014-2025,1.7,1.2,0.6,0.8806281062884223,1.0,False
+Bioinformatics,methodology,Medical image segmentation,247,2014-2025,2.2,3.0,0.3,0.8841096318874275,1.0,False
+Bioinformatics,methodology,Software and usability research,6286,2014-2025,59.2,73.7,-0.2,0.8591270162517577,1.0,False
+Bioinformatics,methodology,Clinical study designs,188,2014-2025,3.0,2.2,-0.2,0.9526812473053222,1.0,False
+Bioinformatics,health,Drug safety surveillance,101,2014-2025,0.7,0.8,-0.3,0.9431661767757297,1.0,False
+Bioinformatics,methodology,Gene editing,102,2014-2025,1.2,0.7,-0.4,0.8764212022486173,1.0,False
+Bioinformatics,health,Computational cancer biology,3169,2014-2025,33.9,65.1,-0.6,0.8875082934970059,1.0,False
+Bioinformatics,methodology,Open access publishing,40,2014-2025,0.3,0.0,-0.8,0.8692801454817638,1.0,False
+Bioinformatics,health,Protein-peptide binding,576,2014-2025,5.6,6.2,-1.6,0.14875044485338684,1.0,False
+Bioinformatics,methodology,Biological modeling,310,2014-2025,3.2,4.0,-1.7,0.4076576672288821,1.0,False
+Bioinformatics,health,cancer immunotherapy,341,2014-2025,5.4,3.5,-1.7,0.42209951986932526,1.0,False
+Bioinformatics,health,Protein and gene networks,2095,2014-2025,18.2,24.1,-1.8,0.2441760834740796,1.0,False
+Bioinformatics,methodology,Big data infrastructure and interoperability,51,2014-2025,0.3,0.7,-1.9,0.719560038319635,1.0,False
+Bioinformatics,health,Microbial and fungal genomics,295,2014-2025,1.5,1.8,-2.3,0.5448656798730158,1.0,False
+Bioinformatics,health,Neurodegenerative diseases,181,2014-2025,2.2,2.8,-3.0,0.35127815879702573,1.0,False
+Bioinformatics,health,Amino acid sequence,823,2014-2025,8.3,9.7,-3.4,0.05552583272878044,1.0,False
+Bioinformatics,health,Genomic variant analysis,4363,2014-2025,59.5,43.1,-3.9,2.3634943697454582e-09,1.418096621847275e-07,True
+Bioinformatics,health,Gene expression regulation,2946,2014-2025,40.8,30.9,-3.9,0.0005051618760274083,0.02172196066917856,True
+Bioinformatics,methodology,Immunological techniques,91,2014-2025,1.3,0.7,-4.2,0.16807946372170313,1.0,False
+Bioinformatics,methodology,Genomics and sequence bioinformatics,4090,2014-2025,54.8,40.5,-4.4,4.412320618009258e-06,0.0002338529927544907,True
+Bioinformatics,health,Infectious diseases,1037,2014-2025,14.3,10.7,-4.4,0.06824426349064651,1.0,False
+Bioinformatics,health,Bayesian health modeling,371,2014-2025,5.2,3.2,-4.6,6.1002075738012e-05,0.0030501037869006,True
+Bioinformatics,methodology,Clinical decision support,186,2014-2025,1.0,1.5,-5.0,0.13311542157397657,1.0,False
+Bioinformatics,health,Ploidy variation,30,2014-2025,0.3,0.0,-5.8,0.24690938204127133,1.0,False
+Bioinformatics,health,Genetic predisposition,1380,2014-2025,20.2,11.0,-6.0,1.923223683184512e-30,1.2116309204062424e-28,True
+Bioinformatics,health,Cancer types and screening,389,2014-2025,8.3,4.0,-7.0,0.012369794465290946,0.4453126007504741,False
+Bioinformatics,methodology,Mass spectrometry and ROC analysis,315,2014-2025,6.2,1.7,-7.0,0.00016264530525794227,0.007644329347123287,True
+Bioinformatics,health,Repetitive DNA sequences,159,2014-2025,2.7,1.0,-8.2,3.206637345315198e-05,0.0016353850461107511,True
+Bioinformatics,health,Tumor immunology and microenvironment,55,2014-2025,0.7,0.3,-8.3,0.034308113610510546,1.0,False
+Bioinformatics,health,Biomedical databases,1278,2014-2025,20.9,23.6,-8.4,0.12179313972106354,1.0,False
+Bioinformatics,methodology,Mixed deep learning applications,108,2014-2025,1.0,1.2,-8.4,0.017603313957509966,0.5809093605978288,False
+Bioinformatics,methodology,Bayesian and statistical modeling,698,2014-2025,12.6,4.5,-9.2,1.7904133771698157e-23,1.1100562938452857e-21,True
+Bioinformatics,health,Translational and clinical research,97,2014-2025,1.3,0.3,-10.0,0.011337397094478733,0.4194836924957131,False
+Bioinformatics,health,Post-translational modifications,94,2014-2025,1.3,0.7,-10.2,0.000587179673108316,0.024661546270549273,True
+Bioinformatics,methodology,Virtual medical simulation,881,2014-2025,12.1,7.4,-10.5,0.000636754206409083,0.0261069224627724,True
+Bioinformatics,health,Physiological signals and AI methods,208,2014-2025,3.2,1.5,-10.5,3.00466857768078e-06,0.0001622521031947621,True
+Bioinformatics,health,Diabetes mellitus,42,2014-2025,1.0,0.5,-10.5,0.0677308099840454,1.0,False
+Bioinformatics,health,Mixed clinical conditions and demographics,52,2014-2025,0.7,0.5,-10.6,0.014091633448847233,0.49320717070965314,False
+Bioinformatics,health,Patient-provider communication,102,2014-2025,0.7,0.7,-10.7,0.004300423667338042,0.1720169466935217,False
+Bioinformatics,health,Psychiatric disorders,36,2014-2025,0.0,0.0,-10.9,0.047826413751822235,1.0,False
+Bioinformatics,health,Natural products and traditional medicine,193,2014-2025,2.2,0.3,-11.3,0.01583974519485537,0.5385513366250826,False
+Bioinformatics,health,Metabolic networks,240,2014-2025,3.9,1.5,-13.7,1.8617897214635354e-06,0.00010426022440195799,True
+Bioinformatics,methodology,Statistical methods,616,2014-2025,12.1,3.7,-14.3,8.433758470705979e-16,5.1445926671306474e-14,True
+Bioinformatics,methodology,Mixed automation and optimization methods,39,2014-2025,0.8,0.2,-16.0,0.00022302921280600792,0.010259343789076364,True
+Bioinformatics,methodology,High-throughput screening,56,2014-2025,0.5,0.2,-16.5,0.0044892125564681045,0.17507928970225609,False
+Bioinformatics,methodology,Predictive and Markov modeling,90,2014-2025,2.9,0.5,-16.8,0.00013187577359397766,0.006330037132510928,True
+Bioinformatics,health,Cell signaling and oncogenic pathways,66,2014-2025,2.5,0.7,-19.6,0.0002767679336617883,0.012177789081118686,True
+Bioinformatics,methodology,Microarray analysis,132,2014-2025,4.9,0.5,-23.5,2.0337890522740012e-08,1.1795976503189207e-06,True
+Bioinformatics,health,Cancer treatment modalities,38,2014-2025,1.3,0.0,-23.5,6.20485589751659e-05,0.0030501037869006,True
+Bioinformatics,health,Prognosis and risk prediction,85,2014-2025,3.5,0.0,-24.0,0.00022406993997448204,0.010259343789076364,True
+Bioinformatics,methodology,Mixed reasoning and modeling methods,101,2014-2025,0.8,0.0,-31.2,0.0070583750806058896,0.2682182530630238,False
+Bioinformatics Advances,health,Decision support,48,2021-2025,0.0,7.1,31.7,0.047246945899720276,1.0,False
+Bioinformatics Advances,methodology,Mixed automation and optimization methods,52,2021-2025,2.9,6.8,26.2,0.17397771898317715,1.0,False
+Bioinformatics Advances,methodology,Biomedical signal processing,51,2021-2025,2.9,6.1,14.7,0.25467570785181015,1.0,False
+Bioinformatics Advances,methodology,Clinical decision support,145,2021-2025,14.3,20.6,13.9,2.1100528234291437e-08,8.651216576059489e-07,True
+Bioinformatics Advances,methodology,Mobile health and social media,38,2021-2025,8.6,6.1,13.5,0.5042966728197433,1.0,False
+Bioinformatics Advances,methodology,Clinical study designs,89,2021-2025,11.4,12.5,12.2,0.25918283623627125,1.0,False
+Bioinformatics Advances,health,Physiological signals and AI methods,96,2021-2025,0.0,13.2,9.1,0.5022040130577213,1.0,False
+Bioinformatics Advances,methodology,Bayesian and statistical modeling,122,2021-2025,11.4,14.8,7.6,0.23140750360518236,1.0,False
+Bioinformatics Advances,health,Microbial and fungal genomics,73,2021-2025,11.4,10.6,7.6,0.49779943634942614,1.0,False
+Bioinformatics Advances,methodology,Information dissemination,40,2021-2025,2.9,5.1,7.4,0.1246917032174047,1.0,False
+Bioinformatics Advances,methodology,Software and usability research,118,2021-2025,25.7,16.7,7.3,0.6053323560956994,1.0,False
+Bioinformatics Advances,health,Digital health technologies,220,2021-2025,14.3,29.9,6.5,0.3449698949467711,1.0,False
+Bioinformatics Advances,methodology,Big data infrastructure and interoperability,132,2021-2025,17.1,16.1,5.9,0.3955292604598273,1.0,False
+Bioinformatics Advances,health,Amino acid sequence,52,2021-2025,8.6,6.8,5.2,0.46014607791291795,1.0,False
+Bioinformatics Advances,methodology,Data visualization methods,122,2021-2025,0.0,14.1,4.4,0.7282027232891353,1.0,False
+Bioinformatics Advances,health,Genetic predisposition,118,2021-2025,11.4,13.8,4.0,0.6374181838942867,1.0,False
+Bioinformatics Advances,health,Infectious diseases,117,2021-2025,11.4,14.8,3.2,0.32718472423977873,1.0,False
+Bioinformatics Advances,methodology,Machine learning methods,462,2021-2025,42.9,57.2,2.6,0.3184943957857199,1.0,False
+Bioinformatics Advances,methodology,Statistical methods,196,2021-2025,25.7,23.5,2.2,0.5450869783945131,1.0,False
+Bioinformatics Advances,methodology,Mass spectrometry and ROC analysis,64,2021-2025,5.7,7.7,1.5,0.5694239585604499,1.0,False
+Bioinformatics Advances,methodology,Mixed deep learning applications,203,2021-2025,14.3,25.1,0.2,0.9805563060764009,1.0,False
+Bioinformatics Advances,health,Genomic variant analysis,373,2021-2025,54.3,45.0,-0.1,0.9761866389644155,1.0,False
+Bioinformatics Advances,health,Drug discovery,57,2021-2025,5.7,7.4,-0.3,0.9827952493265191,1.0,False
+Bioinformatics Advances,methodology,Virtual medical simulation,99,2021-2025,8.6,10.3,-0.6,0.9474417046676722,1.0,False
+Bioinformatics Advances,methodology,Genomics and sequence bioinformatics,606,2021-2025,82.9,73.6,-1.1,0.5841623444784101,1.0,False
+Bioinformatics Advances,methodology,Biological modeling,73,2021-2025,17.1,10.0,-2.5,0.8418657597012451,1.0,False
+Bioinformatics Advances,health,Mixed terminology and histopathology,96,2021-2025,11.4,11.6,-2.5,0.4792711709041828,1.0,False
+Bioinformatics Advances,health,Protein and gene networks,226,2021-2025,28.6,25.7,-2.9,0.26211737911658317,1.0,False
+Bioinformatics Advances,health,Mixed medical imaging,44,2021-2025,8.6,5.5,-3.3,0.8129402302056811,1.0,False
+Bioinformatics Advances,health,Gene expression regulation,356,2021-2025,48.6,39.5,-3.9,0.10496239500488769,1.0,False
+Bioinformatics Advances,methodology,Medical image segmentation,101,2021-2025,8.6,10.6,-4.3,0.6788701550279643,1.0,False
+Bioinformatics Advances,health,Computational cancer biology,204,2021-2025,22.9,21.5,-4.7,0.29883238890289743,1.0,False
+Bioinformatics Advances,methodology,Graph and network methods,65,2021-2025,11.4,7.7,-5.6,0.41828787803835255,1.0,False
+Bioinformatics Advances,health,Sequence and structure prediction,34,2021-2025,5.7,4.5,-6.6,0.6483768054484131,1.0,False
+Bioinformatics Advances,health,Biomedical databases,76,2021-2025,8.6,8.4,-7.0,0.21790695494441115,1.0,False
+Bioinformatics Advances,methodology,Knowledge graphs,45,2021-2025,2.9,4.8,-7.2,0.4992423476769178,1.0,False
+Bioinformatics Advances,health,Prognosis and risk prediction,52,2021-2025,2.9,5.8,-9.2,0.5852197209054373,1.0,False
+Bioinformatics Advances,health,Cancer types and screening,59,2021-2025,5.7,5.8,-9.7,0.33011723621597466,1.0,False
+Bioinformatics Advances,methodology,Drug discovery and evaluation,31,2021-2025,5.7,3.2,-10.5,0.5251300128035894,1.0,False
+Bioinformatics Advances,methodology,RNA-seq data analysis,181,2021-2025,31.4,17.7,-10.8,0.055624661960848025,1.0,False
+Bioinformatics Advances,methodology,Multi-task and meta learning,33,2021-2025,11.4,3.5,-10.9,0.4796878591101372,1.0,False
+Briefings in Bioinformatics,methodology,Large language models,73,2011-2025,0.0,4.8,74.5,0.03669862374871033,1.0,False
+Briefings in Bioinformatics,methodology,Contrastive learning,228,2011-2025,0.0,8.7,42.4,1.164622183500648e-06,8.035893066154472e-05,True
+Briefings in Bioinformatics,methodology,Multi-task and meta learning,90,2011-2025,0.0,3.8,27.8,0.00030479189183940636,0.019506681077722007,True
+Briefings in Bioinformatics,health,Epitope analysis,46,2011-2025,0.0,2.3,24.9,0.05865451480760513,1.0,False
+Briefings in Bioinformatics,methodology,Transformer models,58,2011-2025,0.0,2.6,23.6,0.009414309113305902,0.4707154556652951,False
+Briefings in Bioinformatics,health,Mixed terminology and histopathology,147,2011-2025,0.0,4.1,12.3,0.0022625777671429893,0.13122951049429338,False
+Briefings in Bioinformatics,methodology,Knowledge graphs,219,2011-2025,1.5,5.4,11.8,0.002389441435335383,0.13619816181411684,False
+Briefings in Bioinformatics,methodology,Medical image segmentation,166,2011-2025,1.5,4.4,11.4,0.00566077271821093,0.29436018134696834,False
+Briefings in Bioinformatics,methodology,Diffusion generative models,54,2011-2025,0.0,1.6,11.2,0.20021222980522557,1.0,False
+Briefings in Bioinformatics,methodology,Mixed deep learning applications,424,2011-2025,3.0,12.4,10.5,1.0378595528978137e-06,7.265016870284696e-05,True
+Briefings in Bioinformatics,health,Sequence and structure prediction,86,2011-2025,0.0,1.8,10.5,0.040251210288850606,1.0,False
+Briefings in Bioinformatics,health,Mixed health informatics safety topics,38,2011-2025,0.0,1.0,10.3,0.28312431985385955,1.0,False
+Briefings in Bioinformatics,health,Physiological signals and AI methods,309,2011-2025,4.5,8.6,10.3,6.095918809962851e-05,0.0041452247907747385,True
+Briefings in Bioinformatics,methodology,Cryo-electron microscopy,44,2011-2025,1.5,0.8,10.3,0.07568630372292914,1.0,False
+Briefings in Bioinformatics,health,cancer immunotherapy,118,2011-2025,0.0,2.1,10.1,0.003169072813602523,0.17429900474813875,False
+Briefings in Bioinformatics,health,Neuroscience and cognition,48,2011-2025,0.0,1.0,8.9,0.19918989178792212,1.0,False
+Briefings in Bioinformatics,health,Bayesian health modeling,127,2011-2025,0.0,3.3,7.8,0.005220500674474107,0.27668653574712765,False
+Briefings in Bioinformatics,methodology,Mixed automation and optimization methods,73,2011-2025,1.5,1.6,7.5,0.23728698185383534,1.0,False
+Briefings in Bioinformatics,health,Mixed medical imaging,77,2011-2025,0.0,2.0,7.2,0.1043967047308764,1.0,False
+Briefings in Bioinformatics,methodology,Graph and network methods,206,2011-2025,0.0,3.3,6.8,0.14501471017981116,1.0,False
+Briefings in Bioinformatics,health,Mixed clinical conditions and demographics,53,2011-2025,0.0,1.2,6.6,0.04176180720815835,1.0,False
+Briefings in Bioinformatics,health,Drug discovery,480,2011-2025,10.6,9.9,6.3,0.020367192374562484,0.9776252339789993,False
+Briefings in Bioinformatics,health,Neurodegenerative diseases,92,2011-2025,0.0,2.0,6.0,0.05032072288451458,1.0,False
+Briefings in Bioinformatics,health,Cancer types and screening,252,2011-2025,0.0,6.1,5.9,0.028315328606823568,1.0,False
+Briefings in Bioinformatics,health,Cancer treatment modalities,32,2011-2025,0.0,1.0,5.6,0.35660232581626994,1.0,False
+Briefings in Bioinformatics,methodology,Biological modeling,302,2011-2025,0.0,6.8,5.5,0.05163616955914055,1.0,False
+Briefings in Bioinformatics,methodology,Biomedical signal processing,80,2011-2025,0.0,2.3,5.4,0.1315324907098581,1.0,False
+Briefings in Bioinformatics,health,Population health surveillance,46,2011-2025,0.0,1.0,5.0,0.5169134528809167,1.0,False
+Briefings in Bioinformatics,methodology,Missing data imputation,93,2011-2025,0.0,2.1,4.1,0.2713931755224116,1.0,False
+Briefings in Bioinformatics,methodology,Machine learning methods,2278,2011-2025,43.9,54.2,4.0,0.00022572251518996285,0.014671963487347586,True
+Briefings in Bioinformatics,health,Prognosis and risk prediction,180,2011-2025,0.0,3.6,3.9,0.20980473561646895,1.0,False
+Briefings in Bioinformatics,methodology,Mobile health and social media,52,2011-2025,0.0,1.5,3.7,0.40135387556144997,1.0,False
+Briefings in Bioinformatics,health,Primary care delivery,52,2011-2025,0.0,1.0,3.7,0.2690944129836378,1.0,False
+Briefings in Bioinformatics,health,Repetitive DNA sequences,39,2011-2025,0.0,1.2,3.4,0.3876462080296784,1.0,False
+Briefings in Bioinformatics,health,Digital health technologies,518,2011-2025,4.5,13.3,3.3,0.01989735168422849,0.9749702325271961,False
+Briefings in Bioinformatics,health,Amino acid sequence,268,2011-2025,7.6,6.3,2.8,0.17318767604499352,1.0,False
+Briefings in Bioinformatics,health,Decision support,122,2011-2025,3.0,3.8,1.7,0.6442824007035737,1.0,False
+Briefings in Bioinformatics,health,Tumor immunology and microenvironment,40,2011-2025,0.0,1.0,1.7,0.7571280354133845,1.0,False
+Briefings in Bioinformatics,methodology,Clinical decision support,401,2011-2025,7.6,10.9,0.8,0.7495804224761192,1.0,False
+Briefings in Bioinformatics,health,Drug safety surveillance,135,2011-2025,1.5,1.8,0.6,0.8486678402249105,1.0,False
+Briefings in Bioinformatics,health,Gene expression regulation,1635,2011-2025,37.9,37.4,0.2,0.8029542448316671,1.0,False
+Briefings in Bioinformatics,methodology,RNA-seq data analysis,322,2011-2025,0.0,6.3,-0.4,0.8496117784743367,1.0,False
+Briefings in Bioinformatics,methodology,Predictive and Markov modeling,93,2011-2025,0.0,2.5,-0.4,0.9305162896540954,1.0,False
+Briefings in Bioinformatics,methodology,Bayesian and statistical modeling,299,2011-2025,3.0,7.4,-0.7,0.7887434746298505,1.0,False
+Briefings in Bioinformatics,health,Natural products and traditional medicine,94,2011-2025,3.0,2.0,-0.8,0.7798326660399166,1.0,False
+Briefings in Bioinformatics,methodology,Drug discovery and evaluation,181,2011-2025,7.6,4.1,-0.9,0.7190761483661605,1.0,False
+Briefings in Bioinformatics,methodology,Data visualization methods,101,2011-2025,0.0,1.3,-1.2,0.8287259205891699,1.0,False
+Briefings in Bioinformatics,methodology,Named Entity Recognition,35,2011-2025,0.0,0.8,-1.5,0.7799988337781971,1.0,False
+Briefings in Bioinformatics,methodology,High-throughput screening,30,2011-2025,1.5,0.8,-1.9,0.6932559551896913,1.0,False
+Briefings in Bioinformatics,health,Protein and gene networks,794,2011-2025,43.9,17.6,-2.2,0.22878595933079116,1.0,False
+Briefings in Bioinformatics,health,Translational and clinical research,92,2011-2025,3.0,1.8,-2.3,0.4417535046883131,1.0,False
+Briefings in Bioinformatics,health,Infectious diseases,441,2011-2025,15.2,6.1,-2.9,0.4952471006668564,1.0,False
+Briefings in Bioinformatics,methodology,Clinical monitoring and surveillance,36,2011-2025,0.0,0.5,-3.3,0.4132412072619911,1.0,False
+Briefings in Bioinformatics,methodology,Mixed reasoning and modeling methods,31,2011-2025,0.0,0.5,-3.6,0.48022057313501454,1.0,False
+Briefings in Bioinformatics,methodology,Genomics and sequence bioinformatics,1272,2011-2025,30.3,26.2,-4.0,0.0030358076584348077,0.17000522887234923,False
+Briefings in Bioinformatics,health,Protein-peptide binding,114,2011-2025,9.1,2.8,-4.1,0.29247299711192853,1.0,False
+Briefings in Bioinformatics,health,Genomic variant analysis,1338,2011-2025,54.5,27.0,-4.5,0.0012431460959734767,0.07334561966243512,False
+Briefings in Bioinformatics,methodology,Statistical methods,449,2011-2025,6.1,7.6,-4.5,0.0009864424390891007,0.060172988784435145,False
+Briefings in Bioinformatics,health,Genetic predisposition,540,2011-2025,9.1,9.9,-5.3,0.0005968252689815067,0.03700316667685342,True
+Briefings in Bioinformatics,methodology,Mass spectrometry and ROC analysis,125,2011-2025,6.1,1.6,-5.5,0.007180546150577524,0.36620785367945374,False
+Briefings in Bioinformatics,health,Health policy landscape,40,2011-2025,3.0,0.8,-6.0,0.11111111363550251,1.0,False
+Briefings in Bioinformatics,methodology,Big data infrastructure and interoperability,166,2011-2025,0.0,1.2,-6.8,0.119961406957246,1.0,False
+Briefings in Bioinformatics,methodology,Clinical study designs,177,2011-2025,1.5,2.3,-7.2,0.024360855610217207,1.0,False
+Briefings in Bioinformatics,health,Metabolic networks,40,2011-2025,4.5,0.2,-7.2,0.10767065472829085,1.0,False
+Briefings in Bioinformatics,health,Computational cancer biology,1044,2011-2025,43.9,19.4,-7.4,0.0003474381599644241,0.021888604077758715,True
+Briefings in Bioinformatics,health,Microbial and fungal genomics,79,2011-2025,1.5,2.0,-9.3,0.09662391426280412,1.0,False
+Briefings in Bioinformatics,methodology,Software and usability research,357,2011-2025,19.7,4.3,-10.0,0.00017802959134526216,0.011755763806365708,True
+Briefings in Bioinformatics,methodology,Information dissemination,88,2011-2025,4.5,1.0,-10.8,0.001212883332276877,0.07277299993661261,False
+Briefings in Bioinformatics,health,Biomedical databases,275,2011-2025,25.8,5.4,-11.0,0.003897682220256896,0.2104748398938724,False
+Briefings in Bioinformatics,methodology,Virtual medical simulation,249,2011-2025,13.6,2.1,-12.8,0.0001754591612890404,0.011755763806365708,True
+Briefings in Bioinformatics,health,Patient-provider communication,30,2011-2025,3.0,0.0,-20.3,4.270560283884975e-08,3.0320978015583325e-06,True
+Computers in Biology and Medicine,methodology,Large language models,103,2011-2025,0.0,2.5,30.4,1.085880801656233e-05,0.001053304377606546,True
+Computers in Biology and Medicine,health,Health semantic similarity,32,2011-2025,0.0,0.5,24.1,0.0020969017364597608,0.17823664759907967,False
+Computers in Biology and Medicine,methodology,Data augmentation,114,2011-2025,0.0,1.5,22.8,1.002664676426316e-05,0.0009826113828977896,True
+Computers in Biology and Medicine,methodology,Contrastive learning,432,2011-2025,0.0,5.8,19.7,1.2127993476211607e-06,0.00012249273410973722,True
+Computers in Biology and Medicine,methodology,Multi-task and meta learning,123,2011-2025,0.0,1.1,16.7,0.0018775780283107693,0.16147171043472616,False
+Computers in Biology and Medicine,methodology,Knowledge graphs,223,2011-2025,0.8,2.7,11.6,0.000165101584988761,0.015024244233977252,True
+Computers in Biology and Medicine,health,Microbial and fungal genomics,42,2011-2025,0.0,0.6,11.0,0.09693752802593666,1.0,False
+Computers in Biology and Medicine,methodology,Transformer models,104,2011-2025,0.0,1.4,10.9,0.004115063762166516,0.33743522849765434,False
+Computers in Biology and Medicine,health,Cancer treatment modalities,117,2011-2025,0.8,1.6,9.7,0.0021201393761431857,0.17823664759907967,False
+Computers in Biology and Medicine,methodology,Named Entity Recognition,64,2011-2025,0.0,0.9,9.1,0.03351868299465291,1.0,False
+Computers in Biology and Medicine,methodology,High-throughput screening,36,2011-2025,0.0,0.5,8.5,0.07405949062535373,1.0,False
+Computers in Biology and Medicine,methodology,Predictive and Markov modeling,145,2011-2025,0.8,2.2,8.4,0.02122423564996399,1.0,False
+Computers in Biology and Medicine,methodology,Generative AI and corpus methods,44,2011-2025,0.0,0.9,7.3,0.2711295071158948,1.0,False
+Computers in Biology and Medicine,health,Decision support,350,2011-2025,1.6,4.9,6.8,0.00011693303961203693,0.010757839644307397,True
+Computers in Biology and Medicine,methodology,Biological modeling,548,2011-2025,2.3,7.1,6.5,0.029728706886752117,1.0,False
+Computers in Biology and Medicine,health,Drug discovery,542,2011-2025,5.5,7.6,6.0,0.013601222034176243,1.0,False
+Computers in Biology and Medicine,health,Medical specialties,30,2011-2025,0.0,0.7,5.9,0.49617882435047156,1.0,False
+Computers in Biology and Medicine,health,Psychiatric disorders,159,2011-2025,0.8,1.9,4.8,0.00010421561224924116,0.009692051939179429,True
+Computers in Biology and Medicine,health,Tumor immunology and microenvironment,74,2011-2025,1.6,0.9,4.8,0.2704862350997824,1.0,False
+Computers in Biology and Medicine,methodology,Diffusion generative models,84,2011-2025,0.0,1.1,4.1,0.40303781147602347,1.0,False
+Computers in Biology and Medicine,health,Infectious diseases,930,2011-2025,6.2,9.3,4.0,0.3772814004231493,1.0,False
+Computers in Biology and Medicine,health,Prognosis and risk prediction,465,2011-2025,3.9,6.1,4.0,1.2194232456019393e-05,0.0011706463157778618,True
+Computers in Biology and Medicine,methodology,Big data infrastructure and interoperability,163,2011-2025,0.0,2.5,3.9,0.18445741297602836,1.0,False
+Computers in Biology and Medicine,health,Mixed health informatics safety topics,75,2011-2025,0.8,1.1,3.5,0.3106815412937094,1.0,False
+Computers in Biology and Medicine,health,cancer immunotherapy,192,2011-2025,7.8,2.4,3.5,0.5042181680266777,1.0,False
+Computers in Biology and Medicine,health,Cell signaling and oncogenic pathways,105,2011-2025,0.0,1.6,3.5,0.24712384876499205,1.0,False
+Computers in Biology and Medicine,methodology,Privacy and de-identification,32,2011-2025,0.0,0.4,3.3,0.5388424208099774,1.0,False
+Computers in Biology and Medicine,methodology,Agent-based Modeling,62,2011-2025,0.0,0.7,3.3,0.29970340627412906,1.0,False
+Computers in Biology and Medicine,health,Natural products and traditional medicine,283,2011-2025,3.1,3.7,2.9,0.4180261982399236,1.0,False
+Computers in Biology and Medicine,health,Population health surveillance,53,2011-2025,0.0,0.6,2.8,0.4971843066984638,1.0,False
+Computers in Biology and Medicine,methodology,Graph and network methods,162,2011-2025,0.0,1.3,2.6,0.4335510019653601,1.0,False
+Computers in Biology and Medicine,health,Primary care delivery,184,2011-2025,2.3,2.2,2.5,0.07775844088706106,1.0,False
+Computers in Biology and Medicine,health,Neurodegenerative diseases,516,2011-2025,6.2,7.3,2.2,0.12109292072578019,1.0,False
+Computers in Biology and Medicine,methodology,Machine learning methods,4850,2011-2025,71.1,56.2,1.9,0.05741883698991041,1.0,False
+Computers in Biology and Medicine,health,Drug safety surveillance,152,2011-2025,1.6,1.9,1.8,0.38655827171332036,1.0,False
+Computers in Biology and Medicine,methodology,Mixed deep learning applications,1014,2011-2025,8.6,11.3,1.5,0.11429923737055292,1.0,False
+Computers in Biology and Medicine,health,Sequence and structure prediction,34,2011-2025,0.0,0.2,1.5,0.8389611329288726,1.0,False
+Computers in Biology and Medicine,health,Mixed terminology and histopathology,189,2011-2025,0.8,1.4,1.3,0.5975756994684109,1.0,False
+Computers in Biology and Medicine,methodology,Clinical decision support,1084,2011-2025,10.9,14.6,1.2,0.2229131553092547,1.0,False
+Computers in Biology and Medicine,methodology,Clinical monitoring and surveillance,109,2011-2025,0.0,1.5,1.1,0.6695974312977724,1.0,False
+Computers in Biology and Medicine,health,Cancer types and screening,1178,2011-2025,25.8,14.6,1.0,0.43942202380825723,1.0,False
+Computers in Biology and Medicine,health,Neuroscience and cognition,306,2011-2025,3.1,3.2,1.0,0.5039829129157791,1.0,False
+Computers in Biology and Medicine,health,Genomic variant analysis,462,2011-2025,4.7,4.8,0.8,0.7219977441005658,1.0,False
+Computers in Biology and Medicine,health,Determinants of health,50,2011-2025,0.0,0.9,0.6,0.8889215032216059,1.0,False
+Computers in Biology and Medicine,health,Metabolic networks,135,2011-2025,1.6,1.5,0.5,0.8773878882929749,1.0,False
+Computers in Biology and Medicine,health,Upper airway disorders,168,2011-2025,1.6,2.1,0.4,0.8362912769361002,1.0,False
+Computers in Biology and Medicine,health,Gene expression regulation,750,2011-2025,14.8,6.8,0.2,0.9564488093879554,1.0,False
+Computers in Biology and Medicine,health,Digital health technologies,1986,2011-2025,24.2,24.9,0.2,0.83171589348878,1.0,False
+Computers in Biology and Medicine,health,Health behavior change,107,2011-2025,0.8,0.9,-0.0,0.9914449471391193,1.0,False
+Computers in Biology and Medicine,methodology,Drug discovery and evaluation,245,2011-2025,1.6,2.9,-0.3,0.8637837020469742,1.0,False
+Computers in Biology and Medicine,methodology,Medical image segmentation,2115,2011-2025,35.2,21.8,-0.5,0.43146228474866244,1.0,False
+Computers in Biology and Medicine,methodology,Immunological techniques,83,2011-2025,2.3,1.1,-0.6,0.8072812893938601,1.0,False
+Computers in Biology and Medicine,methodology,Mobile health and social media,375,2011-2025,5.5,4.9,-0.6,0.7684017573677846,1.0,False
+Computers in Biology and Medicine,health,Medical devices,507,2011-2025,3.1,6.0,-0.6,0.6914733004109869,1.0,False
+Computers in Biology and Medicine,health,Mixed medical imaging,610,2011-2025,1.6,5.3,-0.8,0.6048780237419346,1.0,False
+Computers in Biology and Medicine,health,Amino acid sequence,234,2011-2025,3.9,2.4,-0.8,0.8184884251495638,1.0,False
+Computers in Biology and Medicine,health,Motor imagery,207,2011-2025,0.0,2.6,-0.9,0.7041231056492188,1.0,False
+Computers in Biology and Medicine,health,Diabetes mellitus,219,2011-2025,3.9,3.0,-1.0,0.5953464529335698,1.0,False
+Computers in Biology and Medicine,health,Aortic diseases,174,2011-2025,2.3,2.4,-1.4,0.5202347689861357,1.0,False
+Computers in Biology and Medicine,health,Patient-provider communication,66,2011-2025,0.0,1.0,-1.4,0.7048102993257861,1.0,False
+Computers in Biology and Medicine,methodology,Mixed automation and optimization methods,179,2011-2025,1.6,1.7,-1.4,0.3515614021457705,1.0,False
+Computers in Biology and Medicine,health,Computational cancer biology,1550,2011-2025,35.9,16.0,-1.5,0.1239286196388407,1.0,False
+Computers in Biology and Medicine,methodology,eHealth and mobile applications,81,2011-2025,0.0,0.7,-1.6,0.5867955487298435,1.0,False
+Computers in Biology and Medicine,health,Emergency Department,103,2011-2025,1.6,1.1,-1.6,0.462278578046035,1.0,False
+Computers in Biology and Medicine,health,Cardiovascular diseases,338,2011-2025,3.9,4.8,-1.7,0.3822002294755601,1.0,False
+Computers in Biology and Medicine,health,Translational and clinical research,246,2011-2025,0.8,2.6,-1.8,0.3044845277506838,1.0,False
+Computers in Biology and Medicine,health,Myocardial infarction,212,2011-2025,2.3,2.9,-1.9,0.27497660815679725,1.0,False
+Computers in Biology and Medicine,health,Lung nodules,82,2011-2025,0.0,0.6,-1.9,0.5338479487233766,1.0,False
+Computers in Biology and Medicine,methodology,Mixed engineering and imaging acronyms,47,2011-2025,0.0,0.4,-2.1,0.5097808910343387,1.0,False
+Computers in Biology and Medicine,methodology,Genomics and sequence bioinformatics,637,2011-2025,7.8,5.8,-2.2,0.15415534208215065,1.0,False
+Computers in Biology and Medicine,health,Health policy landscape,103,2011-2025,2.3,1.0,-2.4,0.2785502423018166,1.0,False
+Computers in Biology and Medicine,health,Surgical procedures,248,2011-2025,2.3,2.0,-2.6,0.22565781373591864,1.0,False
+Computers in Biology and Medicine,health,Perinatal outcomes,94,2011-2025,1.6,1.0,-2.6,0.2985991411895188,1.0,False
+Computers in Biology and Medicine,methodology,Ecological momentary assessment,56,2011-2025,0.0,0.6,-2.7,0.5432007830895352,1.0,False
+Computers in Biology and Medicine,health,Genetic predisposition,241,2011-2025,5.5,2.3,-3.0,0.04638112808209565,1.0,False
+Computers in Biology and Medicine,health,Signs and symptoms,178,2011-2025,6.2,1.7,-3.3,0.11897108949360627,1.0,False
+Computers in Biology and Medicine,methodology,Missing data imputation,107,2011-2025,0.0,0.7,-3.5,0.20041423311221163,1.0,False
+Computers in Biology and Medicine,health,Health information seeking,77,2011-2025,1.6,0.9,-3.6,0.0788530628300526,1.0,False
+Computers in Biology and Medicine,methodology,Data visualization methods,124,2011-2025,0.0,1.2,-3.8,0.14796365091355326,1.0,False
+Computers in Biology and Medicine,health,Physiological signals and AI methods,1599,2011-2025,28.1,17.6,-3.9,1.7645322968561052e-05,0.0016763056820133,True
+Computers in Biology and Medicine,health,Countries and demographics,50,2011-2025,2.3,0.7,-4.1,0.15244897477922073,1.0,False
+Computers in Biology and Medicine,health,Bayesian health modeling,244,2011-2025,4.7,2.1,-4.1,0.0034810110826421067,0.28892391985929483,False
+Computers in Biology and Medicine,health,Protein and gene networks,745,2011-2025,25.0,7.5,-4.2,0.024884501773516147,1.0,False
+Computers in Biology and Medicine,methodology,Biomedical signal processing,1586,2011-2025,28.9,16.7,-4.2,5.5062684394470834e-08,5.671456492630496e-06,True
+Computers in Biology and Medicine,health,Mixed clinical conditions and demographics,402,2011-2025,8.6,4.5,-4.6,0.004142377499050816,0.33743522849765434,False
+Computers in Biology and Medicine,health,Multimodal imaging,54,2011-2025,0.8,0.6,-4.7,0.1591474931869601,1.0,False
+Computers in Biology and Medicine,health,Anatomical terminology,63,2011-2025,0.0,0.7,-4.7,0.18507986458014292,1.0,False
+Computers in Biology and Medicine,health,Older people,66,2011-2025,0.8,0.7,-4.9,0.15984480721620087,1.0,False
+Computers in Biology and Medicine,methodology,Ultrasound and echocardiography,102,2011-2025,0.8,1.1,-5.1,0.1586930145981852,1.0,False
+Computers in Biology and Medicine,methodology,Computer security,31,2011-2025,0.0,0.4,-5.2,0.43653321683394275,1.0,False
+Computers in Biology and Medicine,methodology,Virtual medical simulation,1268,2011-2025,31.2,14.2,-5.7,6.518348079999069e-07,6.648715041599051e-05,True
+Computers in Biology and Medicine,methodology,Cryo-electron microscopy,63,2011-2025,3.1,0.6,-6.0,0.11816051281783121,1.0,False
+Computers in Biology and Medicine,methodology,Software and usability research,792,2011-2025,19.5,6.6,-6.3,2.257538025026178e-14,2.4607164472785338e-12,True
+Computers in Biology and Medicine,methodology,RNA-seq data analysis,171,2011-2025,5.5,1.5,-6.9,0.007855487422537414,0.6205835063804558,False
+Computers in Biology and Medicine,methodology,Bayesian and statistical modeling,452,2011-2025,14.8,5.0,-7.1,2.9313649143154816e-08,3.0486195108881007e-06,True
+Computers in Biology and Medicine,methodology,Mixed mathematical and geometric methods,180,2011-2025,0.0,1.8,-7.1,0.01350832703582954,1.0,False
+Computers in Biology and Medicine,health,Cardiovascular hemodynamics,321,2011-2025,4.7,3.7,-8.0,0.00027957561017521104,0.02488222930559378,True
+Computers in Biology and Medicine,methodology,Clinical study designs,304,2011-2025,7.0,2.4,-8.2,1.7734667581311264e-06,0.00017557320905498152,True
+Computers in Biology and Medicine,methodology,Statistical methods,1227,2011-2025,37.5,12.3,-8.3,7.712211904261922e-14,8.252066737560257e-12,True
+Computers in Biology and Medicine,health,Cardiorespiratory monitoring,338,2011-2025,7.8,3.2,-8.3,2.0397392595916563e-08,2.1417262225712392e-06,True
+Computers in Biology and Medicine,health,Health and functional status assessment,40,2011-2025,1.6,0.3,-8.9,0.0053447345939751445,0.42757876751801155,False
+Computers in Biology and Medicine,methodology,Information dissemination,133,2011-2025,5.5,1.0,-9.4,1.5002519734568546e-08,1.5902670918642658e-06,True
+Computers in Biology and Medicine,health,Cardiac arrhythmias,485,2011-2025,10.2,3.8,-9.4,2.562596609228307e-14,2.7676043379665716e-12,True
+Computers in Biology and Medicine,methodology,Mass spectrometry and ROC analysis,170,2011-2025,9.4,1.9,-10.9,1.250713079172402e-06,0.0001250713079172402,True
+Computers in Biology and Medicine,health,Protein-peptide binding,88,2011-2025,4.7,0.6,-13.3,0.0010867793637270725,0.0945498046442553,False
+Computers in Biology and Medicine,health,Endoscopic procedures,31,2011-2025,0.0,0.1,-13.3,0.025461115171236604,1.0,False
+Computers in Biology and Medicine,methodology,Mixed reasoning and modeling methods,131,2011-2025,9.4,0.4,-14.4,0.0002821071065828984,0.02488222930559378,True
+Computers in Biology and Medicine,health,Biomedical databases,261,2011-2025,34.4,2.4,-17.3,0.0002691884437861048,0.02422695994074943,True
+Computers in Biology and Medicine,methodology,Neuroscience and cognitive psychology,30,2011-2025,8.6,0.1,-24.3,2.7094662488776316e-05,0.0025468982739449736,True
+Database: The Journal of Biological Databases and Curation,health,Neurodegenerative diseases,40,2011-2025,5.0,3.5,9.6,0.11593621035841782,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Countries and demographics,66,2011-2025,6.7,4.7,7.0,0.03249193090958847,0.7798063418301233,False
+Database: The Journal of Biological Databases and Curation,methodology,RNA-seq data analysis,34,2011-2025,0.0,5.8,4.3,0.4106217554249586,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Cancer types and screening,38,2011-2025,3.3,3.5,4.2,0.21112676879805858,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Protein and gene networks,527,2011-2025,36.7,31.4,3.8,0.06057459785249151,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Drug discovery,67,2011-2025,3.3,3.5,1.9,0.33461571157485615,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Drug safety surveillance,31,2011-2025,0.0,1.2,1.9,0.7750120637575226,1.0,False
+Database: The Journal of Biological Databases and Curation,methodology,Information dissemination,121,2011-2025,10.0,7.0,-0.5,0.8609478816609484,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Repetitive DNA sequences,39,2011-2025,1.7,0.0,-1.1,0.7417341463488445,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Mixed clinical conditions and demographics,31,2011-2025,1.7,0.0,-1.5,0.7206579324884619,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Natural products and traditional medicine,112,2011-2025,5.0,7.0,-1.6,0.4082823493067268,1.0,False
+Database: The Journal of Biological Databases and Curation,health,cancer immunotherapy,53,2011-2025,3.3,1.2,-1.8,0.658605711805698,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Physiological signals and AI methods,60,2011-2025,5.0,5.8,-1.9,0.5129134847908146,1.0,False
+Database: The Journal of Biological Databases and Curation,methodology,Machine learning methods,535,2011-2025,21.7,24.4,-2.0,0.12041762541864909,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Genetic predisposition,190,2011-2025,15.0,16.3,-2.2,0.2933231567792459,1.0,False
+Database: The Journal of Biological Databases and Curation,methodology,Genomics and sequence bioinformatics,450,2011-2025,35.0,24.4,-3.2,0.0004485262905450233,0.014801367587985769,True
+Database: The Journal of Biological Databases and Curation,health,Infectious diseases,364,2011-2025,25.0,17.4,-3.3,0.007794337392462703,0.2285244915787168,False
+Database: The Journal of Biological Databases and Curation,methodology,Knowledge graphs,67,2011-2025,0.0,4.7,-4.0,0.38214418470809863,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Gene expression regulation,472,2011-2025,28.3,18.6,-4.1,0.011279073072794252,0.3154975256378908,False
+Database: The Journal of Biological Databases and Curation,health,Protein-peptide binding,84,2011-2025,6.7,4.7,-4.5,0.1201450690581641,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Genomic variant analysis,730,2011-2025,58.3,40.7,-4.7,1.394272533813769e-13,5.019381121729568e-12,True
+Database: The Journal of Biological Databases and Curation,methodology,Software and usability research,322,2011-2025,26.7,12.8,-5.0,0.018931640967612056,0.49222266515791346,False
+Database: The Journal of Biological Databases and Curation,methodology,Virtual medical simulation,48,2011-2025,3.3,7.0,-5.1,0.2584410163611426,1.0,False
+Database: The Journal of Biological Databases and Curation,methodology,Drug discovery and evaluation,49,2011-2025,1.7,2.3,-5.1,0.19772539196913086,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Digital health technologies,205,2011-2025,20.0,5.8,-5.1,0.011267768772781813,0.3154975256378908,False
+Database: The Journal of Biological Databases and Curation,health,Computational cancer biology,489,2011-2025,46.7,20.9,-5.3,0.0014616842950874738,0.04677389744279916,True
+Database: The Journal of Biological Databases and Curation,methodology,Statistical methods,290,2011-2025,11.7,17.4,-5.5,0.09202703272596371,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Translational and clinical research,74,2011-2025,8.3,2.3,-5.7,0.0477195400133116,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Biomedical databases,829,2011-2025,68.3,60.5,-6.4,0.0047551305351034865,0.14740904658820808,False
+Database: The Journal of Biological Databases and Curation,health,Microbial and fungal genomics,83,2011-2025,6.7,2.3,-6.7,0.00041232604834780555,0.01401908564382539,True
+Database: The Journal of Biological Databases and Curation,health,Patient-provider communication,38,2011-2025,3.3,0.0,-7.2,0.15649501502813162,1.0,False
+Database: The Journal of Biological Databases and Curation,methodology,Open access publishing,62,2011-2025,10.0,1.2,-7.4,0.10789399006270557,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Metabolic networks,30,2011-2025,8.3,1.2,-7.5,0.1297951990364452,1.0,False
+Database: The Journal of Biological Databases and Curation,health,Amino acid sequence,102,2011-2025,10.0,1.2,-9.2,0.007617483052623893,0.2285244915787168,False
+Database: The Journal of Biological Databases and Curation,methodology,Mixed deep learning applications,32,2011-2025,3.3,1.2,-13.8,0.020175300596164427,0.5043825149041107,False
+Database: The Journal of Biological Databases and Curation,methodology,Clinical decision support,163,2011-2025,45.0,3.5,-16.6,1.3972551137153511e-05,0.0004890392898003729,True
+Digital Biomarkers,methodology,Machine learning methods,40,2017-2025,0.0,27.8,5.1,0.4311115890475432,1.0,False
+Digital Biomarkers,health,Neurodegenerative diseases,35,2017-2025,30.0,33.3,4.3,0.5210910411792051,1.0,False
+Digital Biomarkers,health,Digital health technologies,88,2017-2025,50.0,66.7,1.5,0.5847826399515199,1.0,False
+Digital Biomarkers,methodology,Mobile health and social media,59,2017-2025,50.0,44.4,-1.2,0.6687883216611876,1.0,False
+Digital Biomarkers,health,Medical devices,49,2017-2025,30.0,33.3,-5.5,0.14287998651954528,0.7143999325977264,False
+Frontiers in Digital Health,methodology,Large language models,41,2020-2025,0.0,5.6,106.3,3.574445070177441e-27,1.9302003378958182e-25,True
+Frontiers in Digital Health,health,Health information seeking,110,2020-2025,1.7,10.7,24.7,0.016845154589499964,0.8422577294749982,False
+Frontiers in Digital Health,health,Health workforce education,45,2020-2025,1.7,3.4,23.1,0.12470049960136198,1.0,False
+Frontiers in Digital Health,health,Diabetes mellitus,58,2020-2025,5.0,5.2,17.9,0.062122025416249844,1.0,False
+Frontiers in Digital Health,methodology,Privacy and de-identification,35,2020-2025,0.0,3.0,16.8,0.056400730416987795,1.0,False
+Frontiers in Digital Health,methodology,Mixed deep learning applications,63,2020-2025,3.3,5.8,12.7,0.3890099118421594,1.0,False
+Frontiers in Digital Health,methodology,Clinical monitoring and surveillance,37,2020-2025,3.3,2.8,12.3,0.19078895594513023,1.0,False
+Frontiers in Digital Health,methodology,Genomics and sequence bioinformatics,54,2020-2025,6.7,4.3,12.2,0.32629149780149813,1.0,False
+Frontiers in Digital Health,health,Prognosis and risk prediction,61,2020-2025,5.0,5.2,12.1,0.06213794244534728,1.0,False
+Frontiers in Digital Health,health,Perinatal outcomes,38,2020-2025,0.0,3.4,10.3,0.4103094010500994,1.0,False
+Frontiers in Digital Health,health,Emergency Department,64,2020-2025,0.0,5.4,10.1,0.2728751094706705,1.0,False
+Frontiers in Digital Health,health,Cardiovascular diseases,39,2020-2025,5.0,3.4,9.7,0.45730371450332397,1.0,False
+Frontiers in Digital Health,health,Health policy landscape,92,2020-2025,0.0,7.1,8.9,0.2767196517429018,1.0,False
+Frontiers in Digital Health,health,Patient-provider communication,206,2020-2025,8.3,16.3,8.2,0.006121782350626324,0.3122108998819425,False
+Frontiers in Digital Health,health,Mixed medical imaging,32,2020-2025,1.7,2.4,7.9,0.17035312594417573,1.0,False
+Frontiers in Digital Health,methodology,Information dissemination,147,2020-2025,8.3,10.1,7.8,0.2115550015387575,1.0,False
+Frontiers in Digital Health,health,Determinants of health,31,2020-2025,0.0,2.8,7.2,0.5869463927987124,1.0,False
+Frontiers in Digital Health,methodology,Machine learning methods,475,2020-2025,28.3,37.6,6.8,0.0026344226583785474,0.13698997823568446,False
+Frontiers in Digital Health,health,Decision support,165,2020-2025,11.7,13.8,6.2,0.20921800461148066,1.0,False
+Frontiers in Digital Health,health,Cancer types and screening,61,2020-2025,1.7,4.9,6.2,0.5589763688323459,1.0,False
+Frontiers in Digital Health,health,Translational and clinical research,105,2020-2025,5.0,8.0,6.1,0.5391547592298842,1.0,False
+Frontiers in Digital Health,health,Surgical procedures,31,2020-2025,1.7,1.9,5.8,0.5516618073471915,1.0,False
+Frontiers in Digital Health,methodology,Qualitative research methods,61,2020-2025,3.3,4.3,5.5,0.3169898444218605,1.0,False
+Frontiers in Digital Health,methodology,Statistical methods,160,2020-2025,6.7,12.5,3.9,0.5576721341822805,1.0,False
+Frontiers in Digital Health,health,Mixed clinical conditions and demographics,74,2020-2025,3.3,5.2,3.9,0.4519792541258787,1.0,False
+Frontiers in Digital Health,methodology,Clinical study designs,88,2020-2025,5.0,6.4,3.6,0.5756568516561924,1.0,False
+Frontiers in Digital Health,methodology,Virtual medical simulation,111,2020-2025,5.0,8.0,2.8,0.4126779929993778,1.0,False
+Frontiers in Digital Health,health,Primary care delivery,135,2020-2025,8.3,9.3,1.9,0.4816058532364733,1.0,False
+Frontiers in Digital Health,methodology,Big data infrastructure and interoperability,72,2020-2025,5.0,5.2,1.0,0.8775015374622575,1.0,False
+Frontiers in Digital Health,health,Neuroscience and cognition,47,2020-2025,1.7,1.9,0.5,0.9796006648869929,1.0,False
+Frontiers in Digital Health,health,Caregivers and care quality,44,2020-2025,1.7,2.8,0.4,0.9375721694708253,1.0,False
+Frontiers in Digital Health,health,Digital health technologies,1013,2020-2025,73.3,68.4,-0.4,0.7804653946068215,1.0,False
+Frontiers in Digital Health,methodology,Bayesian and statistical modeling,81,2020-2025,6.7,5.4,-1.4,0.8194337140683142,1.0,False
+Frontiers in Digital Health,methodology,Medical image segmentation,61,2020-2025,10.0,4.3,-1.7,0.8578503703083062,1.0,False
+Frontiers in Digital Health,methodology,Clinical decision support,422,2020-2025,33.3,26.7,-2.5,0.45451777080410327,1.0,False
+Frontiers in Digital Health,health,Psychiatric disorders,277,2020-2025,15.0,17.2,-2.9,0.49364256533512074,1.0,False
+Frontiers in Digital Health,methodology,eHealth and mobile applications,112,2020-2025,8.3,6.9,-3.5,0.4979237650459235,1.0,False
+Frontiers in Digital Health,health,Neurodegenerative diseases,115,2020-2025,6.7,7.3,-4.3,0.10578838102317681,1.0,False
+Frontiers in Digital Health,health,Health behavior change,180,2020-2025,20.0,11.4,-4.6,0.16568134350564512,1.0,False
+Frontiers in Digital Health,health,Protein and gene networks,34,2020-2025,3.3,2.1,-4.8,0.4443389346296248,1.0,False
+Frontiers in Digital Health,methodology,Software and usability research,162,2020-2025,21.7,9.9,-5.2,0.4632395598181246,1.0,False
+Frontiers in Digital Health,health,Countries and demographics,101,2020-2025,6.7,6.2,-5.5,0.38077345976394084,1.0,False
+Frontiers in Digital Health,health,Medical devices,109,2020-2025,18.3,7.9,-5.6,0.5971395978518537,1.0,False
+Frontiers in Digital Health,health,Computational cancer biology,77,2020-2025,11.7,5.4,-5.6,0.4907293336193964,1.0,False
+Frontiers in Digital Health,methodology,Drug discovery and evaluation,75,2020-2025,3.3,4.1,-6.4,0.33203925004180534,1.0,False
+Frontiers in Digital Health,health,Population health surveillance,50,2020-2025,1.7,2.6,-6.8,0.35530991741409856,1.0,False
+Frontiers in Digital Health,health,Older people,58,2020-2025,8.3,3.6,-8.0,0.34718297460893566,1.0,False
+Frontiers in Digital Health,methodology,Mobile health and social media,207,2020-2025,23.3,13.5,-8.6,0.04571637523651566,1.0,False
+Frontiers in Digital Health,health,Drug safety surveillance,40,2020-2025,0.0,2.2,-9.2,0.331967314646582,1.0,False
+Frontiers in Digital Health,methodology,Ecological momentary assessment,142,2020-2025,8.3,7.7,-9.9,0.10558188187465412,1.0,False
+Frontiers in Digital Health,health,Physiological signals and AI methods,123,2020-2025,11.7,6.5,-10.3,1.2308598517247038e-07,6.52355721414093e-06,True
+Frontiers in Digital Health,methodology,Biomedical signal processing,76,2020-2025,10.0,4.9,-11.3,0.07971352132482763,1.0,False
+Frontiers in Digital Health,health,Health and functional status assessment,32,2020-2025,3.3,1.9,-11.9,0.11630894423263981,1.0,False
+Frontiers in Digital Health,health,Infectious diseases,173,2020-2025,6.7,9.3,-12.9,0.09824931936445164,1.0,False
+Health Informatics Journal,methodology,Medical image segmentation,30,2011-2025,0.0,4.4,10.8,0.06697648941261805,1.0,False
+Health Informatics Journal,methodology,Machine learning methods,283,2011-2025,13.6,40.7,10.3,8.23164473155492e-09,3.292657892621968e-07,True
+Health Informatics Journal,methodology,Big data infrastructure and interoperability,51,2011-2025,4.5,6.6,8.3,0.03142952129422254,0.9114561175324536,False
+Health Informatics Journal,health,Cancer types and screening,46,2011-2025,0.0,4.4,8.1,0.0974001321828551,1.0,False
+Health Informatics Journal,health,Caregivers and care quality,31,2011-2025,4.5,7.7,7.5,0.24930763743485684,1.0,False
+Health Informatics Journal,methodology,Clinical monitoring and surveillance,37,2011-2025,0.0,3.3,3.1,0.5323371036904944,1.0,False
+Health Informatics Journal,methodology,Statistical methods,140,2011-2025,0.0,12.1,2.6,0.24846163692509082,1.0,False
+Health Informatics Journal,health,Infectious diseases,102,2011-2025,13.6,8.8,2.5,0.4977504939232712,1.0,False
+Health Informatics Journal,health,Mixed clinical conditions and demographics,51,2011-2025,4.5,7.7,1.6,0.7090064095246702,1.0,False
+Health Informatics Journal,health,Protein and gene networks,34,2011-2025,9.1,2.2,1.5,0.7862998654181219,1.0,False
+Health Informatics Journal,health,Computational cancer biology,36,2011-2025,0.0,1.1,0.5,0.9173511266178024,1.0,False
+Health Informatics Journal,health,Health behavior change,68,2011-2025,0.0,4.4,0.4,0.9003593705228248,1.0,False
+Health Informatics Journal,methodology,Mobile health and social media,172,2011-2025,4.5,13.2,-0.2,0.9006181510659499,1.0,False
+Health Informatics Journal,health,Diabetes mellitus,53,2011-2025,9.1,5.5,-0.2,0.9660391398451784,1.0,False
+Health Informatics Journal,methodology,eHealth and mobile applications,121,2011-2025,4.5,9.9,-0.3,0.9070022363674345,1.0,False
+Health Informatics Journal,methodology,Bayesian and statistical modeling,47,2011-2025,9.1,4.4,-0.8,0.8364275735904386,1.0,False
+Health Informatics Journal,health,Medical devices,39,2011-2025,4.5,2.2,-1.0,0.7587837835844132,1.0,False
+Health Informatics Journal,health,Prognosis and risk prediction,49,2011-2025,13.6,2.2,-1.2,0.7613436790035588,1.0,False
+Health Informatics Journal,health,Digital health technologies,766,2011-2025,77.3,70.3,-1.9,0.004636005198336362,0.15298817154509997,False
+Health Informatics Journal,methodology,Privacy and de-identification,30,2011-2025,4.5,1.1,-1.9,0.5298961796655536,1.0,False
+Health Informatics Journal,health,Psychiatric disorders,126,2011-2025,18.2,9.9,-2.2,0.31799700347076076,1.0,False
+Health Informatics Journal,health,Drug safety surveillance,39,2011-2025,0.0,1.1,-3.2,0.4582132486371897,1.0,False
+Health Informatics Journal,methodology,Clinical decision support,408,2011-2025,40.9,37.4,-3.4,0.003387783413675312,0.11518463606496061,False
+Health Informatics Journal,health,Decision support,153,2011-2025,13.6,14.3,-4.1,0.030194205699363638,0.9058261709809091,False
+Health Informatics Journal,health,Emergency Department,66,2011-2025,13.6,6.6,-4.2,0.28080653111643306,1.0,False
+Health Informatics Journal,health,Health information seeking,70,2011-2025,13.6,7.7,-4.5,0.313551874257355,1.0,False
+Health Informatics Journal,health,Primary care delivery,144,2011-2025,18.2,8.8,-4.8,0.06773221647564513,1.0,False
+Health Informatics Journal,health,Health policy landscape,104,2011-2025,9.1,7.7,-5.0,0.0552860012938776,1.0,False
+Health Informatics Journal,health,Population health surveillance,31,2011-2025,4.5,1.1,-5.4,0.18547780771986422,1.0,False
+Health Informatics Journal,methodology,Software and usability research,135,2011-2025,18.2,5.5,-5.6,0.010633659173112774,0.329643434366496,False
+Health Informatics Journal,health,Older people,34,2011-2025,4.5,2.2,-5.7,0.09502836728887668,1.0,False
+Health Informatics Journal,methodology,Virtual medical simulation,65,2011-2025,9.1,5.5,-5.8,0.05088516985627324,1.0,False
+Health Informatics Journal,health,Translational and clinical research,74,2011-2025,9.1,3.3,-6.5,0.08644725232822946,1.0,False
+Health Informatics Journal,methodology,Clinical study designs,61,2011-2025,18.2,2.2,-6.8,0.07202434030464754,1.0,False
+Health Informatics Journal,methodology,Information dissemination,131,2011-2025,31.8,5.5,-7.9,7.486878713047757e-06,0.0002919882698088625,True
+Health Informatics Journal,methodology,Drug discovery and evaluation,59,2011-2025,9.1,4.4,-8.0,0.00033219880205212265,0.012291355675928537,True
+Health Informatics Journal,health,Health workforce education,59,2011-2025,13.6,2.2,-10.2,0.002485572292764695,0.08699503024676432,False
+Health Informatics Journal,methodology,Qualitative research methods,61,2011-2025,18.2,4.4,-12.6,0.007161730373174089,0.22917537194157084,False
+Health Informatics Journal,health,Patient-provider communication,150,2011-2025,40.9,8.8,-12.9,1.1961746764168394e-11,4.904316173309042e-10,True
+Health Informatics Journal,health,Health program evaluation,53,2011-2025,0.0,0.0,-15.1,8.439656826101935e-05,0.0032070695939187353,True
+Health Informatics Journal,health,Countries and demographics,52,2011-2025,22.7,4.4,-17.9,0.0006650962957713713,0.023943466647769366,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Knowledge distillation,44,2013-2025,0.0,2.0,56.3,3.763799156743298e-05,0.0030826513526689896,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Biological modeling,40,2013-2025,0.0,2.0,51.7,0.0005441434250587192,0.04026661345434522,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Federated learning,56,2013-2025,0.0,1.6,45.2,0.0010321550766410374,0.07225085536487262,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Large language models,100,2013-2025,0.0,5.2,41.2,0.006255346910593308,0.37231582251992207,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Health semantic similarity,35,2013-2025,0.9,1.5,34.6,0.045490790682454096,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Contrastive learning,472,2013-2025,0.0,15.7,31.4,1.956220402364367e-18,1.780160566151574e-16,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Amino acid sequence,38,2013-2025,0.9,1.5,31.3,0.008368744940727726,0.47701846162148037,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Diffusion generative models,56,2013-2025,0.0,2.6,20.8,0.022262851798093772,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Data augmentation,61,2013-2025,0.0,1.5,18.5,0.0009637327449046878,0.06842502488823284,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Multi-task and meta learning,140,2013-2025,0.9,3.7,16.0,0.00012484692434209735,0.009738060098683592,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Knowledge graphs,227,2013-2025,0.9,6.6,15.4,3.809235544230847e-14,3.4283119898077623e-12,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Drug discovery,89,2013-2025,0.9,3.2,14.5,0.0001533364362213855,0.011806905589046682,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Transformer models,63,2013-2025,1.7,1.9,14.3,0.025603143494157158,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Named Entity Recognition,81,2013-2025,0.0,2.2,10.3,0.012390226002482654,0.6690722041340633,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Graph and network methods,135,2013-2025,1.7,3.3,9.3,0.00035005361662861966,0.026254021247146476,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Protein and gene networks,439,2013-2025,10.3,10.8,8.6,3.7593309178890115e-05,0.0030826513526689896,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Mixed reasoning and modeling methods,52,2013-2025,0.9,1.5,8.2,0.06237250703820653,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Mixed health informatics safety topics,67,2013-2025,2.6,2.0,7.6,0.13766433450448842,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Motor imagery,226,2013-2025,3.4,5.9,6.8,0.011832588376233435,0.6626249490690723,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Privacy and de-identification,72,2013-2025,2.6,1.7,6.4,0.14915563750966573,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Bayesian health modeling,151,2013-2025,1.7,3.0,5.9,0.06607389464548268,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Mixed deep learning applications,691,2013-2025,12.1,16.0,5.8,1.0944993549429023e-06,9.19379458152038e-05,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Genomic variant analysis,97,2013-2025,3.4,2.4,5.3,0.0952984743611671,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Drug safety surveillance,87,2013-2025,1.7,2.6,5.1,0.1524091419492139,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Neuroscience and cognition,228,2013-2025,3.4,4.8,4.9,0.09153193621879863,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Gene expression regulation,152,2013-2025,2.6,3.6,4.7,0.014501658844455064,0.7540862599116633,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Decision support,289,2013-2025,1.7,6.4,3.9,0.0034046641991863818,0.22811250134548758,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Surgical procedures,91,2013-2025,1.7,2.1,3.4,0.2340370682483467,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Machine learning methods,2983,2013-2025,50.9,58.9,2.9,0.0038565074433617075,0.2478883579220071,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Perinatal outcomes,50,2013-2025,0.0,0.9,2.6,0.48147325602553037,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Infectious diseases,194,2013-2025,2.6,3.0,2.2,0.4922663150283185,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Cancer types and screening,397,2013-2025,5.2,7.2,1.4,0.3375556073264089,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Genetic predisposition,70,2013-2025,1.7,1.3,1.2,0.6644553708117311,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Medical image segmentation,1290,2013-2025,35.3,24.3,0.8,0.4500254657850572,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Mixed terminology and histopathology,94,2013-2025,1.7,2.0,0.8,0.746554664409537,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Mixed mathematical and geometric methods,73,2013-2025,0.0,2.0,0.6,0.8989771955056873,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Computational cancer biology,608,2013-2025,17.2,11.7,0.5,0.7461633637092673,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Prognosis and risk prediction,243,2013-2025,3.4,4.4,0.4,0.8675987071728252,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Genomics and sequence bioinformatics,214,2013-2025,6.0,4.9,-0.3,0.9142776154577512,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Neurodegenerative diseases,376,2013-2025,6.0,7.8,-0.4,0.7407953047449366,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Mixed medical imaging,349,2013-2025,6.0,6.6,-0.6,0.6482730531282659,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Cancer treatment modalities,37,2013-2025,0.0,0.5,-0.9,0.8765824591399514,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Health and functional status assessment,55,2013-2025,1.7,1.5,-1.1,0.7338657676175339,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Data visualization methods,62,2013-2025,0.0,1.3,-1.2,0.818545861462431,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Clinical decision support,946,2013-2025,17.2,18.8,-1.4,0.06928758622381875,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Mass spectrometry and ROC analysis,69,2013-2025,1.7,1.1,-1.6,0.5954097563946488,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Biomedical signal processing,1265,2013-2025,26.7,22.7,-1.7,0.012100196218123787,0.6655107919968083,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Psychiatric disorders,153,2013-2025,0.0,2.7,-1.7,0.5798554964187235,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Digital health technologies,1530,2013-2025,33.6,27.8,-1.8,0.004414863517096944,0.27813640157710745,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Drug discovery and evaluation,133,2013-2025,0.9,2.2,-1.8,0.35053664453263733,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Physiological signals and AI methods,1012,2013-2025,26.7,19.9,-2.2,0.08459590657242694,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Health behavior change,101,2013-2025,0.9,1.3,-3.3,0.20266709858407983,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Primary care delivery,111,2013-2025,3.4,2.0,-3.6,0.33406316430714833,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Statistical methods,548,2013-2025,14.7,9.4,-3.8,0.0007561487853045211,0.05519886132723004,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Mixed automation and optimization methods,65,2013-2025,4.3,1.4,-3.8,0.29738538603056575,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Translational and clinical research,100,2013-2025,0.0,2.1,-4.0,0.2138008469123518,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Upper airway disorders,69,2013-2025,0.9,0.8,-4.0,0.2939683157725549,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Cardiovascular diseases,98,2013-2025,1.7,1.5,-4.1,0.021602887958557655,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Software and usability research,371,2013-2025,9.5,6.8,-4.1,0.007511893527762118,0.43568982461020284,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Immunological techniques,40,2013-2025,0.0,0.7,-4.2,0.2665107411359672,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Population health surveillance,39,2013-2025,0.0,0.5,-4.6,0.39405317350389946,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Cardiac arrhythmias,227,2013-2025,6.9,3.0,-4.7,0.02624025517724066,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,eHealth and mobile applications,57,2013-2025,0.9,0.7,-4.9,0.09693105704181278,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Biomedical databases,58,2013-2025,7.8,1.4,-4.9,0.45511643349861675,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Predictive and Markov modeling,95,2013-2025,1.7,1.1,-4.9,0.04857273298554969,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Bayesian and statistical modeling,239,2013-2025,7.8,3.3,-5.1,0.012797944423177865,0.6782910544284269,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Signs and symptoms,65,2013-2025,2.6,0.6,-5.2,0.14545524098711848,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Ultrasound and echocardiography,33,2013-2025,0.9,0.7,-5.5,0.21251524402374156,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Missing data imputation,47,2013-2025,2.6,0.9,-5.7,0.18522104316521026,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Computer security,52,2013-2025,1.7,0.7,-5.7,0.050885369718580035,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,RNA-seq data analysis,53,2013-2025,1.7,0.9,-5.8,0.02208579857561958,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Health information seeking,67,2013-2025,3.4,1.3,-5.9,0.04793027399535058,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Mixed clinical conditions and demographics,120,2013-2025,3.4,2.1,-6.0,4.401961593414947e-05,0.0035215692747319572,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Cardiovascular hemodynamics,128,2013-2025,3.4,1.5,-6.2,0.02880230611131154,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Clinical monitoring and surveillance,52,2013-2025,0.9,1.0,-6.5,0.048130736073379,1.0,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Mobile health and social media,555,2013-2025,14.7,8.6,-7.2,6.65264406424592e-10,5.9208532171788685e-08,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Virtual medical simulation,303,2013-2025,11.2,4.4,-7.6,6.666812320726063e-10,5.9208532171788685e-08,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Diabetes mellitus,106,2013-2025,1.7,1.2,-7.6,0.005022524649515911,0.3113965282699865,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Medical devices,405,2013-2025,10.3,4.8,-7.7,1.042758948411069e-05,0.0008654899271811873,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Clinical study designs,145,2013-2025,5.2,2.4,-7.9,7.361601960123261e-08,6.330977685706004e-06,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Emergency Department,58,2013-2025,0.9,0.7,-7.9,0.0019358285593016327,0.13357217059181264,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Big data infrastructure and interoperability,95,2013-2025,1.7,1.2,-8.4,0.00075904812292525,0.05519886132723004,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Cardiorespiratory monitoring,195,2013-2025,3.4,2.4,-8.7,5.36934920249109e-05,0.004241785869967961,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Multimodal imaging,41,2013-2025,1.7,0.6,-9.3,0.006205263708665368,0.37231582251992207,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Health policy landscape,52,2013-2025,0.9,0.5,-9.5,0.00517023341018059,0.31538423802101595,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Patient-provider communication,62,2013-2025,0.0,1.0,-10.3,0.0037558842109395017,0.2478883579220071,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Myocardial infarction,117,2013-2025,3.4,1.4,-11.2,3.6058407375297087e-09,3.1370814416508467e-07,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Ecological momentary assessment,77,2013-2025,2.6,0.6,-11.6,0.002124718229046425,0.1444808395751569,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),health,Older people,52,2013-2025,1.7,0.7,-11.9,0.0037596552594291394,0.2478883579220071,False
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Information dissemination,100,2013-2025,3.4,1.5,-12.4,3.2851375639802045e-07,2.792366929383174e-05,True
+IEEE Journal of Biomedical and Health Informatics (J-BHI),methodology,Mixed engineering and imaging acronyms,31,2013-2025,1.7,0.4,-16.4,0.00016367391972022067,0.012439217898736771,True
+International Journal of Medical Informatics (IJMI),methodology,Predictive and Markov modeling,56,2011-2025,0.0,3.4,21.2,7.006417025405296e-07,4.2739143854972305e-05,True
+International Journal of Medical Informatics (IJMI),health,Myocardial infarction,36,2011-2025,0.0,3.1,19.8,0.00011467131760920855,0.00630692246850647,True
+International Journal of Medical Informatics (IJMI),methodology,Machine learning methods,817,2011-2025,10.7,61.7,14.5,3.676106737944939e-27,2.4262304470436596e-25,True
+International Journal of Medical Informatics (IJMI),health,Cancer types and screening,127,2011-2025,2.9,9.7,11.0,4.415554301900746e-06,0.000260517703812144,True
+International Journal of Medical Informatics (IJMI),health,Upper airway disorders,33,2011-2025,1.0,2.2,8.1,0.05433636850160527,1.0,False
+International Journal of Medical Informatics (IJMI),health,Neurodegenerative diseases,68,2011-2025,1.9,3.1,8.0,0.0069553397632816615,0.3199456291109564,False
+International Journal of Medical Informatics (IJMI),health,Medical devices,78,2011-2025,0.0,3.4,7.4,0.05024443503298473,1.0,False
+International Journal of Medical Informatics (IJMI),health,Mixed medical imaging,44,2011-2025,0.0,2.2,7.1,0.13974369928309252,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Medical image segmentation,72,2011-2025,0.0,2.8,7.0,0.055926294882840545,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Missing data imputation,33,2011-2025,0.0,1.6,5.9,0.30223038397634583,1.0,False
+International Journal of Medical Informatics (IJMI),health,Prognosis and risk prediction,177,2011-2025,2.9,8.4,5.7,0.010280657294652723,0.4523489209647198,False
+International Journal of Medical Informatics (IJMI),health,Surgical procedures,60,2011-2025,1.0,1.9,5.5,0.1324575076184624,1.0,False
+International Journal of Medical Informatics (IJMI),health,Health behavior change,91,2011-2025,0.0,3.1,5.4,0.014237941256102565,0.5979935327563077,False
+International Journal of Medical Informatics (IJMI),health,Computational cancer biology,70,2011-2025,3.9,3.1,5.1,0.03208301153935314,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Ecological momentary assessment,45,2011-2025,1.0,1.2,3.8,0.2927810666224878,1.0,False
+International Journal of Medical Informatics (IJMI),health,Health and functional status assessment,47,2011-2025,1.9,1.6,3.7,0.2650640363254332,1.0,False
+International Journal of Medical Informatics (IJMI),health,Cardiovascular diseases,77,2011-2025,0.0,3.7,3.3,0.22317564891066954,1.0,False
+International Journal of Medical Informatics (IJMI),health,Diabetes mellitus,115,2011-2025,3.9,5.3,2.8,0.14704060599305876,1.0,False
+International Journal of Medical Informatics (IJMI),health,Older people,70,2011-2025,1.0,3.4,2.8,0.39614592382966407,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Biomedical signal processing,59,2011-2025,1.0,2.8,2.0,0.5729838504059462,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Statistical methods,401,2011-2025,10.7,15.6,1.8,0.1533197638020491,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Mixed deep learning applications,69,2011-2025,1.0,2.5,1.8,0.5203331047471266,1.0,False
+International Journal of Medical Informatics (IJMI),health,Neuroscience and cognition,31,2011-2025,1.0,0.9,1.5,0.6884018901138678,1.0,False
+International Journal of Medical Informatics (IJMI),health,Determinants of health,43,2011-2025,0.0,1.6,1.4,0.7505469546705408,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,eHealth and mobile applications,157,2011-2025,1.9,4.0,1.2,0.6053607574366382,1.0,False
+International Journal of Medical Informatics (IJMI),health,Infectious diseases,292,2011-2025,15.5,8.4,1.2,0.748193145148448,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Clinical monitoring and surveillance,71,2011-2025,0.0,1.2,1.0,0.7893474200672134,1.0,False
+International Journal of Medical Informatics (IJMI),health,Protein and gene networks,53,2011-2025,2.9,1.9,0.6,0.8776220976669593,1.0,False
+International Journal of Medical Informatics (IJMI),health,Mixed clinical conditions and demographics,161,2011-2025,7.8,6.9,0.5,0.7776751925297198,1.0,False
+International Journal of Medical Informatics (IJMI),health,Mixed health informatics safety topics,51,2011-2025,1.0,2.2,0.4,0.867971534641149,1.0,False
+International Journal of Medical Informatics (IJMI),health,Perinatal outcomes,50,2011-2025,1.0,1.2,0.4,0.8750334915441712,1.0,False
+International Journal of Medical Informatics (IJMI),health,Psychiatric disorders,189,2011-2025,11.7,5.9,0.3,0.874778319280637,1.0,False
+International Journal of Medical Informatics (IJMI),health,Population health surveillance,81,2011-2025,4.9,2.8,0.2,0.9379653778565695,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Privacy and de-identification,54,2011-2025,2.9,1.2,0.1,0.982054041846484,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Mixed automation and optimization methods,33,2011-2025,2.9,1.9,-0.0,0.9994571747505094,1.0,False
+International Journal of Medical Informatics (IJMI),health,User-centered design,41,2011-2025,1.0,0.6,0.0,0.9965126625444047,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Bayesian and statistical modeling,138,2011-2025,3.9,4.0,-0.4,0.8434622341887164,1.0,False
+International Journal of Medical Informatics (IJMI),health,Decision support,342,2011-2025,15.5,16.5,-0.5,0.7537192854997479,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Named Entity Recognition,36,2011-2025,2.9,0.9,-0.6,0.9075343982298404,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Drug discovery and evaluation,158,2011-2025,3.9,7.2,-1.5,0.4384529921504866,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Mobile health and social media,281,2011-2025,6.8,6.2,-1.7,0.2701078340516919,1.0,False
+International Journal of Medical Informatics (IJMI),health,Digital health technologies,1886,2011-2025,67.0,52.6,-2.0,0.00017766216414137433,0.00941609469949284,True
+International Journal of Medical Informatics (IJMI),methodology,Big data infrastructure and interoperability,128,2011-2025,3.9,3.1,-2.2,0.27843309269360306,1.0,False
+International Journal of Medical Informatics (IJMI),health,Emergency Department,232,2011-2025,14.6,7.8,-3.6,0.006766600061159449,0.31803020287449413,False
+International Journal of Medical Informatics (IJMI),health,Health information seeking,152,2011-2025,6.8,2.8,-3.6,0.09304032560273351,1.0,False
+International Journal of Medical Informatics (IJMI),health,Caregivers and care quality,98,2011-2025,3.9,3.1,-3.9,0.12532364232803336,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Genomics and sequence bioinformatics,70,2011-2025,5.8,2.8,-3.9,0.09192297269725345,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Knowledge graphs,30,2011-2025,1.9,0.3,-4.3,0.22634628847838723,1.0,False
+International Journal of Medical Informatics (IJMI),methodology,Clinical decision support,1034,2011-2025,62.1,31.8,-4.4,4.510661773496819e-06,0.0002616183828628155,True
+International Journal of Medical Informatics (IJMI),methodology,Clinical study designs,187,2011-2025,18.4,9.0,-5.0,0.048580034575381355,1.0,False
+International Journal of Medical Informatics (IJMI),health,Primary care delivery,352,2011-2025,18.4,10.3,-5.1,0.0006783234940815355,0.03459449819815831,True
+International Journal of Medical Informatics (IJMI),methodology,Software and usability research,352,2011-2025,22.3,8.4,-5.5,7.922815013496061e-07,4.7536890080976365e-05,True
+International Journal of Medical Informatics (IJMI),methodology,Virtual medical simulation,135,2011-2025,5.8,3.4,-5.9,8.20789763099451e-05,0.004596422673356926,True
+International Journal of Medical Informatics (IJMI),health,Health policy landscape,189,2011-2025,10.7,5.9,-6.0,2.6232836882249388e-05,0.001495271702288215,True
+International Journal of Medical Informatics (IJMI),methodology,Information dissemination,320,2011-2025,23.3,7.8,-6.4,3.953558760700497e-12,2.569813194455323e-10,True
+International Journal of Medical Informatics (IJMI),health,Physiological signals and AI methods,105,2011-2025,12.6,3.1,-7.2,0.014654037275280371,0.6008155282864952,False
+International Journal of Medical Informatics (IJMI),health,Drug safety surveillance,184,2011-2025,9.7,3.1,-7.3,5.570967290261856e-08,3.565419065767588e-06,True
+International Journal of Medical Informatics (IJMI),health,Translational and clinical research,217,2011-2025,15.5,5.3,-7.5,0.0007707868939711811,0.03833344768171916,True
+International Journal of Medical Informatics (IJMI),health,Patient-provider communication,394,2011-2025,28.2,7.2,-7.8,1.1915180305870768e-07,7.506563592698583e-06,True
+International Journal of Medical Informatics (IJMI),methodology,Qualitative research methods,131,2011-2025,10.7,3.1,-8.7,5.940311044019863e-07,3.682992847292315e-05,True
+International Journal of Medical Informatics (IJMI),health,Health workforce education,175,2011-2025,18.4,3.1,-9.1,0.00111920383562575,0.053721784110036,False
+International Journal of Medical Informatics (IJMI),health,Biomedical databases,43,2011-2025,5.8,0.9,-9.7,0.007535116537816679,0.33908024420175054,False
+International Journal of Medical Informatics (IJMI),health,Countries and demographics,153,2011-2025,15.5,2.5,-10.1,0.00035816974831898494,0.018624826912587218,True
+International Journal of Medical Informatics (IJMI),health,Health program evaluation,67,2011-2025,2.9,1.6,-10.4,0.0007666689536343832,0.03833344768171916,True
+International Journal of Medical Informatics (IJMI),methodology,Mixed reasoning and modeling methods,33,2011-2025,3.9,1.2,-12.4,0.011865086636368254,0.5101987253638349,False
+International Journal of Medical Informatics (IJMI),health,Clinical guidelines,36,2011-2025,2.9,0.9,-13.8,0.00014457654254715617,0.007807133297546434,True
+JAMIA Open,methodology,Large language models,34,2018-2025,0.0,14.4,172.2,0.00238167513296882,0.06668690372312697,False
+JAMIA Open,health,Determinants of health,41,2018-2025,5.1,6.3,15.1,0.020595476060671865,0.5148869015167966,False
+JAMIA Open,health,Psychiatric disorders,67,2018-2025,10.3,9.2,10.9,0.10378861241574988,1.0,False
+JAMIA Open,health,Health policy landscape,39,2018-2025,0.0,4.6,10.1,0.16443519790322025,1.0,False
+JAMIA Open,methodology,Machine learning methods,305,2018-2025,20.5,48.9,10.0,0.0003748476260748935,0.010870581156171913,True
+JAMIA Open,health,Emergency Department,56,2018-2025,12.8,8.6,7.5,0.34549590965058086,1.0,False
+JAMIA Open,methodology,Big data infrastructure and interoperability,54,2018-2025,5.1,5.2,7.1,0.3413571874933652,1.0,False
+JAMIA Open,health,Primary care delivery,61,2018-2025,7.7,6.9,6.6,0.40394305458706237,1.0,False
+JAMIA Open,health,Mixed clinical conditions and demographics,45,2018-2025,2.6,5.2,5.3,0.3519065661429137,1.0,False
+JAMIA Open,health,Cancer types and screening,41,2018-2025,0.0,6.3,4.3,0.6225317304425542,1.0,False
+JAMIA Open,methodology,Genomics and sequence bioinformatics,38,2018-2025,5.1,4.6,2.2,0.7532804535744059,1.0,False
+JAMIA Open,health,Decision support,78,2018-2025,10.3,8.0,1.1,0.819906918368455,1.0,False
+JAMIA Open,methodology,Clinical monitoring and surveillance,33,2018-2025,7.7,4.6,0.9,0.8873722138357842,1.0,False
+JAMIA Open,health,Digital health technologies,562,2018-2025,61.5,64.4,-0.4,0.7404955308708551,1.0,False
+JAMIA Open,health,Patient-provider communication,100,2018-2025,20.5,12.6,-1.3,0.7648476396967062,1.0,False
+JAMIA Open,methodology,Statistical methods,111,2018-2025,12.8,13.8,-2.4,0.5576145509603649,1.0,False
+JAMIA Open,health,Population health surveillance,50,2018-2025,5.1,4.0,-3.0,0.43428144811435,1.0,False
+JAMIA Open,methodology,Clinical decision support,284,2018-2025,43.6,30.5,-3.4,0.008370226680135514,0.22599612036365888,False
+JAMIA Open,methodology,Software and usability research,83,2018-2025,10.3,8.6,-3.5,0.40489302377160497,1.0,False
+JAMIA Open,health,Translational and clinical research,60,2018-2025,20.5,9.2,-3.6,0.6691149848596094,1.0,False
+JAMIA Open,health,Infectious diseases,101,2018-2025,5.1,7.5,-4.8,0.5847279665342422,1.0,False
+JAMIA Open,methodology,Clinical study designs,86,2018-2025,10.3,7.5,-4.8,0.3617763322722487,1.0,False
+JAMIA Open,health,Prognosis and risk prediction,37,2018-2025,0.0,4.6,-6.1,0.5058912281278156,1.0,False
+JAMIA Open,health,Drug safety surveillance,38,2018-2025,7.7,4.0,-6.1,0.30526421540735826,1.0,False
+JAMIA Open,methodology,Bayesian and statistical modeling,38,2018-2025,5.1,2.3,-7.1,0.37333773280643323,1.0,False
+JAMIA Open,methodology,Drug discovery and evaluation,32,2018-2025,5.1,4.0,-9.0,0.2556032850369693,1.0,False
+JAMIA Open,health,Computational cancer biology,39,2018-2025,5.1,4.0,-9.1,0.12996813335547805,1.0,False
+JAMIA Open,methodology,Information dissemination,86,2018-2025,12.8,7.5,-10.8,0.018604353710453325,0.48371319647178646,False
+JAMIA Open,methodology,Mobile health and social media,70,2018-2025,5.1,6.9,-12.5,0.06879914605485332,1.0,False
+JMIR Medical Informatics (JMI),methodology,Large language models,90,2013-2025,0.0,18.3,107.9,6.69464347734817e-27,4.0837325211823836e-25,True
+JMIR Medical Informatics (JMI),methodology,Mixed automation and optimization methods,58,2013-2025,0.0,5.6,26.9,1.7450092647924139e-06,0.00010295554662275243,True
+JMIR Medical Informatics (JMI),methodology,Missing data imputation,51,2013-2025,0.0,4.3,20.5,0.003680378893423892,0.1840189446711946,False
+JMIR Medical Informatics (JMI),health,Prognosis and risk prediction,153,2013-2025,0.0,15.3,16.5,6.461247746479071e-12,3.8767486478874425e-10,True
+JMIR Medical Informatics (JMI),health,Health and functional status assessment,33,2013-2025,0.0,4.0,16.5,0.009715970561147334,0.45665061637392473,False
+JMIR Medical Informatics (JMI),health,Physiological signals and AI methods,72,2013-2025,0.0,7.0,16.1,0.0019329949678864452,0.10097308380426254,False
+JMIR Medical Informatics (JMI),health,Drug discovery,37,2013-2025,0.0,2.0,15.7,0.019510497563988323,0.8974828879434629,False
+JMIR Medical Informatics (JMI),methodology,Bayesian and statistical modeling,193,2013-2025,0.0,15.0,14.7,7.61844576753417e-05,0.004342514087494477,True
+JMIR Medical Informatics (JMI),health,Countries and demographics,67,2013-2025,0.0,5.6,14.4,0.0019051525246087271,0.10097308380426254,False
+JMIR Medical Informatics (JMI),methodology,Clinical monitoring and surveillance,105,2013-2025,0.0,5.6,13.7,0.041064830742702785,1.0,False
+JMIR Medical Informatics (JMI),health,Health workforce education,34,2013-2025,0.0,3.0,13.5,0.024288131063796566,1.0,False
+JMIR Medical Informatics (JMI),health,Cardiovascular diseases,74,2013-2025,0.0,8.3,13.2,0.0030680095649335713,0.15646848781161213,False
+JMIR Medical Informatics (JMI),methodology,Predictive and Markov modeling,90,2013-2025,0.0,6.3,13.1,0.0004366309085080741,0.024451330876452147,True
+JMIR Medical Informatics (JMI),health,Caregivers and care quality,32,2013-2025,0.0,2.0,12.1,0.07504718607568263,1.0,False
+JMIR Medical Informatics (JMI),health,Neuroscience and cognition,41,2013-2025,0.0,2.3,11.1,0.13778080393595768,1.0,False
+JMIR Medical Informatics (JMI),health,Mixed medical imaging,51,2013-2025,0.0,5.0,10.8,0.053282190790554344,1.0,False
+JMIR Medical Informatics (JMI),health,Medical devices,38,2013-2025,0.0,3.0,10.8,0.1097272890719127,1.0,False
+JMIR Medical Informatics (JMI),health,Translational and clinical research,185,2013-2025,0.0,8.6,10.5,0.03785372303308421,1.0,False
+JMIR Medical Informatics (JMI),health,Mixed health informatics safety topics,32,2013-2025,0.0,2.0,10.5,0.20084517537995294,1.0,False
+JMIR Medical Informatics (JMI),health,Population health surveillance,78,2013-2025,0.0,6.0,9.7,0.001313896775929262,0.07226432267610941,False
+JMIR Medical Informatics (JMI),methodology,Clinical study designs,201,2013-2025,0.0,14.6,8.6,0.004447485509297612,0.21792678995558298,False
+JMIR Medical Informatics (JMI),health,Health behavior change,52,2013-2025,33.3,4.3,8.5,0.3894873967167011,1.0,False
+JMIR Medical Informatics (JMI),methodology,Statistical methods,307,2013-2025,33.3,20.6,8.0,0.007042732947082502,0.3380511814599601,False
+JMIR Medical Informatics (JMI),methodology,Drug discovery and evaluation,103,2013-2025,0.0,8.0,7.9,0.019904019815898462,0.8974828879434629,False
+JMIR Medical Informatics (JMI),methodology,Machine learning methods,897,2013-2025,0.0,60.8,7.8,7.357030279790294e-05,0.004267077562278371,True
+JMIR Medical Informatics (JMI),health,Determinants of health,47,2013-2025,0.0,2.7,7.7,0.1395922652834542,1.0,False
+JMIR Medical Informatics (JMI),health,Mixed clinical conditions and demographics,151,2013-2025,0.0,12.6,7.4,0.0017515934599736359,0.09458604683857634,False
+JMIR Medical Informatics (JMI),health,Health policy landscape,143,2013-2025,0.0,9.0,7.2,0.024411864898905396,1.0,False
+JMIR Medical Informatics (JMI),methodology,Qualitative research methods,47,2013-2025,33.3,5.3,6.4,0.4714961426138251,1.0,False
+JMIR Medical Informatics (JMI),methodology,eHealth and mobile applications,114,2013-2025,0.0,4.7,6.3,0.17883044370654722,1.0,False
+JMIR Medical Informatics (JMI),health,Surgical procedures,50,2013-2025,0.0,4.0,6.3,0.14024792823993107,1.0,False
+JMIR Medical Informatics (JMI),health,Decision support,264,2013-2025,0.0,14.3,6.2,0.11491740688522627,1.0,False
+JMIR Medical Informatics (JMI),health,Psychiatric disorders,121,2013-2025,0.0,7.0,6.1,0.05233754503922677,1.0,False
+JMIR Medical Informatics (JMI),health,Cancer types and screening,147,2013-2025,0.0,12.6,5.9,0.02589143204453854,1.0,False
+JMIR Medical Informatics (JMI),methodology,Mixed deep learning applications,66,2013-2025,0.0,4.3,5.9,0.13820067853513116,1.0,False
+JMIR Medical Informatics (JMI),health,Drug safety surveillance,106,2013-2025,0.0,6.3,5.8,0.18150624610907784,1.0,False
+JMIR Medical Informatics (JMI),health,Biomedical databases,45,2013-2025,0.0,3.0,5.6,0.49942947048847763,1.0,False
+JMIR Medical Informatics (JMI),health,Neurodegenerative diseases,39,2013-2025,0.0,2.3,5.1,0.396662095938323,1.0,False
+JMIR Medical Informatics (JMI),health,Primary care delivery,219,2013-2025,0.0,12.6,4.9,0.09965889340046334,1.0,False
+JMIR Medical Informatics (JMI),methodology,Big data infrastructure and interoperability,155,2013-2025,0.0,9.3,4.3,0.3934085668732167,1.0,False
+JMIR Medical Informatics (JMI),methodology,Software and usability research,200,2013-2025,0.0,11.3,4.3,0.2815636641299619,1.0,False
+JMIR Medical Informatics (JMI),health,Infectious diseases,224,2013-2025,33.3,10.3,4.1,0.3751482328742378,1.0,False
+JMIR Medical Informatics (JMI),methodology,Genomics and sequence bioinformatics,60,2013-2025,66.7,3.7,3.6,0.7422784686585444,1.0,False
+JMIR Medical Informatics (JMI),methodology,Clinical decision support,696,2013-2025,33.3,43.9,3.2,0.20144989634766797,1.0,False
+JMIR Medical Informatics (JMI),methodology,Medical image segmentation,79,2013-2025,0.0,5.0,2.1,0.38066999656806577,1.0,False
+JMIR Medical Informatics (JMI),methodology,Biomedical signal processing,50,2013-2025,0.0,2.7,2.0,0.6692040270175845,1.0,False
+JMIR Medical Informatics (JMI),methodology,Virtual medical simulation,83,2013-2025,0.0,4.0,1.8,0.5573911526813362,1.0,False
+JMIR Medical Informatics (JMI),health,Emergency Department,155,2013-2025,33.3,9.3,1.6,0.5584910324124384,1.0,False
+JMIR Medical Informatics (JMI),health,Diabetes mellitus,99,2013-2025,0.0,7.0,1.4,0.735152282682225,1.0,False
+JMIR Medical Informatics (JMI),health,Protein and gene networks,81,2013-2025,0.0,3.3,1.1,0.7976469834021853,1.0,False
+JMIR Medical Informatics (JMI),methodology,Named Entity Recognition,82,2013-2025,33.3,3.0,1.0,0.8376716442229135,1.0,False
+JMIR Medical Informatics (JMI),health,Patient-provider communication,207,2013-2025,0.0,15.9,0.9,0.8459992525096587,1.0,False
+JMIR Medical Informatics (JMI),methodology,Ecological momentary assessment,38,2013-2025,0.0,2.3,0.9,0.8555353102970147,1.0,False
+JMIR Medical Informatics (JMI),health,Computational cancer biology,88,2013-2025,0.0,4.0,0.3,0.9380790362346689,1.0,False
+JMIR Medical Informatics (JMI),health,Health information seeking,91,2013-2025,0.0,4.0,0.3,0.9205387595411659,1.0,False
+JMIR Medical Informatics (JMI),methodology,Information dissemination,208,2013-2025,33.3,9.0,-0.8,0.8480632400711595,1.0,False
+JMIR Medical Informatics (JMI),health,Digital health technologies,1208,2013-2025,100.0,63.5,-0.9,0.4379392121612916,1.0,False
+JMIR Medical Informatics (JMI),methodology,Knowledge graphs,73,2013-2025,0.0,3.3,-1.1,0.763964852363134,1.0,False
+JMIR Medical Informatics (JMI),methodology,Mobile health and social media,194,2013-2025,0.0,9.3,-1.2,0.638378726281559,1.0,False
+JMIR Medical Informatics (JMI),methodology,Privacy and de-identification,52,2013-2025,0.0,2.0,-4.0,0.2439820612579504,1.0,False
+JMIR Medical Informatics (JMI),health,Perinatal outcomes,39,2013-2025,0.0,2.3,-5.7,0.3710109227769455,1.0,False
+JMIR mHealth and uHealth,methodology,Clinical monitoring and surveillance,163,2013-2025,0.0,10.3,25.5,0.0001255666386482231,0.006655031848355824,True
+JMIR mHealth and uHealth,methodology,Missing data imputation,42,2013-2025,0.0,4.2,20.8,0.0017061740440620244,0.08019018007091515,False
+JMIR mHealth and uHealth,health,Health and functional status assessment,141,2013-2025,0.0,12.6,18.0,8.281405707178282e-08,4.886029367235187e-06,True
+JMIR mHealth and uHealth,health,Medical devices,260,2013-2025,8.3,17.3,17.1,6.408832486269621e-12,3.973476141487165e-10,True
+JMIR mHealth and uHealth,methodology,Statistical methods,337,2013-2025,0.0,18.2,16.2,1.734772695542371e-11,1.0408636173254226e-09,True
+JMIR mHealth and uHealth,health,Drug safety surveillance,66,2013-2025,0.0,4.2,16.2,3.659926981095952e-06,0.00020861583792246928,True
+JMIR mHealth and uHealth,methodology,Bayesian and statistical modeling,197,2013-2025,4.2,14.5,15.3,2.7811321897515932e-06,0.0001613056670055924,True
+JMIR mHealth and uHealth,methodology,Behavioral theories,42,2013-2025,0.0,3.3,14.9,0.02741496578690085,0.9869387683284305,False
+JMIR mHealth and uHealth,methodology,Clinical study designs,275,2013-2025,8.3,20.1,14.8,6.679880126922845e-12,4.074726877422936e-10,True
+JMIR mHealth and uHealth,health,Cardiovascular hemodynamics,72,2013-2025,0.0,4.2,13.5,0.01585783902664265,0.6501714000923486,False
+JMIR mHealth and uHealth,methodology,Machine learning methods,291,2013-2025,4.2,16.8,13.4,1.3458849169166465e-18,8.479074976574873e-17,True
+JMIR mHealth and uHealth,methodology,Mixed automation and optimization methods,65,2013-2025,0.0,2.3,12.2,0.059870744422738556,1.0,False
+JMIR mHealth and uHealth,health,Cardiovascular diseases,157,2013-2025,0.0,7.0,11.8,3.005014614274248e-05,0.0016828081839935789,True
+JMIR mHealth and uHealth,methodology,Drug discovery and evaluation,264,2013-2025,8.3,14.5,11.7,0.0037664460922246998,0.1694900741501115,False
+JMIR mHealth and uHealth,health,Cardiorespiratory monitoring,56,2013-2025,0.0,3.7,11.7,0.009960208821499795,0.4183287705029914,False
+JMIR mHealth and uHealth,methodology,eHealth and mobile applications,433,2013-2025,0.0,19.2,11.3,3.3675656482518485e-05,0.0018521611065385167,True
+JMIR mHealth and uHealth,health,Older people,144,2013-2025,0.0,8.4,11.2,0.00017119625238513415,0.008809491653825555,True
+JMIR mHealth and uHealth,health,Myocardial infarction,34,2013-2025,0.0,2.3,11.2,0.09344160793443537,1.0,False
+JMIR mHealth and uHealth,methodology,Ecological momentary assessment,455,2013-2025,4.2,30.8,10.9,0.0009011966108755283,0.044158633932900884,True
+JMIR mHealth and uHealth,methodology,Information dissemination,243,2013-2025,0.0,11.7,10.6,0.0007560301794510841,0.0378015089725542,True
+JMIR mHealth and uHealth,health,Translational and clinical research,277,2013-2025,8.3,16.8,9.8,0.00016941330103510685,0.008809491653825555,True
+JMIR mHealth and uHealth,health,Upper airway disorders,40,2013-2025,0.0,2.3,9.5,0.16650112727667743,1.0,False
+JMIR mHealth and uHealth,methodology,Biomedical signal processing,93,2013-2025,0.0,3.7,8.9,0.0449841908147808,1.0,False
+JMIR mHealth and uHealth,health,Decision support,237,2013-2025,16.7,12.1,8.8,0.006445792418865733,0.27716907401122653,False
+JMIR mHealth and uHealth,methodology,Virtual medical simulation,135,2013-2025,4.2,6.1,8.6,0.01625607062999701,0.6502428251998804,False
+JMIR mHealth and uHealth,health,Surgical procedures,57,2013-2025,0.0,4.7,8.6,0.12683994484997002,1.0,False
+JMIR mHealth and uHealth,health,User-centered design,38,2013-2025,4.2,3.7,7.7,0.2866777287422827,1.0,False
+JMIR mHealth and uHealth,health,Cancer types and screening,110,2013-2025,4.2,5.6,7.6,0.024329591020615778,0.9140370215238871,False
+JMIR mHealth and uHealth,methodology,Clinical decision support,542,2013-2025,20.8,27.1,7.5,4.310791640559274e-05,0.002327827485902008,True
+JMIR mHealth and uHealth,health,Physiological signals and AI methods,258,2013-2025,12.5,11.2,6.6,0.023230308864388125,0.9059820457111368,False
+JMIR mHealth and uHealth,health,Clinical guidelines,44,2013-2025,0.0,0.9,6.4,0.3904474271964202,1.0,False
+JMIR mHealth and uHealth,health,Caregivers and care quality,79,2013-2025,0.0,4.2,6.3,0.20077715688799236,1.0,False
+JMIR mHealth and uHealth,health,Psychiatric disorders,635,2013-2025,12.5,34.1,6.1,0.001253614176087589,0.060173480452204275,False
+JMIR mHealth and uHealth,health,Emergency Department,90,2013-2025,0.0,3.7,6.0,0.10465367683492728,1.0,False
+JMIR mHealth and uHealth,health,Health behavior change,752,2013-2025,16.7,40.2,5.8,0.024053605829575976,0.9140370215238871,False
+JMIR mHealth and uHealth,health,Infectious diseases,272,2013-2025,0.0,7.5,5.8,0.09974626522602069,1.0,False
+JMIR mHealth and uHealth,methodology,Mixed deep learning applications,35,2013-2025,4.2,1.9,5.1,0.4854038161214055,1.0,False
+JMIR mHealth and uHealth,methodology,Software and usability research,308,2013-2025,20.8,12.6,4.8,0.139292533607731,1.0,False
+JMIR mHealth and uHealth,methodology,Big data infrastructure and interoperability,43,2013-2025,8.3,1.4,4.6,0.5962756200452758,1.0,False
+JMIR mHealth and uHealth,health,Prognosis and risk prediction,83,2013-2025,0.0,3.3,4.5,0.18635277859288235,1.0,False
+JMIR mHealth and uHealth,health,Neuroscience and cognition,94,2013-2025,4.2,4.2,4.4,0.20370500399778524,1.0,False
+JMIR mHealth and uHealth,health,Population health surveillance,124,2013-2025,8.3,6.1,4.3,0.1396938153871426,1.0,False
+JMIR mHealth and uHealth,health,Countries and demographics,248,2013-2025,16.7,12.1,3.8,0.1597027550300666,1.0,False
+JMIR mHealth and uHealth,health,Mixed clinical conditions and demographics,336,2013-2025,12.5,14.0,3.7,0.08554557908443203,1.0,False
+JMIR mHealth and uHealth,methodology,Privacy and de-identification,54,2013-2025,4.2,1.9,3.3,0.46702995424320004,1.0,False
+JMIR mHealth and uHealth,health,Mixed medical imaging,31,2013-2025,0.0,1.4,3.0,0.3158926895474037,1.0,False
+JMIR mHealth and uHealth,methodology,Mobile health and social media,1368,2013-2025,58.3,41.1,2.7,0.13098369568576743,1.0,False
+JMIR mHealth and uHealth,health,Health information seeking,245,2013-2025,4.2,10.7,2.3,0.16450860303033676,1.0,False
+JMIR mHealth and uHealth,health,Health policy landscape,117,2013-2025,8.3,3.7,2.0,0.6646147133728237,1.0,False
+JMIR mHealth and uHealth,health,Determinants of health,186,2013-2025,8.3,7.9,1.8,0.5987183793011932,1.0,False
+JMIR mHealth and uHealth,health,Neurodegenerative diseases,103,2013-2025,12.5,4.7,1.8,0.7115060724543725,1.0,False
+JMIR mHealth and uHealth,methodology,Qualitative research methods,175,2013-2025,4.2,7.9,1.7,0.5250515063851937,1.0,False
+JMIR mHealth and uHealth,health,Primary care delivery,272,2013-2025,25.0,10.3,1.1,0.6156365631996481,1.0,False
+JMIR mHealth and uHealth,health,Digital health technologies,2488,2013-2025,70.8,87.9,0.9,0.0030976502966625344,0.1424919136464766,False
+JMIR mHealth and uHealth,health,Diabetes mellitus,306,2013-2025,8.3,11.7,0.6,0.7736554273980474,1.0,False
+JMIR mHealth and uHealth,health,Mixed health informatics safety topics,37,2013-2025,0.0,0.0,0.1,0.9924823877398683,1.0,False
+JMIR mHealth and uHealth,health,Cardiac arrhythmias,35,2013-2025,0.0,0.9,0.0,0.9986824000217988,1.0,False
+JMIR mHealth and uHealth,methodology,Medical image segmentation,60,2013-2025,4.2,0.5,-0.3,0.9489571636768313,1.0,False
+JMIR mHealth and uHealth,health,Perinatal outcomes,149,2013-2025,0.0,4.7,-0.7,0.7507030005260892,1.0,False
+JMIR mHealth and uHealth,health,Health workforce education,67,2013-2025,4.2,1.4,-1.0,0.7781918826707068,1.0,False
+JMIR mHealth and uHealth,health,Patient-provider communication,285,2013-2025,12.5,10.3,-1.4,0.475994457828843,1.0,False
+JMIR mHealth and uHealth,health,Computational cancer biology,70,2013-2025,4.2,1.4,-3.0,0.3733071936028334,1.0,False
+JMIR mHealth and uHealth,health,Health program evaluation,82,2013-2025,0.0,1.9,-11.0,0.005904980325354917,0.2598191343156164,False
+Journal of Biomedical Informatics (JBI),methodology,Large language models,100,2011-2025,0.0,17.4,31.6,3.99935323357871e-07,2.7195601988335228e-05,True
+Journal of Biomedical Informatics (JBI),methodology,Contrastive learning,105,2011-2025,0.0,10.8,20.9,4.9646551204510515e-12,3.475258584315736e-10,True
+Journal of Biomedical Informatics (JBI),methodology,Multi-task and meta learning,79,2011-2025,0.0,4.1,16.5,1.0879914624510598e-05,0.00072895427984221,True
+Journal of Biomedical Informatics (JBI),health,Neurodegenerative diseases,74,2011-2025,1.6,5.6,10.0,2.0133067459590135e-05,0.0013287824523329488,True
+Journal of Biomedical Informatics (JBI),health,Neuroscience and cognition,59,2011-2025,0.0,2.6,8.2,0.0035465116993132428,0.19812570887456157,False
+Journal of Biomedical Informatics (JBI),health,Mixed health informatics safety topics,42,2011-2025,0.8,3.1,5.5,0.13014359222669095,1.0,False
+Journal of Biomedical Informatics (JBI),health,Prognosis and risk prediction,199,2011-2025,3.3,8.2,5.4,0.014542481432481968,0.7416665530565804,False
+Journal of Biomedical Informatics (JBI),methodology,Predictive and Markov modeling,77,2011-2025,0.8,3.1,5.0,0.036917948913200514,1.0,False
+Journal of Biomedical Informatics (JBI),health,Psychiatric disorders,105,2011-2025,4.1,2.6,4.9,0.23781594965507313,1.0,False
+Journal of Biomedical Informatics (JBI),health,Physiological signals and AI methods,158,2011-2025,5.7,8.2,4.8,0.0014006398805306904,0.08263775295131073,False
+Journal of Biomedical Informatics (JBI),health,Mixed medical imaging,62,2011-2025,0.0,3.1,4.4,0.1524518859776204,1.0,False
+Journal of Biomedical Informatics (JBI),health,Population health surveillance,51,2011-2025,3.3,2.1,4.0,0.4384090022256517,1.0,False
+Journal of Biomedical Informatics (JBI),health,Health semantic similarity,34,2011-2025,0.0,2.1,3.7,0.3231553961136602,1.0,False
+Journal of Biomedical Informatics (JBI),health,Medical devices,40,2011-2025,0.8,2.1,3.2,0.5627122634797228,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Medical image segmentation,132,2011-2025,3.3,5.1,2.8,0.08909811662871323,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Machine learning methods,1457,2011-2025,44.7,51.3,2.4,0.0016637460960922691,0.09649727357335161,False
+Journal of Biomedical Informatics (JBI),methodology,Statistical methods,535,2011-2025,12.2,19.5,2.3,0.05478729686324921,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Biomedical signal processing,82,2011-2025,4.9,2.6,2.2,0.5724796607376395,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Graph and network methods,72,2011-2025,0.0,1.5,2.0,0.5794282739471306,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Mixed automation and optimization methods,52,2011-2025,0.0,1.0,2.0,0.5993473508814899,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Missing data imputation,58,2011-2025,0.0,2.6,1.9,0.5994510777492688,1.0,False
+Journal of Biomedical Informatics (JBI),health,Drug discovery,70,2011-2025,0.8,3.6,1.5,0.5353822587016782,1.0,False
+Journal of Biomedical Informatics (JBI),health,Health policy landscape,57,2011-2025,1.6,1.5,1.0,0.6777130357488486,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Bayesian and statistical modeling,228,2011-2025,13.0,10.8,0.4,0.8229052444717739,1.0,False
+Journal of Biomedical Informatics (JBI),health,Mixed terminology and histopathology,52,2011-2025,0.8,1.0,0.2,0.9648173876048795,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Mixed deep learning applications,220,2011-2025,15.4,13.8,0.1,0.963901485182904,1.0,False
+Journal of Biomedical Informatics (JBI),health,Decision support,255,2011-2025,4.9,9.2,0.1,0.9573689469723883,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Named Entity Recognition,217,2011-2025,4.9,6.7,0.0,0.9998923769489455,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Mass spectrometry and ROC analysis,45,2011-2025,1.6,2.6,-0.8,0.76638081705247,1.0,False
+Journal of Biomedical Informatics (JBI),health,Digital health technologies,1312,2011-2025,52.0,46.7,-1.0,0.1472039578304808,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Clinical study designs,219,2011-2025,5.7,8.2,-1.0,0.5048970137079396,1.0,False
+Journal of Biomedical Informatics (JBI),health,Drug safety surveillance,155,2011-2025,6.5,7.2,-1.2,0.6212720289169072,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Clinical monitoring and surveillance,57,2011-2025,0.0,2.6,-1.4,0.684229277812195,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Drug discovery and evaluation,125,2011-2025,1.6,2.1,-1.5,0.4623851252394269,1.0,False
+Journal of Biomedical Informatics (JBI),health,Health information seeking,57,2011-2025,0.8,1.0,-1.6,0.5735434006743382,1.0,False
+Journal of Biomedical Informatics (JBI),health,Infectious diseases,231,2011-2025,18.7,4.6,-1.6,0.6544195640854362,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Ecological momentary assessment,32,2011-2025,0.8,0.5,-1.6,0.6866371372428239,1.0,False
+Journal of Biomedical Informatics (JBI),health,Translational and clinical research,150,2011-2025,13.8,6.2,-1.7,0.5066117515426624,1.0,False
+Journal of Biomedical Informatics (JBI),health,Health behavior change,52,2011-2025,0.8,0.0,-2.0,0.5803555095982706,1.0,False
+Journal of Biomedical Informatics (JBI),health,Bayesian health modeling,59,2011-2025,7.3,2.6,-2.1,0.6236327107698265,1.0,False
+Journal of Biomedical Informatics (JBI),health,Diabetes mellitus,82,2011-2025,0.8,2.1,-2.2,0.32928928693039994,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Data visualization methods,52,2011-2025,0.8,1.0,-2.2,0.47519288565413154,1.0,False
+Journal of Biomedical Informatics (JBI),health,Cardiovascular diseases,47,2011-2025,1.6,0.5,-2.4,0.42671367898641455,1.0,False
+Journal of Biomedical Informatics (JBI),health,Genetic predisposition,91,2011-2025,2.4,4.1,-2.6,0.4770086069488688,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Clinical decision support,874,2011-2025,53.7,29.2,-2.8,0.0035379590870457424,0.19812570887456157,False
+Journal of Biomedical Informatics (JBI),health,Cancer types and screening,148,2011-2025,11.4,7.7,-2.8,0.25440765333878135,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Big data infrastructure and interoperability,131,2011-2025,0.8,4.6,-2.8,0.3205966807362096,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Mobile health and social media,176,2011-2025,4.1,6.7,-2.9,0.2076481687297671,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Virtual medical simulation,147,2011-2025,4.1,4.6,-3.0,0.1710989790801719,1.0,False
+Journal of Biomedical Informatics (JBI),health,Primary care delivery,115,2011-2025,8.9,4.6,-3.3,0.16204084064900337,1.0,False
+Journal of Biomedical Informatics (JBI),health,Countries and demographics,39,2011-2025,4.1,2.1,-3.6,0.5534678759003697,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Genomics and sequence bioinformatics,203,2011-2025,8.1,7.2,-3.6,0.02733310374566834,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,RNA-seq data analysis,73,2011-2025,3.3,2.1,-3.7,0.07639105527583724,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Privacy and de-identification,69,2011-2025,0.0,3.1,-4.1,0.43711135241142796,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Computer security,31,2011-2025,0.8,0.5,-5.1,0.25437431283512946,1.0,False
+Journal of Biomedical Informatics (JBI),health,Mixed clinical conditions and demographics,143,2011-2025,7.3,5.1,-5.2,0.006095621453158533,0.3230679370174023,False
+Journal of Biomedical Informatics (JBI),health,Computational cancer biology,251,2011-2025,21.1,6.7,-5.3,0.005805865636301086,0.3135167443602586,False
+Journal of Biomedical Informatics (JBI),methodology,Knowledge graphs,268,2011-2025,22.0,11.8,-5.3,0.07581855062269581,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,Information dissemination,221,2011-2025,10.6,4.6,-5.6,0.0020949332040722086,0.11941119263211589,False
+Journal of Biomedical Informatics (JBI),health,Emergency Department,85,2011-2025,5.7,1.0,-5.8,0.008558534490573344,0.4450437935098139,False
+Journal of Biomedical Informatics (JBI),health,Surgical procedures,46,2011-2025,4.1,2.6,-6.3,0.1546484537462706,1.0,False
+Journal of Biomedical Informatics (JBI),methodology,eHealth and mobile applications,55,2011-2025,2.4,1.5,-6.6,0.06810946471365245,1.0,False
+Journal of Biomedical Informatics (JBI),health,Gene expression regulation,153,2011-2025,13.8,4.1,-6.7,0.00034374545125506636,0.021312217977814116,True
+Journal of Biomedical Informatics (JBI),health,Genomic variant analysis,133,2011-2025,8.1,2.6,-6.9,3.1353711056140843e-05,0.0020379912186491546,True
+Journal of Biomedical Informatics (JBI),methodology,Software and usability research,298,2011-2025,27.6,5.6,-7.5,3.218517498350811e-05,0.002059851198944519,True
+Journal of Biomedical Informatics (JBI),methodology,Mixed reasoning and modeling methods,74,2011-2025,4.9,4.1,-8.1,0.11362241512178717,1.0,False
+Journal of Biomedical Informatics (JBI),health,Protein and gene networks,283,2011-2025,34.1,8.2,-8.3,0.0008121476660526388,0.04872885996315832,True
+Journal of Biomedical Informatics (JBI),health,Patient-provider communication,167,2011-2025,22.8,5.1,-10.7,0.00014455436958136868,0.009106925283626227,True
+Journal of Biomedical Informatics (JBI),health,Health workforce education,36,2011-2025,3.3,0.0,-13.8,0.00040952428638826426,0.02498098146968412,True
+Journal of Biomedical Informatics (JBI),health,Biomedical databases,101,2011-2025,16.3,0.5,-20.8,6.844061599966548e-11,4.7224025039769174e-09,True
+Journal of Clinical and Translational Science,health,Primary care delivery,88,2017-2025,3.6,11.2,17.3,0.017251425156395498,0.5347941798482604,False
+Journal of Clinical and Translational Science,health,Diabetes mellitus,39,2017-2025,1.8,1.6,14.8,0.2524812874211908,1.0,False
+Journal of Clinical and Translational Science,health,Determinants of health,109,2017-2025,3.6,8.8,13.2,0.03613161845853302,1.0,False
+Journal of Clinical and Translational Science,health,Population health surveillance,92,2017-2025,5.4,9.6,9.6,0.0074085003352926905,0.2370720107293661,False
+Journal of Clinical and Translational Science,methodology,Clinical monitoring and surveillance,37,2017-2025,1.8,2.4,9.3,0.20179158067961123,1.0,False
+Journal of Clinical and Translational Science,health,Countries and demographics,116,2017-2025,5.4,10.0,8.8,0.03739021248832728,1.0,False
+Journal of Clinical and Translational Science,health,Emergency Department,40,2017-2025,1.8,2.8,7.0,0.3277467127200424,1.0,False
+Journal of Clinical and Translational Science,health,Health policy landscape,105,2017-2025,3.6,10.8,6.8,0.10157355216880161,1.0,False
+Journal of Clinical and Translational Science,methodology,Clinical study designs,232,2017-2025,16.1,21.5,6.2,0.001170909562104353,0.04098183467365236,True
+Journal of Clinical and Translational Science,methodology,Statistical methods,111,2017-2025,5.4,7.2,4.8,0.3426787191392582,1.0,False
+Journal of Clinical and Translational Science,health,Psychiatric disorders,87,2017-2025,3.6,4.0,4.7,0.5498710835722429,1.0,False
+Journal of Clinical and Translational Science,methodology,Software and usability research,158,2017-2025,7.1,15.9,3.8,0.25063052362971383,1.0,False
+Journal of Clinical and Translational Science,methodology,Qualitative research methods,142,2017-2025,10.7,14.7,3.7,0.2878801963485331,1.0,False
+Journal of Clinical and Translational Science,health,Mixed clinical conditions and demographics,51,2017-2025,3.6,5.2,3.5,0.6846842135028335,1.0,False
+Journal of Clinical and Translational Science,health,Perinatal outcomes,31,2017-2025,0.0,2.8,3.2,0.6482116782786367,1.0,False
+Journal of Clinical and Translational Science,health,Digital health technologies,448,2017-2025,30.4,36.7,3.1,0.071555785597406,1.0,False
+Journal of Clinical and Translational Science,health,Health behavior change,46,2017-2025,5.4,3.6,2.3,0.6334858824317819,1.0,False
+Journal of Clinical and Translational Science,health,Health information seeking,147,2017-2025,12.5,13.1,0.9,0.6310617587203575,1.0,False
+Journal of Clinical and Translational Science,methodology,Machine learning methods,96,2017-2025,7.1,8.4,0.8,0.8658798481159209,1.0,False
+Journal of Clinical and Translational Science,health,Patient-provider communication,309,2017-2025,16.1,31.1,0.5,0.8931127346073544,1.0,False
+Journal of Clinical and Translational Science,health,Caregivers and care quality,43,2017-2025,3.6,4.0,0.1,0.9853394275901688,1.0,False
+Journal of Clinical and Translational Science,methodology,Drug discovery and evaluation,200,2017-2025,10.7,16.7,-0.3,0.9109141081116063,1.0,False
+Journal of Clinical and Translational Science,health,Health workforce education,246,2017-2025,19.6,24.3,-0.5,0.8909032930207298,1.0,False
+Journal of Clinical and Translational Science,methodology,Bayesian and statistical modeling,133,2017-2025,16.1,10.8,-1.1,0.6893708430394752,1.0,False
+Journal of Clinical and Translational Science,health,Decision support,109,2017-2025,5.4,5.6,-1.4,0.8214839643307787,1.0,False
+Journal of Clinical and Translational Science,health,Cancer types and screening,30,2017-2025,1.8,2.4,-1.5,0.8090929824385593,1.0,False
+Journal of Clinical and Translational Science,health,Infectious diseases,309,2017-2025,23.2,19.5,-1.8,0.6467591661341536,1.0,False
+Journal of Clinical and Translational Science,methodology,Research ethics and patient involvement,76,2017-2025,7.1,5.6,-2.3,0.5212510686951277,1.0,False
+Journal of Clinical and Translational Science,methodology,Information dissemination,324,2017-2025,32.1,28.7,-3.5,0.17449059646133613,1.0,False
+Journal of Clinical and Translational Science,health,Translational and clinical research,337,2017-2025,42.9,25.9,-4.8,0.0042834953353551395,0.1413553460667196,False
+Journal of Clinical and Translational Science,health,Computational cancer biology,54,2017-2025,5.4,4.4,-5.2,0.36178416416061676,1.0,False
+Journal of Clinical and Translational Science,methodology,Virtual medical simulation,141,2017-2025,12.5,11.2,-5.3,0.1078018399737478,1.0,False
+Journal of Clinical and Translational Science,methodology,Clinical decision support,467,2017-2025,44.6,33.5,-5.5,0.003389822649046413,0.11525397006757805,False
+Journal of Clinical and Translational Science,methodology,Mobile health and social media,35,2017-2025,5.4,2.8,-6.6,0.34993133829777623,1.0,False
+Journal of Clinical and Translational Science,health,Health program evaluation,53,2017-2025,5.4,4.0,-9.0,0.03679479862034554,1.0,False
+Journal of Innovation in Health Informatics,health,Digital health technologies,88,2014-2019,100.0,100.0,-5.3,0.12191778560953555,0.12191778560953555,False
+Journal of Innovation in Health Informatics,methodology,Clinical decision support,41,2014-2019,66.7,0.0,-17.8,0.0006631102047880513,0.0013262204095761026,True
+Journal of Medical Internet Research (JMIR),methodology,Large language models,216,2011-2025,0.0,8.0,108.0,0.04960755546355862,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Transformer models,31,2011-2025,0.0,0.5,58.3,0.00010894428668073055,0.009151320081181366,True
+Journal of Medical Internet Research (JMIR),methodology,Data governance and standards,51,2011-2025,0.0,1.3,37.6,2.2260637566686928e-13,2.203803119102006e-11,True
+Journal of Medical Internet Research (JMIR),methodology,Predictive and Markov modeling,183,2011-2025,0.0,3.1,24.7,5.372181189945401e-08,4.996128506649223e-06,True
+Journal of Medical Internet Research (JMIR),health,Cardiac arrhythmias,46,2011-2025,0.0,0.8,24.6,0.000923393432242616,0.0692545074181962,False
+Journal of Medical Internet Research (JMIR),health,Signs and symptoms,70,2011-2025,0.0,1.0,17.5,1.2863163187351302e-05,0.0011190951972995633,True
+Journal of Medical Internet Research (JMIR),methodology,Mixed automation and optimization methods,179,2011-2025,0.0,2.6,16.2,5.496165622086353e-10,5.331280653423762e-08,True
+Journal of Medical Internet Research (JMIR),health,Causal mediation analysis,56,2011-2025,0.0,1.2,15.8,1.9688475392823896e-06,0.00017916512607469746,True
+Journal of Medical Internet Research (JMIR),health,Medical specialties,85,2011-2025,0.8,1.0,14.7,0.003497425078178949,0.23782490531616854,False
+Journal of Medical Internet Research (JMIR),health,Medical devices,337,2011-2025,0.0,4.7,14.1,1.1468347289615922e-09,1.1009613398031285e-07,True
+Journal of Medical Internet Research (JMIR),methodology,Clinical data standards,83,2011-2025,0.0,1.0,13.7,0.003111592229072933,0.2146998638060324,False
+Journal of Medical Internet Research (JMIR),health,Cardiorespiratory monitoring,81,2011-2025,0.8,0.8,13.6,0.0018182544248769637,0.1309143185911414,False
+Journal of Medical Internet Research (JMIR),health,Older people,465,2011-2025,0.8,7.4,13.5,1.9584139185249305e-08,1.860493222598684e-06,True
+Journal of Medical Internet Research (JMIR),methodology,Clinical monitoring and surveillance,586,2011-2025,0.0,6.1,13.3,0.00014436575787764915,0.011549260630211932,True
+Journal of Medical Internet Research (JMIR),methodology,Machine learning methods,2078,2011-2025,13.8,32.0,13.1,4.2899161591729945e-26,4.2899161591729946e-24,True
+Journal of Medical Internet Research (JMIR),methodology,Algorithmic bias,39,2011-2025,0.0,0.6,12.9,0.027217568643328333,1.0,False
+Journal of Medical Internet Research (JMIR),health,Bayesian health modeling,74,2011-2025,0.8,1.0,12.7,0.0016098855251925246,0.1175216433390543,False
+Journal of Medical Internet Research (JMIR),health,Mixed health informatics safety topics,220,2011-2025,2.4,3.0,12.6,2.660450197728961e-06,0.0002394405177956065,True
+Journal of Medical Internet Research (JMIR),methodology,Medical image segmentation,327,2011-2025,0.8,4.6,12.5,2.447320912647889e-10,2.398374494394931e-08,True
+Journal of Medical Internet Research (JMIR),health,cancer immunotherapy,89,2011-2025,0.0,1.4,12.2,3.0359478731468708e-06,0.0002701993607100715,True
+Journal of Medical Internet Research (JMIR),methodology,Privacy and de-identification,212,2011-2025,0.8,2.3,11.4,0.0001340856577512383,0.010995023935601542,True
+Journal of Medical Internet Research (JMIR),methodology,Missing data imputation,170,2011-2025,0.0,2.1,10.8,0.00013935341044555078,0.011287626246089612,True
+Journal of Medical Internet Research (JMIR),methodology,Big data infrastructure and interoperability,320,2011-2025,1.6,4.3,10.8,6.863014103360976e-07,6.313972975092098e-05,True
+Journal of Medical Internet Research (JMIR),health,Drug discovery,122,2011-2025,1.6,1.5,10.4,0.000817187347532767,0.06210623841249029,False
+Journal of Medical Internet Research (JMIR),methodology,Biomedical signal processing,190,2011-2025,2.4,3.0,10.1,0.00012915494220136657,0.010719860202713425,True
+Journal of Medical Internet Research (JMIR),methodology,Mass spectrometry and ROC analysis,59,2011-2025,0.0,1.2,10.0,0.07698143315256484,1.0,False
+Journal of Medical Internet Research (JMIR),health,Upper airway disorders,110,2011-2025,0.0,1.7,9.9,0.00031030987876507735,0.02451448042244111,True
+Journal of Medical Internet Research (JMIR),methodology,Named Entity Recognition,46,2011-2025,0.8,0.5,9.5,0.05291558065149224,1.0,False
+Journal of Medical Internet Research (JMIR),health,Mixed medical imaging,111,2011-2025,0.0,1.2,9.2,0.02570813918659373,1.0,False
+Journal of Medical Internet Research (JMIR),health,Genomic variant analysis,62,2011-2025,0.0,0.6,9.1,0.03603758098829526,1.0,False
+Journal of Medical Internet Research (JMIR),health,Surgical procedures,166,2011-2025,1.6,2.6,9.0,0.0005567453259814366,0.043426135426552055,True
+Journal of Medical Internet Research (JMIR),health,Myocardial infarction,87,2011-2025,0.0,1.4,8.5,0.03400986763122597,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Contrastive learning,58,2011-2025,0.0,0.8,7.9,0.16213190081497864,1.0,False
+Journal of Medical Internet Research (JMIR),health,Health policy landscape,873,2011-2025,8.1,10.9,7.5,4.5682846512326084e-05,0.003883041953547717,True
+Journal of Medical Internet Research (JMIR),methodology,Mixed clinical NLP applications,30,2011-2025,0.0,0.3,7.4,0.12778960766136827,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Statistical methods,1760,2011-2025,21.1,24.5,7.2,1.5208897527196548e-05,0.0013079651873389032,True
+Journal of Medical Internet Research (JMIR),health,Cardiovascular hemodynamics,66,2011-2025,0.0,1.0,7.0,0.026634281919633542,1.0,False
+Journal of Medical Internet Research (JMIR),health,Neurodegenerative diseases,397,2011-2025,2.4,5.6,6.9,2.2245142677493543e-08,2.091043411684393e-06,True
+Journal of Medical Internet Research (JMIR),health,Maternal and reproductive health,40,2011-2025,0.8,0.6,6.5,0.14151682081345987,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Serious games,56,2011-2025,0.0,0.7,6.4,0.22688889082814134,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Bayesian and statistical modeling,798,2011-2025,8.9,9.7,5.9,0.004060207646084098,0.27203391228763457,False
+Journal of Medical Internet Research (JMIR),health,Prognosis and risk prediction,427,2011-2025,14.6,6.4,5.8,0.15464982945653674,1.0,False
+Journal of Medical Internet Research (JMIR),health,Decision support,1018,2011-2025,14.6,11.6,5.7,0.002766269251777912,0.19363884762445382,False
+Journal of Medical Internet Research (JMIR),health,Computational cancer biology,333,2011-2025,3.3,3.7,5.5,4.3050826555699456e-06,0.0003788472736901552,True
+Journal of Medical Internet Research (JMIR),methodology,Neuroscience and cognitive psychology,98,2011-2025,1.6,1.5,5.4,0.1093758119834066,1.0,False
+Journal of Medical Internet Research (JMIR),health,Drug safety surveillance,327,2011-2025,5.7,4.1,5.3,0.01809942227159226,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Behavioral theories,133,2011-2025,0.0,1.9,5.3,0.03299272723363325,1.0,False
+Journal of Medical Internet Research (JMIR),health,Emergency Department,451,2011-2025,4.9,5.3,5.2,0.00827767135783854,0.5463263096173436,False
+Journal of Medical Internet Research (JMIR),health,Primary care delivery,1174,2011-2025,8.9,14.2,5.0,0.0006300405640279514,0.04851312343015226,True
+Journal of Medical Internet Research (JMIR),methodology,Genomics and sequence bioinformatics,224,2011-2025,0.0,2.1,4.9,0.076032011040532,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Virtual medical simulation,874,2011-2025,17.1,10.2,4.6,0.019100911475797077,1.0,False
+Journal of Medical Internet Research (JMIR),health,Gene expression regulation,74,2011-2025,0.8,0.9,4.5,0.07676654535173477,1.0,False
+Journal of Medical Internet Research (JMIR),health,Perinatal outcomes,251,2011-2025,0.0,3.0,4.4,0.0026461261176329294,0.187874954351938,False
+Journal of Medical Internet Research (JMIR),health,Infectious diseases,1709,2011-2025,15.4,13.0,4.3,0.26815431203046625,1.0,False
+Journal of Medical Internet Research (JMIR),health,Caregivers and care quality,344,2011-2025,4.9,4.1,4.3,0.04649294763030939,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Software and usability research,988,2011-2025,14.6,10.4,4.0,0.01505994878506523,0.9788966710292399,False
+Journal of Medical Internet Research (JMIR),methodology,RNA-seq data analysis,75,2011-2025,1.6,1.0,3.8,0.2265483385776006,1.0,False
+Journal of Medical Internet Research (JMIR),health,Cancer treatment modalities,49,2011-2025,0.0,0.5,3.8,0.4046283742202029,1.0,False
+Journal of Medical Internet Research (JMIR),health,Population health surveillance,703,2011-2025,5.7,6.4,3.7,0.09676485431805179,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Ecological momentary assessment,897,2011-2025,7.3,12.0,3.5,0.04890871608115314,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Mixed deep learning applications,149,2011-2025,4.9,1.5,3.5,0.32098775724374884,1.0,False
+Journal of Medical Internet Research (JMIR),health,Cancer types and screening,420,2011-2025,6.5,5.1,3.3,0.016964818182709777,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Mobile health and social media,2990,2011-2025,10.6,24.1,3.3,0.07654166008306619,1.0,False
+Journal of Medical Internet Research (JMIR),health,Cardiovascular diseases,353,2011-2025,2.4,3.9,2.8,0.04692490713806472,1.0,False
+Journal of Medical Internet Research (JMIR),health,Clinical guidelines,116,2011-2025,2.4,1.5,2.6,0.34839375833215214,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Drug discovery and evaluation,833,2011-2025,8.9,10.3,2.4,0.14133341262303104,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Clinical decision support,2745,2011-2025,39.8,30.2,2.3,0.03353099491247935,1.0,False
+Journal of Medical Internet Research (JMIR),health,Physiological signals and AI methods,481,2011-2025,12.2,6.4,2.1,0.415262795832526,1.0,False
+Journal of Medical Internet Research (JMIR),health,Neuroscience and cognition,297,2011-2025,3.3,3.3,2.1,0.1906270979917395,1.0,False
+Journal of Medical Internet Research (JMIR),health,Countries and demographics,985,2011-2025,23.6,11.0,2.0,0.4022222267685398,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Clinical study designs,1188,2011-2025,26.0,15.1,1.9,0.34958807652158796,1.0,False
+Journal of Medical Internet Research (JMIR),health,Natural products and traditional medicine,40,2011-2025,2.4,0.6,1.6,0.7963878403865549,1.0,False
+Journal of Medical Internet Research (JMIR),health,Translational and clinical research,1403,2011-2025,18.7,14.3,1.4,0.18950630335005747,1.0,False
+Journal of Medical Internet Research (JMIR),health,Protein and gene networks,162,2011-2025,4.1,1.2,1.4,0.7306650059177588,1.0,False
+Journal of Medical Internet Research (JMIR),health,Health and functional status assessment,366,2011-2025,5.7,4.2,0.9,0.6070134935069396,1.0,False
+Journal of Medical Internet Research (JMIR),health,Digital health technologies,7652,2011-2025,75.6,77.7,0.8,0.0306407601811444,1.0,False
+Journal of Medical Internet Research (JMIR),health,Determinants of health,421,2011-2025,7.3,5.0,0.7,0.7345834632824377,1.0,False
+Journal of Medical Internet Research (JMIR),health,User-centered design,90,2011-2025,0.0,0.8,0.7,0.8277559473886904,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Knowledge graphs,84,2011-2025,0.0,0.4,0.5,0.9110387466188999,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Information dissemination,1913,2011-2025,29.3,14.0,0.2,0.8752712032973892,1.0,False
+Journal of Medical Internet Research (JMIR),health,Health information seeking,1388,2011-2025,24.4,14.7,0.1,0.9146730642103711,1.0,False
+Journal of Medical Internet Research (JMIR),health,Health workforce education,427,2011-2025,12.2,4.8,-0.1,0.9671819950292889,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,eHealth and mobile applications,1474,2011-2025,17.1,9.4,-0.5,0.7776670258275366,1.0,False
+Journal of Medical Internet Research (JMIR),health,Psychiatric disorders,2524,2011-2025,42.3,26.8,-0.6,0.49579550541570916,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Qualitative research methods,822,2011-2025,20.3,10.6,-0.7,0.6940712440582495,1.0,False
+Journal of Medical Internet Research (JMIR),health,Mixed clinical conditions and demographics,987,2011-2025,21.1,10.2,-0.7,0.6395939586568866,1.0,False
+Journal of Medical Internet Research (JMIR),health,Biomedical databases,148,2011-2025,2.4,1.2,-0.7,0.8125502598624781,1.0,False
+Journal of Medical Internet Research (JMIR),health,Environmental health risks,76,2011-2025,1.6,0.8,-0.8,0.8062268218389163,1.0,False
+Journal of Medical Internet Research (JMIR),health,Diabetes mellitus,713,2011-2025,5.7,7.4,-0.8,0.5149101326360657,1.0,False
+Journal of Medical Internet Research (JMIR),health,Genetic predisposition,114,2011-2025,2.4,1.1,-0.8,0.7731073217859268,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Mixed psychological and measurement theories,39,2011-2025,0.0,0.4,-0.8,0.8634311164650568,1.0,False
+Journal of Medical Internet Research (JMIR),health,Health behavior change,1579,2011-2025,16.3,16.7,-1.2,0.3659212904904673,1.0,False
+Journal of Medical Internet Research (JMIR),health,Patient-provider communication,1599,2011-2025,43.1,18.1,-2.2,0.1661127915824101,1.0,False
+Journal of Medical Internet Research (JMIR),health,Mass screening,46,2011-2025,0.8,0.3,-4.2,0.16283443017804533,1.0,False
+Journal of Medical Internet Research (JMIR),health,Health program evaluation,320,2011-2025,4.1,3.5,-4.4,0.022052500689822438,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Data visualization methods,111,2011-2025,0.8,0.9,-5.0,0.12438918904512077,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Computer security,41,2011-2025,1.6,0.1,-6.2,0.2714233367335602,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Research ethics and patient involvement,209,2011-2025,7.3,1.6,-6.7,0.0014643346828306586,0.10836076652946874,False
+Journal of Medical Internet Research (JMIR),methodology,Open access publishing,67,2011-2025,3.3,0.6,-8.6,0.019357612620963992,1.0,False
+Journal of Medical Internet Research (JMIR),methodology,Mixed reasoning and modeling methods,42,2011-2025,3.3,0.3,-8.9,0.13951827955010832,1.0,False
+Journal of Medical Systems,methodology,Large language models,43,2011-2025,0.0,16.1,101.3,7.397637802388882e-15,5.03039370562444e-13,True
+Journal of Medical Systems,methodology,Predictive and Markov modeling,30,2011-2025,0.0,3.0,22.3,7.148233259812994e-06,0.00046463516188784463,True
+Journal of Medical Systems,methodology,Mixed automation and optimization methods,36,2011-2025,0.0,3.0,12.2,0.023506458129543214,1.0,False
+Journal of Medical Systems,methodology,Clinical monitoring and surveillance,51,2011-2025,0.0,3.0,11.9,0.021080033925716616,1.0,False
+Journal of Medical Systems,methodology,eHealth and mobile applications,82,2011-2025,0.0,1.2,11.2,0.030625104894800588,1.0,False
+Journal of Medical Systems,health,Surgical procedures,138,2011-2025,3.3,9.5,10.0,3.5861937889632416e-07,2.402749838605372e-05,True
+Journal of Medical Systems,health,Medical devices,125,2011-2025,4.6,6.0,7.6,0.013606350416505679,0.6939238712417896,False
+Journal of Medical Systems,health,Neuroscience and cognition,63,2011-2025,0.0,1.2,7.2,0.18663407608086857,1.0,False
+Journal of Medical Systems,methodology,Data visualization methods,31,2011-2025,0.7,2.4,6.2,0.12560390663174156,1.0,False
+Journal of Medical Systems,health,Computational cancer biology,168,2011-2025,1.3,5.4,5.0,0.10793618998361294,1.0,False
+Journal of Medical Systems,health,Mixed medical imaging,97,2011-2025,2.6,1.8,4.6,0.2761232775088296,1.0,False
+Journal of Medical Systems,health,Caregivers and care quality,39,2011-2025,2.6,0.6,4.3,0.32655168935648415,1.0,False
+Journal of Medical Systems,health,Health behavior change,73,2011-2025,2.6,3.0,3.9,0.3487762938790073,1.0,False
+Journal of Medical Systems,methodology,Privacy and de-identification,56,2011-2025,0.7,0.6,3.6,0.6161383438215298,1.0,False
+Journal of Medical Systems,methodology,Mixed deep learning applications,131,2011-2025,5.2,6.5,3.2,0.1630446496600556,1.0,False
+Journal of Medical Systems,health,Motor imagery,34,2011-2025,2.0,1.2,3.2,0.7010868349935779,1.0,False
+Journal of Medical Systems,methodology,Drug discovery and evaluation,96,2011-2025,3.9,3.6,3.0,0.2652914379519794,1.0,False
+Journal of Medical Systems,health,Clinical guidelines,31,2011-2025,0.7,3.0,3.0,0.4932836575074713,1.0,False
+Journal of Medical Systems,health,Cardiorespiratory monitoring,58,2011-2025,3.9,1.2,2.9,0.5084224418436714,1.0,False
+Journal of Medical Systems,methodology,Genomics and sequence bioinformatics,74,2011-2025,0.7,2.4,2.6,0.40988450292774514,1.0,False
+Journal of Medical Systems,health,Neurodegenerative diseases,89,2011-2025,3.3,4.2,2.5,0.4334159110414738,1.0,False
+Journal of Medical Systems,methodology,Knowledge graphs,35,2011-2025,0.7,1.8,2.5,0.587021616560105,1.0,False
+Journal of Medical Systems,health,Emergency Department,146,2011-2025,5.9,4.2,2.5,0.49270829156190954,1.0,False
+Journal of Medical Systems,health,Health information seeking,60,2011-2025,2.6,1.8,1.4,0.687412277387318,1.0,False
+Journal of Medical Systems,health,Population health surveillance,48,2011-2025,2.6,2.4,1.3,0.729471907060405,1.0,False
+Journal of Medical Systems,methodology,Virtual medical simulation,262,2011-2025,15.0,10.1,-0.4,0.808940119907903,1.0,False
+Journal of Medical Systems,health,Infectious diseases,225,2011-2025,7.8,7.1,-0.6,0.845936991821047,1.0,False
+Journal of Medical Systems,methodology,Machine learning methods,1097,2011-2025,43.8,57.1,-1.1,0.4416286238424456,1.0,False
+Journal of Medical Systems,methodology,Biomedical signal processing,297,2011-2025,17.0,6.5,-1.1,0.721093389995016,1.0,False
+Journal of Medical Systems,health,Psychiatric disorders,104,2011-2025,7.2,2.4,-1.2,0.6920268052524093,1.0,False
+Journal of Medical Systems,health,Decision support,238,2011-2025,7.2,10.7,-1.2,0.4401762153193024,1.0,False
+Journal of Medical Systems,methodology,Ecological momentary assessment,45,2011-2025,1.3,1.2,-1.5,0.7678399209740974,1.0,False
+Journal of Medical Systems,health,Cardiovascular diseases,89,2011-2025,3.9,3.6,-1.7,0.5120538677132078,1.0,False
+Journal of Medical Systems,methodology,Mobile health and social media,324,2011-2025,5.2,6.5,-2.1,0.3126971893497865,1.0,False
+Journal of Medical Systems,health,Protein and gene networks,110,2011-2025,10.5,1.8,-2.1,0.5905718954793207,1.0,False
+Journal of Medical Systems,health,Health workforce education,133,2011-2025,3.9,6.0,-2.2,0.3726492533858522,1.0,False
+Journal of Medical Systems,health,Health and functional status assessment,51,2011-2025,1.3,1.2,-2.2,0.6526984440362804,1.0,False
+Journal of Medical Systems,health,Myocardial infarction,45,2011-2025,2.0,1.2,-2.3,0.4510543414307323,1.0,False
+Journal of Medical Systems,health,Digital health technologies,1534,2011-2025,54.9,45.8,-2.4,0.018580919412703373,0.9104650512224652,False
+Journal of Medical Systems,methodology,Medical image segmentation,347,2011-2025,10.5,6.0,-2.6,0.31238352942219194,1.0,False
+Journal of Medical Systems,health,Physiological signals and AI methods,296,2011-2025,19.6,7.1,-2.8,0.24138795338065322,1.0,False
+Journal of Medical Systems,health,Cancer types and screening,220,2011-2025,8.5,8.3,-2.9,0.30042943430499736,1.0,False
+Journal of Medical Systems,health,Prognosis and risk prediction,174,2011-2025,10.5,7.7,-3.4,0.11884512713556837,1.0,False
+Journal of Medical Systems,health,Mixed clinical conditions and demographics,144,2011-2025,6.5,6.0,-3.7,0.1584270117859059,1.0,False
+Journal of Medical Systems,methodology,Statistical methods,390,2011-2025,28.8,11.9,-4.2,0.06056811563532534,1.0,False
+Journal of Medical Systems,health,Health policy landscape,156,2011-2025,9.2,4.8,-4.5,0.03388395590601753,1.0,False
+Journal of Medical Systems,health,Drug safety surveillance,125,2011-2025,5.9,4.8,-4.6,0.16342908697971403,1.0,False
+Journal of Medical Systems,methodology,Clinical decision support,869,2011-2025,41.8,31.0,-5.0,0.00015860392720595925,0.009516235632357555,True
+Journal of Medical Systems,methodology,Big data infrastructure and interoperability,167,2011-2025,5.9,3.6,-5.0,0.02473989718907652,1.0,False
+Journal of Medical Systems,health,Cardiovascular hemodynamics,51,2011-2025,3.9,1.8,-5.2,0.17375765516933595,1.0,False
+Journal of Medical Systems,methodology,Software and usability research,367,2011-2025,17.6,6.0,-5.7,5.131720266343187e-05,0.003181666565132776,True
+Journal of Medical Systems,methodology,Mass spectrometry and ROC analysis,53,2011-2025,3.9,0.6,-5.7,0.18289198919132865,1.0,False
+Journal of Medical Systems,health,Patient-provider communication,268,2011-2025,12.4,10.1,-6.1,0.03854577130279889,1.0,False
+Journal of Medical Systems,methodology,Clinical study designs,141,2011-2025,11.8,4.2,-6.9,0.016997943580453964,0.8498971790226982,False
+Journal of Medical Systems,health,Diabetes mellitus,102,2011-2025,5.2,3.0,-7.2,0.0007687577133592982,0.04381918966148,True
+Journal of Medical Systems,methodology,Information dissemination,298,2011-2025,14.4,6.5,-7.5,3.350476730575365e-05,0.0021108003402624796,True
+Journal of Medical Systems,methodology,Bayesian and statistical modeling,129,2011-2025,11.8,1.8,-7.7,0.008070778659438489,0.4196804902908014,False
+Journal of Medical Systems,health,Signs and symptoms,61,2011-2025,2.6,1.8,-7.8,0.03099048431050673,1.0,False
+Journal of Medical Systems,health,Cardiac arrhythmias,100,2011-2025,9.8,3.6,-7.9,0.007254663961283677,0.3844971899480349,False
+Journal of Medical Systems,health,Primary care delivery,221,2011-2025,15.7,7.7,-8.5,0.001253896081354958,0.06896428447452269,False
+Journal of Medical Systems,health,Bayesian health modeling,46,2011-2025,3.9,0.0,-8.7,0.05260251999430488,1.0,False
+Journal of Medical Systems,health,Translational and clinical research,226,2011-2025,16.3,5.4,-10.6,6.599905286607566e-05,0.004025942224830615,True
+Journal of Medical Systems,health,Biomedical databases,60,2011-2025,9.2,0.6,-17.0,0.00022105814635048018,0.013042430634678331,True
+Journal of Medical Systems,health,Countries and demographics,133,2011-2025,9.8,2.4,-17.7,0.0002378812203269792,0.013797110778964793,True
+Journal of Medical Systems,health,Genetic predisposition,58,2011-2025,4.6,0.0,-21.0,6.148414567745834e-07,4.0579536147122506e-05,True
+Journal of Medical Systems,methodology,Computer security,205,2011-2025,5.9,0.6,-21.9,0.0016177376773879465,0.0873578345789491,False
+Journal of Medical Systems,methodology,Qualitative research methods,54,2011-2025,2.6,0.0,-25.5,0.0009698411404838748,0.05431110386709699,False
+Journal of Medical Systems,methodology,Mixed reasoning and modeling methods,94,2011-2025,4.6,1.2,-27.2,1.4001356403131397e-05,0.0008960868098004094,True
+Journal of the American Medical Informatics Association (JAMIA),methodology,Large language models,99,2011-2025,0.0,17.8,125.9,4.3907181672697194e-08,3.0295955354161064e-06,True
+Journal of the American Medical Informatics Association (JAMIA),health,Determinants of health,122,2011-2025,2.0,8.4,16.6,0.00019062545513180715,0.011437527307908429,True
+Journal of the American Medical Informatics Association (JAMIA),methodology,Data visualization methods,73,2011-2025,0.0,2.0,12.4,0.022530062230424055,0.8779822392015849,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Missing data imputation,46,2011-2025,0.0,2.0,12.0,0.004261254638128167,0.20370847643045886,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Data governance and standards,38,2011-2025,0.0,1.0,11.7,0.01958008134782904,0.7832032539131616,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Predictive and Markov modeling,66,2011-2025,0.0,3.5,11.0,0.0030322481626210104,0.1516124081310505,False
+Journal of the American Medical Informatics Association (JAMIA),health,Mixed medical imaging,47,2011-2025,0.0,2.5,10.2,0.027625728422978942,0.9675069564797113,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Privacy and de-identification,94,2011-2025,0.0,5.4,8.0,0.022512365107732947,0.8779822392015849,False
+Journal of the American Medical Informatics Association (JAMIA),health,Population health surveillance,154,2011-2025,3.9,5.0,4.3,0.031006791484046954,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Mixed health informatics safety topics,46,2011-2025,0.7,2.5,4.0,0.39712309333282214,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Psychiatric disorders,198,2011-2025,3.9,5.4,3.9,0.11941033412427919,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Health information seeking,123,2011-2025,5.9,4.0,2.6,0.2540509634651211,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Machine learning methods,1126,2011-2025,34.6,46.5,2.4,0.13586097652900572,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Named Entity Recognition,107,2011-2025,1.3,3.0,2.0,0.5185308218477728,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Health behavior change,54,2011-2025,2.6,1.5,1.9,0.43211952059821956,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Biomedical signal processing,34,2011-2025,1.3,2.5,1.6,0.7003394527654058,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Medical image segmentation,74,2011-2025,1.3,4.5,1.3,0.6771277062509529,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Cardiovascular diseases,60,2011-2025,0.7,2.5,0.8,0.8517052590289986,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,eHealth and mobile applications,88,2011-2025,1.3,1.5,0.7,0.8419316809878736,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Perinatal outcomes,42,2011-2025,1.3,1.5,0.7,0.8623313720902657,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Prognosis and risk prediction,175,2011-2025,10.5,6.9,0.5,0.8428242574964222,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Emergency Department,168,2011-2025,6.5,3.0,-0.5,0.8361542396994136,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Health workforce education,154,2011-2025,7.2,2.5,-0.9,0.7349698156683981,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Clinical monitoring and surveillance,98,2011-2025,2.0,1.0,-1.2,0.7028828697292103,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Infectious diseases,451,2011-2025,20.3,7.4,-1.3,0.5619829948612914,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Mixed clinical conditions and demographics,193,2011-2025,9.2,6.4,-1.4,0.4167662336700817,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Research ethics and patient involvement,38,2011-2025,0.0,1.0,-1.5,0.7524448002013284,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Mixed deep learning applications,121,2011-2025,3.9,6.4,-1.7,0.6986485087901424,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Digital health technologies,2301,2011-2025,86.3,62.9,-1.8,3.2264654880811374e-06,0.00020972025672527392,True
+Journal of the American Medical Informatics Association (JAMIA),health,Physiological signals and AI methods,59,2011-2025,2.0,1.5,-1.8,0.6184113804311329,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Neurodegenerative diseases,37,2011-2025,0.7,0.5,-1.9,0.6030267660351352,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Mobile health and social media,256,2011-2025,4.6,5.0,-2.2,0.3134337045480542,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Clinical decision support,1294,2011-2025,60.1,31.2,-2.9,0.0003981134092104549,0.022692464324995932,True
+Journal of the American Medical Informatics Association (JAMIA),methodology,Clinical study designs,369,2011-2025,18.3,10.4,-3.1,0.08234543203612597,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Qualitative research methods,107,2011-2025,7.2,1.5,-3.3,0.27273318801681157,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Information dissemination,410,2011-2025,22.2,10.9,-3.4,0.010443689216848111,0.4595223255413169,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Big data infrastructure and interoperability,182,2011-2025,8.5,4.5,-3.6,0.04616387713071931,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Translational and clinical research,306,2011-2025,13.1,8.4,-3.8,0.09014723584111234,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Software and usability research,328,2011-2025,17.6,5.9,-3.9,0.014114502991041226,0.6069236286147727,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Statistical methods,479,2011-2025,26.8,12.4,-4.0,0.001759114370361415,0.09675129036987783,False
+Journal of the American Medical Informatics Association (JAMIA),health,Decision support,414,2011-2025,28.8,11.9,-4.9,0.0036431272860787613,0.17851323701785932,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Genomics and sequence bioinformatics,143,2011-2025,4.6,3.0,-5.0,0.09258514765522986,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Caregivers and care quality,72,2011-2025,2.0,2.0,-5.1,0.14244065756442775,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Neuroscience and cognition,31,2011-2025,1.3,1.0,-5.4,0.02813364976952257,0.9675069564797113,False
+Journal of the American Medical Informatics Association (JAMIA),health,Diabetes mellitus,119,2011-2025,3.3,0.5,-5.5,0.0743337995130752,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Patient-provider communication,489,2011-2025,29.4,14.9,-5.8,7.280206602191519e-05,0.004440926027336827,True
+Journal of the American Medical Informatics Association (JAMIA),health,Surgical procedures,54,2011-2025,3.9,3.5,-5.9,0.3160956039698052,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,Computational cancer biology,144,2011-2025,5.2,2.0,-5.9,0.01762159863747515,0.7401071427739564,False
+Journal of the American Medical Informatics Association (JAMIA),health,Health policy landscape,210,2011-2025,9.2,4.0,-6.5,0.00543076602630587,0.24981523721007,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Bayesian and statistical modeling,225,2011-2025,13.1,5.4,-6.5,0.026875193235547535,0.9675069564797113,False
+Journal of the American Medical Informatics Association (JAMIA),health,Primary care delivery,326,2011-2025,22.2,5.9,-7.6,9.346867613828568e-07,6.262401301265141e-05,True
+Journal of the American Medical Informatics Association (JAMIA),health,Genetic predisposition,90,2011-2025,1.3,1.5,-7.7,0.018627575670272175,0.7637306024811592,False
+Journal of the American Medical Informatics Association (JAMIA),health,Genomic variant analysis,76,2011-2025,2.6,1.0,-7.8,0.025504940487207587,0.9436827980266808,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Mass spectrometry and ROC analysis,44,2011-2025,0.7,0.5,-7.9,0.10451518865319546,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Drug discovery and evaluation,174,2011-2025,12.4,3.5,-8.3,8.745211441159462e-06,0.0005596935322342056,True
+Journal of the American Medical Informatics Association (JAMIA),methodology,Knowledge graphs,82,2011-2025,5.9,2.0,-8.4,0.0023072170350600103,0.11997528582312053,False
+Journal of the American Medical Informatics Association (JAMIA),health,Drug safety surveillance,279,2011-2025,16.3,2.5,-9.4,1.3928894413120657e-07,9.471648200922047e-06,True
+Journal of the American Medical Informatics Association (JAMIA),health,Protein and gene networks,93,2011-2025,2.6,2.0,-9.4,0.002141569562544009,0.11564475637737649,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Virtual medical simulation,165,2011-2025,11.1,4.0,-9.5,0.00020471022083504582,0.012077903029267704,True
+Journal of the American Medical Informatics Association (JAMIA),health,Gene expression regulation,40,2011-2025,1.3,0.5,-10.1,0.0022043620653358627,0.11683118946280072,False
+Journal of the American Medical Informatics Association (JAMIA),health,Clinical guidelines,53,2011-2025,3.9,1.0,-10.6,0.00040460402077879896,0.022692464324995932,True
+Journal of the American Medical Informatics Association (JAMIA),health,Health program evaluation,82,2011-2025,7.2,0.5,-10.9,0.00029919521073004245,0.01735332222234246,True
+Journal of the American Medical Informatics Association (JAMIA),methodology,Ecological momentary assessment,56,2011-2025,4.6,0.5,-11.0,0.006763639651704667,0.30436378432671,False
+Journal of the American Medical Informatics Association (JAMIA),methodology,Mixed reasoning and modeling methods,37,2011-2025,3.3,1.5,-11.1,0.06506655473387997,1.0,False
+Journal of the American Medical Informatics Association (JAMIA),health,User-centered design,85,2011-2025,5.9,1.0,-11.1,1.0233459352294378e-11,7.265756140129008e-10,True
+Journal of the American Medical Informatics Association (JAMIA),health,Cancer types and screening,115,2011-2025,6.5,2.0,-12.2,5.320162789814553e-05,0.0032985009296850228,True
+Journal of the American Medical Informatics Association (JAMIA),health,Drug discovery,31,2011-2025,1.3,0.0,-13.7,0.0026568439658914557,0.13549904226046425,False
+Journal of the American Medical Informatics Association (JAMIA),health,Biomedical databases,69,2011-2025,2.6,0.5,-13.8,4.3176770886972764e-08,3.0223739620880934e-06,True
+Journal of the American Medical Informatics Association (JAMIA),methodology,Open access publishing,31,2011-2025,3.9,0.5,-14.8,9.764671970313538e-06,0.0006151743341297529,True
+Journal of the American Medical Informatics Association (JAMIA),methodology,Computer security,36,2011-2025,3.3,1.0,-15.5,0.004243926592301227,0.20370847643045886,False
+Journal of the American Medical Informatics Association (JAMIA),health,Countries and demographics,262,2011-2025,34.0,1.0,-18.8,2.1975105437311812e-06,0.00014503569588625797,True
+Methods of Information in Medicine,health,Infectious diseases,68,2011-2025,11.3,0.0,11.3,0.002880130709895462,0.0835237905869684,False
+Methods of Information in Medicine,methodology,Knowledge graphs,30,2011-2025,5.7,16.7,7.5,0.07302741329242121,1.0,False
+Methods of Information in Medicine,health,Drug safety surveillance,31,2011-2025,5.7,33.3,6.0,0.2738968040879389,1.0,False
+Methods of Information in Medicine,methodology,Machine learning methods,218,2011-2025,30.2,50.0,3.1,0.2682541412354743,1.0,False
+Methods of Information in Medicine,health,Cancer types and screening,39,2011-2025,3.8,16.7,3.1,0.5468625534016005,1.0,False
+Methods of Information in Medicine,methodology,Clinical study designs,114,2011-2025,28.3,33.3,2.4,0.39744228329899356,1.0,False
+Methods of Information in Medicine,health,Health behavior change,33,2011-2025,1.9,0.0,1.3,0.882047473054704,1.0,False
+Methods of Information in Medicine,methodology,Qualitative research methods,37,2011-2025,15.1,0.0,-1.1,0.8872562989044888,1.0,False
+Methods of Information in Medicine,health,Mixed clinical conditions and demographics,56,2011-2025,7.5,16.7,-1.4,0.6451411330228931,1.0,False
+Methods of Information in Medicine,health,Patient-provider communication,96,2011-2025,20.8,16.7,-1.7,0.6360654849282863,1.0,False
+Methods of Information in Medicine,health,Prognosis and risk prediction,58,2011-2025,13.2,16.7,-1.7,0.7410693006898419,1.0,False
+Methods of Information in Medicine,health,Emergency Department,37,2011-2025,11.3,0.0,-1.7,0.7544970078331622,1.0,False
+Methods of Information in Medicine,health,Translational and clinical research,60,2011-2025,11.3,0.0,-2.7,0.5461960281475495,1.0,False
+Methods of Information in Medicine,health,Digital health technologies,356,2011-2025,83.0,33.3,-3.3,0.014984229515341783,0.37460573788354457,False
+Methods of Information in Medicine,methodology,Information dissemination,96,2011-2025,17.0,0.0,-3.9,0.2677990017843963,1.0,False
+Methods of Information in Medicine,methodology,Software and usability research,96,2011-2025,28.3,16.7,-5.1,0.15411451472252843,1.0,False
+Methods of Information in Medicine,health,Decision support,69,2011-2025,22.6,0.0,-5.1,0.08594403628610364,1.0,False
+Methods of Information in Medicine,methodology,Mobile health and social media,36,2011-2025,7.5,0.0,-5.5,0.3406533848737202,1.0,False
+Methods of Information in Medicine,health,Physiological signals and AI methods,56,2011-2025,9.4,0.0,-5.5,0.20303611601293947,1.0,False
+Methods of Information in Medicine,health,Countries and demographics,67,2011-2025,13.2,16.7,-6.3,0.3118602406225812,1.0,False
+Methods of Information in Medicine,methodology,Clinical decision support,256,2011-2025,60.4,33.3,-7.2,6.856123300409877e-07,2.1939594561311607e-05,True
+Methods of Information in Medicine,methodology,Statistical methods,153,2011-2025,24.5,33.3,-8.3,0.0020230970706703673,0.06069291212011102,False
+Methods of Information in Medicine,methodology,Big data infrastructure and interoperability,47,2011-2025,9.4,0.0,-8.3,0.08966012123434391,1.0,False
+Methods of Information in Medicine,health,Primary care delivery,42,2011-2025,15.1,16.7,-8.5,0.12546537971440924,1.0,False
+Methods of Information in Medicine,methodology,Bayesian and statistical modeling,80,2011-2025,9.4,0.0,-9.9,0.009589384821775437,0.24932400536616137,False
+Methods of Information in Medicine,methodology,Virtual medical simulation,70,2011-2025,18.9,0.0,-10.2,0.0012814966956749582,0.03972639756592371,True
+Methods of Information in Medicine,methodology,Biomedical signal processing,45,2011-2025,7.5,16.7,-10.3,0.040973783685547584,0.9014232410820469,False
+Methods of Information in Medicine,health,Protein and gene networks,34,2011-2025,20.8,0.0,-10.6,0.22021069370971746,1.0,False
+Methods of Information in Medicine,methodology,Mixed deep learning applications,30,2011-2025,5.7,0.0,-10.9,0.004867946408639602,0.13630249944190886,False
+Methods of Information in Medicine,methodology,Medical image segmentation,38,2011-2025,1.9,0.0,-14.1,0.02888217248624708,0.6931721396699299,False
+Methods of Information in Medicine,methodology,Genomics and sequence bioinformatics,30,2011-2025,9.4,0.0,-15.5,0.03151013005663163,0.7247329913025274,False
+Methods of Information in Medicine,health,Computational cancer biology,34,2011-2025,9.4,0.0,-15.7,0.009100306422193647,0.24570827339922846,False
+Nature Medicine,health,Health policy landscape,129,2011-2025,0.0,6.2,24.1,7.37529250559163e-05,0.002507599451901154,True
+Nature Medicine,health,Prognosis and risk prediction,156,2011-2025,0.0,10.3,22.2,5.238001904312535e-24,2.1475807807681394e-22,True
+Nature Medicine,health,Population health surveillance,256,2011-2025,1.6,12.7,21.1,1.0058459340020275e-06,3.721629955807502e-05,True
+Nature Medicine,methodology,Bayesian and statistical modeling,146,2011-2025,1.0,7.3,20.3,0.0006978976699354031,0.021634827767997498,True
+Nature Medicine,methodology,Machine learning methods,135,2011-2025,1.0,6.2,16.8,1.0246096032303696e-06,3.721629955807502e-05,True
+Nature Medicine,methodology,Neuroscience and cognitive psychology,40,2011-2025,0.0,2.4,13.9,0.005191896719021141,0.14537310813259194,False
+Nature Medicine,health,Emergency Department,34,2011-2025,0.5,1.1,9.9,0.008934092149262534,0.22335230373156334,False
+Nature Medicine,health,Translational and clinical research,394,2011-2025,4.2,14.9,9.8,6.316772815146902e-08,2.4003736697558228e-06,True
+Nature Medicine,health,Digital health technologies,403,2011-2025,7.3,19.2,8.2,0.008433810293990035,0.21927906764374092,False
+Nature Medicine,methodology,Virtual medical simulation,37,2011-2025,0.5,1.9,5.8,0.1844295596641532,1.0,False
+Nature Medicine,methodology,Drug discovery and evaluation,298,2011-2025,6.8,10.5,5.3,0.00042063287152814663,0.013460251888900692,True
+Nature Medicine,health,Cancer types and screening,645,2011-2025,18.3,24.6,5.0,0.0002461730171236829,0.008123709565081537,True
+Nature Medicine,methodology,Genomics and sequence bioinformatics,277,2011-2025,4.7,5.4,3.2,0.3459119215380547,1.0,False
+Nature Medicine,health,cancer immunotherapy,342,2011-2025,10.5,10.5,2.5,0.2620355032576315,1.0,False
+Nature Medicine,health,Cardiovascular diseases,119,2011-2025,5.2,3.5,0.4,0.8583528133254489,1.0,False
+Nature Medicine,health,Determinants of health,155,2011-2025,7.3,6.2,0.3,0.9089577274897365,1.0,False
+Nature Medicine,health,Neuroscience and cognition,164,2011-2025,2.1,2.2,-0.0,0.9984889947804164,1.0,False
+Nature Medicine,health,Neurodegenerative diseases,381,2011-2025,13.1,12.7,-0.7,0.5518349781910856,1.0,False
+Nature Medicine,health,Infectious diseases,1017,2011-2025,30.9,21.9,-1.0,0.5155181535030519,1.0,False
+Nature Medicine,methodology,Clinical decision support,42,2011-2025,2.1,0.8,-1.6,0.6053043656448925,1.0,False
+Nature Medicine,health,Mixed clinical conditions and demographics,200,2011-2025,7.3,5.7,-2.3,0.14410451632357968,1.0,False
+Nature Medicine,health,Diabetes mellitus,314,2011-2025,8.4,8.1,-2.4,0.47051438139735646,1.0,False
+Nature Medicine,health,Genomic variant analysis,325,2011-2025,10.5,4.9,-2.5,0.4074279300709409,1.0,False
+Nature Medicine,health,Cardiac arrhythmias,34,2011-2025,1.6,1.1,-2.5,0.5403677546948219,1.0,False
+Nature Medicine,health,Cancer treatment modalities,113,2011-2025,4.7,3.2,-3.4,0.18977049217345676,1.0,False
+Nature Medicine,health,Psychiatric disorders,56,2011-2025,2.6,1.1,-3.6,0.18591255184997713,1.0,False
+Nature Medicine,health,Primary care delivery,74,2011-2025,2.6,1.9,-3.6,0.25038509272222376,1.0,False
+Nature Medicine,methodology,Biomedical signal processing,49,2011-2025,4.2,1.1,-4.2,0.34921581766830545,1.0,False
+Nature Medicine,health,Genetic predisposition,163,2011-2025,10.5,3.2,-4.7,0.03682267309017407,0.7732761348936554,False
+Nature Medicine,health,Drug discovery,219,2011-2025,7.9,4.1,-4.7,0.0026973020021721365,0.07985405961504485,False
+Nature Medicine,health,Computational cancer biology,957,2011-2025,33.0,14.1,-5.0,0.013229867964593167,0.30428696318564286,False
+Nature Medicine,health,Medical specialties,117,2011-2025,3.1,0.5,-5.2,0.5120352943779771,1.0,False
+Nature Medicine,health,Tumor immunology and microenvironment,105,2011-2025,4.2,1.9,-5.5,0.01665286434162951,0.3663630155158492,False
+Nature Medicine,health,Upper airway disorders,30,2011-2025,1.6,0.5,-5.7,0.2782677085066878,1.0,False
+Nature Medicine,health,Older people,61,2011-2025,2.1,0.5,-9.6,0.05040074311640801,1.0,False
+Nature Medicine,methodology,Medical image segmentation,57,2011-2025,4.7,1.4,-9.9,0.011720846520140037,0.2813003164833609,False
+Nature Medicine,health,Drug safety surveillance,42,2011-2025,6.3,0.8,-14.4,0.00534553889588356,0.14537310813259194,False
+Nature Medicine,health,Gene expression regulation,232,2011-2025,20.9,1.9,-17.8,2.5722384151335804e-21,1.0288953660534322e-19,True
+Nature Medicine,health,Metabolic networks,57,2011-2025,4.7,0.3,-21.5,9.10866763827842e-13,3.552380378928584e-11,True
+Nature Medicine,health,Physiological signals and AI methods,31,2011-2025,1.0,0.0,-24.0,0.0026618019871681615,0.07985405961504485,False
+Nature Medicine,health,Cell signaling and oncogenic pathways,50,2011-2025,5.2,0.0,-28.4,7.920764812059016e-06,0.00027722676842206555,True
+Nature Methods,methodology,Virtual medical simulation,133,2011-2025,0.7,9.0,13.0,2.414388406306663e-07,7.001726378289324e-06,True
+Nature Methods,methodology,Software and usability research,432,2011-2025,0.7,28.3,11.2,1.7345153180800143e-12,5.550449017856046e-11,True
+Nature Methods,methodology,Machine learning methods,544,2011-2025,12.0,39.9,8.4,1.6842368695561578e-10,5.221134295624089e-09,True
+Nature Methods,methodology,Drug discovery and evaluation,32,2011-2025,0.7,2.2,3.6,0.4692936216816138,1.0,False
+Nature Methods,health,Post-translational modifications,51,2011-2025,1.3,2.2,3.2,0.38934383021094265,1.0,False
+Nature Methods,health,Biomedical databases,30,2011-2025,1.3,1.3,3.1,0.19135083826743982,1.0,False
+Nature Methods,methodology,Statistical methods,155,2011-2025,3.3,5.8,2.9,0.21770746371074923,1.0,False
+Nature Methods,methodology,Bayesian and statistical modeling,30,2011-2025,0.7,2.2,2.4,0.5327937279668398,1.0,False
+Nature Methods,health,Genomic variant analysis,608,2011-2025,17.3,25.1,1.6,0.1458591425423993,1.0,False
+Nature Methods,methodology,Medical image segmentation,577,2011-2025,19.3,26.0,1.2,0.1514323760544149,1.0,False
+Nature Methods,health,Neurodegenerative diseases,73,2011-2025,3.3,1.8,0.5,0.8418184210629911,1.0,False
+Nature Methods,health,Infectious diseases,115,2011-2025,5.3,2.2,0.0,0.9986169122427262,1.0,False
+Nature Methods,methodology,Neuroscience and cognitive psychology,153,2011-2025,8.7,4.9,-0.2,0.9154454012026072,1.0,False
+Nature Methods,health,Computational cancer biology,1155,2011-2025,44.7,45.7,-0.6,0.2571556906129048,1.0,False
+Nature Methods,health,Neuroscience and cognition,63,2011-2025,0.7,1.3,-0.7,0.8651821289061107,1.0,False
+Nature Methods,methodology,Biomedical signal processing,64,2011-2025,3.3,3.6,-0.9,0.7329259813600384,1.0,False
+Nature Methods,methodology,Biological modeling,100,2011-2025,2.7,3.6,-1.1,0.6169739479257181,1.0,False
+Nature Methods,health,Protein and gene networks,231,2011-2025,5.3,7.2,-1.1,0.5692861779429192,1.0,False
+Nature Methods,methodology,Cryo-electron microscopy,256,2011-2025,12.7,6.7,-2.1,0.25606562793233834,1.0,False
+Nature Methods,methodology,Genomics and sequence bioinformatics,879,2011-2025,41.3,30.5,-2.2,0.004744078927120283,0.1138578942508868,False
+Nature Methods,methodology,Mass spectrometry and ROC analysis,162,2011-2025,8.0,4.9,-3.4,0.0006096512586317343,0.01585093272442509,True
+Nature Methods,methodology,Mobile health and social media,31,2011-2025,0.0,0.9,-3.4,0.4958386966954774,1.0,False
+Nature Methods,health,Physiological signals and AI methods,39,2011-2025,2.0,0.4,-3.8,0.32256609018342564,1.0,False
+Nature Methods,methodology,High-throughput screening,106,2011-2025,5.3,5.8,-3.9,0.1019803931814111,1.0,False
+Nature Methods,methodology,eHealth and mobile applications,45,2011-2025,1.3,1.3,-4.8,0.3109006787731363,1.0,False
+Nature Methods,health,Amino acid sequence,44,2011-2025,3.3,0.9,-5.3,0.028190244037594847,0.5919951247894918,False
+Nature Methods,health,Gene expression regulation,507,2011-2025,24.0,10.8,-5.7,4.1797792499346956e-06,0.00011703381899817148,True
+Nature Methods,health,Drug discovery,223,2011-2025,20.7,6.7,-5.9,0.0035107789010578624,0.08776947252644655,False
+Nature Methods,health,Genetic predisposition,79,2011-2025,4.0,1.3,-7.7,0.005298112934110565,0.12185659748454299,False
+Nature Methods,methodology,RNA-seq data analysis,53,2011-2025,3.3,0.9,-9.3,0.0004089339763883239,0.011041217362484746,True
+Nature Methods,methodology,Mixed automation and optimization methods,44,2011-2025,7.3,1.3,-9.5,0.010481112896069412,0.23058448371352708,False
+Nature Methods,methodology,Gene editing,63,2011-2025,6.0,0.9,-14.5,1.4219900153467424e-07,4.265970046040228e-06,True
+The Lancet Digital Health,methodology,Machine learning methods,243,2019-2025,39.3,60.6,2.2,0.48684910265143355,1.0,False
+The Lancet Digital Health,health,Infectious diseases,132,2019-2025,10.7,28.2,-1.3,0.8173926038970245,1.0,False
+The Lancet Digital Health,health,Countries and demographics,135,2019-2025,25.0,25.4,-2.0,0.7750320099386265,1.0,False
+The Lancet Digital Health,health,Patient-provider communication,39,2019-2025,7.1,8.5,-2.9,0.6721988366305958,1.0,False
+The Lancet Digital Health,health,Diabetes mellitus,30,2019-2025,17.9,5.6,-2.9,0.8056829819191589,1.0,False
+The Lancet Digital Health,health,Digital health technologies,231,2019-2025,57.1,46.5,-5.1,0.047056684115445835,0.7529069458471334,False
+The Lancet Digital Health,methodology,Bayesian and statistical modeling,90,2019-2025,21.4,15.5,-5.1,0.11571736669274502,1.0,False
+The Lancet Digital Health,health,Primary care delivery,38,2019-2025,7.1,11.3,-5.6,0.5590285538115286,1.0,False
+The Lancet Digital Health,methodology,Clinical study designs,198,2019-2025,42.9,33.8,-5.9,0.057265865094362114,0.8017221113210696,False
+The Lancet Digital Health,health,Cancer types and screening,101,2019-2025,25.0,19.7,-5.9,0.0006237422929061366,0.011227361272310459,True
+The Lancet Digital Health,health,Emergency Department,32,2019-2025,3.6,4.2,-6.2,0.42475141397566396,1.0,False
+The Lancet Digital Health,health,Psychiatric disorders,39,2019-2025,10.7,8.5,-6.5,0.13755286571477762,1.0,False
+The Lancet Digital Health,health,Cardiovascular diseases,37,2019-2025,14.3,5.6,-7.0,0.26239038841708073,1.0,False
+The Lancet Digital Health,health,Translational and clinical research,45,2019-2025,14.3,8.5,-7.9,0.2959794715474091,1.0,False
+The Lancet Digital Health,methodology,Clinical decision support,75,2019-2025,3.6,16.9,-12.1,0.40922078873994294,1.0,False
+The Lancet Digital Health,health,Prognosis and risk prediction,37,2019-2025,7.1,7.0,-17.6,0.08099405113543269,1.0,False
+The Lancet Digital Health,methodology,Virtual medical simulation,35,2019-2025,14.3,5.6,-18.6,0.0030543281730971766,0.051923578942652,False
+The Lancet Digital Health,methodology,Statistical methods,72,2019-2025,21.4,11.3,-24.4,0.05138213428926489,0.7707320143389734,False
+The Lancet Digital Health,methodology,Medical image segmentation,45,2019-2025,17.9,5.6,-31.5,0.00013396551127596373,0.002545344714243311,True
+npj Digital Medicine,health,Determinants of health,117,2018-2025,1.4,9.5,54.9,1.6784543707604567e-07,5.538899423509507e-06,True
+npj Digital Medicine,methodology,Virtual medical simulation,92,2018-2025,0.0,7.3,46.2,0.000290013175300486,0.008120368908413608,True
+npj Digital Medicine,methodology,Neuroscience and cognitive psychology,73,2018-2025,0.0,5.9,39.6,0.0025615843653957067,0.06916277786568409,False
+npj Digital Medicine,health,Neuroscience and cognition,73,2018-2025,1.4,5.4,31.6,1.218274506284372e-06,3.89847842010999e-05,True
+npj Digital Medicine,methodology,Clinical decision support,41,2018-2025,4.2,3.3,21.5,0.28785657166249745,1.0,False
+npj Digital Medicine,methodology,Medical image segmentation,102,2018-2025,2.8,6.7,17.9,0.014783847442782104,0.31046079629842416,False
+npj Digital Medicine,methodology,Genomics and sequence bioinformatics,246,2018-2025,5.6,17.1,17.4,0.010458578617716919,0.2510058868252061,False
+npj Digital Medicine,health,Drug discovery,48,2018-2025,1.4,3.6,17.4,0.11721235515960934,1.0,False
+npj Digital Medicine,health,Infectious diseases,392,2018-2025,11.3,24.9,12.9,0.00499619786896376,0.12990114459305777,False
+npj Digital Medicine,methodology,Information dissemination,66,2018-2025,5.6,4.5,10.4,0.3068737207747785,1.0,False
+npj Digital Medicine,methodology,Research ethics and patient involvement,57,2018-2025,1.4,2.7,8.8,0.13128653841743537,1.0,False
+npj Digital Medicine,methodology,Machine learning methods,460,2018-2025,8.5,27.7,8.5,0.08627896249597865,1.0,False
+npj Digital Medicine,health,Computational cancer biology,365,2018-2025,8.5,20.0,7.7,0.012668407596720053,0.27870496712784115,False
+npj Digital Medicine,methodology,Drug discovery and evaluation,64,2018-2025,1.4,3.2,7.3,0.010469145988164685,0.2510058868252061,False
+npj Digital Medicine,health,Medical specialties,35,2018-2025,2.8,2.1,5.5,0.5285375930392415,1.0,False
+npj Digital Medicine,health,Health policy landscape,691,2018-2025,23.9,36.6,5.5,5.767359047182547e-06,0.0001730207714154764,True
+npj Digital Medicine,health,Mixed clinical conditions and demographics,80,2018-2025,4.2,3.7,1.8,0.6781587912784424,1.0,False
+npj Digital Medicine,methodology,Bayesian and statistical modeling,95,2018-2025,2.8,3.8,1.7,0.7276079883436342,1.0,False
+npj Digital Medicine,health,Cancer types and screening,184,2018-2025,8.5,8.9,1.5,0.442050311799971,1.0,False
+npj Digital Medicine,health,Neurodegenerative diseases,145,2018-2025,8.5,6.1,-0.5,0.9170630316811014,1.0,False
+npj Digital Medicine,health,Mixed medical imaging,35,2018-2025,1.4,2.1,-1.3,0.8872372195517884,1.0,False
+npj Digital Medicine,health,Digital health technologies,497,2018-2025,29.6,23.6,-1.9,0.36782073252611047,1.0,False
+npj Digital Medicine,health,Patient-provider communication,36,2018-2025,1.4,1.2,-2.5,0.7645979296075045,1.0,False
+npj Digital Medicine,health,Cardiovascular diseases,87,2018-2025,5.6,4.2,-2.6,0.6508997337613536,1.0,False
+npj Digital Medicine,methodology,Software and usability research,45,2018-2025,1.4,2.0,-2.6,0.47462168234879765,1.0,False
+npj Digital Medicine,health,Diabetes mellitus,71,2018-2025,4.2,2.4,-3.7,0.5819657559687393,1.0,False
+npj Digital Medicine,health,Signs and symptoms,64,2018-2025,5.6,3.1,-4.3,0.4633012251886425,1.0,False
+npj Digital Medicine,methodology,Biomedical signal processing,117,2018-2025,4.2,4.3,-5.6,0.042415085254601206,0.8058866198374229,False
+npj Digital Medicine,health,Prognosis and risk prediction,168,2018-2025,9.9,5.8,-7.2,0.027309879166843454,0.5461975833368691,False
+npj Digital Medicine,health,Translational and clinical research,346,2018-2025,23.9,13.5,-7.6,0.00016890913497352828,0.00489836491423232,True
+npj Digital Medicine,methodology,Big data infrastructure and interoperability,57,2018-2025,5.6,2.7,-7.8,0.07083062028655168,1.0,False
+npj Digital Medicine,health,Psychiatric disorders,69,2018-2025,7.0,2.4,-10.3,0.00657087819355898,0.1642719548389745,False
+npj Digital Medicine,health,Population health surveillance,332,2018-2025,25.4,11.9,-10.6,1.5529844692467137e-06,4.8142518546648126e-05,True

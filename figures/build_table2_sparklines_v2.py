@@ -138,7 +138,7 @@ def main():
     # Title + subtitle (in figure coords above body axes)
     fig.text(
         0.5, 1.0 - 0.30 * (title_band / fig_h),
-        "Supplementary Table 2. Top 10 co-occurring methodology × health topic pairs (K=100)",
+        "Top 10 co-occurring methodology × health topic pairs (K=100)",
         fontsize=14, fontweight="bold", ha="center", va="center",
     )
     fig.text(

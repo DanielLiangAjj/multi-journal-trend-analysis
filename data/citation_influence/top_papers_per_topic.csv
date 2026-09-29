@@ -1,0 +1,121 @@
+domain,topic,pmid,year,journal,title,rcr,citations
+methodology,Machine learning methods,29750242,2018,Bioinformatics,Minimap2: pairwise alignment for nucleotide sequences.,452.8,10802
+methodology,Machine learning methods,36812645,2023,PLOS Digital Health,Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models.,370.9,2256
+methodology,Machine learning methods,28968734,2019,Briefings in Bioinformatics,"MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization.",302.6,5455
+methodology,Clinical decision support,31078660,2019,Journal of Biomedical Informatics (JBI),The REDCap consortium: Building an international community of software platform partners.,1370.6,19972
+methodology,Clinical decision support,22517427,2013,Briefings in Bioinformatics,Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration.,199.9,7102
+methodology,Clinical decision support,29092808,2017,Journal of Medical Internet Research (JMIR),"Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies.",96.2,1642
+methodology,Software and usability research,24695404,2014,Bioinformatics,Trimmomatic: a flexible trimmer for Illumina sequence data.,1771.6,47878
+methodology,Software and usability research,22743772,2012,Nature Methods,Fiji: an open-source platform for biological-image analysis.,1518.0,47736
+methodology,Software and usability research,22930834,2012,Nature Methods,NIH Image to ImageJ: 25 years of image analysis.,1345.8,40561
+methodology,Genomics and sequence bioinformatics,22388286,2012,Nature Methods,Fast gapped-read alignment with Bowtie 2.,1309.6,42111
+methodology,Genomics and sequence bioinformatics,30423086,2018,Bioinformatics,fastp: an ultra-fast all-in-one FASTQ preprocessor.,955.5,20861
+methodology,Genomics and sequence bioinformatics,32015543,2020,Nature Methods,SciPy 1.0: fundamental algorithms for scientific computing in Python.,722.8,12891
+methodology,Statistical methods,27214047,2016,Nature Methods,DADA2: High-resolution sample inference from Illumina amplicon data.,1088.9,22184
+methodology,Statistical methods,24451623,2014,Bioinformatics,RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies.,844.8,21079
+methodology,Statistical methods,28263959,2017,Nature Methods,Salmon provides fast and bias-aware quantification of transcript expression.,328.6,9192
+methodology,Mobile health and social media,33470931,2021,Journal of Medical Internet Research (JMIR),Prevalence of Health Misinformation on Social Media: Systematic Review.,85.5,895
+methodology,Mobile health and social media,37171891,2023,Bioinformatics,NanoPack2: population-scale evaluation of long-read sequencing data.,78.5,601
+methodology,Mobile health and social media,33759801,2021,Journal of Medical Internet Research (JMIR),Barriers to and Facilitators of User Engagement With Digital Mental Health Interventions: Systematic Review.,69.2,664
+methodology,Medical image segmentation,22743772,2012,Nature Methods,Fiji: an open-source platform for biological-image analysis.,1518.0,47736
+methodology,Medical image segmentation,22930834,2012,Nature Methods,NIH Image to ImageJ: 25 years of image analysis.,1345.8,40561
+methodology,Medical image segmentation,32047862,2020,npj Digital Medicine,"An overview of clinical decision support systems: benefits, risks, and strategies for success.",116.2,1624
+methodology,Information dissemination,30016406,2019,Bioinformatics,ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R.,273.0,5088
+methodology,Information dissemination,26576653,2016,Bioinformatics,JSpeciesWS: a web server for prokaryotic species circumscription based on pairwise genome comparison.,130.5,2444
+methodology,Information dissemination,29092808,2017,Journal of Medical Internet Research (JMIR),"Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies.",96.2,1642
+methodology,Virtual medical simulation,24451623,2014,Bioinformatics,RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies.,844.8,21079
+methodology,Virtual medical simulation,35637307,2022,Nature Methods,ColabFold: making protein folding accessible to all.,619.8,7180
+methodology,Virtual medical simulation,31740819,2019,Nature Methods,"Fast, sensitive and accurate integration of single-cell data with Harmony.",295.2,7963
+methodology,Bayesian and statistical modeling,29967350,2018,Nature Medicine,Mechanisms of NAFLD development and therapeutic strategies.,149.6,3515
+methodology,Bayesian and statistical modeling,34309564,2021,Journal of Medical Internet Research (JMIR),Web-Based Survival Analysis Tool Tailored for Medical Research (KMplot): Development and Implementation.,80.0,1294
+methodology,Bayesian and statistical modeling,30395178,2019,Bioinformatics,Heavy-tailed prior distributions for sequence count data: removing the noise and preserving large differences.,56.7,1514
+methodology,Clinical study designs,31078660,2019,Journal of Biomedical Informatics (JBI),The REDCap consortium: Building an international community of software platform partners.,1370.6,19972
+methodology,Clinical study designs,37193038,2023,JAMIA Open,A global federated real-world data and analytics platform for research.,93.8,706
+methodology,Clinical study designs,22209829,2011,Journal of Medical Internet Research (JMIR),CONSORT-EHEALTH: improving and standardizing evaluation reports of Web-based and mobile health interventions.,64.1,1536
+methodology,Biomedical signal processing,30532080,2019,Nature Methods,fMRIPrep: a robust preprocessing pipeline for functional MRI.,169.6,2973
+methodology,Biomedical signal processing,30104768,2018,Nature Medicine,Clinically applicable deep learning for diagnosis and referral in retinal disease.,69.5,1321
+methodology,Biomedical signal processing,30643288,2019,Nature Medicine,Blood-brain barrier breakdown is an early biomarker of human cognitive dysfunction.,67.6,1379
+methodology,Drug discovery and evaluation,22930834,2012,Nature Methods,NIH Image to ImageJ: 25 years of image analysis.,1345.8,40561
+methodology,Drug discovery and evaluation,34002089,2021,Nature Medicine,Neutralizing antibody levels are highly predictive of immune protection from symptomatic SARS-CoV-2 infection.,175.6,3095
+methodology,Drug discovery and evaluation,29967350,2018,Nature Medicine,Mechanisms of NAFLD development and therapeutic strategies.,149.6,3515
+methodology,Mixed deep learning applications,36699385,2022,Bioinformatics Advances,decoupleR: ensemble of computational methods to infer biological activities from omics data.,52.8,824
+methodology,Mixed deep learning applications,37347721,2023,PLOS Digital Health,Bias in artificial intelligence algorithms and recommendations for mitigation.,43.9,288
+methodology,Mixed deep learning applications,29860441,2018,Journal of the American Medical Informatics Association (JAMIA),The National Sleep Research Resource: towards a sleep data commons.,29.5,532
+methodology,eHealth and mobile applications,25760773,2015,JMIR mHealth and uHealth,Mobile app rating scale: a new tool for assessing the quality of health mobile apps.,69.6,1305
+methodology,eHealth and mobile applications,33759801,2021,Journal of Medical Internet Research (JMIR),Barriers to and Facilitators of User Engagement With Digital Mental Health Interventions: Systematic Review.,69.2,664
+methodology,eHealth and mobile applications,37389908,2023,Journal of Medical Internet Research (JMIR),Reliability of Medical Information Provided by ChatGPT: Assessment Against Clinical Guidelines and Patient Information Quality Instrument.,41.6,243
+methodology,Big data infrastructure and interoperability,37193038,2023,JAMIA Open,A global federated real-world data and analytics platform for research.,93.8,706
+methodology,Big data infrastructure and interoperability,37414860,2023,npj Digital Medicine,The imperative for regulatory oversight of large language models (or generative AI) in healthcare.,74.2,536
+methodology,Big data infrastructure and interoperability,28245209,2017,Nature Methods,EV-TRACK: transparent reporting and centralizing knowledge in extracellular vesicle research.,42.5,1091
+methodology,Qualitative research methods,32897868,2020,Journal of Medical Internet Research (JMIR),Investigating Mental Health of US College Students During the COVID-19 Pandemic: Cross-Sectional Survey Study.,63.5,704
+methodology,Qualitative research methods,25639757,2015,Journal of Medical Internet Research (JMIR),The person-based approach to intervention development: application to digital health-related behavior change interventions.,47.9,924
+methodology,Qualitative research methods,36853742,2023,Journal of Medical Internet Research (JMIR),Barriers to and Facilitators of Digital Health Among Culturally and Linguistically Diverse Populations: Qualitative Systematic Review.,33.1,171
+methodology,Ecological momentary assessment,35980732,2022,JMIR mHealth and uHealth,System Usability Scale Benchmarking for Digital Health Apps: Meta-analysis.,36.1,272
+methodology,Ecological momentary assessment,21393123,2011,Journal of Medical Internet Research (JMIR),Supportive accountability: a model for providing human support to enhance adherence to eHealth interventions.,33.5,815
+methodology,Ecological momentary assessment,27809908,2016,BMC Medical Informatics and Decision Making,Cognitive biases associated with medical decisions: a systematic review.,32.3,645
+methodology,RNA-seq data analysis,25822800,2015,Nature Methods,Robust enumeration of cell subsets from tissue expression profiles.,341.4,10621
+methodology,RNA-seq data analysis,24451626,2014,Bioinformatics,InterProScan 5: genome-scale protein function classification.,253.0,6879
+methodology,RNA-seq data analysis,31819264,2020,Nature Methods,NicheNet: modeling intercellular communication by linking ligands to target genes.,63.9,1668
+methodology,Knowledge graphs,38197310,2023,Briefings in Bioinformatics,Network pharmacology: towards the artificial intelligence-based precision traditional Chinese medicine.,71.2,513
+methodology,Knowledge graphs,25677125,2015,Bioinformatics,DOSE: an R/Bioconductor package for disease ontology semantic and enrichment analysis.,28.2,936
+methodology,Knowledge graphs,32558655,2020,Journal of Medical Internet Research (JMIR),"Framework for Managing the COVID-19 Infodemic: Methods and Results of an Online, Crowdsourced WHO Technical Consultation.",19.3,290
+health,Digital health technologies,31078660,2019,Journal of Biomedical Informatics (JBI),The REDCap consortium: Building an international community of software platform partners.,1370.6,19972
+health,Digital health technologies,30423086,2018,Bioinformatics,fastp: an ultra-fast all-in-one FASTQ preprocessor.,955.5,20861
+health,Digital health technologies,27312411,2016,Bioinformatics,MultiQC: summarize analysis results for multiple tools and samples in a single report.,250.1,6896
+health,Computational cancer biology,24695404,2014,Bioinformatics,Trimmomatic: a flexible trimmer for Illumina sequence data.,1771.6,47878
+health,Computational cancer biology,22930834,2012,Nature Methods,NIH Image to ImageJ: 25 years of image analysis.,1345.8,40561
+health,Computational cancer biology,26059717,2015,Bioinformatics,BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs.,410.0,9725
+health,Infectious diseases,25822800,2015,Nature Methods,Robust enumeration of cell subsets from tissue expression profiles.,341.4,10621
+health,Infectious diseases,33753937,2021,Nature Medicine,Post-acute COVID-19 syndrome.,238.1,3389
+health,Infectious diseases,26198102,2015,Bioinformatics,Roary: rapid large-scale prokaryote pan genome analysis.,203.2,4490
+health,Genomic variant analysis,24695404,2014,Bioinformatics,Trimmomatic: a flexible trimmer for Illumina sequence data.,1771.6,47878
+health,Genomic variant analysis,22388286,2012,Nature Methods,Fast gapped-read alignment with Bowtie 2.,1309.6,42111
+health,Genomic variant analysis,27214047,2016,Nature Methods,DADA2: High-resolution sample inference from Illumina amplicon data.,1088.9,22184
+health,Gene expression regulation,25260700,2015,Bioinformatics,HTSeq--a Python framework to work with high-throughput sequencing data.,562.2,16516
+health,Gene expression regulation,29750242,2018,Bioinformatics,Minimap2: pairwise alignment for nucleotide sequences.,452.8,10802
+health,Gene expression regulation,27207943,2016,Bioinformatics,Complex heatmaps reveal patterns and correlations in multidimensional genomic data.,253.2,7496
+health,Protein and gene networks,22930834,2012,Nature Methods,NIH Image to ImageJ: 25 years of image analysis.,1345.8,40561
+health,Protein and gene networks,35637307,2022,Nature Methods,ColabFold: making protein folding accessible to all.,619.8,7180
+health,Protein and gene networks,28165473,2017,Nature Methods,cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination.,268.7,8178
+health,Translational and clinical research,31078660,2019,Journal of Biomedical Informatics (JBI),The REDCap consortium: Building an international community of software platform partners.,1370.6,19972
+health,Translational and clinical research,33288961,2021,Nature Methods,nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation.,399.2,4860
+health,Translational and clinical research,37460753,2023,Nature Medicine,Large language models in medicine.,277.9,1963
+health,Patient-provider communication,37460753,2023,Nature Medicine,Large language models in medicine.,277.9,1963
+health,Patient-provider communication,22517427,2013,Briefings in Bioinformatics,Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration.,199.9,7102
+health,Patient-provider communication,29092808,2017,Journal of Medical Internet Research (JMIR),"Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies.",96.2,1642
+health,Psychiatric disorders,32805704,2020,Journal of Medical Internet Research (JMIR),Effects of COVID-19 on College Students' Mental Health in the United States: Interview Survey Study.,98.5,1077
+health,Psychiatric disorders,27918562,2017,Nature Medicine,Resting-state connectivity biomarkers define neurophysiological subtypes of depression.,71.9,1611
+health,Psychiatric disorders,25760773,2015,JMIR mHealth and uHealth,Mobile app rating scale: a new tool for assessing the quality of health mobile apps.,69.6,1305
+health,Cancer types and screening,24336805,2014,Bioinformatics,Causal analysis approaches in Ingenuity Pathway Analysis.,148.9,4795
+health,Cancer types and screening,26457759,2015,Nature Medicine,The consensus molecular subtypes of colorectal cancer.,126.8,4083
+health,Cancer types and screening,24478339,2014,Bioinformatics,Minfi: a flexible and comprehensive Bioconductor package for the analysis of Infinium DNA methylation microarrays.,102.9,3422
+health,Physiological signals and AI methods,22635005,2012,Nature Medicine,Melanoma exosomes educate bone marrow progenitor cells toward a pro-metastatic phenotype through MET.,82.5,3039
+health,Physiological signals and AI methods,28436958,2017,Nature Medicine,Local clearance of senescent cells attenuates the development of post-traumatic osteoarthritis and creates a pro-regenerative environment.,44.5,1220
+health,Physiological signals and AI methods,35868813,2022,The Lancet Digital Health,Effectiveness of wearable activity trackers to increase physical activity and improve health: a systematic review of systematic reviews and meta-analyses.,36.1,352
+health,Decision support,29092808,2017,Journal of Medical Internet Research (JMIR),"Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies.",96.2,1642
+health,Decision support,37193038,2023,JAMIA Open,A global federated real-world data and analytics platform for research.,93.8,706
+health,Decision support,36826990,2023,Journal of Medical Internet Research (JMIR),Artificial Intelligence-Based Chatbots for Promoting Health Behavioral Changes: Systematic Review.,57.8,343
+health,Primary care delivery,24202395,2013,Nature Medicine,Microenvironmental regulation of tumor progression and metastasis.,190.3,6329
+health,Primary care delivery,32324855,2020,Journal of the American Medical Informatics Association (JAMIA),COVID-19 transforms health care through telemedicine: Evidence from the field.,72.0,922
+health,Primary care delivery,35228754,2022,Nature Medicine,The SGLT2 inhibitor empagliflozin in patients hospitalized for acute heart failure: a multinational randomized trial.,64.7,758
+health,Mixed clinical conditions and demographics,26121197,2015,Nature Medicine,"Inflammasomes: mechanism of action, role in disease, and therapeutics.",95.4,2727
+health,Mixed clinical conditions and demographics,36869927,2023,Journal of Medical Systems,Evaluating the Feasibility of ChatGPT in Healthcare: An Analysis of Multiple Clinical and Research Scenarios.,88.9,523
+health,Mixed clinical conditions and demographics,36109639,2022,Nature Medicine,Anti-CD19 CAR T cell therapy for refractory systemic lupus erythematosus.,64.8,886
+health,Prognosis and risk prediction,34260682,2021,Briefings in Bioinformatics,oncoPredict: an R package for predicting in vivo or cancer patient drug response and biomarkers from cell line screening data.,93.7,1621
+health,Prognosis and risk prediction,34309564,2021,Journal of Medical Internet Research (JMIR),Web-Based Survival Analysis Tool Tailored for Medical Research (KMplot): Development and Implementation.,80.0,1294
+health,Prognosis and risk prediction,27918562,2017,Nature Medicine,Resting-state connectivity biomarkers define neurophysiological subtypes of depression.,71.9,1611
+health,Health policy landscape,30617339,2019,Nature Medicine,High-performance medicine: the convergence of human and artificial intelligence.,248.2,4816
+health,Health policy landscape,35132265,2022,Nature Medicine,Long-term cardiovascular outcomes of COVID-19.,126.6,1477
+health,Health policy landscape,33082575,2021,Nature Medicine,A global survey of potential acceptance of a COVID-19 vaccine.,123.2,1766
+health,Biomedical databases,24695404,2014,Bioinformatics,Trimmomatic: a flexible trimmer for Illumina sequence data.,1771.6,47878
+health,Biomedical databases,35637307,2022,Nature Methods,ColabFold: making protein folding accessible to all.,619.8,7180
+health,Biomedical databases,31882993,2020,Bioinformatics,ShinyGO: a graphical gene-set enrichment tool for animals and plants.,203.7,3869
+health,Health behavior change,36716080,2023,Journal of Medical Internet Research (JMIR),The Relation Between eHealth Literacy and Health-Related Behaviors: Systematic Review and Meta-analysis.,45.5,209
+health,Health behavior change,28104579,2017,Journal of Medical Internet Research (JMIR),Internet Health Information Seeking and the Patient-Physician Relationship: A Systematic Review.,41.3,678
+health,Health behavior change,23151820,2012,Journal of Medical Internet Research (JMIR),Persuasive system design does matter: a systematic review of adherence to web-based interventions.,39.1,861
+health,Genetic predisposition,26059717,2015,Bioinformatics,BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs.,410.0,9725
+health,Genetic predisposition,33828273,2021,Nature Methods,Sensitive protein alignments at tree-of-life scale using DIAMOND.,244.0,3283
+health,Genetic predisposition,23644548,2013,Nature Methods,"Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data.",118.4,3363
+health,Neurodegenerative diseases,36812645,2023,PLOS Digital Health,Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models.,370.9,2256
+health,Neurodegenerative diseases,24336805,2014,Bioinformatics,Causal analysis approaches in Ingenuity Pathway Analysis.,148.9,4795
+health,Neurodegenerative diseases,30643288,2019,Nature Medicine,Blood-brain barrier breakdown is an early biomarker of human cognitive dysfunction.,67.6,1379

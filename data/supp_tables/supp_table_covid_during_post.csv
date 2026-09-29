@@ -1,0 +1,134 @@
+domain,topic,total,pre_covid_avg,during_covid_avg,post_covid_avg,pct_change_during,p_holm_during,sig_during,pct_change_post,p_holm_post,sig_post
+health,Sequence and structure prediction,199,4.5,15.5,34.0,244.4,1.8633302910450107e-11,True,655.6,2.880074201355797e-168,True
+methodology,Data augmentation,388,8.5,28.0,70.5,229.4,3.081189275532965e-19,True,729.4,1.33e-298,True
+methodology,Generative AI and corpus methods,211,4.5,14.0,37.0,211.1,1.7994033923372992e-08,True,722.2,3.5553066662874255e-204,True
+methodology,Clinical monitoring and surveillance,1680,61.5,191.0,223.5,210.6,1.6223629201855445e-118,True,263.4,1.33e-298,True
+health,Population health surveillance,2577,124.0,320.5,331.0,158.5,2.3807582055005735e-135,True,166.9,1.33e-298,True
+health,Mass screening,270,14.5,36.0,27.8,148.3,1.1954127108155753e-13,True,91.4,8.552774559913759e-11,True
+health,Infectious diseases,11445,534.5,1301.5,1169.0,143.5,1.33e-298,True,118.7,1.33e-298,True
+health,Causal mediation analysis,206,9.0,21.5,29.2,138.9,2.699888519954165e-07,True,225.0,8.131559597884298e-40,True
+health,Aortic diseases,302,10.5,23.5,43.2,123.8,9.64442143629027e-07,True,311.9,5.336307146639237e-89,True
+health,Mixed health informatics safety topics,876,36.5,81.0,120.8,121.9,2.2269892837106264e-23,True,230.8,3.391620257020067e-169,True
+methodology,Multi-task and meta learning,657,23.5,50.5,112.0,114.9,2.823366239127271e-13,True,376.6,7.850282414837027e-290,True
+methodology,Data governance and standards,288,11.5,24.0,46.8,108.7,1.2086807221791095e-05,True,306.5,4.055725919135395e-94,True
+methodology,Transformer models,397,11.0,22.5,72.2,104.5,5.739374647609288e-05,True,556.8,1.413017141086114e-296,True
+methodology,Biological modeling,1453,59.5,121.5,208.0,104.2,6.5887630517518085e-28,True,249.6,1.33e-298,True
+methodology,Agent-based Modeling,141,7.5,15.0,18.5,100.0,0.005375558836475,True,146.7,3.0372158394793256e-14,True
+methodology,Predictive and Markov modeling,1234,54.0,107.5,174.8,99.1,7.706105207775548e-23,True,223.6,7.477973704782959e-235,True
+health,Natural products and traditional medicine,978,45.0,89.5,114.5,98.9,6.378606090766539e-19,True,154.4,1.661052203588846e-93,True
+health,Health information seeking,2963,162.5,322.0,333.2,98.2,5.688489567277638e-68,True,105.1,3.986816707958572e-156,True
+methodology,Contrastive learning,1588,43.5,85.5,308.8,96.6,2.013535204597162e-17,True,609.8,1.33e-298,True
+methodology,eHealth and mobile applications,3147,212.5,412.0,319.2,93.9,2.360846265693411e-81,True,50.2,8.003925833310906e-47,True
+health,Drug discovery,2714,118.5,228.5,360.0,92.8,2.9078171033204934e-44,True,203.8,1.33e-298,True
+methodology,Mixed automation and optimization methods,1111,54.5,105.0,144.0,92.7,3.964758612872427e-20,True,164.2,6.000301281032212e-128,True
+health,Tumor immunology and microenvironment,374,16.5,31.5,42.2,90.9,1.1661278918439733e-05,True,156.1,3.582594787983868e-35,True
+health,"Eye, ENT, and oral diseases",114,4.0,7.5,16.8,87.5,0.453163178547795,False,318.8,1.465202711548331e-35,True
+methodology,Mobile health and social media,7925,511.0,948.5,827.8,85.6,8.007667459012439e-163,True,62.0,8.033846120610055e-171,True
+methodology,Algorithmic bias,197,9.5,17.5,30.0,84.2,0.0113708411704482,True,215.8,1.1469241915689768e-38,True
+methodology,Privacy and de-identification,970,51.0,93.0,117.0,82.4,8.193258292749396e-15,True,129.4,1.9555595572814935e-74,True
+methodology,Mixed deep learning applications,3795,158.5,287.0,547.0,81.1,3.701065020456884e-45,True,245.1,1.33e-298,True
+health,Upper airway disorders,679,37.0,66.5,85.5,79.7,5.493142237614346e-10,True,131.1,1.8321084830385085e-55,True
+health,Maternal and reproductive health,122,6.5,11.5,15.8,76.9,0.210735357979272,False,142.3,1.0741438354600405e-11,True
+methodology,Ecological momentary assessment,2102,117.0,206.5,259.2,76.5,1.363356116686357e-29,True,121.6,1.6177205373481365e-150,True
+health,Health policy landscape,3599,179.0,312.5,480.2,74.6,3.716249187777492e-43,True,168.3,1.33e-298,True
+health,Surgical procedures,1306,66.5,115.5,156.0,73.7,1.7794756201989e-15,True,134.6,6.611593903138407e-105,True
+health,Epitope analysis,156,5.5,9.5,24.0,72.7,0.5234239804125089,False,336.4,2.6941451430460076e-54,True
+methodology,Knowledge graphs,1763,78.0,134.5,230.0,72.4,1.3929524913058603e-17,True,194.9,1.2869109141379178e-257,True
+methodology,Information dissemination,5964,365.5,622.5,600.5,70.3,1.729403876892823e-78,True,64.3,1.6074889050816626e-131,True
+health,Health behavior change,3611,217.5,368.0,411.2,69.2,3.8169401614601544e-45,True,89.1,3.2624162286543006e-150,True
+health,Mixed terminology and histopathology,792,34.0,57.5,115.2,69.1,8.406852295011087e-07,True,239.0,6.168467806917388e-169,True
+health,Decision support,5369,278.0,469.0,625.8,68.7,6.061272456649073e-57,True,125.1,1.33e-298,True
+health,Primary care delivery,4617,242.0,408.0,517.8,68.6,2.230364374689834e-49,True,113.9,2.9973023810470813e-273,True
+health,Countries and demographics,3372,172.0,287.0,345.0,66.9,2.8471069034831328e-33,True,100.6,1.971148379878703e-151,True
+health,Prognosis and risk prediction,3723,198.5,329.0,465.8,65.7,3.726047667546506e-37,True,134.6,1.33e-298,True
+methodology,Neuroscience and cognitive psychology,556,27.5,45.5,66.2,65.5,7.250994693170965e-05,True,140.9,1.1462567059544843e-47,True
+health,Psychiatric disorders,5585,340.5,563.0,666.2,65.3,4.1236807482670925e-63,True,95.7,5.023512988162324e-271,True
+health,Translational and clinical research,5697,312.5,516.5,670.2,65.3,8.678544035396897e-58,True,114.5,1.33e-298,True
+health,cancer immunotherapy,1436,77.5,127.5,174.8,64.5,8.234101654113379e-14,True,125.5,2.8333984780497837e-106,True
+health,Digital health technologies,32613,2025.5,3331.5,3492.2,64.5,1.33e-298,True,72.4,1.33e-298,True
+methodology,Clinical data standards,357,21.0,34.5,46.2,64.3,0.001672552677093059,True,120.2,1.2547940310624281e-26,True
+methodology,Drug discovery and evaluation,3840,210.5,345.5,451.0,64.1,1.7072313745638734e-37,True,114.3,5.435247852929897e-239,True
+methodology,Behavioral theories,321,20.5,33.5,38.2,63.4,0.002546128106264673,True,86.6,1.299959035598302e-13,True
+methodology,Machine learning methods,29875,1528.5,2493.0,3969.0,63.1,1.446253800211637e-264,True,159.7,1.33e-298,True
+health,Determinants of health,1582,88.0,142.5,206.5,61.9,1.8487110441857965e-14,True,134.7,6.865074509678275e-139,True
+health,Cardiovascular diseases,1982,114.0,184.5,243.8,61.8,9.526795924712153e-19,True,113.8,1.4969577091983287e-128,True
+methodology,Clinical decision support,15611,866.0,1396.0,1673.8,61.2,5.444355420295861e-141,True,93.3,1.33e-298,True
+methodology,Serious games,198,11.5,18.5,25.0,60.9,0.14388087789454498,False,117.4,5.2533979494410666e-14,True
+health,Health and functional status assessment,1247,66.0,106.0,162.8,60.6,2.6960899776676533e-10,True,146.6,1.752441563191455e-123,True
+methodology,Named Entity Recognition,1019,56.5,90.0,109.8,59.3,2.1334961140150164e-08,True,94.2,7.888820579262617e-44,True
+health,Emergency Department,2596,147.0,233.0,311.0,58.5,1.1444138742880424e-21,True,111.6,3.311500379930804e-159,True
+methodology,Large language models,1101,12.0,19.0,246.5,58.3,0.1664022680648679,False,1954.2,1.33e-298,True
+methodology,Big data infrastructure and interoperability,2358,139.0,219.0,263.8,57.6,8.297653221151591e-20,True,89.7,1.61525183006998e-97,True
+health,Health semantic similarity,190,7.0,11.0,30.8,57.1,0.975283339371585,False,339.3,3.074385826563991e-70,True
+health,Cancer treatment modalities,609,32.5,51.0,71.0,56.9,0.00025351687713810197,True,118.5,7.567977957272629e-40,True
+methodology,Graph and network methods,845,38.0,59.5,130.5,56.6,5.034985595253401e-05,True,243.4,7.130561927763006e-196,True
+health,Signs and symptoms,703,39.0,61.0,88.2,56.4,3.964229064415357e-05,True,126.3,2.8327976853263887e-54,True
+methodology,RNA-seq data analysis,2102,115.0,178.0,256.5,54.8,8.745264429036027e-15,True,123.0,1.6289931101088873e-151,True
+methodology,Qualitative research methods,2157,127.5,195.5,220.5,53.3,1.527379762533355e-15,True,72.9,3.6471100625769664e-59,True
+health,Clinical guidelines,536,32.0,49.0,50.2,53.1,0.0011757378352427858,True,57.0,2.4228450579093056e-09,True
+health,Medical devices,2359,152.5,233.5,293.0,53.1,1.6877483433063055e-18,True,92.1,1.0181302510896359e-112,True
+methodology,Medical image segmentation,6532,323.5,492.5,867.5,52.2,3.0916406759732657e-38,True,168.2,1.33e-298,True
+methodology,Open access publishing,432,20.5,31.0,33.5,51.2,0.045731976361874,True,63.4,1.8664461093551134e-07,True
+health,Patient-provider communication,5692,333.0,499.5,553.8,50.0,4.774962654484284e-36,True,66.3,2.107233059869554e-127,True
+health,Older people,2224,117.0,173.0,192.5,47.9,2.0082255455192272e-11,True,64.5,1.4774766334152333e-42,True
+health,Health workforce education,1888,107.5,158.5,208.2,47.4,2.793766843318205e-10,True,93.7,2.805319503430778e-82,True
+health,Caregivers and care quality,1037,64.5,94.0,116.2,45.7,1.3126011928832707e-05,True,80.2,2.601849470940372e-36,True
+health,User-centered design,444,27.5,40.0,37.0,45.5,0.0344521805913894,True,34.5,0.0031818669036506003,True
+health,Perinatal outcomes,1167,78.5,114.0,135.2,45.2,9.915387031954048e-07,True,72.3,6.887224756922329e-36,True
+health,Myocardial infarction,796,43.5,62.5,97.8,43.7,0.00244897076223586,True,124.7,5.1377427146957e-59,True
+methodology,Statistical methods,9723,554.0,795.0,1061.2,43.5,1.920929784797618e-45,True,91.6,1.33e-298,True
+methodology,Bayesian and statistical modeling,5075,288.5,413.0,585.0,43.2,3.7525575029057476e-23,True,102.8,5.128162193059013e-265,True
+health,Neurodegenerative diseases,3224,179.5,256.5,416.8,42.9,3.8029332835205086e-14,True,132.2,1.0421244762620139e-272,True
+health,Cancer types and screening,5581,309.5,435.5,718.2,40.7,4.284211142751191e-22,True,132.1,1.33e-298,True
+health,Lung nodules,171,10.0,14.0,21.8,40.0,1.0,False,117.5,3.0097990568742334e-12,True
+methodology,Cryo-electron microscopy,673,44.0,61.5,62.8,39.8,0.0091541631495312,True,42.6,2.989872107884536e-07,True
+methodology,Diffusion generative models,265,8.0,11.0,45.8,37.5,1.0,False,471.9,5.182311520702613e-155,True
+methodology,Mixed clinical NLP applications,180,12.0,16.5,24.0,37.5,1.0,False,100.0,1.0229259834824762e-10,True
+health,Drug safety surveillance,2391,144.5,197.5,248.8,36.7,3.2466963904151245e-08,True,72.1,1.422318071932195e-65,True
+methodology,Virtual medical simulation,5958,351.0,479.0,636.5,36.5,4.411958450144452e-20,True,81.3,5.245819806228144e-202,True
+methodology,Missing data imputation,1396,86.0,117.0,144.8,36.0,0.00013186338646337304,True,68.3,3.88473372632433e-35,True
+methodology,Research ethics and patient involvement,646,39.5,53.5,73.2,35.4,0.0701471770341412,False,85.4,2.641107782930008e-25,True
+health,Health program evaluation,1018,68.5,91.0,83.5,32.8,0.0059164844335142,True,21.9,0.0031818669036506003,True
+methodology,Biomedical signal processing,4662,273.5,353.5,590.8,29.3,6.129558317206379e-10,True,116.0,1.33e-298,True
+methodology,Immunological techniques,385,22.0,28.0,40.5,27.3,1.0,False,84.1,9.180610787158094e-14,True
+health,Neuroscience and cognition,1822,126.0,160.0,224.8,27.0,0.0010298152080028848,True,78.4,1.8122949053019605e-67,True
+health,Physiological signals and AI methods,5561,310.5,391.5,692.8,26.1,6.070487613471244e-09,True,123.1,1.33e-298,True
+health,Cardiorespiratory monitoring,933,62.0,78.0,102.8,25.8,0.16228544129484798,False,65.7,1.5401654281125896e-23,True
+health,Protein and gene networks,6485,413.0,511.0,707.8,23.7,7.024176525132605e-10,True,71.4,5.307530209386735e-183,True
+methodology,Mixed mathematical and geometric methods,354,19.0,23.5,44.5,23.7,1.0,False,134.2,5.467442393215205e-30,True
+health,Amino acid sequence,1629,103.5,127.5,170.5,23.2,0.0382152073868595,True,64.7,6.40299943767731e-38,True
+health,Mixed clinical conditions and demographics,5397,330.0,400.0,514.0,21.2,3.3844193934536023e-06,True,55.8,2.216443411927979e-89,True
+health,Gene expression regulation,7625,481.0,579.0,793.0,20.4,1.9444357961512626e-08,True,64.9,4.56354555990519e-176,True
+health,Bayesian health modeling,1327,84.0,100.5,154.5,19.6,0.3922687510339464,False,83.9,1.2088539742776214e-51,True
+health,Diabetes mellitus,2948,219.0,261.0,311.5,19.2,0.0030488095620044607,True,42.2,3.2378272930284326e-34,True
+methodology,Mass spectrometry and ROC analysis,1306,90.0,105.0,123.2,16.7,0.7857668790015142,False,36.9,6.208884353898785e-11,True
+methodology,Data visualization methods,996,64.0,71.0,133.0,10.9,1.0,False,107.8,7.273458913376297e-65,True
+health,Genetic predisposition,3435,241.5,266.5,311.5,10.4,0.7328385475346176,False,29.0,7.287841606990774e-18,True
+health,Cardiovascular hemodynamics,1002,62.5,68.5,103.5,9.6,1.0,False,65.6,1.259894028245213e-23,True
+methodology,Ultrasound and echocardiography,174,12.0,13.0,20.5,8.3,1.0,False,70.8,1.4760853546173005e-05,True
+methodology,Genomics and sequence bioinformatics,9978,696.0,753.5,1015.8,8.3,0.08626441593359101,False,45.9,6.965376247844582e-128,True
+methodology,Pilot studies and synthetic data,176,6.5,7.0,8.5,7.7,1.0,False,30.8,0.6218277840837726,False
+methodology,Software and usability research,13094,1060.5,1119.0,1224.2,5.5,0.3922687510339464,False,15.4,3.0894330723549047e-22,True
+health,Cardiac arrhythmias,1235,84.5,89.0,137.0,5.3,1.0,False,62.1,1.355902231431996e-28,True
+health,Environmental health risks,283,24.5,25.5,30.2,4.1,1.0,False,23.5,0.1411221844076849,False
+methodology,Clinical study designs,14552,894.0,922.5,1163.2,3.2,1.0,False,30.1,1.1194204208970372e-70,True
+health,Motor imagery,569,34.0,33.5,83.8,-1.5,1.0,False,146.3,1.7570885102436858e-63,True
+health,Computational cancer biology,11401,835.0,797.0,1178.5,-4.6,1.0,False,41.1,4.89225919283016e-123,True
+health,Anatomical terminology,126,8.0,7.5,14.2,-6.2,1.0,False,78.1,0.0001187608155029474,True
+health,Genomic variant analysis,8841,712.5,662.0,822.8,-7.1,0.2760405365832744,False,15.5,4.924444197991819e-15,True
+health,Post-translational modifications,233,17.5,16.0,16.0,-8.6,1.0,False,-8.6,1.0,False
+health,Microbial and fungal genomics,644,49.5,45.0,69.0,-9.1,1.0,False,39.4,5.048348936627593e-07,True
+methodology,Mixed reasoning and modeling methods,842,41.0,37.0,62.0,-9.8,1.0,False,51.2,1.243418435666774e-09,True
+health,Multimodal imaging,146,10.0,9.0,19.2,-10.0,1.0,False,92.5,1.030978030486888e-07,True
+health,Metabolic networks,573,39.5,35.5,49.0,-10.1,1.0,False,24.1,0.0225166439740176,True
+health,Mixed medical imaging,12402,787.5,692.5,901.5,-12.1,9.96095176438384e-05,True,14.5,1.479442495224489e-14,True
+health,Endoscopic procedures,124,8.0,7.0,14.5,-12.5,1.0,False,81.2,6.023891249145165e-05,True
+methodology,Computer security,558,26.5,23.0,38.2,-13.2,1.0,False,44.3,6.492078458287355e-05,True
+health,Protein-peptide binding,939,76.5,65.0,87.2,-15.0,1.0,False,14.1,0.1117249878408712,False
+methodology,High-throughput screening,286,17.5,14.5,27.2,-17.1,1.0,False,55.7,4.7111777059386546e-05,True
+health,Cell signaling and oncogenic pathways,305,17.5,14.0,29.2,-20.0,1.0,False,67.1,3.4858210255105355e-07,True
+health,Medical specialties,637,48.5,38.0,85.0,-21.6,0.975283339371585,False,75.3,4.0677411578348846e-24,True
+health,Repetitive DNA sequences,295,27.0,21.0,25.5,-22.2,1.0,False,-5.6,1.0,False
+methodology,Gene editing,262,18.5,12.0,22.0,-35.1,0.975283339371585,False,18.9,0.6218277840837726,False
+health,Biomedical databases,3573,258.5,165.0,265.0,-36.2,1.7480939079109067e-14,True,2.5,1.0,False
+methodology,Microarray analysis,260,12.0,7.0,12.2,-41.7,1.0,False,2.1,1.0,False

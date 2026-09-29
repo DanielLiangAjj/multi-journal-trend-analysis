@@ -88,7 +88,7 @@ _B_p = load_topic_year("methodology", "k100", "topic", "Machine learning methods
 _C_c = load_topic_year("methodology", "k1050_1100", "cluster_id", 22)
 _C_p = load_topic_year("methodology", "k100", "topic", "Clinical decision support")
 _D_c = load_topic_year("health", "k1050_1100", "cluster_id", 477)
-_D_p = load_topic_year("health", "k100", "topic", "Patient-provider communication")
+_D_p = load_topic_year("health", "k100", "topic", "Digital health technologies")
 
 CASES = [
     {
@@ -125,11 +125,11 @@ CASES = [
         "panel": "D",
         "mechanism": "Infrastructure assumption (V-shape)",
         "child_label": "Interoperability research (K=1,100 cl. 477)",
-        "parent_label": "Patient-provider communication (K=100)",
+        "parent_label": "Digital health technologies (K=100)",
         "child_counts": _D_c,
         "parent_counts": _D_p,
         "child_meta": child_meta(_D_c, "v"),
-        "parent_meta": parent_meta("health", "Patient-provider communication", _D_p),
+        "parent_meta": parent_meta("health", "Digital health technologies", _D_p),
     },
 ]
 
@@ -197,13 +197,7 @@ def main():
             ax2.spines[s].set_visible(False)
         ax.grid(axis="y", alpha=0.18, color=PARENT_COLOUR, lw=0.4)
 
-    fig.suptitle(
-        "Decoupling — rising K=100 parents conceal "
-        "plateauing or declining fine-K children\n"
-        "Open markers indicate peak year. Solid blue = K=100 parent (left axis);  "
-        "dashed red = fine-K child (right axis).",
-        fontsize=13.5, fontweight="bold", y=0.995,
-    )
+    # in-image figure title removed (caption carries it)
     fig.supxlabel("Year", fontsize=11, y=0.02)
     fig.tight_layout(rect=[0.0, 0.02, 1.0, 0.94])
     fig.savefig(OUT, dpi=400, facecolor="white")

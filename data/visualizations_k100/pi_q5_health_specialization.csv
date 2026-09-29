@@ -1,17 +1,16 @@
 topic,total,n_journals,entropy,norm_entropy,max_journal,max_share
 Prognosis and risk prediction,3723,29,2.9415893716380292,0.8735761632353654,Computers in Biology and Medicine,12.570507655116842
-Infectious diseases,11445,29,2.938162642171788,0.8725585129785256,Journal of Medical Internet Research (JMIR),16.3564875491481
 Drug safety surveillance,2391,28,2.915352132440829,0.865784379999823,Journal of Medical Internet Research (JMIR),13.676286072772898
-Mixed clinical conditions and demographics,5397,29,2.8522218407232853,0.8470363118451467,Journal of Medical Internet Research (JMIR),20.937557902538448
-Digital health technologies,32613,29,2.843096129963472,0.8443262111529097,Journal of Medical Internet Research (JMIR),23.487566307914022
+Infectious diseases,9825,29,2.905100991025997,0.8627400554342344,Journal of Medical Internet Research (JMIR),17.39440203562341
+Digital health technologies,32538,29,2.84231127234775,0.8440931286869343,Journal of Medical Internet Research (JMIR),23.51711844612453
 Translational and clinical research,5697,29,2.842265562221837,0.8440795539586594,Journal of Medical Internet Research (JMIR),24.626996664911356
 Decision support,5369,29,2.8422283147029623,0.8440684924063767,Journal of Medical Internet Research (JMIR),18.96070031663252
 Emergency Department,2596,28,2.8027571400275355,0.8323465717114595,Journal of Medical Internet Research (JMIR),17.372881355932204
 Neurodegenerative diseases,3224,28,2.7939953291639767,0.8297445399013842,Computers in Biology and Medicine,16.222084367245657
 Cancer types and screening,5581,29,2.778357511710768,0.8251005115050816,Computers in Biology and Medicine,21.286507794302096
+Mixed clinical conditions and demographics,3978,29,2.7718537502199423,0.8231690621109095,Journal of Medical Internet Research (JMIR),24.811463046757165
 Cardiovascular diseases,1982,28,2.7518370452922296,0.8172246170908255,Journal of Medical Internet Research (JMIR),17.81029263370333
-Perinatal outcomes,1167,27,2.748024970319538,0.8160925291587987,Journal of Medical Internet Research (JMIR),22.36503856041131
-Primary care delivery,4617,28,2.7406294671753613,0.813896255496616,Journal of Medical Internet Research (JMIR),25.427766948234787
+Primary care delivery,4606,28,2.7361989543549807,0.8125805074768175,Journal of Medical Internet Research (JMIR),25.48849326964828
 Environmental health risks,283,26,2.7258581758912674,0.809509563019955,Journal of Medical Internet Research (JMIR),26.855123674911663
 Diabetes mellitus,2948,29,2.7125628943813185,0.805561207371618,Journal of Medical Internet Research (JMIR),24.185888738127545
 Neuroscience and cognition,1822,28,2.712082989576987,0.8054186880241767,Computers in Biology and Medicine,16.84961580680571
@@ -19,18 +18,18 @@ Mass screening,270,21,2.7114592115177287,0.8052334420313229,Journal of Medical I
 Surgical procedures,1306,28,2.71101868251895,0.8051026162824071,Computers in Biology and Medicine,19.06584992343032
 Clinical guidelines,536,24,2.6967615040671977,0.8008686020550888,Journal of Medical Internet Research (JMIR),21.641791044776117
 Mixed health informatics safety topics,876,25,2.6905125393215528,0.7990128207215937,Journal of Medical Internet Research (JMIR),25.11415525114155
+Perinatal outcomes,1065,27,2.6763839912479033,0.7948170063984707,Journal of Medical Internet Research (JMIR),23.568075117370892
 Population health surveillance,2577,28,2.6756453432043927,0.7945976469834373,Journal of Medical Internet Research (JMIR),27.27978269305394
 Cancer treatment modalities,609,25,2.6709213687389304,0.7931947484250764,Computers in Biology and Medicine,19.376026272578
 Patient-provider communication,5692,28,2.6472463171355627,0.7861638688116679,Journal of Medical Internet Research (JMIR),28.092059030217847
 Health policy landscape,3599,28,2.64293744133138,0.7848842438479771,Journal of Medical Internet Research (JMIR),24.25673798277299
-Older people,2224,28,2.642874620861426,0.7848655877888941,Journal of Medical Internet Research (JMIR),26.618705035971225
 Medical specialties,637,25,2.627587661641371,0.7803257552372301,PLOS Digital Health,19.46624803767661
 Signs and symptoms,703,25,2.6046085440983937,0.7735015500877023,Computers in Biology and Medicine,25.320056899004268
 Determinants of health,1582,28,2.5968326203945318,0.7711923013324798,Journal of Medical Internet Research (JMIR),26.61188369152971
 Health workforce education,1888,28,2.5909129444752974,0.769434310286217,Journal of Medical Internet Research (JMIR),22.616525423728813
 Upper airway disorders,679,25,2.57094457327392,0.7635042191360558,Computers in Biology and Medicine,24.889543446244478
-Countries and demographics,3372,29,2.561397607380422,0.7606690165356546,Journal of Medical Internet Research (JMIR),31.672597864768683
 Drug discovery,2714,27,2.551980157940576,0.7578722769810299,Computers in Biology and Medicine,20.33898305084746
+Countries and demographics,3037,29,2.5396919072041917,0.7542229834954517,Journal of Medical Internet Research (JMIR),32.43332235758973
 Medical devices,2359,29,2.5161754344674327,0.7472391977147846,Computers in Biology and Medicine,21.66172106824926
 Myocardial infarction,796,27,2.511923458669592,0.745976470585206,Computers in Biology and Medicine,26.884422110552762
 "Eye, ENT, and oral diseases",114,19,2.501822856935354,0.7429768524214885,npj Digital Medicine,23.684210526315788
@@ -39,16 +38,17 @@ Endoscopic procedures,124,21,2.4870395391587645,0.738586588386787,Computers in B
 Physiological signals and AI methods,5561,29,2.4846042839282796,0.7378633804022677,Computers in Biology and Medicine,28.861715518791588
 Causal mediation analysis,206,19,2.465522585099578,0.7321966080745218,Journal of Medical Internet Research (JMIR),27.184466019417474
 Computational cancer biology,11401,29,2.465398820323846,0.7321598531287193,Bioinformatics,27.79580738531708
-Cardiovascular hemodynamics,1002,27,2.4607386443170935,0.7307759010668742,Computers in Biology and Medicine,33.33333333333333
 Maternal and reproductive health,122,21,2.4558778442432665,0.7293323688323313,Journal of Medical Internet Research (JMIR),32.78688524590164
 Unclassified keyword cluster,91,17,2.449350513532737,0.72739391998789,Computers in Biology and Medicine,28.57142857142857
 Caregivers and care quality,1037,24,2.4426084358466427,0.7253916968312387,Journal of Medical Internet Research (JMIR),33.17261330761813
-Mixed medical imaging,12402,29,2.434630542776363,0.7230224683841165,Bioinformatics,33.42202870504757
 User-centered design,444,20,2.4290907392783345,0.7213772896479047,Journal of Medical Internet Research (JMIR),20.27027027027027
 Health program evaluation,1018,23,2.4258879013918193,0.72042612941482,Journal of Medical Internet Research (JMIR),31.43418467583497
+Mixed medical imaging,1883,27,2.4204767177402666,0.7188191474551819,Computers in Biology and Medicine,32.554434413170476
 Protein and gene networks,6485,28,2.3846983348388657,0.7081938906592726,Bioinformatics,32.305319969159605
+Older people,1230,26,2.374854203114197,0.7052704374725924,Journal of Medical Internet Research (JMIR),37.80487804878049
 Mixed terminology and histopathology,792,24,2.374346136794285,0.7051195548814677,Computers in Biology and Medicine,24.242424242424242
 cancer immunotherapy,1436,26,2.369349634618093,0.7036357226230432,Nature Medicine,23.81615598885794
+Cardiovascular hemodynamics,901,27,2.3572362398981968,0.7000383568638415,Computers in Biology and Medicine,35.84905660377358
 Natural products and traditional medicine,978,25,2.337736793992446,0.6942475244302596,Computers in Biology and Medicine,29.447852760736197
 Health semantic similarity,190,17,2.314375869225508,0.687309932384172,IEEE Journal of Biomedical and Health Informatics (J-BHI),18.421052631578945
 Bayesian health modeling,1327,24,2.312371840932393,0.6867147876762825,Bioinformatics,27.957799547852296
@@ -60,10 +60,10 @@ Tumor immunology and microenvironment,374,23,2.2093525317714944,0.65612071030313
 Cardiac arrhythmias,1235,26,2.2042091262610533,0.6545932515438975,Computers in Biology and Medicine,39.51417004048583
 Health information seeking,2963,29,2.1836254051461124,0.6484804173427446,Journal of Medical Internet Research (JMIR),46.844414444819435
 Cardiorespiratory monitoring,933,26,2.16442167961509,0.6427774062321646,Computers in Biology and Medicine,36.655948553054664
-Biomedical databases,3573,27,2.1568553239737867,0.6405303937855826,Bioinformatics,36.048138818919675
+Biomedical databases,3540,27,2.1483717748758044,0.638010998541947,Bioinformatics,36.10169491525424
 Skin disease classification,29,10,2.081999286992681,0.6183000817605752,IEEE Journal of Biomedical and Health Informatics (J-BHI),20.689655172413794
-Health behavior change,3611,28,2.0546901300283507,0.6101899665989857,Journal of Medical Internet Research (JMIR),43.8105787870396
 Cell signaling and oncogenic pathways,305,21,2.0094496209882897,0.5967547024213674,Computers in Biology and Medicine,34.42622950819672
+Health behavior change,3528,28,2.007236339817495,0.5960974150066161,Journal of Medical Internet Research (JMIR),44.7562358276644
 Anatomical terminology,126,20,1.989197467274741,0.5907403351854391,Computers in Biology and Medicine,50.79365079365079
 Lung nodules,171,19,1.9833061725102707,0.5889907726100315,Computers in Biology and Medicine,48.53801169590643
 Privacy-preserving cryptography,56,11,1.980392782767075,0.5881255710090164,IEEE Journal of Biomedical and Health Informatics (J-BHI),33.92857142857143
@@ -75,7 +75,7 @@ Microbial and fungal genomics,644,21,1.8236885421940698,0.541588453842915,Bioinf
 Limited English Proficiency,22,8,1.8069908458054815,0.536629668743046,Journal of Medical Internet Research (JMIR),36.36363636363637
 Aortic diseases,302,22,1.8065816604263483,0.5365081512406367,Computers in Biology and Medicine,57.94701986754966
 Genomic variant analysis,8841,27,1.8007069978352788,0.5347635279916918,Bioinformatics,49.34962108358783
-Sequence and structure prediction,199,13,1.7492223221446497,0.5194739073910462,Briefings in Bioinformatics,43.21608040201005
+Sequence and structure prediction,198,13,1.7332866082083291,0.5147414114236858,Briefings in Bioinformatics,43.43434343434344
 Motor imagery,569,19,1.6355471390006824,0.48571531031986936,IEEE Journal of Biomedical and Health Informatics (J-BHI),39.71880492091388
 Post-translational modifications,233,9,1.633636485483736,0.485147895511841,Bioinformatics,40.343347639484975
 Amino acid sequence,1629,21,1.5955263993980815,0.47383018301795315,Bioinformatics,50.52179251074279
